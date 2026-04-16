@@ -1,0 +1,87 @@
+<screen name="BlueJobScreen" position="0,0" size="1280,720" backgroundColor="transparent" flags="wfNoBorder" title="Scripts">
+    <ePixmap position="0,0" zPosition="-1" size="1280,720"
+        pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.jpg"/>
+
+    <!-- Top bar -->
+    <eLabel position="0,0" size="1280,90" zPosition="10" backgroundColor="#000000" />
+    <eLabel text="● Subscription Reader Labels"
+        position="233,0" size="533,33" zPosition="11"
+        font="Bold;21" halign="left" valign="center" noWrap="1"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="0" />
+
+    <!-- Bottom buttons -->
+    <eLabel position="0,717" size="320,3" zPosition="2" backgroundColor="red" />
+    <widget name="red" position="0,667" size="320,50" zPosition="2"
+        font="Bold;21" halign="center" valign="center"
+        text="Remove Reader"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
+
+    <eLabel position="320,717" size="320,3" zPosition="2" backgroundColor="green" />
+    <widget name="green" position="320,667" size="320,50" zPosition="2"
+        font="Bold;21" halign="center" valign="center"
+        text="Show Reader Block"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
+
+    <eLabel position="640,717" size="320,3" zPosition="2" backgroundColor="#E6BE3A" />
+    <widget name="yellow" position="640,667" size="320,50" zPosition="2"
+        font="Bold;21" halign="center" valign="center"
+        text="Test Connection"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
+
+    <eLabel position="960,717" size="320,3" zPosition="2" backgroundColor="blue" />
+    <widget name="blue" position="960,667" size="320,50" zPosition="2"
+        font="Bold;21" halign="center" valign="center"
+        text="Show Credentials"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
+
+    <!-- Side bars -->
+    <eLabel position="0,90" size="55,580" zPosition="2" backgroundColor="#000000" />
+    <eLabel position="1225,90" size="55,580" zPosition="2" backgroundColor="#000000" />
+
+    <!-- Left / Right vertical bars (fixed like EliesatPanel) -->
+    <widget name="left_bar"
+        position="15,110" size="40,500" zPosition="20"
+        font="Regular;18" halign="center" valign="top"
+        backgroundColor="#000000"
+        foregroundColor="#E6BE3A" transparent="1" noWrap="1" />
+
+    <widget name="right_bar"
+        position="1235,110" size="40,500" zPosition="20"
+        font="Regular;18" halign="center" valign="top"
+        backgroundColor="#000000"
+        foregroundColor="#E6BE3A" transparent="1" noWrap="1" />
+
+    <!-- Date & Time -->
+    <widget source="global.CurrentTime" render="Label"
+        position="900,120" size="333,23" zPosition="12"
+        font="Bold;21" halign="center" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1">
+        <convert type="ClockToText">Format %A %d %B</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label"
+        position="900,147" size="333,23" zPosition="12"
+        font="Bold;21" halign="center" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1">
+        <convert type="ClockToText">Format %H:%M:%S</convert>
+    </widget>
+
+    <!-- System info -->
+    <widget name="image_name" position="980,280" size="333,23" font="Bold;21" halign="left" valign="center" foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+    <widget name="python_ver" position="980,307" size="333,23" font="Bold;21" halign="left" valign="center" foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+    <widget name="local_ip" position="980,333" size="333,23" font="Bold;21" halign="left" valign="center" foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+    <widget name="StorageInfo" position="980,360" size="333,23" font="Bold;21" halign="left" valign="center" foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+    <widget name="RAMInfo" position="980,387" size="333,23" font="Bold;21" halign="left" valign="center" foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+    <widget name="net_status" position="980,414" size="333,23" font="Bold;21" halign="left" valign="center" foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <!-- Subscription Labels -->
+    <widget name="sub_labels" position="133,133" size="800,467" zPosition="12"
+        scrollbarMode="showOnDemand"
+        font="Bold;21"
+        foregroundColor="#E6BE3A"
+        transparent="1"
+        itemHeight="33" />
+</screen>

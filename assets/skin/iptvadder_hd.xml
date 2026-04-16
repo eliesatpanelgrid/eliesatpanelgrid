@@ -1,0 +1,115 @@
+<screen name="Iptvadder" position="0,0" size="1280,720" backgroundColor="transparent" flags="wfNoBorder" title="Scripts">
+
+    <ePixmap position="0,0" zPosition="-1" size="1280,720"
+        pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.jpg"/>
+
+    <eLabel position="0,0" size="1280,87" zPosition="10" backgroundColor="#000000" />
+
+    <eLabel text="● Subscription Editor"
+        position="493,0" size="933,33" zPosition="11"
+        font="Bold;32" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
+
+    <!-- Bottom buttons -->
+    <eLabel position="0,717" size="320,4" zPosition="2" backgroundColor="red" />
+    <widget name="red" position="0,667" size="320,50" zPosition="2"
+        font="Bold;32" halign="center" valign="center"
+        text="Show Live Status"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
+
+    <eLabel position="320,717" size="320,4" zPosition="2" backgroundColor="green" />
+    <widget name="green" position="320,667" size="320,50" zPosition="2"
+        font="Bold;32" halign="center" valign="center"
+        text="Show Saved Accounts"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
+
+    <eLabel position="640,717" size="320,4" zPosition="2" backgroundColor="#E6BE3A" />
+    <widget name="yellow" position="640,667" size="320,50" zPosition="2"
+        font="Bold;32" halign="center" valign="center"
+        text="Send and Save"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
+
+    <eLabel position="960,717" size="320,4" zPosition="2" backgroundColor="blue" />
+    <widget name="blue" position="960,667" size="320,50" zPosition="2"
+        font="Bold;32" halign="center" valign="center"
+        text="Clear Playlists"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
+
+    <!-- Side bars -->
+    <eLabel position="0,87" size="53,580" zPosition="10" backgroundColor="#000000" />
+    <eLabel position="1227,87" size="53,580" zPosition="10" backgroundColor="#000000" />
+
+    <!-- Date & Time -->
+    <widget source="global.CurrentTime" render="Label"
+        position="900,120" size="333,23" zPosition="12"
+        font="Bold;32" halign="center" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1">
+        <convert type="ClockToText">Format %A %d %B</convert>
+    </widget>
+
+    <widget source="global.CurrentTime" render="Label"
+        position="900,147" size="333,23" zPosition="12"
+        font="Bold;32" halign="center" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1">
+        <convert type="ClockToText">Format %H:%M:%S</convert>
+    </widget>
+
+    <!-- System info -->
+    <widget name="image_name" position="980,280" size="333,23" zPosition="12"
+        font="Bold;32" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <widget name="python_ver" position="980,307" size="333,23" zPosition="12"
+        font="Bold;32" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <widget name="local_ip" position="980,333" size="333,23" zPosition="12"
+        font="Bold;32" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <widget name="StorageInfo" position="980,360" size="333,23" zPosition="12"
+        font="Bold;32" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <widget name="RAMInfo" position="980,387" size="333,23" zPosition="12"
+        font="Bold;32" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <widget name="net_status" position="980,413" size="333,23" zPosition="12"
+        font="Bold;32" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <!-- Config / Playlists / Panel path -->
+    <widget name="config" position="100,120" size="733,467"
+        font="Bold;32" itemHeight="50"
+        foregroundColor="#E6BE3A"
+        transparent="1" scrollbarMode="showOnDemand"
+        enableWrapAround="1" valign="center"
+        selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/icon/selection.png"
+    />
+
+    <widget name="playlists" position="107,300" size="733,267" zPosition="12"
+        font="Bold;32" halign="left" valign="top"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <widget name="panel_path" position="100,373" size="733,293" zPosition="12"
+        font="Bold;32" halign="left" valign="top"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <!-- Left / Right vertical bars -->
+    <widget name="left_bar" position="7,107" size="40,507" zPosition="20"
+        font="Regular;26" halign="center" valign="top"
+        backgroundColor="#000000"
+        foregroundColor="#E6BE3A" transparent="1" noWrap="1" />
+
+    <widget name="right_bar" position="1233,107" size="40,507" zPosition="20"
+        font="Regular;26" halign="center" valign="top"
+        backgroundColor="#000000"
+        foregroundColor="#E6BE3A" transparent="1" noWrap="1" />
+
+</screen>

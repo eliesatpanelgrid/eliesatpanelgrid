@@ -1,0 +1,135 @@
+<screen name="eliesatpanel_list" position="0,0" size="1280,720" backgroundColor="transparent" flags="wfNoBorder">
+
+    <!-- ================= BACKGROUND (MUST BE FIRST) ================= -->
+    <ePixmap position="0,0" size="1280,720" zPosition="0"
+        pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.jpg"
+        transparent="0" />
+
+    <!-- ================= TOP BAR ================= -->
+    <eLabel position="0,0" size="1280,87" zPosition="10" backgroundColor="#000000" />
+
+    <!-- Title -->
+    <eLabel text="● Welcome to ElieSatPanel – Enjoy the best plugins, addons and tools for your E2 box."
+        position="233,0" size="933,33" zPosition="11"
+        font="Bold;21" halign="left" valign="center" noWrap="1"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
+
+    <!-- ================= SIDE BARS ================= -->
+    <eLabel position="0,87" size="53,580" zPosition="10" backgroundColor="#000000" />
+    <eLabel position="1227,87" size="53,580" zPosition="10" backgroundColor="#000000" />
+
+    <!-- Left / Right bars text -->
+    <widget name="left_bar"
+        position="7,107" size="40,507" zPosition="20"
+        font="Regular;17" halign="center" valign="top"
+        foregroundColor="#E6BE3A" transparent="0" noWrap="1" />
+
+    <widget name="right_bar"
+        position="1240,107" size="40,507" zPosition="20"
+        font="Regular;17" halign="center" valign="top"
+        foregroundColor="#E6BE3A" transparent="0" noWrap="1" />
+
+    <!-- Menu List -->
+    <widget source="menu" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/icon/selection.png" render="Listbox" position="32,113" size="853,440" transparent="1" zPosition="15" scrollbarMode="showOnDemand">
+        <convert type="TemplatedMultiContent">
+            {
+                "template": [
+                    MultiContentEntryPixmapAlphaTest(pos = (40, 0), size = (33, 37), png = 0),
+                    MultiContentEntryText(pos = (80, 5), size = (280, 30), font=0, flags = RT_HALIGN_LEFT, color=0x00E6BE3A, text = 1),
+                    MultiContentEntryText(pos = (373, 5), size = (133, 30), font=1, flags = RT_HALIGN_LEFT, color=0x00E6BE3A, text = 2),
+                    MultiContentEntryText(pos = (493, 5), size = (467, 33), font=2, flags = RT_HALIGN_LEFT, color=0x00E6BE3A, text = 3)
+                ],
+                "fonts": [
+                    gFont("Regular", 21),
+                    gFont("Regular", 19),
+                    gFont("Regular", 19)
+                ],
+                "itemHeight": 40
+            }
+        </convert>
+    </widget>
+
+    <!-- ================= SELECTED COUNT ================= -->
+    <widget name="selection_count" position="980,440" size="267,27" zPosition="16"
+        font="Bold;23" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="1" />
+
+    <!-- ================= COLOR BUTTONS ================= -->
+    <eLabel position="0,717" size="320,3" zPosition="2" backgroundColor="red" />
+    <widget name="key_red" position="0,667" size="320,50" zPosition="3"
+        font="Bold;21" halign="center" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" />
+
+    <eLabel position="320,717" size="320,3" zPosition="2" backgroundColor="green" />
+    <widget name="key_green" position="320,667" size="320,50" zPosition="3"
+        font="Bold;21" halign="center" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" />
+
+    <eLabel position="640,717" size="320,3" zPosition="2" backgroundColor="yellow" />
+    <widget name="key_yellow" position="640,667" size="320,50" zPosition="3"
+        font="Bold;21" halign="center" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" />
+
+    <eLabel position="960,717" size="320,3" zPosition="2" backgroundColor="blue" />
+    <widget name="key_blue" position="960,667" size="320,50" zPosition="3"
+        font="Bold;21" halign="center" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" />
+
+    <!-- ================= SYSTEM INFO ================= -->
+    <widget name="image_name" position="980,280" size="333,23" zPosition="12"
+        font="Bold;21" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <widget name="python_ver" position="980,307" size="333,23" zPosition="12"
+        font="Bold;21" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <widget name="local_ip" position="980,333" size="333,23" zPosition="12"
+        font="Bold;21" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <widget name="StorageInfo" position="980,360" size="333,23" zPosition="12"
+        font="Bold;21" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <widget name="RAMInfo" position="980,387" size="333,23" zPosition="12"
+        font="Bold;21" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <widget name="net_status" position="980,413" size="333,23" zPosition="12"
+        font="Bold;21" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <!-- ================= DATE / CLOCK ================= -->
+    <widget source="global.CurrentTime" render="Label"
+        position="900,120" size="333,23" zPosition="12"
+        font="Bold;21" halign="center" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1">
+        <convert type="ClockToText">Format %A %d %B</convert>
+    </widget>
+
+    <widget source="global.CurrentTime" render="Label"
+        position="900,147" size="333,23" zPosition="12"
+        font="Bold;21" halign="center" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1">
+        <convert type="ClockToText">Format %H:%M:%S</convert>
+    </widget>
+
+   <!-- Item Name -->
+    <widget name="item_name" position="0,560" size="1280,40" zPosition="12"
+        font="Bold;24" halign="center" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1"/>
+
+   <!-- Download Info (single line, full width) -->
+    <widget name="download_info" position="0,607" size="1280,67" zPosition="12"
+        font="Bold;21" halign="center" valign="left"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+   <!-- Progress Bar -->
+    <widget name="progress" position="373,607" size="533,12"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1"
+        zPosition="13" />
+
+</screen>

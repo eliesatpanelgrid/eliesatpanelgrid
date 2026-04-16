@@ -1,0 +1,50 @@
+<screen name="PanelManager" position="center,center" size="1280,720" title="">
+    <ePixmap position="0,0" zPosition="-1" size="1280,720"
+        pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.png"/>
+    
+    <widget name="title_custom" position="550,0" size="400,50" font="Bold;34"
+        backgroundColor="#000000" foregroundColor="#E6BE3A" transparent="0" />
+    
+    <widget name="username_label" position="40,50" size="400,40" font="Bold;32"
+        foregroundColor="#E6BE3A" transparent="1"/>
+    <widget name="username" position="460,50" size="780,40" font="Bold;32"
+        foregroundColor="#FF8C00" transparent="1"/>
+    
+    <widget name="password_label" position="40,110" size="400,40" font="Bold;32"
+        foregroundColor="#E6BE3A" transparent="1"/>
+    <widget name="password" position="460,110" size="780,40" font="Bold;32"
+        foregroundColor="#FF8C00" transparent="1"/>
+    
+    <widget name="dir_label" position="40,170" size="400,50" font="Bold;32"
+        foregroundColor="#E6BE3A" transparent="1" />
+    <widget name="dir" position="460,170" size="780,50" font="Bold;32"
+        foregroundColor="#FF8C00" transparent="1" />
+    
+    <widget name="device_label" position="40,230" size="400,40" font="Bold;32"
+        foregroundColor="#E6BE3A" transparent="1"/>
+    <widget name="device" position="460,230" size="780,40" font="Bold;32"
+        foregroundColor="#FF8C00" transparent="1"/>
+    
+    <widget name="mac_label" position="40,290" size="400,40" font="Bold;32"
+        foregroundColor="#E6BE3A" transparent="1"/>
+    <widget name="mac_value" position="460,290" size="780,40" font="Bold;32"
+        foregroundColor="#FF8C00" transparent="1"/>
+    
+    <widget name="focus_hint" position="40,560" size="1200,40" font="Bold;30"
+        foregroundColor="#FF8C00" transparent="1" halign="center"/>
+    
+    <!-- Buttons -->
+    <ePixmap pixmap="skin_default/buttons/red.png" position="100,620" size="140,40" alphatest="on"/>
+    <ePixmap pixmap="skin_default/buttons/green.png" position="350,620" size="140,40" alphatest="on"/>
+    <ePixmap pixmap="skin_default/buttons/yellow.png" position="600,620" size="140,40" alphatest="on"/>
+    <ePixmap pixmap="skin_default/buttons/blue.png" position="850,620" size="140,40" alphatest="on"/>
+    
+    <widget name="red_label" position="100,660" size="140,40" font="Bold;32" halign="center"
+        foregroundColor="#E6BE3A" transparent="1"/>
+    <widget name="green_label" position="350,660" size="140,40" font="Bold;32" halign="center"
+        foregroundColor="#E6BE3A" transparent="1"/>
+    <widget name="yellow_label" position="600,660" size="140,40" font="Bold;32" halign="center"
+        foregroundColor="#E6BE3A" transparent="1"/>
+    <widget name="blue_label" position="850,660" size="140,40" font="Bold;32" halign="center"
+        foregroundColor="#E6BE3A" transparent="1"/>
+</screen>

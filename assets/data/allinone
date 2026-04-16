@@ -1,0 +1,346 @@
+##############softcams###############
+Package: Dns-Cloudflare
+Version: 1.0     تأمين سرعة اتصال بالسيرفر و الفيدات
+Status: Dns
+Dns-Cloudflare='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_dns-cloudflare-installer.sh'
+
+Package: Dns-Google
+Version: 1.0     تأمين سرعة اتصال بالسيرفر و الفيدات
+Status: Dns
+Dns-Google='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_dns-google-installer.sh'
+
+Package: Dns-Home-opendns
+Version: 1.0     تأمين سرعة اتصال بالسيرفر و الفيدات
+Status: Dns
+Dns-Home-opendns='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_dns-opendns-home-installer.sh'
+
+Package: Dns-Opendns
+Version: 1.0     تأمين سرعة اتصال بالسيرفر و الفيدات
+Status: Dns
+Dns-Opendns='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_dns-opendns-installer.sh'
+
+Package: Dns-Quad9
+Version: 1.0     تأمين سرعة اتصال بالسيرفر و الفيدات
+Status: Dns
+Dns-Quad9='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_dns-quad9-installer.sh'
+
+Package: Dns-Default
+Version: 1.0     الرجوع للدي ان اس الافتراضي
+Status: Dns
+Dns-Default='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_dns-remove.sh'
+
+###################################
+
+Package: Fix-Freeserver
+Version: 1.0     freeserver serviceinfo-module اصلاح
+Status: Fix
+Fix-Freeserver='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_fix-freeserver-serviceinfo-module.sh'
+
+Package: Fix-Ipk-installation
+Version: 1.0     .ipk حل مشكلة تنصيب باكجات  بامتداد
+Status: Fix
+Fix-Ipk-installation='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_fix-ipk-package-installation.sh'
+
+Package: Fix-Inodes
+Version: 1.0      no space left حل مشكلة المساحة
+Status: Fix 
+Fix-Inodes='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_fix-hdd--space-inodes.sh'
+
+Package: Fix-Portals-to-200
+Version: 1.0      إضافة عدد البورتلات ل ٢٠٠
+Status: Fix
+Fix-Portals-to-200='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_fix-portals-to200.sh'
+		
+Package: Fix-Openpli-emus
+Version: 1.0      openpli حل مشكلة اقلاع الايميو  صورة
+Status: Fix
+Fix-Openpli-emus='https://gitlab.com/eliesat/softcams/-/raw/main/support/support-2-r0.2.sh'
+
+Package: Fix-Openatv-emus
+Version: 1.0      openatv حل مشكلة اقلاع الايميو  صورة
+Status: Fix
+Fix-Openatv-emus='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_fix-atv-softcam-restart.sh
+'
+
+Package: Fix-xtraevent
+Version: 1.0       download space حل مشكلة اعداد
+Status: Fix
+Fix-xtraevent='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_fix-xtraevent-download-place.sh'
+
+Package: Fix-xtraevent
+Version: 1.0      nospace حل مشكلة اعداد
+Status: Fix
+Fix-xtraevent='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_fix-xtraevent-nospace.sh'
+
+###################################
+
+Package: Hdd-Intialize-to-ext4
+Version: 1.0       ext4 فرمطة و تهيئة الذاكرة الخارجية ل 
+Status: Hdd
+Hdd-Intialize-to-ext4='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_hdd-create-swapfile-1gb.sh'
+
+Package: Hdd-Create-swap-file
+Version: 1.0        1gb إنشاء ذاكرة تشاركية 
+Status: Hdd
+Hdd-Create-swap-file='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_hdd-create-swapfile-1gb.sh'
+
+Package: Hdd-Fix-Inodes
+Version: 1.0      حل مشكلة المساحة و اصلاح اخطاء الهارد
+Status: Hdd
+Hdd-Fix-Inodes='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_hdd-fix--space-inodes.sh'
+
+###################################
+
+Package: Install-wget
+Version: 1.0     wget تنزيل و تثبيت باكاج
+Status: Ins
+Install-wget='https://gitlab.com/eliesat/scripts/-/raw/main/all/_install-wget.sh'
+
+Package: Install-update
+Version: 1.0      تحديث فيدات الصورة
+Status: Ins
+Install-update='https://gitlab.com/eliesat/scripts/-/raw/main/all/_Install-update.sh'
+
+Package: Install-upgrade
+Version: 1.0      ترقية الصورة و الباكجات المثبته
+Status: Ins
+Install-upgrade='https://gitlab.com/eliesat/scripts/-/raw/main/all/_install-upgrade.sh'
+
+Package: Install-dependencies
+Version: 1.0      تنزيل و تثبيت المكتبات من فيد الصورة
+Status: Ins
+Install-dependencies='https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-dependencies.sh'
+
+Package: Install-gstreamer
+Version: 1.0      openpli تنزيل تثبيت باكجات الصوتيات
+Status: Ins
+Install-gstreamer='https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-dependencies-audio.sh'
+
+###################################
+
+Package: Rm-Crash-logs
+Version: 1.0        حذف ملفات الكراش
+Status: Rem
+Rm-Crash-logs='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-crash-logs.sh'
+
+Package: Rm-Dns
+Version: 1.0       حذف الدي ان اس و الرجوع للافتراضي
+Status: Rem
+Rm-Dns='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-dns.sh'
+		
+Package: Rm-E2iplayer
+Version: 1.0       e2iplayer حذف بلاجين 
+Status: Rem
+Rm-E2iplayer='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-e2iplayer.sh'
+
+Package: Rm-Eliesatpanel
+Version: 1.0       eliesatpanel حذف بلاجين 
+Status: Rem
+Rm-Eliesatpanel='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-eliesatpanel.sh'
+
+Package: Rm-Emus-configs
+Version: 1.0       حذف الايميوهات بالكامل
+Status: Rem
+Rm-Emus-configs='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-emus-and-config-file.sh'
+
+Package: Rm-config-folders
+Version: 1.0       حذف مجلدات الخاصة بالايميوهات
+Status: Rem
+Rm-config-folders='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-emus-config-files.sh'
+
+Package: Rm-Emus
+Version: 1.0       حذف الايميوهات
+Status: Rem
+Rm-Emus='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-emus.sh'
+
+Package: Rm-Epg-rytec
+Version: 1.0       حذف سورسات الدليل
+Status: Rem
+Rm-Epg-rytec='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-epg-rytec-sources.sh'
+
+Package: Rm-Epg-zakaria
+Version: 1.0       حذف سورسات الدليل
+Status: Rem
+Rm-Epg-zakaria='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-epg-ziko-sources-config.sh'
+
+Package: Rm-stalker-portals
+Version: 1.0       حذف بورتلات الاي بي تي في
+Status: Rem
+Rm-stalker-portals='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-multistalker-portals.sh'
+
+Package: Rm-Picons
+Version: 1.0       حذف البيكونات من جميع المسارات
+Status: Rem
+Rm-Picons='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-picons.sh'
+
+Package: Rm-Playlists-bmx
+Version: 1.0       حذف اسطر الاي يي تي في
+Status: Rem
+Rm-Playlists-bmx='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-playlists-bouquetmakerxtream.sh'
+
+	
+Package: Rm-Pl-ipaudio
+Version: 1.0       حذف مصادر الصوتيات و الرجوع للافتراضي
+Status: Rem
+Rm-Pl-ipaudio='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-playlists-ipaudio.sh'
+
+Package: Rm-Pl-iptosat
+Version: 1.0       حذف اشتراك الاي بي تي قي
+Status: Rem
+Rm-Pl-iptosat='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-playlists-iptosat.sh'
+		
+Package: Rm-Pl-jedimaker
+Version: 1.0       حذف اسطر الاي يي تي في
+Status: Rem
+Rm-Pl-jedimaker='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-playlists-jedimakerxtream.sh'
+
+Package: Rm-Pl-e2iplayer
+Version: 1.0       حذف اسطر الاي يي تي في
+Status: Rem
+Rm-Pl-e2iplayer='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-playlists-tsiplayer.sh'
+
+Package: Rm-Pl-xtreamity
+Version: 1.0       حذف اسطر الاي يي تي في
+Status: Rem
+Rm-Pl-xtreamity='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-playlists-xstreamity.sh'
+
+Package: Rm-Channels
+Version: 1.0       ضبط مصنع للاقمار و القنوات
+Status: Rem
+Rm-Channels='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-sats-channels-lists.sh'
+
+Package: Rm-Scripts
+Version: 1.0       حذف السكريبتات من المسار الافتراضي
+Status: Rem
+Rm-Scripts='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-scripts.sh'
+
+Package: Rm-Swapper-logos
+Version: 1.0       حذف السكريبتات من المسار الافتراضي
+Status: Rem
+Rm-Swapper-logos='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-bootlogo-swapper-logos.sh'
+
+Package: Rm-Tuner-settings
+Version: 1.0       حذف اعدادات التيونر
+Status: Rem
+Rm-Tuner-settings='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-tuner-settings.sh'
+
+###################################
+	
+Package: All
+Version: 1.0       تنزيل و تثبيت ادوات التشغيل من فيد الصورة
+Status: Deps
+All='https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-dependencies.sh'
+
+Package: Gstreamer
+Version: 1.0       openpli مكتبات تشغيل الصوتيات صورة
+Status: Deps
+Gstreamer='https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-dependencies-audio.sh'
+
+Package: Astra-sm-plugin
+Version: 1.0       اداة لتشغيل باقة ابيرتيس قمر هيسباسات
+Status: Deps
+Astra-sm-plugin='https://gitlab.com/eliesat/softcams/-/raw/main/astra-sm/astra-sm-arm-0.2-r0.sh'
+
+Package: Astra-sm-config
+Version: 1.0       تحديث ملف الكونفيج
+Status: Deps
+Astra-sm-config='https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-abertis-astra.config-file-ciefp.sh'
+
+Package: Atile-hd
+Version: 1.0       اداة تشغيل لعدد من السكينات
+Status: Deps
+Atile-hd-config='https://gitlab.com/eliesat/extensions/-/raw/main/atilehd/atilehd.sh'
+
+Package: Libraries
+Version: 3.12.4       openatv فيد مكتبات صورة 
+Status: Deps
+Libraries='https://gitlab.com/eliesat/scripts/-/raw/main/feed/libraries-3.12.4-feed.sh'
+
+Package: Libraries
+Version: 3.12.6       openatv فيد مكتبات صورة 
+Status: Deps
+Libraries='https://gitlab.com/eliesat/scripts/-/raw/main/feed/libraries-3.12.x-feed.sh'
+
+Package: Opkg-tools
+Version: 1.2      اداة خاصة بتشغيل الاج بانل
+Status: Deps
+Opkg-tools='https://gitlab.com/eliesat/extensions/-/raw/main/opkg-tools/opkg-tools.sh'
+
+Package: Subssupport-adds
+Version: 1.0      اضافة لوحة مفاتيح على بلاجين الترجمة
+Status: Deps
+Subssupport-adds='https://gitlab.com/eliesat/extensions/-/raw/main/newvirtualkeyboard/subsupport-addon.sh'
+###################################
+
+Package: Kernel.nandsim.h7s
+Version: 1.0r0       module
+Status: Drvs
+Kernel-nandsim-zgemmah7s='https://gitlab.com/eliesat/drivers/-/raw/main/kernel-module-nandsim-h7.sh'
+
+Package: Kernel.nandsim.h9s
+Version: 1.0.r0       module
+Status: Drvs
+Kernel.nandsim.zgemmah9s='https://gitlab.com/eliesat/drivers/-/raw/main/kernel-module-nandsim-h9.sh'
+
+Package: Wifi.mt7601u
+Version: 1.0.r0       يو اس بي واي فاي
+Status: Drvs
+Wifi.mt7601u='https://gitlab.com/eliesat/drivers/-/raw/main/network-usb-mt7601u-1.0-r0.sh'
+
+Package: Wifi.mt7601u
+Version: 1.0.r2       يو اس بي واي فاي
+Status: Drvs
+Wifi.mt7601u='https://gitlab.com/eliesat/drivers/-/raw/main/network-usb-mt7601u-1.0-r2.sh'
+
+Package: Wifi.novaler
+Version: 1.0.r0       يو اس بي واي فاي
+Status: Drvs
+Wifi.novaler='https://gitlab.com/eliesat/drivers/-/raw/main/network-usb-novaler-1.0.sh'
+
+Package: Wifi.rt3070
+Version: 1.0.r0       يو اس بي واي فاي
+Status: Drvs
+Wifi.rt3070='https://gitlab.com/eliesat/drivers/-/raw/main/network-usb-rt3070-1.0-r0.sh'
+
+Package: Wifi.rt3573
+Version: 1.0.r0       يو اس بي واي فاي
+Status: Drvs
+Wifi.rt3573='https://gitlab.com/eliesat/drivers/-/raw/main/network-usb-rt3573-1.0-r0.sh'
+
+Package: Wifi.zgemmah7s
+Version: 1.0.r0       يو اس بي واي فاي
+Status: Drvs
+Wifi.zgemmah7s='https://gitlab.com/eliesat/drivers/-/raw/main/network-usb-zgemmah7-1.0.sh'
+
+###################################
+
+Package: base64.Obfuscate
+Version: 1.0       تحويل سكريبت مقروء ل base64
+Status: Other
+base64.Obfuscate='https://gitlab.com/eliesat/scripts/-/raw/main/all/_base64.Obfuscate.sh'
+
+Package: base64.decode
+Version: 1.0       تحويل سكريبت base64 لملف مقروء
+Status: Other
+base64.decode='https://gitlab.com/eliesat/scripts/-/raw/main/all/_base64.decode.sh'
+
+Package: h7-kernel
+Version: 1.0       باكآب لملفات الكرنل و الدرايفرات رسيفر زجيما h7
+Status: Other
+h7-kernel='https://gitlab.com/eliesat/scripts/-/raw/main/all/_h7-kernel.sh'
+
+Package:Piconsto4
+Version: 1.0       تقسيم ملف البيكونات ل ٤ اجزاء
+Status: Other
+Piconsto4='https://gitlab.com/eliesat/scripts/-/raw/main/all/_piconsto4.sh'
+
+Package: Scripts-update
+Version: 1.0       تحديث لايحة السكريبتات
+Status: Other
+Scripts-update='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_scripts-update.sh'
+
+Package: Scripts-chmod
+Version: 1.0       اعطاء لايحة السكريبتات تصريح بالتنفيذ
+Status: Other
+Scripts-chmod='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_scripts_chmod.sh'
+

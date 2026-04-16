@@ -1,0 +1,120 @@
+##############picons###############
+Package: Satellites.xml
+Version: 30.03.2026     ملف ترددات افتراضي لاجراء بحث جديد
+Status: Demo
+Satellites.xml='https://gitlab.com/eliesat/picons/-/raw/main/satellites.xml.sh'
+
+Package: Channels
+Version: 30.03.2026     ملف قنوات افتراضي لتجربة شعارات القنوات
+Status: Demo
+Channels='https://gitlab.com/eliesat/picons/-/raw/main/channels.sh'
+
+Package: picons-motor
+Version: 30.03.2026      شعارات القنوات للمتحرك
+Status: Service.name.picons
+picons-motor='https://gitlab.com/eliesat/picons/-/raw/main/archive.sh'
+
+Package: 30.0W-picons
+Version: 06.01.2026     شعار قنوات هيسباسات
+Status: Service.reference.picons
+30.0W-picons='https://gitlab.com/eliesat/picons/-/raw/main/picons-30w.sh'
+
+Package: 7.0W-picons
+Version: 25.01.2026     شعار قنوات نيل سات و المجاور
+Status: Service.reference.picons
+7.0W-picons='https://gitlab.com/eliesat/picons/-/raw/main/picons-7w.sh'
+
+Package: 5.0W-picons
+Version: 12.01.2026     شعار قنوات يوتل سات ٥
+Status: Service.reference.picons
+5.0W-picons='https://gitlab.com/eliesat/picons/-/raw/main/picons-5w.sh'
+
+Package: 4.0W-picons
+Version: 19.01.2026     شعار قنوات آموس
+Status: Service.reference.picons
+4.0W-picons='https://gitlab.com/eliesat/picons/-/raw/main/picons-4w.sh'
+
+Package: 0.8W-picons
+Version: 12.01.2026     شعار قنوات ثور
+Status: Service.reference.picons
+0.8W-picons='https://gitlab.com/eliesat/picons/-/raw/main/picons-0.8w.sh'
+
+Package: 1.9e-picons
+Version: 12.01.2026     شعار قنوات بلغاريا سات
+Status: Service.reference.picons
+1.9e-picons='https://gitlab.com/eliesat/picons/-/raw/main/picons-1.9e.sh'
+
+Package: 9.0e-picons
+Version: 12.01.2026     شعار قنوات بلغاريا سات
+Status: Service.reference.picons
+9.0e-picons='https://gitlab.com/eliesat/picons/-/raw/main/picons-9e.sh'
+
+Package: 13.0e-picons
+Version: 12.01.2026     شعار قنوات هوتبيرد
+Status: Service.reference.picons
+13.0e-picons='https://gitlab.com/eliesat/picons/-/raw/main/picons-13e.sh'
+
+Package: 16.0e-picons
+Version: 13.01.2026     شعار قنوات يوتل سات ١٦
+Status: Service.reference.picons
+16.0e-picons='https://gitlab.com/eliesat/picons/-/raw/main/picons-16e.sh'
+
+Package: 19.2e-picons
+Version: 13.01.2026     شعار قنوات استرا ١٩
+Status: Service.reference.picons
+19.2e-picons='https://gitlab.com/eliesat/picons/-/raw/main/picons-19.2e.sh'
+
+Package: 23.5e-picons
+Version: 13.01.2026     شعار قنوات استرا ٢٣
+Status: Service.reference.picons
+23.5e-picons='https://gitlab.com/eliesat/picons/-/raw/main/picons-23.5e.sh'
+
+Package: 26.0e-picons
+Version: 12.01.2026     شعار قنوات بدر و المجاور
+Status: Service.reference.picons
+26.0e-picons='https://gitlab.com/eliesat/picons/-/raw/main/picons-26e.sh'
+
+Package: 28.2e-picons
+Version: 13.01.2026     شعار قنوات يوتل سات ٢٨
+Status: Service.reference.picons
+28.2e-picons='https://gitlab.com/eliesat/picons/-/raw/main/picons-28e.sh'
+
+Package: 39.0e-picons
+Version: 13.01.2026     شعار قنوات هيلا سات
+Status: Service.reference.picons
+39.0e-picons='https://gitlab.com/eliesat/picons/-/raw/main/picons-39e.sh'
+
+Package: 42.0e-picons
+Version: 14.01.2026     شعار قنوات تورك سات
+Status: Service.reference.picons
+42.0e-picons='https://gitlab.com/eliesat/picons/-/raw/main/picons-42e.sh'
+
+Package: 52.0e-picons
+Version: 16.01.2026     شعار قنوات توركمان موناكو سات
+Status: Service.reference.picons
+52.0e-picons='https://gitlab.com/eliesat/picons/-/raw/main/picons-52e.sh'
+
+Package: ipaudio-picons
+Version: 15.02.2026     شعار قنوات بلاجين اي بي اوديو
+Status: other 
+ipaudio-picons='https://gitlab.com/eliesat/picons/-/raw/main/picons-ipaudio.sh'
+
+Package: Picons-black
+Version: 15.02.2026     شعارات الايميو السات البروفايدر و التشفير
+Status: other 
+Picons-black='https://gitlab.com/eliesat/picons/-/raw/main/picons-black.sh'
+
+Package: Picons-transparent
+Version: 15.02.2026     شعارات الايميو السات البروفايدر و التشفير
+Status: other
+Picons-transparent='https://gitlab.com/eliesat/picons/-/raw/main/picons-transparent.sh'
+
+Package: Picons-white
+Version: 15.02.2026     شعارات الايميو السات البروفايدر و التشفير
+Status: other
+Picons-white='https://gitlab.com/eliesat/picons/-/raw/main/picons-white.sh'
+
+Package: Picons-zelda
+Version: 15.02.2026     شعارات الايميو السات البروفايدر و التشفير
+Status: other
+Picons-zelda='https://gitlab.com/eliesat/picons/-/raw/main/picons-zelda.sh'

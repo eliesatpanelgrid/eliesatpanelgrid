@@ -1,0 +1,250 @@
+##############imagesd###############
+Package: Egami-10.3
+Version: 3.10     تنزيل صور خام من الموقع الرسمي
+Status: Ega
+Egami-10.3='https://gitlab.com/eliesat/scripts/-/raw/main/images/egami-10.3.sh'
+
+Package: Egami-10.4
+Version: 3.11     تنزيل صور خام من الموقع الرسمي
+Status: Ega
+Egami-10.4='https://gitlab.com/eliesat/scripts/-/raw/main/images/egami-10.4.sh'
+
+Package: Egami-10.5
+Version: 3.12     تنزيل صور خام من الموقع الرسمي
+Status: Ega
+Egami-10.5='https://gitlab.com/eliesat/scripts/-/raw/main/images/egami-10.5.sh'
+
+Package: Egami-10.6
+Version: 3.12     تنزيل صور خام من الموقع الرسمي
+Status: Ega
+Egami-10.6='https://gitlab.com/eliesat/scripts/-/raw/main/images/egami-10.6.sh'
+
+Package: Egami-11.0
+Version: 3.13     تنزيل صور خام من الموقع الرسمي
+Status: Ega
+Egami-11.0='https://gitlab.com/eliesat/scripts/-/raw/main/images/egami-11.0.sh'
+
+Package: Openatv-6.0
+Version: 2.7.13     تنزيل صور خام من الموقع الرسمي
+Status: Atv
+Openatv-6.0='https://gitlab.com/eliesat/scripts/-/raw/main/images/openatv-6.0.sh'
+
+Package: Openatv-6.1
+Version: 2.7.13     تنزيل صور خام من الموقع الرسمي
+Status: Atv
+Openatv-6.1='https://gitlab.com/eliesat/scripts/-/raw/main/images/openatv-6.1.sh'
+
+Package: Openatv-6.2
+Version: 2.7.15     تنزيل صور خام من الموقع الرسمي
+Status: Atv
+Openatv-6.2='https://gitlab.com/eliesat/scripts/-/raw/main/images/openatv-6.2.sh'
+
+Package: Openatv-6.3
+Version: 2.7.16     تنزيل صور خام من الموقع الرسمي
+Status: Atv
+Openatv-6.3='https://gitlab.com/eliesat/scripts/-/raw/main/images/openatv-6.3.sh'
+
+Package: Openatv-6.4
+Version: 2.7.18     تنزيل صور خام من الموقع الرسمي
+Status: Atv
+Openatv-6.4='https://gitlab.com/eliesat/scripts/-/raw/main/images/openatv-6.4.sh'
+
+Package: Openatv-7.0
+Version: 3.9.7     تنزيل صور خام من الموقع الرسمي
+Status: Atv
+Openatv-7.0='https://gitlab.com/eliesat/scripts/-/raw/main/images/openatv-7.0.sh'
+
+Package: Openatv-7.1
+Version: 3.10.4     تنزيل صور خام من الموقع الرسمي
+Status: Atv
+Openatv-7.1='https://gitlab.com/eliesat/scripts/-/raw/main/images/openatv-7.1.sh'
+
+Package: Openatv-7.2
+Version: 3.11.0     تنزيل صور خام من الموقع الرسمي
+Status: Atv
+Openatv-7.2='https://gitlab.com/eliesat/scripts/-/raw/main/images/openatv-7.2.sh'
+
+Package: Openatv-7.3
+Version: 3.11.2     تنزيل صور خام من الموقع الرسمي
+Status: Atv
+Openatv-7.3='https://gitlab.com/eliesat/scripts/-/raw/main/images/openatv-7.3.sh'
+
+Package: Openatv-7.4
+Version: 3.12.4     تنزيل صور خام من الموقع الرسمي
+Status: Atv
+Openatv-7.4='https://gitlab.com/eliesat/scripts/-/raw/main/images/openatv-7.4.sh'
+
+Package: Openatv-7.5
+Version: 3.12.6     تنزيل صور خام من الموقع الرسمي
+Status: Atv
+Openatv-7.5='https://gitlab.com/eliesat/scripts/-/raw/main/images/openatv-7.5.sh'
+
+Package: Openatv-7.5.1
+Version: 3.12.9     تنزيل صور خام من الموقع الرسمي
+Status: Atv
+Openatv-7.5.1='https://gitlab.com/eliesat/scripts/-/raw/main/images/openatv-7.5.1.sh'
+
+Package: Openatv-7.6
+Version: 3.13     تنزيل صور خام من الموقع الرسمي
+Status: Atv
+Openatv-7.6='https://gitlab.com/eliesat/scripts/-/raw/main/images/openatv-7.6.sh'
+
+Package: Openatv-8.0
+Version: 3.14     تنزيل صور خام من الموقع الرسمي
+Status: Atv
+Openatv-8.0='https://gitlab.com/eliesat/scripts/-/raw/main/images/openatv-8.0.sh'
+
+Package: Openblackhole-4.4
+Version: 2.7.18     تنزيل صور خام من الموقع الرسمي
+Status: Obh
+Openblackhole-4.4='https://gitlab.com/eliesat/scripts/-/raw/main/images/openblackhole-4.4.sh'
+
+Package: Openblackhole-5.0
+Version: 3.9     تنزيل صور خام من الموقع الرسمي
+Status: Obh
+Openblackhole-5.0='https://gitlab.com/eliesat/scripts/-/raw/main/images/openblackhole-5.0.sh'
+
+Package: Openblackhole-5.1
+Version: 3.10     تنزيل صور خام من الموقع الرسمي
+Status: Obh
+Openblackhole-5.1='https://gitlab.com/eliesat/scripts/-/raw/main/images/openblackhole-5.1.sh'
+
+Package: Openblackhole-5.2
+Version: 3.10     تنزيل صور خام من الموقع الرسمي
+Status: Obh
+Openblackhole-5.2='https://gitlab.com/eliesat/scripts/-/raw/main/images/openblackhole-5.2.sh'
+
+Package: Openblackhole-5.3
+Version: 3.11     تنزيل صور خام من الموقع الرسمي
+Status: Obh
+Openblackhole-5.3='https://gitlab.com/eliesat/scripts/-/raw/main/images/openblackhole-5.3.sh'
+
+Package: Openblackhole-5.4
+Version: 3.12     تنزيل صور خام من الموقع الرسمي
+Status: Obh
+Openblackhole-5.4='https://gitlab.com/eliesat/scripts/-/raw/main/images/openblackhole-5.4.sh'
+
+Package: Openblackhole-5.5
+Version: 3.13     تنزيل صور خام من الموقع الرسمي
+Status: Obh
+Openblackhole-5.5='https://gitlab.com/eliesat/scripts/-/raw/main/images/openblackhole-5.5.1.sh'
+
+Package: Openblackhole-5.6
+Version: 3.13     تنزيل صور خام من الموقع الرسمي
+Status: Obh
+Openblackhole-5.6='https://gitlab.com/eliesat/scripts/-/raw/main/images/openblackhole-5.6.sh'
+
+Package: Opendroid-7.6
+Version: 3.13     تنزيل صور خام من الموقع الرسمي
+Status: Dro
+Opendroid-7.6='https://gitlab.com/eliesat/scripts/-/raw/main/images/opendroid-7.6.sh'
+
+Package: Opendroid-8.0
+Version: 3.13     تنزيل صور خام من الموقع الرسمي
+Status: Dro
+Opendroid-8.0='https://gitlab.com/eliesat/scripts/-/raw/main/images/opendroid-8.0.sh'
+
+Package: Openhdf-6.5
+Version: 2.7.18     تنزيل صور خام من الموقع الرسمي
+Status: Hdf
+Openhdf-6.5='https://gitlab.com/eliesat/scripts/-/raw/main/images/openhdf-6.5.sh'
+
+Package: Openhdf-7.0
+Version: 3.9     تنزيل صور خام من الموقع الرسمي
+Status: Hdf
+Openhdf-7.0='https://gitlab.com/eliesat/scripts/-/raw/main/images/openhdf-7.0.sh'
+
+Package: Openhdf-7.2
+Version: 3.10     تنزيل صور خام من الموقع الرسمي
+Status: Hdf
+Openhdf-7.2='https://gitlab.com/eliesat/scripts/-/raw/main/images/openhdf-7.2.sh'
+
+Package: Openhdf-7.3
+Version: 3.11     تنزيل صور خام من الموقع الرسمي
+Status: Hdf
+Openhdf-7.3='https://gitlab.com/eliesat/scripts/-/raw/main/images/openhdf-7.3.sh'
+
+Package: Openhdf-7.5
+Version: 3.12     تنزيل صور خام من الموقع الرسمي
+Status: Hdf
+Openhdf-7.5='https://gitlab.com/eliesat/scripts/-/raw/main/images/openhdf-7.5.sh'
+
+Package: Openpli-7.3
+Version: 2.7.13     تنزيل صور خام من الموقع الرسمي
+Status: Pli
+Openpli-7.3='https://gitlab.com/eliesat/scripts/-/raw/main/images/openpli-7.3.sh'
+
+Package: Openpli-8.3
+Version: 2.7.18     تنزيل صور خام من الموقع الرسمي
+Status: Pli
+Openpli-8.3='https://gitlab.com/eliesat/scripts/-/raw/main/images/openpli-8.3.sh'
+
+Package: Openpli-9.1
+Version: 3.9.9     تنزيل صور خام من الموقع الرسمي
+Status: Pli
+Openpli-9.1='https://gitlab.com/eliesat/scripts/-/raw/main/images/openpli-9.1.sh'
+
+Package: Openpli-9.2
+Version: 3.9.9     تنزيل صور خام من الموقع الرسمي
+Status: Pli
+Openpli-9.2='https://gitlab.com/eliesat/scripts/-/raw/main/images/openpli-9.2.sh'
+
+Package: Openpli-scarthgap
+Version: experimental     تنزيل صور خام من الموقع الرسمي
+Status: Pli
+Openpli-scarthgap='https://gitlab.com/eliesat/scripts/-/raw/main/images/openpli-scarthgap.sh'
+
+Package: Openspa-7.5
+Version: 3.9     تنزيل صور خام من الموقع الرسمي
+Status: Spa
+Openspa-7.5='https://gitlab.com/eliesat/scripts/-/raw/main/images/openspa-7.5.sh'
+
+Package: Openspa-8.0
+Version: 3.10     تنزيل صور خام من الموقع الرسمي
+Status: Spa
+Openspa-8.0='https://gitlab.com/eliesat/scripts/-/raw/main/images/openspa-8.0.sh'
+
+Package: Openspa-8.1
+Version: 3.11     تنزيل صور خام من الموقع الرسمي
+Status: Spa
+Openspa-8.1='https://gitlab.com/eliesat/scripts/-/raw/main/images/openspa-8.1.sh'
+
+Package: Openspa-8.3
+Version: 3.11     تنزيل صور خام من الموقع الرسمي
+Status: Spa
+Openspa-8.3='https://gitlab.com/eliesat/scripts/-/raw/main/images/openspa-8.3.sh'
+
+Package: Openspa-8.4
+Version: 3.12     تنزيل صور خام من الموقع الرسمي
+Status: Spa
+Openspa-8.4='https://gitlab.com/eliesat/scripts/-/raw/main/images/openspa-8.4.sh'
+
+Package: Openspa-8.5
+Version: 3.12     تنزيل صور خام من الموقع الرسمي
+Status: Spa
+Openspa-8.5='https://gitlab.com/eliesat/scripts/-/raw/main/images/openspa-8.5.sh'
+
+Package: Openspa-8.6
+Version: 3.13     تنزيل صور خام من الموقع الرسمي
+Status: Spa
+Openspa-8.6='https://gitlab.com/eliesat/scripts/-/raw/main/images/openspa-8.6.sh'
+
+Package: Openvix-6.8
+Version: N/A     تنزيل صور خام من الموقع الرسمي
+Status: Vix
+Openvix-6.8='https://gitlab.com/eliesat/scripts/-/raw/main/images/openvix.sh'
+
+Package: Pure2-7.4
+Version: 3.12     تنزيل صور خام من الموقع الرسمي
+Status: Pur
+Pure2-7.4='https://gitlab.com/eliesat/scripts/-/raw/main/images/pure2-7.4.sh'
+
+Package: Pure2-7.6
+Version: 3.13     تنزيل صور خام من الموقع الرسمي
+Status: Pur
+Pure2-7.6='https://gitlab.com/eliesat/scripts/-/raw/main/images/pure2-7.6.sh'
+
+Package: Teamblue-7.5
+Version: 3.12     تنزيل صور خام من الموقع الرسمي
+Status: Tea
+Teamblue-7.5='https://gitlab.com/eliesat/scripts/-/raw/main/images/teamblue-7.5.sh'

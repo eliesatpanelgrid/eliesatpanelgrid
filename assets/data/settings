@@ -1,0 +1,95 @@
+##############settings###############
+Package: abou.omar-motor
+Version: 30.01.2026     ملف قنوات
+Status: Settings
+abou.omar-motor='https://gitlab.com/eliesat/settings/-/raw/main/abou.omar-motor/abou.omar-motor.sh'
+
+Package: Adelsat-motor
+Version: 30.01.2026     ملف قنوات
+Status: Settings
+Adelsat-motor='https://gitlab.com/eliesat/settings/-/raw/main/adelsat/adelsat-motor.sh'
+
+Package: Ciefp-motor
+Version: 11.04.2026     ملف قنوات
+Status: Settings
+Ciefp-motor='https://gitlab.com/eliesat/settings/-/raw/main/ciefp-motor/ciefp-motor.sh'
+
+Package: H.wahba-motor
+Version: 03.04.2026     ملف قنوات
+Status: Settings
+H.wahba-motor='https://gitlab.com/eliesat/settings/-/raw/main/h.wahba/h.wahba-motor.sh'
+
+Package: Islam-salama-motor
+Version: 23.12.2025     ملف قنوات
+Status: Settings
+Islam-salama-motor='https://gitlab.com/eliesat/settings/-/raw/main/a.salama/a.salama-motor.sh'
+
+Package: Morpheus883-motor
+Version: 01.02.2026     ملف قنوات
+Status: Settings
+Morpheus883-motor='https://gitlab.com/eliesat/settings/-/raw/main/morpheus883/morpheus883-motor.sh'
+
+Package: Mnasr-motor
+Version: 17.03.2026     ملف قنوات
+Status: Settings
+Mnasr-motor='https://gitlab.com/eliesat/settings/-/raw/main/mnasr-motor/mnasr-motor.sh'
+
+Package: Novaler-motor
+Version: 15.01.2026     ملف قنوات
+Status: Settings
+Novaler-motor='https://gitlab.com/eliesat/settings/-/raw/main/novaler-motor/novaler-motor.sh'
+
+Package: S.refaey-motor
+Version: 11.04.2026     ملف قنوات
+Status: Settings
+S.refaey-motor='https://gitlab.com/eliesat/settings/-/raw/main/s.refaey/s.refaey-motor.sh'
+
+Package: T.alashry-motor
+Version: 05.10.2025     ملف قنوات
+Status: Settings
+T.alashry-motor='https://gitlab.com/eliesat/settings/-/raw/main/T.alashry/t.alashry-motor.sh'
+
+Package: Vhannibal-motor
+Version: 20.03.2026     ملف قنوات
+Status: Settings
+Vhannibal-motor='https://gitlab.com/eliesat/settings/-/raw/main/vhannibal/vhannibal-motor.sh'
+
+Package: Freq-Flysat
+Version: 18.12.2024     ملف ترددات
+Status: Freq
+Freq-Flysat='https://gitlab.com/eliesat/settings/-/raw/main/flysat/installer.sh'
+
+Package: Freq-Lyngsat
+Version: 02.02.2026     ملف ترددات
+Status: Freq
+Freq-Lyngsat='https://gitlab.com/eliesat/settings/-/raw/main/lyngsat/installer.sh'
+
+Package: Freq-Oe-alliance
+Version: uptodate     ملف ترددات
+Status: Freq
+Freq-Oe-alliance='https://gitlab.com/eliesat/settings/-/raw/main/oe-alliance/installer.sh'
+
+Package: Freq-Openpli
+Version: uptodate     ملف ترددات
+Status: Freq
+Freq-Openpli='https://gitlab.com/eliesat/settings/-/raw/main/eliesat/installer.sh'
+
+Package: Tuner-diseqc-1.0
+Version: 1.0     اعدادات افتراضيه للدايسك ٤ مخارج
+Status: Tuner
+Tuner-diseqc-1.0='https://gitlab.com/eliesat/settings/-/raw/main/tuner/tuner-1.0.sh'
+
+Package: Tuner-diseqc-1.1
+Version: 1.1     اعدادات افتراضيه للدايسك ٨ مخارج
+Status: Tuner
+Tuner-diseqc-1.1='https://gitlab.com/eliesat/settings/-/raw/main/tuner/tuner-1.1.sh'
+
+Package: Tuner-diseqc-1.2
+Version: 1.2     اعدادات التيونر للمتحرك ١.٢
+Status: Tuner
+Tuner-diseqc-1.2='https://gitlab.com/eliesat/settings/-/raw/main/tuner/tuner-1.2.sh'
+
+Package: Tuner-diseqc-1.3
+Version: usals     اعدادات التيونر للدايسك موتور
+Status: Tuner
+Tuner-diseqc-1.3='https://gitlab.com/eliesat/settings/-/raw/main/tuner/tuner-1.3.sh'

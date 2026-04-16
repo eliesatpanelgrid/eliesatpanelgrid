@@ -1,0 +1,196 @@
+● 14.04.2026
+===========
+○ furybiss 3.0
+○ canpanel 1.8.6
+○ panelaio 11.0
+
+● 13.04.2026
+===========
+○ levi oscam-11949-emu-803
+○ simplysports 5.0
+○ xmlupdatebyiet5 1.4
+○ evgquicksignal 1.3
+
+
+● 12.04.2026 
+===========
+○ ciefp-motor
+○ S.refaey-motor
+○ simplysports 4.8
+○ footonsat 7.2
+
+● 11.04.2026 
+===========
+○ xtraevent-mnasr 7.1
+○ xtreamity 5.42
+○ estalker 1.37
+○ furybiss 2.0
+
+
+● 10.04.2026 
+===========
+○ furybiss 2.0
+○ mytranslator 1.64
+○ images download (egami)
+  vuuno4k
+  mutant h51
+
+● 09.04.2026 
+===========
+○ levi 
+oscam-11946-emu-803
+○ simplysports 4.7
+○ footonsat 7.0
+○ Mohamed_os
+gosatplus-oscam-11946-emu-r802
+oscam-11946-emu-r802
+powercam-oscam-11946-emu-r802
+supcam-oscam-11946-emu-r802
+ultracam-oscam-11946-emu-r802
+
+● 08.04.2026 
+===========
+○ foreca 1.2.2
+○ vavoo 1.63
+○ zouplayer 1.1
+
+● 07.04.2026 
+===========
+○ S.refaey-motor
+○ xtreamity 5.41
+
+● 06.04.2026 
+===========
+○ mawaqit 1.1
+○ acherone 1.4
+○ vavoo 1.62
+○ worldcam 6.7
+○ e2iplayer-oem 1.0
+
+● 05.04.2026 
+===========
+○ tools-panels magicpanel 9.3 script update
+○ images-download scripts update
+pure2 7.6
+openspa 8.6
+openvix 6.8
+
+● 04.04.2026 
+===========
+○ Asdrere123 4 plugins scripts updated
+○ H.wahba-motor
+
+● 03.04.2026 
+===========
+○ Ciefp 33 plugins scripts updated
+○ Islam salamq 4 plugins scripts updated
+○ estalker 1.36
+○ xcplugin 5.2
+○ theweather 5.5
+○ xtraevent 7.0
+○ tvgarden 2.3
+○ skin fury fhd 7.3
+
+● 02.04.2026 
+===========
+○ images download (egami)
+supported boxes
+vu+
+gigablue
+octagon
+dm900 920
+
+
+● 31.03.2026 
+===========
+○ aitranslate 3.1
+○ adenchmanager 1.1
+○ auto-dcw-key-add 1.0.9
+○ oaweatheriet 1.4
+○ panelaio 9.7
+
+● 30.03.2026 
+===========
+○ Ciefp-motor
+○ picons studio (satellites.xml channels picons-motor 30.03.2026)
+○ xtreamity 5.38
+○ foreca 1.1.9
+
+● 27.03.2026 
+===========
+○ H.wahba-motor
+
+● 26.03.2026 
+===========
+○ tools dependencies all script
+○ tetrisk 7.1
+○ schiffe 7.1
+○ estalker 1.35
+○ xtreamity 5.36
+○ xklass 1.80
+
+● 25.03.2026 
+===========
+○ keyadder 9.5
+○ theweather 4.3
+○ foreca 1.1.8
+○ hasbahca 2.3
+○ simplysports 4.6
+○ tvgarden 2.0
+○ vavoo 1.62
+○ xcplugin 5.1
+○ aitranslate 3.0
+○ ipaudiopro-haitham free
+
+● 24.03.2026 
+===========
+○ estalker 1.34
+○ xtreamity 5.35
+○ xklass 1.79
+
+● 22.03.2026 
+===========
+○ ciefp-motor 15.03.2026
+○ vhannibal-motor 20.03.2026
+○ skin fury fhd 7.2
+○ ip2sat 1.0
+
+● 21.03.2026 
+===========
+○ ipaudiopro 1.5
+○ the weather 4.2
+○ subssupport 1.8.0r7
+○ magicpanelgold 9.0
+○ emuinstaller 1.0
+
+● 20.03.2026 
+===========
+○ ipaudiopro 1.5
+○ ipstreamer 1.3
+○ canpanel 1.8.4
+○ panelaio 9.6
+○ tvgarden 1.9
+○ vavoo 1.61
+○ foreca 1.1.6
+○ h.wahba-motor 20-3-2026
+
+● 18.03.2026 
+===========
+○ dreamosatxline 1.0
+○ dreamosatxsignal 2.0
+○ novalerstore 3.1
+○ sudoko 7.1
+○ vavoo 1.60
+○ mnasr-motor 17-3-2026
+
+● 16.03.2026 
+===========
+○ footonsat 6.8
+○ foreca 1.1.4
+○ audiomerge 4.0
+○ mawaqit 1.0
+○ newvirtualkeyboard 13.8
+○ simplysports 4.5
+
+
+

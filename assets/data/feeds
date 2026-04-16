@@ -1,0 +1,62 @@
+##############feeds###############
+
+Package: Eliesat
+Version: 1.0      فيد تسطيب اضافات متنوعة
+Status: Feeds
+Eliesat='https://gitlab.com/eliesat/scripts/-/raw/main/feed/eliesat-feed.sh'
+
+Package: Emil
+Version: 1.0     فيد تسطيب اضافات متنوعة
+Status: Feeds
+Emil='https://gitlab.com/eliesat/scripts/-/raw/main/feed/emil-feed.sh'
+
+Package: Jungle
+Version: 1.0     فيد تسطيب اضافات متنوعة بايتون ٢
+Status: Feeds
+Jungle='https://gitlab.com/eliesat/scripts/-/raw/main/feed/jungle-feed.sh'
+
+Package: Oe-alliance-picons
+Version: 1.0     فيد تسطيب بيكونات
+Status: Feeds
+Oe-alliance-picons='https://gitlab.com/eliesat/scripts/-/raw/main/feed/oe-picons-feed.sh'
+
+Package: Oe-alliance-settings
+Version: 1.0     فيد تسطيب ملفات قنوات
+Status: Feeds
+Oe-alliance-settings='https://gitlab.com/eliesat/scripts/-/raw/main/feed/oe-settings-feed.sh'
+
+Package: Openatv-devel
+Version: 1.0     Openatv-devel
+Status: Feeds
+Openatv-devel='https://gitlab.com/eliesat/scripts/-/raw/main/feed/openatv-devel.sh'
+
+Package: Libraries-1
+Version: 3.12.4       openatv فيد مكتبات صورة 
+Status: Feeds
+Libraries-1='https://gitlab.com/eliesat/scripts/-/raw/main/feed/libraries-3.12.4-feed.sh'
+
+Package: Libraries-2
+Version: 3.12.6       openatv فيد مكتبات صورة 
+Status: Feeds
+Libraries-2='https://gitlab.com/eliesat/scripts/-/raw/main/feed/libraries-3.12.x-feed.sh'
+
+Package: Openpicons
+Version: 1.0     فيد تسطيب بيكونات
+Status: Feeds
+Openpicons='https://gitlab.com/eliesat/scripts/-/raw/main/feed/openpicons-feed-.sh'
+
+Package: Softcams-openatv
+Version: 1.0     فيد تسطيب ايميوهات
+Status: Feeds
+Softcams-feed-openatv='https://gitlab.com/eliesat/scripts/-/raw/main/feed/openatv-softcam-feed.sh'
+
+Package: Softcams-pure2
+Version: 1.0     فيد تسطيب ايميوهات
+Status: Feeds
+Softcams-feed-pure2='https://gitlab.com/eliesat/scripts/-/raw/main/feed/pure2-softcam-feed.sh'
+
+Package: Tarek
+Version: 1.0     فيد تسطيب اضافات
+Status: Feeds
+Tarek='https://gitlab.com/eliesat/scripts/-/raw/main/feed/tarek-feed.sh'
+

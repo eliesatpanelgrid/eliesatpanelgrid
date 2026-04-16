@@ -1,0 +1,217 @@
+##############softcams#############
+
+Package: Oscam-Audi06
+Version: 11945.emu.r802     .ipk .deb
+Status: Aud
+Oscam-Audi06-1='https://gitlab.com/eliesat/softcams/-/raw/main/audi06_19/oscam.sh'
+
+Package: Oscam-Audi06
+Version: 11833.emu.r802     .ipk .deb
+Status: Aud
+Oscam-Audi06-2='https://gitlab.com/eliesat/softcams/-/raw/main/audi06_19/oscam-11833.sh'
+
+Package: Ncam-Fairbird
+Version: 15.7.r0     .ipk .deb
+Status: Fai
+Ncam-Fairbird='https://gitlab.com/eliesat/softcams/-/raw/main/raed/ncam.sh'
+
+Package: Cccam-Fairbird
+Version: 2.3.9.r6     .ipk
+Status: Fai
+Cccam-Fairbird='https://gitlab.com/eliesat/softcams/-/raw/main/cccam/cccam.sh'
+
+Package: Oscam-Youchie
+Version: 11886.emu.r803     .ipk .deb
+Status: You
+Oscam-Youchie='https://gitlab.com/eliesat/softcams/-/raw/main/youchie/oscam.sh'
+
+Package: Oscamicamall
+Version: v20     .ipk
+Status: Kit
+Oscamicamall='https://gitlab.com/eliesat/softcams/-/raw/main/kite888/oscamicamall-kite888.sh'
+
+Package: Oscamicamnew
+Version: 11886.emu.r802     .ipk .deb
+Status: Kit
+Oscamicamnew='https://gitlab.com/eliesat/softcams/-/raw/main/kite888/oscamicamnew-kite888.sh'
+
+Package: Oscamicamnew
+Version: 11777.emu.r802     .ipk .deb
+Status: Kit
+Oscamicamnew='https://gitlab.com/eliesat/softcams/-/raw/main/kite888/oscamicam.sh'
+
+Package: Oscam-Levi45
+Version: 11949.emu.r803     .ipk .deb
+Status: Lev
+Oscam-Levi45='https://gitlab.com/eliesat/softcams/-/raw/main/levi/oscam.sh'
+
+Package: Oscam-Levi45
+Version: 11827.emu.r802     .ipk .deb
+Status: Lev
+Oscam-Levi45='https://gitlab.com/eliesat/softcams/-/raw/main/levi/oscam-11827.sh'
+
+Package: Oscam-Levi45
+Version: 11815.emu.r802     .ipk .deb
+Status: Lev
+Oscam-Levi45='https://gitlab.com/eliesat/softcams/-/raw/main/levi/oscam-11815.sh'
+
+Package: Oscam-Linuxsat25
+Version: 11725.emu.r798     .ipk
+Status: Lin
+Oscam-Linuxsat25='https://gitlab.com/eliesat/softcams/-/raw/main/linuxsat25/oscam.sh'
+
+Package: Oscam
+Version: 11946.emu.r802     .ipk .deb
+Status: Moh
+Oscam='https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/oscam.sh'
+
+Package: Gosatplus-Oscam
+Version: 11946.emu.r802     .ipk
+Status: Moh
+Gosatplus-Oscam='https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/gosatplus-oscam.sh'
+
+Package: Powercam-Oscam
+Version: 11946.emu.r802     .ipk
+Status: Moh
+Powercam-Oscam='https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/powercam-oscam.sh'
+
+Package: Supcam-Oscam
+Version: 11946.emu.r802     .ipk
+Status: Moh
+Supcam-Oscam='https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/supcam-oscam.sh'
+
+Package: Ultracam-Oscam
+Version: 11946.emu.r802     .ipk
+Status: Moh
+Ultracam-Oscam='https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/ultracam-oscam.sh'
+
+Package: Ncam
+Version: 15.2     .ipk .deb
+Status: Moh
+Ncam='https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/ncam.sh'
+
+Package: Gosatplus-Ncam
+Version: 15.2     .ipk
+Status: Moh
+Gosatplus-Ncam='https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/gosatplus-ncam.sh'
+
+Package: Powercam-Ncam
+Version: 15.2     .ipk
+Status: Moh
+Powercam-Ncam='https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/powercam-ncam.sh'
+
+Package: Supcam-Ncam
+Version: 15.2     .ipk
+Status: Moh
+Supcam-Ncam='https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/supcam-ncam.sh'
+
+Package: Ultracam-Ncam
+Version: 15.2     .ipk
+Status: Moh
+Ultracam-Ncam='https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/ultracam-ncam.sh'
+
+Package: Gosatplus-emu
+Version: 2.0     .ipk
+Status: Moh
+Gosatplus-emu='https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/gosatplus.sh'
+
+Package: Powercam-emu
+Version: 3.0     .ipk
+Status: Moh
+Powercam-emu='https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/powercam.sh'
+
+Package: Ultracam-emu
+Version: 1.0     .ipk
+Status: Moh
+Ultracam-emu='https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/ultracam.sh'
+
+Package: Revcam-Spider-X
+Version: 1.0     .ipk
+Status: Moh
+Revcam-Spider-X='https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/revcam-spider-x/revcam.sh'
+
+Package: Oscam-Samur
+Version: 11838.emu.r802     .ipk
+Status: Sam
+Oscam-Samur='https://gitlab.com/eliesat/softcams/-/raw/main/samur/oscam.sh'
+
+Package: Astra-Sm
+Version: 1.0       اداة لتشغيل باقة ابيرتيس قمر هيسباسات
+Status: Oth
+Astra-Sm='https://gitlab.com/eliesat/softcams/-/raw/main/astra-sm/astra-sm-arm-0.2-r0.sh'
+
+Package: Mgcamd
+Version: 1.46.r3     .ipk
+Status: Oth
+Mgcamd='https://gitlab.com/eliesat/softcams/-/raw/main/mgcamd/mgcamd.sh'
+
+Package: Rm-Emus-Configs
+Version: 1.0       حذف الايميوهات بالكامل
+Status: Oth
+Remove-EmusAndConfigs='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-emus-and-config-file.sh'
+
+Package: Rm-Configs
+Version: 1.0       حذف مجلدات الخاصة بالايميوهات
+Status: Oth
+Remove-EmusConfigFolders='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-emus-config-files.sh'
+
+Package: Rm-Emus
+Version: 1.0       حذف الايميوهات و ترك مجلدات الكونفيج
+Status: Oth
+Remove-EmuskeepConfigs='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/remove/_remove-emus.sh'
+
+Package: Support
+Version: 2.r0.2      openpli حل مشكلة اقلاع الايميو  صورة
+Status: Oth
+Support='https://gitlab.com/eliesat/softcams/-/raw/main/support/support-2-r0.2.sh'
+
+Package: Gosatplus-1
+Version: 3.0     openpli mips 
+Status: Oth
+Gosatplus-1='http://e2.gosatplus.com/Plugin/V3/mips-openpli-installer_py3_v3.sh'
+
+Package: Gosatplus-2
+Version: 3.0     openpli arm 
+Status: Oth
+Gosatplus-2='http://e2.gosatplus.com/Plugin/V3/arm-openpli-installer_py3_v3.sh'
+
+Package: Gosatplus-3
+Version: 3.0     mips 
+Status: Oth
+Gosatplus-3='http://e2.gosatplus.com/Plugin/V3/mips-dm-installer_py2_v3-installer.sh'
+
+Package: Gosatplus-4
+Version: 3.0     arm 
+Status: Oth
+Gosatplus-4='http://e2.gosatplus.com/Plugin/V3/arm-dm-installer_py2_v3-installer.sh'
+
+Package: Gosatplus-5
+Version: 3.0     oe2 2.5 2.6
+Status: Oth
+Gosatplus-5='http://e2.gosatplus.com/Plugin/V3/dmone-installer_py2_v3.sh'
+
+
+Package: Deneme6
+Version: 1.0     ملف الخاص بالتشفير و مفاتيح البيس
+Status: Soft
+Deneme6='https://gitlab.com/eliesat/softcams/-/raw/main/softcam-key/Cam-softcam.key-deneme6.sh'
+
+Package: Dvbsat.org-team
+Version: 1.0     ملف الخاص بالتشفير و مفاتيح البيس
+Status: Soft
+Dvbsat.org-team='https://gitlab.com/eliesat/softcams/-/raw/main/softcam-key/Cam-softcam.key-dvbsat.org-team.sh'
+
+Package: Mnasr
+Version: 1.0     ملف الخاص بالتشفير و مفاتيح البيس
+Status: Soft
+Mnasr='https://gitlab.com/eliesat/softcams/-/raw/main/softcam-key/Cam-softcam.key-mnasr.sh'
+
+Package: Mohamed_os
+Version: 1.0     ملف الخاص بالتشفير و مفاتيح البيس
+Status: Soft
+Mohamed_os='https://gitlab.com/eliesat/softcams/-/raw/main/softcam-key/Cam-softcam.key-mohamed_os.sh'
+
+Package: Smartcam-team
+Version: 1.0     ملف الخاص بالتشفير و مفاتيح البيس
+Status: Soft
+Smartcam-team='https://gitlab.com/eliesat/softcams/-/raw/main/softcam-key/Cam-softcam.key-smartcam-team.sh'h'

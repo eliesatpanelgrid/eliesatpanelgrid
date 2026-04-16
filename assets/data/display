@@ -1,0 +1,412 @@
+##############display###############
+--------------bootvideos-----------
+
+Package: bootvideo-Enigma2
+Version: 1.0     فيديو اقلاع
+Status: Bvi
+bootvideo-Enigma2='https://gitlab.com/eliesat/display/-/raw/main/bootvideo/enigma2.sh'
+
+Package: bootvideo-Openatv
+Version: 1.0     فيديو اقلاع
+Status: Bvi
+bootvideo-Openatv='https://gitlab.com/eliesat/display/-/raw/main/bootvideo1/openatv.sh'
+
+--------------bootlogos-images-----------
+Package: bootlogos-Openatv-1
+Version: 1.0     صور اقلاع خاصة بصورة اوبن اي تي في
+Status: Bli
+bootlogos-Openatv-1='https://gitlab.com/eliesat/display/-/raw/main/openatv-neutral/openatv.sh'
+
+Package: bootlogos-Openpli-1
+Version: 1.0     صور اقلاع خاصة بصورة اوبن بلي
+Status: Bli
+bootlogos-Openpli-1='https://gitlab.com/eliesat/display/-/raw/main/openpli-neutral/openpli.sh'
+
+Package: bootlogos-Pure2-1
+Version: 1.0     صور اقلاع خاصة بصورة بيور٢
+Status: Bli
+bootlogos-Pure2-1='https://gitlab.com/eliesat/display/-/raw/main/pure2-neutral/pure2.sh'
+
+--------------bootlogos-neutral--------
+
+Package: bootlogos-Euro2024
+Version: 1.0     صور اقلاع
+Status: Ble
+bootlogos-Euro2024='https://gitlab.com/eliesat/display/-/raw/main/euro2024/bootlogos-euro2024.sh'
+
+Package: bootlogos-Christmas
+Version: 1.0     صور اقلاع
+Status: Ble
+bootlogos-Christmas='https://gitlab.com/eliesat/display/-/raw/main/christmas/bootlogos-christmas.sh'
+
+Package: bootlogos-City
+Version: 1.0     صور اقلاع
+Status: Ble
+bootlogos-City='https://gitlab.com/eliesat/display/-/raw/main/city/bootlogos-city.sh'
+
+Package: bootlogos-Coffee
+Version: 1.0     صور اقلاع
+Status: Ble
+bootlogos-Coffee='https://gitlab.com/eliesat/display/-/raw/main/coffee/bootlogos-coffee.sh'
+
+Package: bootlogos-House
+Version: 1.0     صور اقلاع
+Status: Ble
+bootlogos-House='https://gitlab.com/eliesat/display/-/raw/main/house/bootlogos-house.sh'
+
+Package: bootlogos-Moon
+Version: 1.0     صور اقلاع
+Status: Ble
+bootlogos-Moon='https://gitlab.com/eliesat/display/-/raw/main/moon/bootlogos-moon.sh'
+
+Package: bootlogos-Nature
+Version: 1.0     صور اقلاع
+Status: Ble
+bootlogos-Nature='https://gitlab.com/eliesat/display/-/raw/main/nature/bootlogos-nature.sh'
+
+Package: bootlogos-Ramadan
+Version: 1.0     صور اقلاع
+Status: Ble
+bootlogos-Ramadan='https://gitlab.com/eliesat/display/-/raw/main/ramadan/bootlogos-ramadan.sh'
+
+Package: bootlogos-Smart
+Version: 1.0     صور اقلاع
+Status: Ble
+bootlogos-Smart='https://gitlab.com/eliesat/display/-/raw/main/smart/bootlogos-smart.sh'
+
+Package: bootlogos-Vu+
+Version: 1.0     صور اقلاع
+Status: Ble
+bootlogos-Vu+='https://gitlab.com/eliesat/display/-/raw/main/vu+/bootlogos-vu+.sh'
+
+--------------bootlogos-novaler--------
+
+Package: bootlogos-Areadelta
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Areadelta='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-areadelta.sh'
+
+Package: bootlogos-Cobralibero
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Cobralibero='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-cobralibero.sh'
+
+Package: bootlogos-Egami
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Egami='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-egami.sh'
+
+Package: bootlogos-Nonsolosat
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Nonsolosat='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-nonsolosat.sh'
+
+Package: bootlogos-Novaler
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Novaler='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-novaler.sh'
+
+Package: bootlogos-Openatv
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Openatv='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-openatv.sh'
+
+Package: bootlogos-Openblackhole
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Openblackhole='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-openblackhole.sh'
+
+Package: bootlogos-Opendroid
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Opendroid='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-opendroid.sh'
+
+Package: bootlogos-Openeight
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Openeight='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-openeight.sh'
+
+Package: bootlogos-Openfix
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Openfix='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-openfix.sh'
+
+Package: bootlogos-Openhdf
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Openhdf='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-openhdf.sh'
+
+Package: bootlogos-Opennfr
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Opennfr='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-opennfr.sh'
+
+Package: bootlogos-Openpli
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Openpli='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-openpli.sh'
+
+Package: bootlogos-Openspa
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Openspa='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-openspa.sh'
+
+Package: bootlogos-Opentr
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Opentr='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-opentr.sh'
+
+Package: bootlogos-Openvision
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Openvision='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-openvision.sh'
+
+Package: bootlogos-Openvix
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Openvix='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-openvix.sh'
+
+Package: bootlogos-Pkteam
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Pkteam='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-pkteam.sh'
+
+Package: bootlogos-Pure2
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Pure2='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-pure2.sh'
+
+Package: bootlogos-Satdreamgr
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Satdreamgr='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-satdreamgr.sh'
+
+Package: bootlogos-Satlodge
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Satlodge='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-satlodge.sh'
+
+Package: bootlogos-Teamblue
+Version: 1.0     صور اقلاع
+Status: Blno
+bootlogos-Teamblue='https://gitlab.com/eliesat/display/-/raw/main/n-image/bootlogos-n-teamblue.sh'
+
+##############lcdskins###############
+Package: Lcdskin-1
+Version: 1.0     صور الشاشة الامامية فيو بلاس اونو
+Status: Lcd
+Lcdskin-1='https://gitlab.com/eliesat/display/-/raw/main/lcdskin/lcdskin-1.sh'
+
+Package: Lcdskin-2
+Version: 1.0     صور الشاشة الامامية فيو بلاس اونو
+Status: Lcd
+Lcdskin-2='https://gitlab.com/eliesat/display/-/raw/main/lcdskin/lcdskin-2.sh'
+
+Package: Lcdskin-3
+Version: 1.0     صور الشاشة الامامية فيو بلاس اونو
+Status: Lcd
+Lcdskin-3='https://gitlab.com/eliesat/display/-/raw/main/lcdskin/lcdskin-3.sh'
+
+Package: Lcdskin-4
+Version: 1.0     صور الشاشة الامامية فيو بلاس اونو
+Status: Lcd
+Lcdskin-4='https://gitlab.com/eliesat/display/-/raw/main/lcdskin/lcdskin-4.sh'
+
+Package: Lcdskin-5
+Version: 1.0     صور الشاشة الامامية فيو بلاس اونو
+Status: Lcd
+Lcdskin-5='https://gitlab.com/eliesat/display/-/raw/main/lcdskin/lcdskin-5.sh'
+
+Package: Lcdskin-6
+Version: 1.0     صور الشاشة الامامية فيو بلاس اونو
+Status: Lcd
+Lcdskin-6='https://gitlab.com/eliesat/display/-/raw/main/lcdskin/lcdskin-6.sh'
+
+Package: Lcdskin-7
+Version: 1.0     صور الشاشة الامامية فيو بلاس اونو
+Status: Lcd
+Lcdskin-7='https://gitlab.com/eliesat/display/-/raw/main/lcdskin/lcdskin-7.sh'
+
+Package: Lcdskin-8
+Version: 1.0     صور الشاشة الامامية فيو بلاس اونو
+Status: Lcd
+Lcdskin-8='https://gitlab.com/eliesat/display/-/raw/main/lcdskin/lcdskin-8.sh'
+
+Package: Lcdskin-9
+Version: 1.0     صور الشاشة الامامية فيو بلاس اونو
+Status: Lcd
+Lcdskin-9='https://gitlab.com/eliesat/display/-/raw/main/lcdskin/lcdskin-9.sh'
+
+Package: Lcdskin10
+Version: 1.0     صور الشاشة الامامية فيو بلاس اونو
+Status: Lcd
+Lcdskin10='https://gitlab.com/eliesat/display/-/raw/main/lcdskin/lcdskin-10.sh'
+
+Package: Lcdskin11
+Version: 1.0     صور الشاشة الامامية فيو بلاس اونو
+Status: Lcd
+Lcdskin11='https://gitlab.com/eliesat/display/-/raw/main/lcdskin/lcdskin-11.sh'
+
+Package: Lcdskin12
+Version: 1.0     صور الشاشة الامامية فيو بلاس اونو
+Status: Lcd
+Lcdskin12='https://gitlab.com/eliesat/display/-/raw/main/lcdskin/lcdskin-12.sh'
+
+Package: Lcdskin13
+Version: 1.0     صور الشاشة الامامية فيو بلاس اونو
+Status: Lcd
+Lcdskin13='https://gitlab.com/eliesat/display/-/raw/main/lcdskin/lcdskin-13.sh'
+
+Package: Splash-image
+Version: 1.0     صور الشاشة الامامية لكل اجهزة الفيو
+Status: Lcd
+Splash-image='https://gitlab.com/eliesat/display/-/raw/main/splash/splash.sh'
+
+##############radiologos###############
+Package: Radiologo-1
+Version: 1.0     تغيير خلفية قنوات الراديو
+Status: Rdl
+Radiologo-1='https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-1.sh'
+
+Package: Radiologo-2
+Version: 1.0     تغيير خلفية قنوات الراديو
+Status: Rdl
+Radiologo-2='https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-2.sh'
+
+Package: Radiologo-3
+Version: 1.0     تغيير خلفية قنوات الراديو
+Status: Rdl
+Radiologo-3='https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-3.sh'
+
+Package: Radiologo-4
+Version: 1.0     تغيير خلفية قنوات الراديو
+Status: Rdl
+Radiologo-4='https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-4.sh'
+
+Package: Radiologo-5
+Version: 1.0     تغيير خلفية قنوات الراديو
+Status: Rdl
+Radiologo-5='https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-5.sh'
+
+Package: Radiologo-6
+Version: 1.0     تغيير خلفية قنوات الراديو
+Status: Rdl
+Radiologo-6='https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-6.sh'
+
+Package: Radiologo-7
+Version: 1.0     تغيير خلفية قنوات الراديو
+Status: Rdl
+Radiologo-7='https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-7.sh'
+
+Package: Radiologo-8
+Version: 1.0     تغيير خلفية قنوات الراديو
+Status: Rdl
+Radiologo-8='https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-8.sh'
+
+Package: Radiologo-9
+Version: 1.0     تغيير خلفية قنوات الراديو
+Status: Rdl
+Radiologo-9='https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-9.sh'
+
+Package: Radiologo10
+Version: 1.0     تغيير خلفية قنوات الراديو
+Status: Rdl
+Radiologo10='https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-10.sh'
+
+Package: Radiologo11
+Version: 1.0     تغيير خلفية قنوات الراديو
+Status: Rdl
+Radiologo11='https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-11.sh'
+
+Package: Radiologo12
+Version: 1.0     تغيير خلفية قنوات الراديو
+Status: Rdl
+Radiologo-12='https://gitlab.com/eliesat/display/-/raw/main/radiologo/radiologo-12.sh'
+
+##############spinners###############
+
+Package: Spinner-Barcelona
+Version: 1.0     نادي برشلونة
+Status: Spn
+Spinner-Barcelona='https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-barcelona-1.sh'
+
+Package: Spinner-Bayern-munich
+Version: 1.0     نادي بايرن ميونخ
+Status: Spn
+Spinner-Bayern-munich='https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-bayern-munich-1.sh'
+
+Package: Spinner-Chelsea
+Version: 1.0     نادي تشلسي
+Status: Spn
+Spinner-Chelsea='https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-chelsea-1.sh'
+
+Package: Spinner-Clock-1
+Version: 1.0     الساعة
+Status: Spn
+Spinner-Clock-1='https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-clock-1.sh'
+
+Package: Spinner-Clock-2
+Version: 1.0     الساعة
+Status: Spn
+Spinner-Clock-2='https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-clock-2.sh'
+
+Package: Spinner-Dortmund
+Version: 1.0     نادي دورتموند
+Status: Spn
+Spinner-Dortmund='https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-dortmund-1.sh'
+
+Package: Spinner-Pigeon
+Version: 1.0     طير الحمام
+Status: Spn
+Spinner-Pigeon='https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-hdglass17-1.sh
+
+Package: Spinner-Liverpool
+Version: 1.0     نادي ليفربول
+Status: Spn
+Spinner-Liverpool='https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-liverpool-1.sh'
+
+Package: Spinner-Loading1
+Version: 1.0     شعار التحميل لودينج
+Status: Spn
+Spinner-Loading1='https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-loading-1.sh'
+
+Package: Spinner-Loading2
+Version: 1.0     شعار التحميل لودينج
+Status: Spn
+Spinner-Loading2='https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-loading-2.sh'
+
+Package: Spinner-Manchester-united
+Version: 1.0     نادي مانشيستر يونايتد
+Status: Spn
+Spinner-Manchester-united='https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-manutd-1.sh'
+
+Package: Spinner-Openatv-1
+Version: 1.0     اوبن اي تي في
+Status: Spn
+Spinner-Openatv-1='https://gitlab.com/eliesat/display/-/raw/main/spinner/openatv-1.sh'
+
+Package: Spinner-Openatv-2
+Version: 1.0     اوبن اي تي في
+Status: Spn
+Spinner-Openatv-2='https://gitlab.com/eliesat/display/-/raw/main/spinner/openatv-2.sh'
+
+Package: Spinner-Openatv-3
+Version: 1.0     اوبن اي تي في
+Status: Spn
+Spinner-Openatv-3='https://gitlab.com/eliesat/display/-/raw/main/spinner/openatv-3.sh'
+
+Package: Spinner-Openatv-original
+Version: 1.0     اوبن اي تي في
+Status: Spn
+Spinner-Openatv-original='https://gitlab.com/eliesat/display/-/raw/main/spinner/openatv-original.sh'
+
+Package: Spinner-Pingu
+Version: 1.0     طير البطريق
+Status: Spn
+Spinner-Pingu='https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-pingu-1.sh'
+
+Package: Spinner-Realmadrid
+Version: 1.0     نادي ريال مدريد
+Status: Spn
+Spinner-Realmadrid='https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-realmadrid-1.sh'
+

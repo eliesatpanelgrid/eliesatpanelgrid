@@ -1,0 +1,105 @@
+##############panels###############
+Package: Ajpanel
+Version: N/A     ادارة الملفات و مجموعة الخدمات
+Status: Pan
+Ajpanel='https://raw.githubusercontent.com/AMAJamry/AJPanel/main/installer.sh'
+
+Package: Ajpanel-Eliesatpanel
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+Ajpanel-Eliesatpanel='https://gitlab.com/eliesat/eliesatpanel/-/raw/main/eliesatpanel.sh'
+
+Package: Canpanel
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+Canpanel='http://grbz.com.tr/apps/CANPANEL/cevrimici/can_panel-1.0.sh'
+
+Package: Ciefp-plugins
+Version: N/A     بانل تسطيب اضافات خاصة ببافل سييف
+Status: Pan
+Ciefp-plugins='https://raw.githubusercontent.com/ciefp/CiefpPlugins/main/installer.sh'
+
+Package: Ciefsettingspanel
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+Ciefsettingspanel='https://raw.githubusercontent.com/ciefp/CiefpsettingsPanel/main/installer.sh'
+
+Package: Corvoboyspanel
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+Corvoboyspanel='https://github.com/emilnabil/download-plugins/raw/refs/heads/main/corvoboys-panel/corvoboys-panel.sh'
+
+Package: Emilpanel
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+Emilpanel='https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanel/emilpanel.sh'
+
+Package: Emilpanelpro
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+Emilpanelpro='https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/EmilPanelPro/emilpanelpro.sh'
+
+Package: Epanel
+Version: N/A     بانل خدمات متنوعة للصورة
+Status: Pan
+Epanel='https://gitlab.com/eliesat/extensions/-/raw/main/epanel/epanel.sh'
+
+Package: LeviAddonmanager
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+LeviAddonmanager='https://raw.githubusercontent.com/Belfagor2005/tvManager/main/installer.sh'
+
+Package: LeviMulticammanager
+Version: N/A     بانل تسطيب كامات
+Status: Pan
+LeviMulticammanager='https://raw.githubusercontent.com/levi-45/Manager/main/installer.sh'
+
+Package: Linuxsat-panel
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+Linuxsat-panel='https://raw.githubusercontent.com/Belfagor2005/LinuxsatPanel/main/installer.sh'
+
+Package: Magicpanelgold
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+Magicpanelgold='https://raw.githubusercontent.com/Ham-ahmed/G/refs/heads/main/MagicPanelGold-v9_install.sh'
+
+Package: Novalerstore
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+Novalerstore='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novalerstore/novalerstore.sh'
+
+Package: Oneupdater
+Version: N/A     بانل تسطيب بيكونات و ملفات قنوات
+Status: Pan
+Oneupdater='https://raw.githubusercontent.com/Sat-Club/ONEupdaterE2/main/installer.sh'
+
+Package: Panelaio
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+Panelaio='https://raw.githubusercontent.com/OliOli2013/PanelAIO-Plugin/main/installer.sh'
+
+Package: S4aupdater
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+S4aupdater='http://s4aupdater.one.pl/instalujs4aupdater.sh'
+
+Package: Simple-zoom-panel
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+Simple-zoom-panel='https://raw.githubusercontent.com/Belfagor2005/SimpleZooomPanel/main/installer.sh'
+
+Package: Smartaddonspanel
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+Smartaddonspanel='https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/smart-Panel.sh'
+
+Package: Tvaddon
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+Tvaddon='https://raw.githubusercontent.com/Belfagor2005/tvPanel/main/installer.sh'
+
+Package: Tvmanager
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+Tvmanager='https://gitlab.com/eliesat/extensions/-/raw/main/tvaddon/tvaddon.sh'

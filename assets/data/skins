@@ -1,0 +1,691 @@
+##############skins###############
+
+--------------allll--------------
+Package: Beta-pro-tool
+Version: 1.6     بلاجين تنزيل سكين بيتا برو
+Status: Sparts
+Beta-pro-tool='https://gitlab.com/eliesat/skins/-/raw/main/all/beta-pro/beta-pro-tool.sh'
+
+Package: Estuary-poster
+Version: 1.0     تعديل بوسترات سكين الافتراضي لصورة بيور٢
+Status: Sparts
+Estuary='https://gitlab.com/eliesat/skins/-/raw/main/skins-parts/estuary/estuary.sh'
+
+Package: Metrix-fhd
+Version: 1.0.no.posters     تعديل على الانفوبار من دون بوسترات
+Status: Sparts
+Metrix-fhd-no-posters='https://gitlab.com/eliesat/skins/-/raw/main/skins-parts/skinparts-mnasr-7.4.0r2.sh'
+
+Package: Metrix-fhd
+Version: 1.0.poster.1     تعديل على السكين بوستر اكس
+Status: Sparts
+Metrix-fhd-1-poster='https://gitlab.com/eliesat/skins/-/raw/main/skins-parts/skinparts-mnasr-7.4.1r2.sh'
+
+
+Package: Metrix-fhd
+Version: 1.0.posters.4     تعديل على السكين بوستر اكس
+Status: Sparts
+Metrix-fhd-4-posters='https://gitlab.com/eliesat/skins/-/raw/main/skins-parts/skinparts-mnasr-7.4.4-r2.sh'
+
+Package: Mymetrixlitebackup
+Version: 1.0     باكآب اعدادات سكين ماتريكس (طارق العشري)
+Status: Sparts
+Mymetrixlitebackup='https://gitlab.com/eliesat/skins/-/raw/main/skins-parts/mymetrixlitebackup.sh'
+
+#########################################################################################################
+
+Package: Aglare-fhd-atv
+Version: 7.1     
+Status: Soebased Segami Satv Sspa Spure
+Aglare-fhd-atv='https://gitlab.com/eliesat/skins/-/raw/main/all/aglare-fhd/aglare-fhd/aglare-fhd.sh'
+
+Package: Aglare-fhd-pli
+Version: 6.8     
+Status: Soebased Sobh Spli3 Svix
+Aglare-fhd-pli='https://gitlab.com/eliesat/skins/-/raw/main/all/aglare-fhd/aglare-fhd-pli.sh'
+
+Package: Alayam-fhd
+Version: 1.1     
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Alayam-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/teamnitro/alayam/alayam-fhd.sh'
+
+Package: Batman-fhd-1
+Version: vpx     
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Batman-fhd-1='https://gitlab.com/eliesat/skins/-/raw/main/all/batman/batman-vpx-fhd-1.0.sh'
+
+Package: Batman-fhd-2
+Version: vpx2     
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Batman-fhd-2='https://gitlab.com/eliesat/skins/-/raw/main/all/batman/batman-vpx2-fhd-1.0.sh'
+
+Package: Beta-pro-fhd-1
+Version: 1.5.px     
+Status: Soebased Sobh Spli3 Segami Satv Sspa Spure
+beta-pro-fhd-1='https://gitlab.com/eliesat/skins/-/raw/main/all/beta-pro/beta-pro-fhd-px.sh'
+
+Package: Beta-pro-fhd-2
+Version: 1.5.xe     
+Status: Soebased Sobh Spli3 Segami Satv Sspa Spure
+beta-pro-fhd-2='https://gitlab.com/eliesat/skins/-/raw/main/all/beta-pro/beta-pro-fhd-xe.sh'
+
+Package: Blackneon-xp-fhd
+Version: 1.0.mnasr     
+Status: Soebased Sobh Spli3 Segami Satv Sspa Spure
+Blackneon-xp-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/black-neon/blackneon-xp-fhd-mod-mnasr.sh'
+
+Package: Blackneon-xp-fhd
+Version: 1.0.elkooly     
+Status: Soebased Sobh Spli3 Segami Satv Sspa Spure
+Blackneon-xp-fhd-elkooly='https://gitlab.com/eliesat/skins/-/raw/main/all/blackneon-xp-fhd/blackneon-xp-fhd.sh'
+
+Package: Bohlala-fhd
+Version: 2.3     
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Bohlala-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/teamnitro/bohlala/bohlala-fhd.sh'
+
+Package: Desert-fhd
+Version: 3.1     
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Desert-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/teamnitro/desert/desert-fhd-oa.sh'
+
+Package: Dragon-fhd
+Version: 2.0     
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Dragon-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/teamnitro/dragon/dragon-fhd.sh'
+
+Package: Fullhdglass17
+Version: 9.50     
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Fullhdglass17='https://gitlab.com/eliesat/skins/-/raw/main/all/fullhdglass17/fullhdglass17.sh'
+
+Package: Fury-fhd
+Version: 7.3     
+Status: Soebased Segami Satv Sspa Sobh Spure Svix Spli3
+Fury-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/fury-fhd/fury-fhd.sh'
+
+Package: KIII-pro
+Version: 3.3     
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+KIII-pro='https://gitlab.com/eliesat/skins/-/raw/main/all/KIII-pro/KIII-pro.sh'
+
+Package: Nacht-digiteng
+Version: 7.0     
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Nacht-digiteng='https://gitlab.com/eliesat/skins/-/raw/main/all/nacht-digiteng/nacht-digiteng.sh'
+
+Package: Nitroadvance-fhd
+Version: 5.4     
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Nitroadvance-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/teamnitro/nitroadvance/nitroadvance-fhd.sh'
+
+Package: Luka-fhd
+Version: 1.5     
+Status: Soebased Segami Satv Sspa Spure
+Luka-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/luka-fhd/luka-fhd.sh'
+
+Package: Luka-fhd-pli
+Version: 1.0     
+Status: Soebased Sobh Spli3 Svix
+Luka-fhd-pli='https://gitlab.com/eliesat/skins/-/raw/main/all/luka-fhd-pli/luka-fhd-pli.sh'
+
+Package: Maxy-fhd-1
+Version: 1.4     
+Status: Soebased Segami Satv Sspa Spure
+Maxy-fhd-1='https://gitlab.com/eliesat/skins/-/raw/main/all/maxy-fhd/maxy-fhd.sh'
+
+Package: Maxi-fhd-pli
+Version: 1.0     
+Status: Soebased Sobh Spli3 Svix
+Maxi-fhd-pli='https://gitlab.com/eliesat/skins/-/raw/main/all/maxy-fhd/maxy-fhd-pli.sh'
+
+Package: Nitro-fhd
+Version: 1.0     
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Nitro-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/nitro/nitro-fhd.sh'
+
+Package: Nitrogreenwood
+Version: 1.0     
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Nitrogreenwood='https://gitlab.com/eliesat/skins/-/raw/main/all/nitro/nitrogreenwood-fhd.sh'
+
+Package: Nitrohoneycomb
+Version: 4.0     
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Nitrohoneycomb='https://gitlab.com/eliesat/skins/-/raw/main/all/nitro/nitrohoneycomb.sh'
+
+Package: Premium-fhd
+Version: 3.1.black     
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Premium-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premiumfhd-black.sh'
+
+Package: Premium-fhd
+Version: 3.1.blue     
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Premium-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premiumfhd-blue.sh'
+
+Package: Premium-fhd
+Version: 3.1.magneta     
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Premium-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premiumfhd-magneta.sh'
+
+Package: Red-knight-fhd
+Version: 1.0.    py.3.13
+Status: Soebased Segami Satv 
+Red-knight-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/red-knight-fhd/red-knight-fhd.sh'
+
+Package: Slyk-q-1080
+Version: 2.50     
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Slyk-q-1080='https://gitlab.com/eliesat/skins/-/raw/main/all/slyk-q-1080/slyk-q-1080.sh'
+
+Package: Youchie-obh-fhd
+Version: 1.0.2     
+Status: Soebased Sobh  
+Youchie-obh-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/youchie-pli-fhd/youchie-pli-fhd.sh'
+
+Package: Youchie-pli-fhd
+Version: 1.0.3     
+Status: Soebased Spli3 Sobh Svix
+Youchie-pli-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/youchie-pli-fhd/pli/youchie-pli-fhd.sh'
+
+Package: Xdreamy-fhd
+Version: 6.5.0     
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Xdreamy-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/xdreamy/xdreamy.sh'
+
+
+
+--------------egami--------------
+Package: Artemisfhd
+Version: 5.6     
+Status: Soebased Segami Satv Sspa Spure
+Artemisfhd='https://gitlab.com/eliesat/skins/-/raw/main/all/artemis/artemis-5.6.sh'
+
+Package: Artemis-mnasr
+Version: 6.3     
+Status: Soebased Segami Satv Sspa Spure
+Artemis-mnasr='https://gitlab.com/eliesat/skins/-/raw/main/all/artemis/artemis.sh'
+
+Package: Black-neon-p-fhd
+Version: 1.0     
+Status: Soebased Segami Satv Sspa Spure
+Black-neon-p-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/black-neon/black-neon-p-fhd.sh'
+
+Package: Blackalu
+Version: 1.0     
+Status: Soebased Segami Satv Sspa Spure
+Blackalu='https://gitlab.com/eliesat/skins/-/raw/main/all/blackalu-ashawky/blackalu-ashawky.sh'
+
+Package: Blackyblue
+Version: 1.0     
+Status: Soebased Segami 
+Blackyblue='https://gitlab.com/eliesat/skins/-/raw/main/egami/blacky/blacky-ashawky.sh'
+
+Package: Blackyorange
+Version: 1.0     
+Status: Soebased Segami 
+Blackyorange='https://gitlab.com/eliesat/skins/-/raw/main/egami/blacky/blackyorange-ashawky.sh'
+
+Package: C-odreamyfhd-mini
+Version: 1.0     
+Status: Soebased Segami Satv Sspa Spure
+C-odreamyfhd-mini='https://gitlab.com/eliesat/skins/-/raw/main/egami/c-odreamyfhd-mini/c-odreamyfhd-mini-addon.sh'
+
+Package: Copper-fhd
+Version: 1.2     
+Status: Soebased Segami Satv Sspa Spure
+Copper-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/copper/copperfhd.sh'
+
+Package: Duskyfhd
+Version: 1.0     
+Status: Soebased Segami Satv Sspa Spure
+Duskyfhd='https://gitlab.com/eliesat/skins/-/raw/main/all/dusky/duskyfhd-ashawky.sh'
+
+Package: Gigabluepaxv2
+Version: 1.0     
+Status: Soebased Segami Satv Sspa Spure
+Gigabluepaxv2='https://gitlab.com/eliesat/skins/-/raw/main/all/gigabluepax/gigabluepaxv2-ashawky.sh'
+
+Package: Icone-vpx-fhd
+Version: 1.0     
+Status: Soebased Segami Satv Sspa Spure
+Icone-vpx-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/icone/icone-vpx-fhd.sh'
+
+Package: Icone-vpx2-fhd
+Version: 1.0     
+Status: Soebased Segami Satv Sspa Spure
+Icone-vpx2-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/icone/icone-vpx2-fhd.sh'
+
+Package: Jihad
+Version: 2.4     
+Status: Soebased Segami Satv Sspa Spure
+Jihad='https://gitlab.com/eliesat/skins/-/raw/main/all/jihad/jihad.sh'
+
+Package: Lava
+Version: 2.0     
+Status: Soebased Segami Satv Sspa Spure
+Lava='https://gitlab.com/eliesat/skins/-/raw/main/all/lava/lava-ashawky.sh'
+
+Package: Malek-fhd
+Version: 2.2     
+Status: Soebased Segami Satv Sspa Spure
+Malek-fhd='https://gitlab.com/eliesat/skins/-/raw/main/egami/malek/malek-fhd.sh?inline=false'
+
+Package: Metrix-fhd
+Version: 3.12     
+Status: Soebased Segami Satv Sspa Spure
+Metrix-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/metrixfhd/metrix.sh'
+
+Package: Nacht-ash
+Version: 2.2     
+Status: Soebased Segami Satv Sspa Spure
+Nacht-ash='https://gitlab.com/eliesat/skins/-/raw/main/all/nacht/nacht-a.shawky.sh'
+
+Package: Novaler-s-fhd
+Version: 3.6.green     
+Status: Soebased Segami Satv Sspa Spure
+Novaler-s-fhd-green='https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-fhd-green.sh'
+
+Package: Novaler-s-fhd
+Version: 4.0.green     
+Status: Soebased Segami Satv Sspa Spure
+Novaler-s-fhd-green-1='https://gitlab.com/eliesat/skins/-/raw/main/all/novaler-s-fhd-green/novaler-s-fhd-green.sh'
+
+Package: Novaler-s-x
+Version: 3.2.blue     
+Status: Soebased Segami Satv Sspa Spure
+Novaler-s-x-blue='https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-x-blue.sh'
+
+Package: Novaler-s-x
+Version: 3.2.green     
+Status: Soebased Segami Satv Sspa Spure
+Novaler-s-x-green='https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-x-green.sh'
+
+Package: Novaler-s-x
+Version: 3.2.infrared     
+Status: Soebased Segami Satv Sspa Spure
+Novaler-s-x-infrared='https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-x-infrared.sh'
+
+Package: Novaler-s-xtra
+Version: 3.2.blue     
+Status: Soebased Segami Satv Sspa Spure
+Novaler-s-xtra-blue='https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-xtra-fhd-blue.sh'
+
+Package: Novaler-s-xtra
+Version: 3.2.green     
+Status: Soebased Segami Satv Sspa Spure
+Novaler-s-xtra-green='https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-xtra-fhd-green.sh'
+
+Package: Novaler-s-xtra
+Version: 3.2.indianred     
+Status: Soebased Segami Satv Sspa Spure
+Novaler-s-xtra-indianred='https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-xtra-fhd-indianred.sh'
+
+Package: Novax-fhd-2
+Version: 2.1     
+Status: Soebased Segami Satv Sspa Spure
+Novax-fhd-2='https://gitlab.com/eliesat/skins/-/raw/main/all/novax/novax-fhd.sh'
+
+Package: Orangesky-xp-fhd
+Version: 1.0     
+Status: Soebased Segami Satv Sspa Spure
+Orangesky-xp-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/orangesky/orangesky-xp-fhd.sh'
+
+Package: Orangesky-xp2-fhd
+Version: 1.0     
+Status: Soebased Segami Satv Sspa Spure
+Orangesky-xp2-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/orangesky/orangesky-xp2-fhd.sh'
+
+Package: Ozeta-fhd-2
+Version: 2.0.4     
+Status: Soebased Segami Satv Sspa Spure
+Ozeta-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/ozeta/ozeta.sh'
+
+Package: Pal
+Version: 1.0     
+Status: Soebased Segami Satv Sspa Spure
+Pal='https://gitlab.com/eliesat/skins/-/raw/main/all/pal-a.shawky/pal.ashawky.sh'
+
+Package: Pdreamy-n-fhd
+Version: 1.0     
+Status: Soebased Segami Satv Sspa Spure
+Pdreamy-n-fhd='https://gitlab.com/eliesat/skins/-/raw/main/egami/pdreamy/pdreamy-n-fhd.sh'
+
+Package: Spiderman-vpx-fhd
+Version: 1.0     
+Status: Soebased Segami Satv Sspa Spure
+Spiderman-vpx-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/spiderman/spiderman-vpx-fhd.sh'
+
+Package: Spiderman-vpx2-fhd
+Version: 1.0     
+Status: Soebased Segami Satv Sspa Spure
+Spiderman-vpx2-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/spiderman/spiderman-vpx2-fhd.sh'
+
+--------------openblackhole-------------
+
+Package: Openbhgreenfhd
+Version: 5.2     
+Status: Soebased Sobh
+Openbhgreenfhd='https://gitlab.com/eliesat/skins/-/raw/main/obh/openbhgreenfhd/openbhgreenfhd.sh'
+
+Package: Qxklass-obh
+Version: 2.0     
+Status: Soebased Sobh 
+Qxklass-obh='https://gitlab.com/eliesat/skins/-/raw/main/obh/qxklass-obh/qxklass-obh.sh'
+
+
+--------------openatv-------------
+
+Package: Darkforest
+Version: 1.0     
+Status: Soebased Satv
+Darkforest='https://gitlab.com/eliesat/skins/-/raw/main/atv/darkforest-ashawky.sh'
+
+Package: Elite-fhd
+Version: 1.3     
+Status: Soebased Satv
+Elite-fhd='https://gitlab.com/eliesat/skins/-/raw/main/atv/elitefhd.sh'
+
+Package: Glamouraurafhd
+Version: 1.0     
+Status: Soebased Satv
+Glamouraurafhd='https://gitlab.com/eliesat/skins/-/raw/main/atv/glamouraurafhd-atv.sh'
+
+Package: Madmax-impossible
+Version: 2.9     
+Status: Soebased Satv
+Madmax-impossible='https://gitlab.com/eliesat/skins/-/raw/main/atv/madmax-impossible.sh'
+
+Package: M-ashawky
+Version: 1.0     
+Status: Soebased Satv
+M-ashawky='https://gitlab.com/eliesat/skins/-/raw/main/atv/m-ashawky.sh'
+
+Package: Maxy-fhd-atv
+Version: 1.0     
+Status: Soebased Satv
+Maxy-fhd-atv='https://gitlab.com/eliesat/skins/-/raw/main/all/maxy-fhd/maxy-fhd.sh'
+
+Package: Metrixfhd-neo 
+Version: 7.5.6     
+Status: Soebased Satv
+Metrixfhd-neo='https://gitlab.com/eliesat/skins/-/raw/main/atv/metrixfhd-neo/metrixfhd-neo.sh'
+
+Package: Obs-elite-fhd
+Version: 1.0     
+Status: Soebased Satv
+Obs-elite-fhd='https://gitlab.com/eliesat/skins/-/raw/main/atv/obs-elite-fhd.sh'
+
+Package: Octagon-fhd
+Version: 1.0     
+Status: Soebased Satv
+Octagon-fhd='https://gitlab.com/eliesat/skins/-/raw/main/atv/octagonfhd.sh'
+
+Package: Pdreamy
+Version: 1.4     
+Status: Soebased Satv
+Pdreamy='https://gitlab.com/eliesat/skins/-/raw/main/atv/pdreamy.sh'
+
+Package: Revolution-pro
+Version: 6.3     
+Status: Soebased Satv
+Revolution-pro='https://gitlab.com/eliesat/skins/-/raw/main/atv/revolution-pro.sh'
+
+--------------openpli-8.x--------------
+
+Package: Artemis-fhd-posterx
+Version: 2.0     
+Status: Soebased  Spli2
+Artemis-fhd-posterx='https://gitlab.com/eliesat/skins/-/raw/main/pli/artemisfhd-x-mod-h.ahmed-2.0.sh'
+
+Package: Artemis-fhd-xtra
+Version: 1.0     
+Status: Soebased  Spli2
+Artemis-fhd-xtra='https://gitlab.com/eliesat/skins/-/raw/main/pli/artemisfhd-xtra-mod-h.ahmed-1.0.sh'
+
+Package: Blackclbs-xtra
+Version: 1.0     
+Status: Soebased  Spli2
+Blackclbs-xtra='https://gitlab.com/eliesat/skins/-/raw/main/pli/blackclbs-xtra-1.0.sh'
+
+Package: Championsleague
+Version: 1.0     
+Status: Soebased  Spli2
+Championsleague='https://gitlab.com/eliesat/skins/-/raw/main/pli/championsleague-1.0.sh'
+
+Package: Cinodream-1
+Version: 1.0     
+Status: Soebased  Spli2
+Cinodream-1='https://gitlab.com/eliesat/skins/-/raw/main/pli/cinodream-ashawky-1.0.sh'
+
+Package: Cino-dreamosat
+Version: 1.0     
+Status: Soebased  Spli2
+Cino-dreamosat='https://gitlab.com/eliesat/skins/-/raw/main/pli/cino-dream-osat-pli-1.0.sh'
+
+Package: Cino-gri-pli
+Version: 1.0     
+Status: Soebased  Spli2
+Cino-gri-pli='https://gitlab.com/eliesat/skins/-/raw/main/pli/cino-gri-pli-1.0.sh'
+
+Package: Cool-red-fhd
+Version: 1.0     
+Status: Soebased  Spli2
+Cool-red-fhd='https://gitlab.com/eliesat/skins/-/raw/main/pli/cool-red-fhd-mod-h.ahmed-1.0.sh'
+
+Package: Dmm-fhd-px
+Version: 1.0     
+Status: Soebased  Spli2
+Dmm-fhd-px='https://gitlab.com/eliesat/skins/-/raw/main/pli/dmm-fhd-mod-master-1.0.sh'
+
+Package: Dmm-fhd-xe
+Version: 1.0     
+Status: Soebased  Spli2
+Dmm-fhd-xe='https://gitlab.com/eliesat/skins/-/raw/main/pli/dmm-fhd-xe-1.0.sh'
+
+Package: Ekselancexe
+Version: 3.1     
+Status: Soebased  Spli2
+Ekselancexe='https://gitlab.com/eliesat/skins/-/raw/main/pli/ekselancexe-3.1.sh'
+
+Package: Excortlux-blue
+Version: 3.0     
+Status: Soebased  Spli2
+Excortlux-blue='https://gitlab.com/eliesat/skins/-/raw/main/pli/excortlux-blue-fhd-mod-h.ahmed-3.0.sh'
+
+Package: Excortlux-purple
+Version: 1.0     
+Status: Soebased  Spli2
+Excortlux-purple='https://gitlab.com/eliesat/skins/-/raw/main/pli/excortlux-purple-fhd-mod-h.ahmed-1.0.sh'
+
+Package: Extreme-golden-fhd
+Version: 1.0     
+Status: Soebased  Spli2
+Extreme-golden-fhd='https://gitlab.com/eliesat/skins/-/raw/main/pli/extreme-golden-fhd-1.0.sh'
+
+Package: Fullnighthd
+Version: 1.0     
+Status: Soebased  Spli2
+Fullnighthd='https://gitlab.com/eliesat/skins/-/raw/main/pli/fullnighthd-ashawky-1.0.sh'
+
+Package: Hdline-super-py2
+Version: 1.0     
+Status: Soebased  Spli2
+Hdline-super-py2='https://gitlab.com/eliesat/skins/-/raw/main/pli/hdline-super-1.0.sh'
+
+Package: Hd-line-super-1
+Version: 1.0     
+Status: Soebased  Spli2
+Hd-line-super-1='https://gitlab.com/eliesat/skins/-/raw/main/pli/hdline-super-ashawky-1.0.sh'
+
+Package: Hiq-fhd-4k
+Version: 3.0     
+Status: Soebased  Spli2
+Hiq-fhd-4k='https://gitlab.com/eliesat/skins/-/raw/main/pli/hiq-fhd-4k-mod-h.ahmed-3.0.sh'
+
+Package: Hiq-purpel-fhd
+Version: 3.0     
+Status: Soebased  Spli2
+Hiq-purpel-fhd='https://gitlab.com/eliesat/skins/-/raw/main/pli/hiq-purpel-fhd-4k-mod-h.ahmed-3.0.sh'
+
+Package: Karonte-1
+Version: 1.0     
+Status: Soebased  Spli2
+Karonte-1='https://gitlab.com/eliesat/skins/-/raw/main/pli/karonte-1.0.sh'
+
+Package: Karonte-2
+Version: 3.0     
+Status: Soebased  Spli2
+Karonte-2='https://gitlab.com/eliesat/skins/-/raw/main/pli/karonte-ashawky-1.0.sh'
+
+Package: Multiposter
+Version: 1.6     
+Status: Soebased  Spli2
+Multiposter='https://gitlab.com/eliesat/skins/-/raw/main/pli/multiposter-1.6.sh'
+
+Package: Mx-graphite
+Version: 1.0     
+Status: Soebased  Spli2
+Mx-graphite='https://gitlab.com/eliesat/skins/-/raw/main/pli/mx-graphite-ashawky-1.0.sh'
+
+Package: Mx-world-fhd
+Version: 1.0     
+Status: Soebased  Spli2
+Mx-world-fhd='https://gitlab.com/eliesat/skins/-/raw/main/pli/mx-world-fhd-mod-h.ahmed-1.0.sh'
+
+Package: Mylopotas-fhd
+Version: 1.0     
+Status: Soebased  Spli2
+Mylopotas-fhd='https://gitlab.com/eliesat/skins/-/raw/main/pli/mylopotas-fhd-mod-h.ahmed-1.0.sh'
+
+Package: Naga-clbs-fhd
+Version: 1.0     
+Status: Soebased  Spli2
+Naga-clbs-fhd='https://gitlab.com/eliesat/skins/-/raw/main/pli/naga-clbs-fhd-1.0.sh'
+
+Package: New-all-4x1
+Version: 1.0     
+Status: Soebased  Spli2
+New-all-4x1='https://gitlab.com/eliesat/skins/-/raw/main/pli/new-all-4x1-posterx-mod-h.ahmed-1.0.sh'
+
+Package: Newblack-extra
+Version: 1.0     
+Status: Soebased  Spli2
+Newblack-extra='https://gitlab.com/eliesat/skins/-/raw/main/pli/newblack-extra-1.0.sh'
+
+Package: Novax-fhd-1
+Version: 1.5     
+Status: Soebased  Spli2
+Novax-fhd-1='https://gitlab.com/eliesat/skins/-/raw/main/all/novax/novaxfhd.sh'
+
+Package: Novaxfhd-mauve
+Version: 1.0     
+Status: Soebased  Spli2
+Novaxfhd-mauve='https://gitlab.com/eliesat/skins/-/raw/main/all/novax/novaxfhd-mauve.sh'
+
+Package: Octagon-black-fhd
+Version: 1.0     
+Status: Soebased  Spli2
+Octagon-black-fhd='https://gitlab.com/eliesat/skins/-/raw/main/pli/octagon-black-fhd-1.0.sh'
+
+Package: Octagon-eight
+Version: 1.0     
+Status: Soebased  Spli2
+Octagon-eight='https://gitlab.com/eliesat/skins/-/raw/main/pli/octagon-eight-fhd-mod-mnasr-1.0.sh'
+
+Package: Octet-fhd-bp
+Version: 2.0     
+Status: Soebased  Spli2
+Octet-fhd-bp='https://gitlab.com/eliesat/skins/-/raw/main/pli/octet-fhd-bp-mod-h.ahmed-2.0.sh'
+
+Package: Octet-fhd-bp-x
+Version: 1.0     
+Status: Soebased  Spli2
+Octet-fhd-bp-x='https://gitlab.com/eliesat/skins/-/raw/main/pli/octet-fhd-bp-x-mod-h.ahmed-2.0.sh'
+
+Package: Pli-cino-pli-gri
+Version: 1.0     
+Status: Soebased  Spli2
+Pli-cino-pli-gri='https://gitlab.com/eliesat/skins/-/raw/main/pli/pli-poster-cino-pli-gri-1.0.sh'
+
+Package: Red-dream-px
+Version: 1.0     
+Status: Soebased  Spli2
+Red-dream-px='https://gitlab.com/eliesat/skins/-/raw/main/pli/red-dream-px-mod-h.ahmed-1.0.sh'
+
+Package: Revolution-pro
+Version: 1.0     
+Status: Soebased  Spli2
+Revolution-pro='https://gitlab.com/eliesat/skins/-/raw/main/pli/revolution-pro-1.0.sh'
+
+Package: Sky-novaler-x
+Version: 1.0     
+Status: Soebased  Spli2
+Sky-novaler-x='https://gitlab.com/eliesat/skins/-/raw/main/pli/sky-novaler-x-mod-h.ahmed-1.0.sh'
+
+Package: Smartlite-fhd
+Version: 1.0     
+Status: Soebased  Spli2
+Smartlite-fhd='https://gitlab.com/eliesat/skins/-/raw/main/pli/smartlite-fhd-mod-mnasr-1.0.sh'
+
+Package: Xe4x1-fhd
+Version: 1.0     
+Status: Soebased  Spli2
+Xe4x1-fhd='https://gitlab.com/eliesat/skins/-/raw/main/pli/xe4x1-fhd-mod-h.ahmed-1.0.sh'
+
+Package: Xe4x1-fhd-x
+Version: 1.0     
+Status: Soebased  Spli2
+Xe4x1-fhd-x='https://gitlab.com/eliesat/skins/-/raw/main/pli/xe4x1-fhd-x-mod-h.ahmed-1.0.sh'
+
+--------------openpli-9.x--------------
+
+Package: Cino-dream-2
+Version: 1.0
+Status: Soebased  Spli3
+Cino-dream-2='https://gitlab.com/eliesat/skins/-/raw/main/pli3/cino-dream-ashawky.sh'
+
+Package: De-skin
+Version: 1.0
+Status: Soebased  Spli3
+De-skin='https://gitlab.com/eliesat/skins/-/raw/main/pli3/de-skin-ashawky.sh'
+
+Package: Gigablue-paxv2
+Version: 1.0     
+Status: Soebased  Spli3
+Gigablue-paxv2='https://gitlab.com/eliesat/skins/-/raw/main/pli3/gigablue-paxv2-ashawky.sh'
+
+Package: Hdline-super-py3
+Version: 1.0     
+Status: Soebased  Spli3
+Hdline-super-py3='https://gitlab.com/eliesat/skins/-/raw/main/pli3/hdline-super-ashawky.sh'
+
+Package: Ozeta-fhd-1
+Version: 1.0     
+Status: Soebased  Spli3
+Ozeta-fhd='https://gitlab.com/eliesat/skins/-/raw/main/pli3/ozeta-fhd.sh'
+
+Package: Pli-fullnighthd
+Version: 1.0     
+Status: Soebased  Spli3
+Pli-fullnighthd='https://gitlab.com/eliesat/skins/-/raw/main/pli3/pli-fullnighthd.sh'
+
+Package: Simple-gray
+Version: 1.9     
+Status: Soebased  Spli3 
+Simple-gray='https://gitlab.com/eliesat/skins/-/raw/main/pli3/simple-gray/simple-gray.sh'
+
+--------------openspa--------------
+Package: Skyline
+Version: 1.0     
+Status: Soebased Sspa
+Skyline='https://gitlab.com/eliesat/skins/-/raw/main/openspa/skyline/skyline.sh'
+
+
+--------------openvix--------------
+
+Package: Qxklass-ovix
+Version: 2.0     
+Status: Soebased  Svix 
+Qxklass-ovix='https://gitlab.com/eliesat/skins/-/raw/main/openvix/qxklass-ovix/qxklass-ovix.sh'

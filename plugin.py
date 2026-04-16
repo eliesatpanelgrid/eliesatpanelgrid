@@ -77,13 +77,13 @@ def detect_skin_type():
 
 class SplashScreen(Screen):
 
-    REPO_OWNER = "eliesat"
+    REPO_OWNER = "eliesatpanelgrid"
     REPO_NAME = "eliesatpanelgrid"
     FOLDER_PATH = "assets/data"
     BRANCH = "main"
     DEST_FOLDER = os.path.join(PLUGIN_PATH, "assets/data")
 
-    UPDATE_URL = "https://github.com/eliesat/eliesatpanelgrid/archive/main.tar.gz"
+    UPDATE_URL = "https://github.com/eliesatpanelgrid/eliesatpanelgrid/archive/main.tar.gz"
     PACKAGE = "/tmp/eliesatpanelgrid-main.tar.gz"
 
     def __init__(self, session):

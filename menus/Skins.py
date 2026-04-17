@@ -57,7 +57,7 @@ def has_internet(timeout=3):
             pass
 
 # URLs / Constants
-EXTENSIONS_URL = "https://raw.githubusercontent.com/eliesat/eliesatpanelgrid/refs/heads/main/assets/data//skins"
+EXTENSIONS_URL = "https://raw.githubusercontent.com/eliesatpanelgrid/eliesatpanelgrid/refs/heads/main/assets/data//skins"
 LOCAL_EXTENSIONS = "/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/data/skins"
 
 # ---------------- SKINS CLASS ----------------

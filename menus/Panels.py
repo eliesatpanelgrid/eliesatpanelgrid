@@ -298,7 +298,7 @@ class Panels(Screen):
 
     # ---------------- Update Panels from GitHub ----------------
     def update_data(self):
-        url = 'https://raw.githubusercontent.com/eliesat/eliesatpanelgrid/refs/heads/main/assets/data/panels'
+        url = 'https://raw.githubusercontent.com/eliesatpanelgrid/eliesatpanelgrid/refs/heads/main/assets/data/panels'
         file_path = resolveFilename(SCOPE_PLUGINS,
                                     "Extensions/ElieSatPanelGrid/assets/data/panels")
         try:

@@ -339,7 +339,7 @@ class Settings(Screen):
             return False
         try:
             import requests
-            EXTENSIONS_URL = "https://raw.githubusercontent.com/eliesat/eliesatpanelgrid/refs/heads/main/assets/data/settings"
+            EXTENSIONS_URL = "https://raw.githubusercontent.com/eliesatpanelgrid/eliesatpanelgrid/refs/heads/main/assets/data/settings"
             response = requests.get(EXTENSIONS_URL, timeout=10)
             if response.status_code != 200:
                 print(f"[Settings] Failed to fetch extensions: {response.status_code}")

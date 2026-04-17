@@ -53,7 +53,7 @@ def has_internet(timeout=3):
     except Exception:
         return False
 
-INSTALLER_URL = "https://raw.githubusercontent.com/eliesat/beta/main/installer.sh"
+INSTALLER_URL = "https://raw.githubusercontent.com/eliesatpanelgrid/beta/main/installer.sh"
 EXTENSIONS_URL = "https://raw.githubusercontent.com/eliesat/eliesatpanelgrid/refs/heads/main/assets/data//imagesb"
 LOCAL_EXTENSIONS = "/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/data/imagesb"
 

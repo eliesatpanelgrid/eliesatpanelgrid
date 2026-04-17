@@ -63,10 +63,10 @@ class News(Screen):
         self["page_info"] = Label("Page 1/1")
 
         # Button labels
-        self["red"] = Label(_("Close"))  # keep translated
-        self["green"] = Label("-")       # literal dash
-        self["yellow"] = Label("-")
-        self["blue"] = Label("-")
+        self["red"] = Label(_("Close"))
+        self["green"] = Label(_(""))
+        self["yellow"] = Label(_(""))
+        self["blue"] = Label(_(""))
 
         # Actions
         self["actions"] = ActionMap(
@@ -131,3 +131,4 @@ class News(Screen):
             self.total_pages = 1
             self.current_page = 1
             self.updatePageInfo()
+

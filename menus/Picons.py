@@ -53,7 +53,7 @@ def has_internet(timeout=3):
         return False
 
 # ---------------- P I C O N S   C L A S S ----------------
-EXTENSIONS_URL = "https://raw.githubusercontent.com/eliesatpanelgrid/eliesatpanelgrid/refs/heads/main/assets/data//picons"
+EXTENSIONS_URL = "https://raw.githubusercontent.com/eliesatpanelgrid/eliesatpanelgrid/refs/heads/main/assets/data/picons"
 LOCAL_EXTENSIONS = "/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/data/picons"
 
 class Picons(Screen):

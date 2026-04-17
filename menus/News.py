@@ -105,7 +105,7 @@ class News(Screen):
 
     def loadGithubText(self):
         try:
-            url = "https://raw.githubusercontent.com/eliesat/eliesatpanelgrid/refs/heads/main/assets/data/info.txt"
+            url = "https://raw.githubusercontent.com/eliesatpanelgrid/eliesatpanelgrid/refs/heads/main/assets/data/info.txt"
             try:
                 response = urllib2.urlopen(url)
             except:

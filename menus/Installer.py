@@ -18,8 +18,8 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 # CONFIG
 # --------------------------------------------------
 
-PLUGIN_URL = "https://github.com/eliesat/eliesatpanelgrid/archive/main.tar.gz"
-SCRIPTS_URL = "https://github.com/eliesat/scripts/archive/main.tar.gz"
+PLUGIN_URL = "https://github.com/eliesatpanelgrid/eliesatpanelgrid/archive/main.tar.gz"
+SCRIPTS_URL = "https://github.com/eliesatpanelgrid/scripts/archive/main.tar.gz"
 
 PLUGIN_TMP = "/tmp/eliesatpanelgrid-main.tar.gz"
 SCRIPTS_TMP = "/tmp/scripts-main.tar.gz"

@@ -58,7 +58,7 @@ def has_internet(timeout=3):
             except: pass
 
 # ---------------- Constants ----------------
-EXTENSIONS_URL = "https://raw.githubusercontent.com/eliesat/eliesatpanelgrid/refs/heads/main/assets/data/allinone"
+EXTENSIONS_URL = "https://raw.githubusercontent.com/eliesatpanelgrid/eliesatpanelgrid/refs/heads/main/assets/data/allinone"
 LOCAL_EXTENSIONS = "/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/data/allinone"
 
 # ---------------- Tools Screen ----------------

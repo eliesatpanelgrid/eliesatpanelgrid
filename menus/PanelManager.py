@@ -3,6 +3,12 @@ import os
 import re
 import uuid
 
+# ---------------- SAFE COMPAT IMPORT (NO CRASH) ----------------
+try:
+    import urllib2
+except:
+    import urllib.request as urllib2
+
 from Screens.Screen import Screen
 from Screens.MessageBox import MessageBox
 from Screens.VirtualKeyBoard import VirtualKeyBoard
@@ -21,6 +27,37 @@ PANEL_DIRS = [
     "/media/mmc/ElieSatPanel"
 ]
 
+# ---------------- WHITELIST (ADDED) ----------------
+WHITELIST_URL = "https://raw.githubusercontent.com/eliesatpanelgrid/Iists/main/whitelist"
+
+def check_mac_whitelist(mac):
+    try:
+        if not mac:
+            return False
+
+        mac_clean = mac.replace(":", "").replace("-", "").upper()
+        if len(mac_clean) < 12:
+            return False
+
+        token = mac_clean[0:2] + ":" + mac_clean[-2:]  # e.g. 20:60
+
+        try:
+            req = urllib2.Request(WHITELIST_URL)
+            data = urllib2.urlopen(req, timeout=5).read()
+            try:
+                data = data.decode("utf-8")
+            except:
+                pass
+            data = data.upper()
+        except:
+            return False
+
+        return token in data
+
+    except:
+        return False
+
+
 # ---------------- Default folder config ----------------
 def get_config_path(folder):
     return os.path.join(folder, "panel_dir.cfg")
@@ -33,9 +70,8 @@ def save_last_dir(directory):
         config_file = get_config_path(directory)
         with open(config_file, "w") as f:
             f.write(directory)
-        print(f"[ElieSatPanel] Saved last dir in {config_file}")
-    except Exception as e:
-        print(f"[ElieSatPanel] Failed to save last dir: {e}")
+    except Exception:
+        pass
 
 def load_last_dir():
     for folder in PANEL_DIRS:
@@ -43,11 +79,11 @@ def load_last_dir():
         if os.path.exists(cfg):
             try:
                 with open(cfg, "r") as f:
-                    dir = f.read().strip()
-                    if dir in PANEL_DIRS:
-                        return dir
-            except Exception as e:
-                print(f"[ElieSatPanel] Failed to read last dir: {e}")
+                    d = f.read().strip()
+                    if d in PANEL_DIRS:
+                        return d
+            except Exception:
+                pass
     return PANEL_DIRS[0]
 
 def create_subscription_file(directory):
@@ -55,9 +91,8 @@ def create_subscription_file(directory):
         path = os.path.join(directory, SUB_FILE)
         if not os.path.exists(path):
             open(path, "w").close()
-            print(f"[ElieSatPanel] Created {path}")
-    except Exception as e:
-        print(f"[ElieSatPanel] Failed to create subscription file in {directory}: {e}")
+    except Exception:
+        pass
 
 def delete_subscription_files(except_dir=None):
     for folder in PANEL_DIRS:
@@ -67,14 +102,12 @@ def delete_subscription_files(except_dir=None):
         try:
             if os.path.exists(path):
                 os.remove(path)
-                print(f"[ElieSatPanel] Deleted {path}")
-        except Exception as e:
-            print(f"[ElieSatPanel] Failed to delete {path}: {e}")
+        except Exception:
+            pass
 
 def ensure_panel_folder(folder):
     if not os.path.exists(folder):
         os.makedirs(folder)
-        print(f"[ElieSatPanel] Created folder: {folder}")
     save_last_dir(folder)
     create_subscription_file(folder)
     delete_subscription_files(except_dir=folder)
@@ -83,7 +116,6 @@ def ensure_panel_folder(folder):
 for folder in PANEL_DIRS:
     if not os.path.exists(folder):
         os.makedirs(folder)
-        print(f"[ElieSatPanel] Created missing folder: {folder}")
 
 ensure_panel_folder(PANEL_DIRS[0])
 
@@ -91,7 +123,7 @@ ensure_panel_folder(PANEL_DIRS[0])
 def get_mac_address():
     ifaces = ("eth0", "eth1", "wan0", "wlan0", "wlan1", "lan0")
     for iface in ifaces:
-        path = f"/sys/class/net/{iface}/address"
+        path = "/sys/class/net/%s/address" % iface
         try:
             if os.path.exists(path):
                 with open(path) as f:
@@ -102,9 +134,8 @@ def get_mac_address():
             pass
     try:
         mac_int = uuid.getnode()
-        mac_hex = f"{mac_int:012X}"
-        mac = ":".join(mac_hex[i:i+2] for i in range(0, 12, 2))
-        return mac
+        mac_hex = "%012X" % mac_int
+        return ":".join(mac_hex[i:i+2] for i in range(0, 12, 2))
     except Exception:
         return None
 
@@ -117,7 +148,7 @@ def get_main_mac():
                     return mac
         except Exception:
             pass
-    # First run: save current MAC as main MAC
+
     mac = get_mac_address()
     if mac:
         try:
@@ -128,25 +159,19 @@ def get_main_mac():
     return mac
 
 def make_password_from_mac(mac):
-    """Custom password generation rule:
-       1. Take 2nd character of last 4 MAC bytes.
-       2. Combine digits, multiply by 5, prepend to base.
-       3. Return first 4 characters as password.
-    """
     if not mac:
         return None
     mac_clean = mac.replace(":", "").replace("-", "").upper()
     if len(mac_clean) < 8:
         return None
 
-    # Take the second char of last 4 bytes (positions 2,4,6,8 of last 8 chars)
     base = mac_clean[3] + mac_clean[5] + mac_clean[7] + mac_clean[9]
 
     digits_str = "".join(ch for ch in base if ch.isdigit())
     mult = int(digits_str) * 5 if digits_str else 0
 
-    full_pass = f"{mult}{base}"
-    return full_pass[:4]  # first 4 characters as password
+    full_pass = "%s%s" % (mult, base)
+    return full_pass[:4]
 
 def is_unlocked():
     if not os.path.exists(UNLOCK_FLAG):
@@ -173,6 +198,27 @@ class PanelManager(Screen):
         Screen.__init__(self, session)
         self.session = session
 
+        # ---------------- MAC ----------------
+        self.mac = get_main_mac() or "Unknown"
+
+        # ---------------- SAFE WHITELIST CHECK (NO CRASH GUARANTEE) ----------------
+        try:
+            allowed = check_mac_whitelist(self.mac)
+        except:
+            allowed = True  # never block plugin load due to error
+
+        if not allowed:
+            try:
+                self.session.open(
+                    MessageBox,
+                    "❌ You are not allowed to use this plugin.",
+                    MessageBox.TYPE_ERROR
+                )
+            except:
+                pass
+            self.close()
+            return
+
         # ---------------- Load correct skin ----------------
         width, height = getDesktop(0).size().width(), getDesktop(0).size().height()
         skin_file = "/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/skin/panel_manager_fhd.xml" \
@@ -180,8 +226,7 @@ class PanelManager(Screen):
         try:
             with open(skin_file, "r") as f:
                 self.skin = f.read()
-        except Exception as e:
-            print(f"[ElieSatPanel] Failed to load skin: {e}")
+        except Exception:
             self.skin = "<screen></screen>"
 
         self.dir_index = PANEL_DIRS.index(load_last_dir())
@@ -189,7 +234,6 @@ class PanelManager(Screen):
 
         self.username_value = "ElieSat"
         self.password_value = ""
-        self.mac = get_main_mac() or "Unknown"
         self.device_name = os.uname().nodename
         self.expected_password = make_password_from_mac(self.mac)
 
@@ -237,7 +281,7 @@ class PanelManager(Screen):
             self["focus_hint"].setText("Unlocked on this device (saved).")
             self._refresh_fields_and_focus()
 
-    # ---------------- Focus / UI helpers ----------------
+    # ---------------- Rest unchanged ----------------
     def _refresh_fields_and_focus(self):
         sel = self.focus_items[self.focus_index]
         if sel == "username":
@@ -256,7 +300,6 @@ class PanelManager(Screen):
         self["device"].setText("> " + self.device_name if sel == "device" else self.device_name)
         self["mac_value"].setText(self.mac)
 
-    # ---------------- Focus navigation ----------------
     def focus_up(self):
         self.focus_index = (self.focus_index - 1) % len(self.focus_items)
         self._refresh_fields_and_focus()
@@ -265,7 +308,6 @@ class PanelManager(Screen):
         self.focus_index = (self.focus_index + 1) % len(self.focus_items)
         self._refresh_fields_and_focus()
 
-    # ---------------- Editing ----------------
     def _ok_pressed(self):
         sel = self.focus_items[self.focus_index]
         if sel == "username":
@@ -289,7 +331,6 @@ class PanelManager(Screen):
         if result: self.device_name = result.strip()
         self._refresh_fields_and_focus()
 
-    # ---------------- Unlock only ----------------
     def apply_password(self):
         if is_unlocked():
             self.session.open(MessageBox, "Already unlocked on this device.", MessageBox.TYPE_INFO)
@@ -302,36 +343,26 @@ class PanelManager(Screen):
             self.session.open(MessageBox, "Access denied — wrong username or password.", MessageBox.TYPE_ERROR)
             return
         if set_unlocked(self.expected_password):
-            self.session.open(MessageBox, "✅ Password accepted — device unlocked successfully.", MessageBox.TYPE_INFO)
+            self.session.open(MessageBox, "Password accepted — device unlocked successfully.", MessageBox.TYPE_INFO)
         else:
-            self.session.open(MessageBox, "❌ Failed to save unlock flag in /etc/.", MessageBox.TYPE_ERROR)
+            self.session.open(MessageBox, "Failed to save unlock flag in /etc/.", MessageBox.TYPE_ERROR)
 
-    # ---------------- Apply folder only ----------------
     def apply_dir(self):
         try:
             last_dir = load_last_dir()
 
             if last_dir == self.current_dir and os.path.exists(os.path.join(self.current_dir, SUB_FILE)):
-                self.session.open(
-                    MessageBox,
-                    f"✅ Directory already applied:\n{self.current_dir}",
-                    MessageBox.TYPE_INFO
-                )
+                self.session.open(MessageBox, f"Directory already applied:\n{self.current_dir}", MessageBox.TYPE_INFO)
                 return
 
             ensure_panel_folder(self.current_dir)
             self._refresh_fields_and_focus()
 
-            self.session.open(
-                MessageBox,
-                f"📁 Default folder path applied:\n{self.current_dir}\n\n✅ subscription.txt updated.",
-                MessageBox.TYPE_INFO
-            )
+            self.session.open(MessageBox, f"Default folder path applied:\n{self.current_dir}\n\nsubscription.txt updated.", MessageBox.TYPE_INFO)
 
         except Exception as e:
             self.session.open(MessageBox, f"Failed to apply folder:\n{e}", MessageBox.TYPE_ERROR)
 
-    # ---------------- Reset password ----------------
     def reset_password(self):
         self.password_value = ""
         if os.path.exists(UNLOCK_FLAG):
@@ -339,7 +370,6 @@ class PanelManager(Screen):
         self._refresh_fields_and_focus()
         self.session.open(MessageBox, "Password has been reset.", MessageBox.TYPE_INFO)
 
-    # ---------------- Yellow button: show subscription status ----------------
     def show_status(self):
         try:
             active_dir = load_last_dir()
@@ -347,17 +377,16 @@ class PanelManager(Screen):
             for folder in PANEL_DIRS:
                 path = os.path.join(folder, SUB_FILE)
                 if folder == active_dir:
-                    lines.append(f"{folder}\n  → 🟢 ACTIVE")
+                    lines.append(f"{folder}\n  → ACTIVE")
                 elif os.path.exists(path):
-                    lines.append(f"{folder}\n  → ✅ Present")
+                    lines.append(f"{folder}\n  → Present")
                 else:
-                    lines.append(f"{folder}\n  → ❌ Missing")
+                    lines.append(f"{folder}\n  → Missing")
             msg = "\n\n".join(lines)
-            self.session.open(MessageBox, f"📄 Subscription File Status:\n\n{msg}", MessageBox.TYPE_INFO)
+            self.session.open(MessageBox, f"Subscription File Status:\n\n{msg}", MessageBox.TYPE_INFO)
         except Exception as e:
             self.session.open(MessageBox, f"Failed to show status:\n{e}", MessageBox.TYPE_ERROR)
 
-    # ---------------- Folder cycling ----------------
     def cycle_left(self):
         if self.focus_items[self.focus_index] != "dir":
             return
@@ -371,4 +400,3 @@ class PanelManager(Screen):
         self.dir_index = (self.dir_index + 1) % len(PANEL_DIRS)
         self.current_dir = PANEL_DIRS[self.dir_index]
         self._refresh_fields_and_focus()
-

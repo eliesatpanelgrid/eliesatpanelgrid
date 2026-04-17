@@ -1,4 +1,9 @@
 ##############softcams###############
+Package: trial
+Version: 3.10     تنزيل صور خام من الموقع الرسمي
+Status: Dns
+trial='https://gitlab.com/eliesat/scripts/-/raw/main/images/egami-10.3.sh'
+
 Package: Dns-Cloudflare
 Version: 1.0     تأمين سرعة اتصال بالسيرفر و الفيدات
 Status: Dns

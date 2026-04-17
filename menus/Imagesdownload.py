@@ -59,7 +59,7 @@ def has_internet(timeout=3):
             pass
 
 # URLs / Constants
-EXTENSIONS_URL = "https://raw.githubusercontent.com/eliesat/eliesatpanelgrid/refs/heads/main/assets/data//imagesd"
+EXTENSIONS_URL = "https://raw.githubusercontent.com/eliesatpanelgrid/eliesatpanelgrid/refs/heads/main/assets/data//imagesd"
 LOCAL_EXTENSIONS = "/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/data/imagesd"
 
 # ---------------- IMAGESDOWNLOAD CLASS ----------------
@@ -192,7 +192,7 @@ class Imagesdownload(Screen):
             ("Openspa", "Openspa", "Spa"),
             ("Openvix", "Openvix", "Vix"),
             ("pure2", "pure2", "Pur"),
-            ("Teamblue", "Teamblue", "Teb"),
+            ("Teamblue", "Teamblue", "Tea"),
         ]
         categories_display = [(x[0], x[1]) for x in self.main_categories]
         self["menu"].setList(categories_display)

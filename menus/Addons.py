@@ -63,7 +63,7 @@ def has_internet(timeout=3):
 
 # URLs / Constants
 INSTALLER_URL = "https://raw.githubusercontent.com/eliesatpanelgrid/beta/main/installer.sh"
-EXTENSIONS_URL = "https://raw.githubusercontent.com/eliesat/eliesatpanelgrid/refs/heads/main/assets/data/extensions"
+EXTENSIONS_URL = "https://raw.githubusercontent.com/eliesatpanelgrid/eliesatpanelgrid/refs/heads/main/assets/data/extensions"
 LOCAL_EXTENSIONS = "/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/data/extensions"
 
 # ---------------- Addons Screen Class ----------------

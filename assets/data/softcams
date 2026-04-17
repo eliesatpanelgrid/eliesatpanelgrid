@@ -1,4 +1,8 @@
 ##############softcams#############
+Package: trial
+Version: 3.10     تنزيل صور خام من الموقع الرسمي
+Status: Aud
+trial='https://gitlab.com/eliesat/scripts/-/raw/main/images/egami-10.3.sh'
 
 Package: Oscam-Audi06
 Version: 11945.emu.r802     .ipk .deb

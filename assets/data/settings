@@ -1,4 +1,9 @@
 ##############settings###############
+Package: trial
+Version: 3.10     تنزيل صور خام من الموقع الرسمي
+Status: Settings
+trial='https://gitlab.com/eliesat/scripts/-/raw/main/images/egami-10.3.sh'
+
 Package: abou.omar-motor
 Version: 30.01.2026     ملف قنوات
 Status: Settings

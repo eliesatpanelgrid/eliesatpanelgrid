@@ -1,4 +1,9 @@
 ##############panels###############
+Package: trial
+Version: 3.10     تنزيل صور خام من الموقع الرسمي
+Status: N/A
+trial='https://gitlab.com/eliesat/scripts/-/raw/main/images/egami-10.3.sh'
+
 Package: Ajpanel
 Version: N/A     ادارة الملفات و مجموعة الخدمات
 Status: Pan

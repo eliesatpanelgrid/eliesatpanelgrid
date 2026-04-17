@@ -1,4 +1,9 @@
 ##############picons###############
+Package: trial
+Version: 3.10     تنزيل صور خام من الموقع الرسمي
+Status: Demo
+trial='https://gitlab.com/eliesat/scripts/-/raw/main/images/egami-10.3.sh'
+
 Package: Satellites.xml
 Version: 30.03.2026     ملف ترددات افتراضي لاجراء بحث جديد
 Status: Demo

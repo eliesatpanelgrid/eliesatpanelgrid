@@ -1,6 +1,22 @@
+● 18.04.2026
+===========
+○ simplysports 5.2
+○ furybiss 4.1
+○ epgiet5 3.1
+○ iptvdream 6.5.2
+○ Mohamed_os
+gosatplus-oscam-11950-emu-r802
+oscam-11950-emu-r802
+powercam-oscam-11950-emu-r802
+supcam-oscam-11950-emu-r802
+ultracam-oscam-11950-emu-r802
+
 ● 16.04.2026
 ===========
-○ trial
+○ simplysports 5.1
+○ foreca 1.2.4
+○ subssupport 1.8.0-r8
+○ atef-motor
 
 ● 14.04.2026
 ===========

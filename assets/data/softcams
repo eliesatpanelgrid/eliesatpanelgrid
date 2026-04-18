@@ -1,8 +1,4 @@
 ##############softcams#############
-Package: trial
-Version: 3.10     تنزيل صور خام من الموقع الرسمي
-Status: Aud
-trial='https://gitlab.com/eliesat/scripts/-/raw/main/images/egami-10.3.sh'
 
 Package: Oscam-Audi06
 Version: 11945.emu.r802     .ipk .deb
@@ -65,27 +61,27 @@ Status: Lin
 Oscam-Linuxsat25='https://gitlab.com/eliesat/softcams/-/raw/main/linuxsat25/oscam.sh'
 
 Package: Oscam
-Version: 11946.emu.r802     .ipk .deb
+Version: 11950.emu.r802     .ipk .deb
 Status: Moh
 Oscam='https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/oscam.sh'
 
 Package: Gosatplus-Oscam
-Version: 11946.emu.r802     .ipk
+Version: 11950.emu.r802     .ipk
 Status: Moh
 Gosatplus-Oscam='https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/gosatplus-oscam.sh'
 
 Package: Powercam-Oscam
-Version: 11946.emu.r802     .ipk
+Version: 11950.emu.r802     .ipk
 Status: Moh
 Powercam-Oscam='https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/powercam-oscam.sh'
 
 Package: Supcam-Oscam
-Version: 11946.emu.r802     .ipk
+Version: 11950.emu.r802     .ipk
 Status: Moh
 Supcam-Oscam='https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/supcam-oscam.sh'
 
 Package: Ultracam-Oscam
-Version: 11946.emu.r802     .ipk
+Version: 11950.emu.r802     .ipk
 Status: Moh
 Ultracam-Oscam='https://gitlab.com/eliesat/softcams/-/raw/main/mohamed-os/ultracam-oscam.sh'
 

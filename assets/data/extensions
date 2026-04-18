@@ -1,8 +1,3 @@
-Package: trial
-Version: 3.10     تنزيل صور خام من الموقع الرسمي
-Status: Plg Pan
-trial='https://gitlab.com/eliesat/scripts/-/raw/main/images/egami-10.3.sh'
-
 Package: Ajpanel
 Version: 10.8.5     ادارة الملفات و مجموعة الخدمات
 Status: Plg Pan
@@ -309,7 +304,7 @@ Status: Plg Epg
 Epgimport='https://gitlab.com/eliesat/extensions/-/raw/main/epgimport/epgimport.sh'
 
 Package: Epgimport-iet5
-Version: 2.9.3     قراءة و عرض ملفات الدليل الاكتروني
+Version: 3.1     قراءة و عرض ملفات الدليل الاكتروني
 Status: Plg Epg
 Epgimport-iet5='https://gitlab.com/eliesat/extensions/-/raw/main/epgimport-iet5/epgimport-iet5.sh'
 
@@ -399,7 +394,7 @@ Status: Plg Spo
 Footonsat='https://gitlab.com/eliesat/extensions/-/raw/main/footonsat/footonsat.sh'
 
 Package: Foreca
-Version: 1.2.2     حالة الطقس
+Version: 1.2.4     حالة الطقس
 Status: Plg Wea
 Foreca='https://gitlab.com/eliesat/extensions/-/raw/main/foreca/foreca.sh'
 
@@ -414,7 +409,7 @@ Status: Plg Free
 Freeserver='https://gitlab.com/eliesat/extensions/-/raw/main/freeserver/freeserver.sh'
 
 Package: Furybiss
-Version: 3.0     الفيدات و شفرات البيس
+Version: 4.1     الفيدات و شفرات البيس
 Status: Plg Enc
 Furybiss='https://gitlab.com/eliesat/extensions/-/raw/main/furybiss/furybiss.sh'
 
@@ -529,7 +524,7 @@ Status: Plg Ipt
 Iptvarchive='https://gitlab.com/eliesat/extensions/-/raw/main/iptvarchive/iptvarchive.sh'
 
 Package: Iptvdream
-Version: 6.4     m3u قارئ و مشغل ملفات 
+Version: 6.5.2     m3u قارئ و مشغل ملفات 
 Status: Plg Ipt
 Iptvdream='https://gitlab.com/eliesat/extensions/-/raw/main/iptvdream-all/iptvdream-all.sh'
 
@@ -989,7 +984,7 @@ Status: Plg Uti
 Showclock='https://gitlab.com/eliesat/extensions/-/raw/main/showclock/showclock.sh'
 
 Package: Simplysports
-Version: 5.0     تغطية مباشرة لنتائج المباريات
+Version: 5.2     تغطية مباشرة لنتائج المباريات
 Status: Plg Spo
 Simplysports='https://gitlab.com/eliesat/extensions/-/raw/main/simplysports/simplysports.sh'
 
@@ -1029,7 +1024,7 @@ Status: Plg Sub
 Subssupport='https://gitlab.com/eliesat/extensions/-/raw/main/subssupport/subssupport-1.5.8-r9.sh'
 
 Package: Subssupport-mnasr
-Version: 1.8.0.r7     الترجمة
+Version: 1.8.0.r8     الترجمة
 Status: Plg Sub
 Subssupport-mnasr='https://gitlab.com/eliesat/extensions/-/raw/main/subssupport/subssupport.sh'
 

@@ -1,8 +1,4 @@
 ##############imagesb###############
-Package: trial
-Version: 3.10     تنزيل صور خام من الموقع الرسمي
-Status: Ega
-trial='https://gitlab.com/eliesat/scripts/-/raw/main/images/egami-10.3.sh'
 
 Package: Egami-11
 Version: 2025.09.08     باكآب محدث تاريخ تسطيبه

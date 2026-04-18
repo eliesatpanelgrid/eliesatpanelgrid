@@ -1,9 +1,5 @@
 ##############display###############
 --------------bootvideos-----------
-Package: trial
-Version: 3.10     تنزيل صور خام من الموقع الرسمي
-Status: Bvi
-trial='https://gitlab.com/eliesat/scripts/-/raw/main/images/egami-10.3.sh'
 
 Package: bootvideo-Enigma2
 Version: 1.0     فيديو اقلاع

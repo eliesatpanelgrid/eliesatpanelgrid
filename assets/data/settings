@@ -1,9 +1,4 @@
 ##############settings###############
-Package: trial
-Version: 3.10     تنزيل صور خام من الموقع الرسمي
-Status: Settings
-trial='https://gitlab.com/eliesat/scripts/-/raw/main/images/egami-10.3.sh'
-
 Package: abou.omar-motor
 Version: 30.01.2026     ملف قنوات
 Status: Settings
@@ -13,6 +8,11 @@ Package: Adelsat-motor
 Version: 30.01.2026     ملف قنوات
 Status: Settings
 Adelsat-motor='https://gitlab.com/eliesat/settings/-/raw/main/adelsat/adelsat-motor.sh'
+
+Package: Atef-motor
+Version: 14.04.2026     ملف قنوات
+Status: Settings
+Atef-motor='https://gitlab.com/eliesat/settings/-/raw/main/atef-motor/atef-motor.sh'
 
 Package: Ciefp-motor
 Version: 11.04.2026     ملف قنوات

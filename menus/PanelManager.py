@@ -201,7 +201,7 @@ class PanelManager(Screen):
         # ---------------- MAC ----------------
         self.mac = get_main_mac() or "Unknown"
 
-        # ---------------- SAFE WHITELIST CHECK (NO CRASH GUARANTEE) ----------------
+        # ---------------- SAFE WHITELIST CHECK ----------------
         try:
             allowed = check_mac_whitelist(self.mac)
         except:

@@ -3,7 +3,6 @@ import os
 import re
 import uuid
 
-# ---------------- SAFE COMPAT IMPORT (NO CRASH) ----------------
 try:
     import urllib2
 except:
@@ -16,18 +15,15 @@ from Components.Label import Label
 from Components.ActionMap import ActionMap
 from enigma import getDesktop
 
-# ---------------- Unlock marker path ----------------
 UNLOCK_FLAG = "/etc/eliesat_unlocked.cfg"
 MAIN_MAC_FILE = "/etc/eliesat_main_mac.cfg"
 
-# ---------------- PANEL DIRECTORIES ----------------
 PANEL_DIRS = [
     "/media/hdd/ElieSatPanel",
     "/media/usb/ElieSatPanel",
     "/media/mmc/ElieSatPanel"
 ]
 
-# ---------------- WHITELIST ----------------
 WHITELIST_URL = "https://raw.githubusercontent.com/eliesatpanelgrid/Iists/main/whitelist"
 
 def check_mac_whitelist(mac):
@@ -61,13 +57,11 @@ def check_mac_whitelist(mac):
         return False
 
 
-# ---------------- Default folder config ----------------
 def get_config_path(folder):
     return os.path.join(folder, "panel_dir.cfg")
 
 SUB_FILE = "subscription.txt"
 
-# ---------------- Utilities ----------------
 def save_last_dir(directory):
     try:
         config_file = get_config_path(directory)
@@ -115,14 +109,12 @@ def ensure_panel_folder(folder):
     create_subscription_file(folder)
     delete_subscription_files(except_dir=folder)
 
-# ---------------- INITIAL SETUP ----------------
 for folder in PANEL_DIRS:
     if not os.path.exists(folder):
         os.makedirs(folder)
 
 ensure_panel_folder(PANEL_DIRS[0])
 
-# ---------------- MAC / Password helpers ----------------
 def get_mac_address():
     ifaces = ("eth0", "eth1", "wan0", "wlan0", "wlan1", "lan0")
     for iface in ifaces:
@@ -193,7 +185,6 @@ def set_unlocked(password):
     except Exception:
         return False
 
-# ---------------- PANEL MANAGER SCREEN ----------------
 class PanelManager(Screen):
     def __init__(self, session):
         Screen.__init__(self, session)
@@ -280,7 +271,6 @@ class PanelManager(Screen):
             self["focus_hint"].setText("Unlocked on this device (saved).")
             self._refresh_fields_and_focus()
 
-    # -------- REST OF YOUR ORIGINAL METHODS (UNCHANGED) --------
     def _refresh_fields_and_focus(self):
         sel = self.focus_items[self.focus_index]
 

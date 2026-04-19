@@ -35,7 +35,6 @@ def check_mac_whitelist(mac):
         if len(mac_clean) < 12:
             return False
 
-        # ✅ FIXED: use LAST TWO BYTES (e.g. 04:05)
         token = mac_clean[-4:-2] + ":" + mac_clean[-2:]
 
         try:
@@ -49,7 +48,6 @@ def check_mac_whitelist(mac):
         except:
             return False
 
-        # ✅ safer exact matching (no partial hits)
         whitelist_lines = [line.strip() for line in data.splitlines() if line.strip()]
         return token in whitelist_lines
 

@@ -1,15 +1,12 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3 -u
 # -*- coding: utf-8 -*-
 
 import os
-import sys
 import subprocess
 import shutil
 import tarfile
 import urllib.request
-from datetime import datetime
 import time
-import threading
 import warnings
 
 warnings.filterwarnings("ignore", category=DeprecationWarning)
@@ -21,192 +18,148 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 PLUGIN_URL = "https://github.com/eliesatpanelgrid/eliesatpanelgrid/archive/main.tar.gz"
 SCRIPTS_URL = "https://github.com/eliesatpanelgrid/scripts/archive/main.tar.gz"
 
-PLUGIN_TMP = "/tmp/eliesatpanelgrid-main.tar.gz"
-SCRIPTS_TMP = "/tmp/scripts-main.tar.gz"
+PLUGIN_TMP = "/tmp/plugin.tar.gz"
+SCRIPTS_TMP = "/tmp/scripts.tar.gz"
 
 PLUGIN_DIR = "/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid"
-SCRIPTS_PATH = "/usr/script/Eliesat-Eliesatpanel.sh"
 
-OUTPUT_LOG = "/tmp/panel.txt"
+FEED_FILE = "/etc/opkg/eliesat-feed.conf"
+FEED_URL = "https://github.com/eliesat/feed/raw/main/"
 
+OUTPUT_LOG = "/tmp/eliesatpanel_install.log"
 
 # --------------------------------------------------
-# UTILITIES
+# UTIL
 # --------------------------------------------------
 
-def log(msg, newline=True):
-    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    line = f"[{timestamp}] {msg}"
-    if newline:
-        print(line)
-    else:
-        print(f"\r{line}", end="", flush=True)
-
-    with open(OUTPUT_LOG, "a") as f:
-        f.write(line + "\n")
-
-    sys.stdout.flush()
-
-
-def run(cmd, silent=False):
-    if silent:
-        return subprocess.call(cmd, shell=True,
-                               stdout=subprocess.DEVNULL,
-                               stderr=subprocess.DEVNULL)
-    return subprocess.call(cmd, shell=True)
-
-
-def check_connection():
-    try:
-        urllib.request.urlopen("https://github.com", timeout=5)
-        return True
-    except:
-        return False
-
-
-def get_image():
-    image_text = "unknown"
-    if os.path.exists("/etc/image-version"):
-        with open("/etc/image-version") as f:
-            for line in f:
-                if "creator" in line.lower():
-                    image_text = line.split("=")[-1].strip()
-                    break
-    elif os.path.exists("/etc/issue"):
-        with open("/etc/issue") as f:
-            image_text = f.readline().strip()
-
-    image_text = image_text.replace("\\n", "").replace("\\l", "").strip()
-    return image_text
-
-
-def detect_package_manager():
-    if os.path.exists("/etc/opkg/opkg.conf"):
-        return "opkg"
-    elif os.path.exists("/etc/apt/apt.conf"):
-        return "apt"
-    return None
-
-
-def install_package(pkg, manager):
-    if manager == "opkg":
-        run("opkg update", silent=True)
-        run(f"opkg install {pkg}", silent=True)
-    elif manager == "apt":
-        run("apt-get update", silent=True)
-        run(f"apt-get install -y {pkg}", silent=True)
+def run(cmd, silent=True):
+    return subprocess.call(
+        cmd,
+        shell=True,
+        stdout=subprocess.DEVNULL if silent else None,
+        stderr=subprocess.DEVNULL if silent else None
+    )
 
 
 def download(url, dest):
     urllib.request.urlretrieve(url, dest)
 
 
-def extract_tar(tar_path, dest="/tmp"):
+def extract(tar_path):
     with tarfile.open(tar_path, "r:gz") as tar:
-        tar.extractall(path=dest, numeric_owner=False)
+        tar.extractall("/tmp")
+
+
+def log(msg):
+    with open(OUTPUT_LOG, "a") as f:
+        f.write(msg + "\n")
 
 
 # --------------------------------------------------
-# ANIMATION
+# STEP UI (CLEAN BLOCK)
 # --------------------------------------------------
 
-def animated_message(stop_event):
-    message = "> Downloading and installing ElieSatPanelGrid please wait"
-    dots = ["   ", ".  ", ".. ", "..."]
-    i = 0
-    while not stop_event.is_set():
-        print(f"\r{message}{dots[i % len(dots)]}", end="", flush=True)
-        i += 1
-        time.sleep(0.5)
-    print()
+def step(title, func):
+    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━", flush=True)
+    print(f"▶ {title}", flush=True)
+
+    try:
+        func()
+        print("✔ Installation completed successfully", flush=True)
+        log(f"{title} -> SUCCESS")
+
+    except Exception as e:
+        print("✖ Something went wrong - failed to install", flush=True)
+        log(f"{title} -> FAILED: {str(e)}")
+
+    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━", flush=True)
+    time.sleep(1)
+
+
+# --------------------------------------------------
+# TASKS
+# --------------------------------------------------
+
+def install_libraries():
+    libs = ["wget", "curl", "python3-requests", "python3-six"]
+    for lib in libs:
+        run(f"opkg install {lib}", silent=True)
+    return True
+
+
+def install_feed():
+    if os.path.exists(FEED_FILE):
+        os.remove(FEED_FILE)
+
+    with open(FEED_FILE, "w") as f:
+        f.write(f"src/gz eliesat-feed {FEED_URL}\n")
+
+    run("opkg update", silent=True)
+    return True
+
+
+def install_plugin():
+    if os.path.exists(PLUGIN_DIR):
+        shutil.rmtree(PLUGIN_DIR)
+
+    download(PLUGIN_URL, PLUGIN_TMP)
+    extract(PLUGIN_TMP)
+
+    src = "/tmp/eliesatpanelgrid-main"
+    if os.path.exists(src):
+        shutil.move(src, PLUGIN_DIR)
+
+    return True
+
+
+def install_scripts():
+    tmp = "/tmp/scripts-main"
+
+    if os.path.exists(tmp):
+        shutil.rmtree(tmp)
+
+    download(SCRIPTS_URL, SCRIPTS_TMP)
+    extract(SCRIPTS_TMP)
+
+    if os.path.exists(tmp + "/usr"):
+        run(f"cp -rf {tmp}/usr/* /usr/", silent=True)
+
+    return True
 
 
 # --------------------------------------------------
 # MAIN
 # --------------------------------------------------
 
-if os.path.exists(OUTPUT_LOG):
-    os.remove(OUTPUT_LOG)
+def main():
 
-log("--------------------------------------------------")
-log("Installing ElieSatPanelGrid be patient...")
-log("--------------------------------------------------")
+    if os.path.exists(OUTPUT_LOG):
+        os.remove(OUTPUT_LOG)
 
-if not check_connection():
-    log("ERROR: Server unreachable.")
-    sys.exit(1)
+    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━", flush=True)
+    print("         ☆ ElieSatPanelGrid Installer ☆", flush=True)
+    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━", flush=True)
 
-image = get_image()
-python_version = sys.version.split()[0]
+    step("Downloading and installing missing libraries", install_libraries)
+    step("Downloading and installing ElieSat feed", install_feed)
+    step("Downloading and installing ElieSatPanelGrid", install_plugin)
+    step("Downloading and installing scripts", install_scripts)
 
-log(f"Image  : {image}")
-log(f"Python : {python_version}")
+    time.sleep(3)
 
-# Block DreamOS / closed images
-if "dream" in image.lower() or shutil.which("dpkg"):
-    log("ERROR: DreamOS / closed image is NOT supported")
-    sys.exit(1)
+    print("     ☆ Restarting Enigma2, please wait... ☆", flush=True)
+    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━", flush=True)
 
-# Block Python 2
-if sys.version_info.major == 2:
-    log("ERROR: Python 2 is NOT supported")
-    sys.exit(1)
+    time.sleep(3)
 
-pkg_manager = detect_package_manager()
-
-# Start animation
-stop_animation = threading.Event()
-thread = threading.Thread(target=animated_message, args=(stop_animation,))
-thread.start()
-
-# Install dependencies
-if pkg_manager:
-    install_package("python3-requests", pkg_manager)
-    install_package("python3-six", pkg_manager)
-
-# Remove old plugin
-if os.path.exists(PLUGIN_DIR):
-    shutil.rmtree(PLUGIN_DIR)
-
-# Install plugin
-download(PLUGIN_URL, PLUGIN_TMP)
-extract_tar(PLUGIN_TMP)
-
-src = "/tmp/eliesatpanelgrid-main"
-if os.path.exists(src):
-    shutil.move(src, PLUGIN_DIR)
-
-# Install scripts if missing
-if not os.path.exists(SCRIPTS_PATH):
-    download(SCRIPTS_URL, SCRIPTS_TMP)
-    extract_tar(SCRIPTS_TMP)
-    run("cp -r /tmp/scripts-main/usr/* /usr/", silent=True)
-
-# Stop animation
-stop_animation.set()
-thread.join()
-
-# Cleanup
-for f in [PLUGIN_TMP, SCRIPTS_TMP]:
-    if os.path.exists(f):
-        os.remove(f)
-
-log("--------------------------------------------------")
-log("--------------------------------------------------")
-log("ElieSatPanelGrid installed successfully.")
-log("--------------------------------------------------")
-
-# Countdown
-for i in range(10, 0, -1):
-    log(f"Restarting Enigma2 in {i} seconds...", newline=False)
-    time.sleep(1)
-print()
-
-# Restart
-if pkg_manager == "apt":
-    run("systemctl restart enigma2", silent=True)
-else:
     run("killall -9 enigma2", silent=True)
 
-log("Done")
+    log("✔ Enigma2 restart triggered")
 
+
+# --------------------------------------------------
+# RUN
+# --------------------------------------------------
+
+if __name__ == "__main__":
+    main()

@@ -294,7 +294,7 @@ Status: Plg Mul
 Egamiboot='https://gitlab.com/eliesat/extensions/-/raw/main/egamiboot/egamiboot.sh'
 
 Package: Epggrabber-ziko
-Version: 24.8     الدليل الالكتروني
+Version: 24.9     الدليل الالكتروني
 Status: Plg Epg
 Epggrabber-ziko='https://gitlab.com/eliesat/extensions/-/raw/main/epggrabber2/epggrabber.sh'
 

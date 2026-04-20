@@ -1,4 +1,9 @@
 ##############settings###############
+Package: abou
+Version: 30.01.2026     ملف قنوات
+Status: Settings
+abou='https://gitlab.com/eliesat/settings/-/raw/main/abou.omar-motor/abou.omar-motor.sh'
+
 Package: abou.omar-motor
 Version: 30.01.2026     ملف قنوات
 Status: Settings

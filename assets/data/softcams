@@ -41,7 +41,7 @@ Status: Kit
 Oscamicamnew='https://gitlab.com/eliesat/softcams/-/raw/main/kite888/oscamicam.sh'
 
 Package: Oscam-Levi45
-Version: 11949.emu.r803     .ipk .deb
+Version: 11950.emu.r803     .ipk .deb
 Status: Lev
 Oscam-Levi45='https://gitlab.com/eliesat/softcams/-/raw/main/levi/oscam.sh'
 

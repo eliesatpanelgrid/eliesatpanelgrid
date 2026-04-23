@@ -1,4 +1,9 @@
 ##############picons###############
+Package: trial
+Version: 3.10     تنزيل صور خام من الموقع الرسمي
+Status: other
+trial='https://gitlab.com/eliesat/scripts/-/raw/main/images/egami-10.3.sh'
+
 Package: Satellites.xml
 Version: 30.03.2026     ملف ترددات افتراضي لاجراء بحث جديد
 Status: Demo
@@ -10,9 +15,9 @@ Status: Demo
 Channels='https://gitlab.com/eliesat/picons/-/raw/main/channels.sh'
 
 Package: picons-motor
-Version: 23.04.2026      شعارات القنوات للمتحرك
+Version: 30.03.2026      شعارات القنوات للمتحرك
 Status: Service.name.picons
-picons-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/picons/picons-all.sh'
+picons-motor='https://gitlab.com/eliesat/picons/-/raw/main/archive.sh'
 
 Package: 30.0W-picons
 Version: 06.01.2026     شعار قنوات هيسباسات

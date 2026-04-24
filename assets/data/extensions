@@ -304,9 +304,9 @@ Status: Plg Epg
 Epgimport='https://gitlab.com/eliesat/extensions/-/raw/main/epgimport/epgimport.sh'
 
 Package: Epgimport-iet5
-Version: 3.1     قراءة و عرض ملفات الدليل الاكتروني
+Version: 3.3     قراءة و عرض ملفات الدليل الاكتروني
 Status: Plg Epg
-Epgimport-iet5='https://gitlab.com/eliesat/extensions/-/raw/main/epgimport-iet5/epgimport-iet5.sh'
+Epgimport-iet5='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/epgimportiet5/epgimportiet5.sh'
 
 Package: Epgimport-mod-dorik
 Version: 1.9.1     قراءة و عرض ملفات الدليل الاكتروني
@@ -351,7 +351,7 @@ Estalker2webcontrol='https://gitlab.com/eliesat/extensions/-/raw/main/estalkerwe
 Package:Evgquicksignal
 Version: 1.3     مستكشف اشارة الترددات
 Status: Plg Uti
-Evgquicksignal='https://gitlab.com/eliesat/extensions/-/raw/main/evgquicksignal/evgquicksignal.sh'
+Evgquicksignal='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/evgquicksignal/evgquicksignal.sh'
 
 Package: Feedsfinder
 Version: 3.1     الفيدات و شفرات البيس

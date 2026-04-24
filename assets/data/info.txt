@@ -12,6 +12,9 @@ ultracam-oscam-11952-emu-r802
 ○ levi 
 oscam-11953-emu-803
 
+○ fairbird
+ncam-15.8.r0
+
 ● 23.04.2026
 ===========
 ○ picons-motor 23.04.2024 

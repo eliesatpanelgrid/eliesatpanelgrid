@@ -1,7 +1,7 @@
 Package: Ajpanel
-Version: 10.8.5     ادارة الملفات و مجموعة الخدمات
+Version: 10.8.6     ادارة الملفات و مجموعة الخدمات
 Status: Plg Pan
-Ajpanel='https://gitlab.com/eliesat/extensions/-/raw/main/ajpanel/ajpanel.sh'
+Ajpanel='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ajpanel/ajpanel.sh'
 
 Package: Ajpanel-Eliesatpanel
 Version: 1.0     بانل تسطيب اضافات

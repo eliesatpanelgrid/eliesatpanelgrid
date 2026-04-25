@@ -149,7 +149,7 @@ Status: Plg Uti
 Bootlogoswapper='https://gitlab.com/eliesat/extensions/-/raw/main/bootlogoswapper/bootlogoswapper-eliesat-special-edition.sh'
 
 Package: Bouquetmakerxtream
-Version: 1.72     تحويل الاي بي تي في لمفضلات
+Version: 1.73     تحويل الاي بي تي في لمفضلات
 Status: Plg Ipt
 Bouquetmakerxtream='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/bouquetmakerxtream/bouquetmakerxtream.sh'
 

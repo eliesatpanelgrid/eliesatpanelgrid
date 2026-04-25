@@ -1031,7 +1031,7 @@ Subssupport-mnasr='https://gitlab.com/eliesat/extensions/-/raw/main/subssupport/
 Package: Sudoku
 Version: 7.1     لعبة سودوكو
 Status: Plg Games
-Sudoku='https://gitlab.com/eliesat/extensions/-/raw/main/sudoku/sudoku.sh'
+Sudoku='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/sudoku/sudoku.sh'
 
 Package: Suptv-1
 Version: 4.4     تفعيل  اشتراك كود السوب تيفي 
@@ -1048,10 +1048,10 @@ Version: 6.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
 Supvod='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/suptv/supvod.sh'
 
-Package: Tetrisk
-Version: 7.1.r0     لعبة تيتريس
+Package: Tetris
+Version: 7.1     لعبة تيتريس
 Status: Plg Games
-Tetrisk='https://gitlab.com/eliesat/extensions/-/raw/main/tetrisk/tetrisk.sh'
+Tetris='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/tetris/tetris.sh'
 
 Package: Theweather
 Version: 5.5     حالة الطقس

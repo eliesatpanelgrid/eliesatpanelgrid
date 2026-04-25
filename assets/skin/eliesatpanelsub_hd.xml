@@ -1,0 +1,162 @@
+<screen name="EliesatPanel" position="0,0" size="1280,720"
+    backgroundColor="transparent" flags="wfNoBorder" title="ElieSatPanel">
+
+    <!-- Background -->
+    <ePixmap position="0,0" size="1280,720" zPosition="1"
+        pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.jpg"
+        transparent="0" alphatest="blend" />
+
+    <!-- Top black bar -->
+    <eLabel position="0,0" size="1280,90" zPosition="10"
+        backgroundColor="#000000" />
+
+    <!-- Title -->
+    <eLabel text="● Welcome to ElieSatPanel – Enjoy the best plugins, addons and tools for your E2 box."
+        position="240,0" size="900,35" zPosition="11"
+        font="Bold;22" halign="left" valign="center" noWrap="1"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
+
+    <!-- Top info bar -->
+    <eLabel position="110,40" size="1120,50" zPosition="11"
+        backgroundColor="#000000" transparent="0" />
+
+    <!-- Info labels -->
+    <widget name="image_name" position="120,40" size="250,25" zPosition="12"
+        font="Regular;16" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="1" />
+
+    <widget name="local_ip" position="370,40" size="250,25" zPosition="12"
+        font="Regular;16" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="1" />
+
+    <widget name="StorageInfo" position="640,40" size="250,25" zPosition="12"
+        font="Regular;16" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="1" />
+
+    <widget name="RAMInfo" position="640,65" size="250,25" zPosition="12"
+        font="Regular;16" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="1" />
+
+    <widget name="python_ver" position="120,65" size="250,25" zPosition="12"
+        font="Regular;16" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="1" />
+
+    <widget name="net_status" position="370,65" size="250,25" zPosition="12"
+        font="Regular;16" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="1" />
+
+    <!-- Date -->
+    <widget source="global.CurrentTime" render="Label"
+        position="900,40" size="330,25" zPosition="12"
+        font="Regular;16" halign="center" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="1">
+        <convert type="ClockToText">Format %A %d %B</convert>
+    </widget>
+
+    <!-- Clock -->
+    <widget source="global.CurrentTime" render="Label"
+        position="900,65" size="330,25" zPosition="12"
+        font="Regular;16" halign="center" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="1">
+        <convert type="ClockToText">Format %H:%M:%S</convert>
+    </widget>
+
+    <!-- Main menu -->
+    <widget name="menu"
+        position="center,center" size="1100,390" zPosition="5"
+        boxSize="160" activeSize="190" panelheight="380"
+        itemPerPage="12" margin="20"
+        itemPixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/icon/Box_off.png"
+        selPixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/icon/Box_on.png"
+        foregroundColor="#E6BE3A"
+        backgroundColor="#000000" transparent="0" />
+
+    <!-- Description -->
+    <eLabel position="center,130" size="800,30" zPosition="11"
+        backgroundColor="#000000" transparent="0" />
+
+    <widget name="description"
+        position="center,138" size="1100,30" zPosition="12"
+        font="Bold;22" halign="center" valign="center"
+        foregroundColor="#FF8C00" backgroundColor="#000000"
+        transparent="1"
+        options="movetype=running,wrap=1" />
+
+    <!-- Bottom buttons -->
+    <eLabel position="0,715" size="320,5" zPosition="2" backgroundColor="red" />
+    <widget name="red" position="0,660" size="320,55" zPosition="2"
+        font="Bold;22" halign="center" valign="center"
+        text="IPTV Adder"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
+
+    <eLabel position="320,715" size="320,5" zPosition="2" backgroundColor="green" />
+    <widget name="green" position="320,660" size="320,55" zPosition="2"
+        font="Bold;22" halign="center" valign="center"
+        text="Cccam Adder"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
+
+    <eLabel position="640,715" size="320,5" zPosition="2" backgroundColor="yellow" />
+    <widget name="yellow" position="640,660" size="320,55" zPosition="2"
+        font="Bold;22" halign="center" valign="center"
+        text="News"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
+
+    <eLabel position="960,715" size="320,5" zPosition="2" backgroundColor="blue" />
+    <widget name="blue" position="960,660" size="320,55" zPosition="2"
+        font="Bold;22" halign="center" valign="center"
+        text="Scripts"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
+
+    <!-- Side bars -->
+    <eLabel position="0,90" size="55,580" zPosition="2"
+        backgroundColor="#000000" transparent="0" />
+
+    <eLabel position="1225,90" size="55,580" zPosition="2"
+        backgroundColor="#000000" transparent="0" />
+
+    <!-- Left / Right bars -->
+    <widget name="left_bar"
+        position="15,110" size="40,500" zPosition="20"
+        font="Regular;18" halign="center" valign="top"
+        backgroundColor="#000000"
+        foregroundColor="#E6BE3A" transparent="1" noWrap="1" />
+
+    <widget name="right_bar"
+        position="1235,110" size="40,500" zPosition="20"
+        font="Regular;18" halign="center" valign="top"
+        backgroundColor="#000000"
+        foregroundColor="#E6BE3A" transparent="1" noWrap="1" />
+
+    <!-- Pager dots -->
+    <widget name="pagelabel"
+        position="center,530" size="520,25" zPosition="5"
+        font="Regular;18" halign="center" valign="center"
+        foregroundColor="#FF8C00"
+        backgroundColor="#000000"
+        transparent="1" />
+
+    <!-- Page counter -->
+    <widget name="pageinfo"
+        position="1065,630" size="220,35"
+        font="Bold;22" halign="center" valign="center"
+        foregroundColor="#E6BE3A"
+        shadowColor="black"
+        shadowOffset="1,1"
+        transparent="1"
+        zPosition="5" />
+
+</screen>
+

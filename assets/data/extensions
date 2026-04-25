@@ -151,7 +151,7 @@ Bootlogoswapper='https://gitlab.com/eliesat/extensions/-/raw/main/bootlogoswappe
 Package: Bouquetmakerxtream
 Version: 1.72     تحويل الاي بي تي في لمفضلات
 Status: Plg Ipt
-Bouquetmakerxtream='https://gitlab.com/eliesat/extensions/-/raw/main/bouquetmakerxtream/bouquetmakerxtream.sh'
+Bouquetmakerxtream='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/bouquetmakerxtream/bouquetmakerxtream.sh'
 
 Package: Boxtools
 Version: 1.8     بانل تسطيب إضافات

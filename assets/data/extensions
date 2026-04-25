@@ -1030,7 +1030,7 @@ Subssupport-mnasr='https://gitlab.com/eliesat/extensions/-/raw/main/subssupport/
 
 Package: Sudoku
 Version: 7.1     لعبة سودوكو
-Status: Plg Uti
+Status: Plg Games
 Sudoku='https://gitlab.com/eliesat/extensions/-/raw/main/sudoku/sudoku.sh'
 
 Package: Suptv-1
@@ -1050,7 +1050,7 @@ Supvod='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/suptv/supv
 
 Package: Tetrisk
 Version: 7.1.r0     لعبة تيتريس
-Status: Plg Uti
+Status: Plg Games
 Tetrisk='https://gitlab.com/eliesat/extensions/-/raw/main/tetrisk/tetrisk.sh'
 
 Package: Theweather

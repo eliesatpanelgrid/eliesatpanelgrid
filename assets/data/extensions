@@ -918,6 +918,11 @@ Version: 20250815     اي بي تي في مجاني
 Status: Plg Free
 Samsungtvplus='https://gitlab.com/eliesat/extensions/-/raw/main/samsungtvplus/samsungtvplus.sh'
 
+Package: Shiffe
+Version: 7.1.1     لعبة ماينسويبر
+Status: Plg Games
+Shiffe='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/schiffe/schiffe.sh'
+
 Package: Screengrabber
 Version: 3.2     التقاط و تخزين صورة عن الشاشة
 Status: Plg Uti

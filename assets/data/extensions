@@ -11,7 +11,7 @@ Ajpanel-Eliesatpanel='https://gitlab.com/eliesat/eliesatpanel/-/raw/main/eliesat
 Package: Acherone
 Version: 1.4     تصفح لايحة السكريبتات و تنفيذهم
 Status: Plg Uti
-Acherone='https://gitlab.com/eliesat/extensions/-/raw/main/acherone/acherone.sh'
+Acherone='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/acherone/acherone.sh'
 
 Package: Alajre
 Version: 1.2     الأجر
@@ -984,7 +984,7 @@ Status: Plg Uti
 Showclock='https://gitlab.com/eliesat/extensions/-/raw/main/showclock/showclock.sh'
 
 Package: Simplysports
-Version: 5.4     تغطية مباشرة لنتائج المباريات
+Version: 5.5     تغطية مباشرة لنتائج المباريات
 Status: Plg Spo
 Simplysports='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/simplysports/simplysports.sh'
 

@@ -13,20 +13,10 @@ Version: 1.4     تصفح لايحة السكريبتات و تنفيذهم
 Status: Plg Uti
 Acherone='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/acherone/acherone.sh'
 
-Package: Alajre
-Version: 1.2     الأجر
-Status: Plg Qur
-Alajre='https://gitlab.com/eliesat/extensions/-/raw/main/alajre/alajre.shn/acherone/acherone.sh'
-
 Package: Advancedbootlogo
 Version: 1.0     إدارة صور الاقلاع
 Status: Plg Uti
 Advancedbootlogo='https://gitlab.com/eliesat/extensions/-/raw/main/advancedbootlogo/advancedbootlogo.sh'
-
-Package: Advancedscreenshot
-Version: 1.2     التقاط و تخزين صورة عن الشاشة
-Status: Plg Uti
-Advancedscreenshot='https://gitlab.com/eliesat/extensions/-/raw/main/advancedscreenshot/advancedscreenshot.sh'
 
 Package: Adenchmanager
 Version: 1.1     ادارة الاقمار و مفضلات و قنوات السات
@@ -1214,6 +1204,16 @@ Status: Plg Pan
 zoom='https://gitlab.com/eliesat/extensions/-/raw/main/zoom/zoom.sh'
 
 Package: zoom-final-fix
+Version: 1.0     py2 بانل تسطيب اضافات سكريبتات
+Status: Plg Pan
+zoom-final-fix='https://gitlab.com/eliesat/extensions/-/raw/main/zoom-final-fix7x/zoom-final-fix7x.sh'
+
+Package: Zouplayer
+Version: 1.1     مشغل اي بي تي في
+Status: Plg Ipt
+Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'/fonts/fonts.sh'
+'
+-final-fix
 Version: 1.0     py2 بانل تسطيب اضافات سكريبتات
 Status: Plg Pan
 zoom-final-fix='https://gitlab.com/eliesat/extensions/-/raw/main/zoom-final-fix7x/zoom-final-fix7x.sh'

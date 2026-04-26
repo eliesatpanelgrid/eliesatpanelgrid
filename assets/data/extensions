@@ -918,11 +918,6 @@ Version: 20250815     اي بي تي في مجاني
 Status: Plg Free
 Samsungtvplus='https://gitlab.com/eliesat/extensions/-/raw/main/samsungtvplus/samsungtvplus.sh'
 
-Package: Schiffe
-Version: 7.1.r1     لعبة سكيف
-Status: Plg Uti
-Schiffe='https://gitlab.com/eliesat/extensions/-/raw/main/schiffe/schiffe.sh'
-
 Package: Screengrabber
 Version: 3.2     التقاط و تخزين صورة عن الشاشة
 Status: Plg Uti
@@ -982,6 +977,11 @@ Package: Simple-zoom-panel
 Version: 2.3.2    بانل تسطيب اضافات
 Status: Plg Pan
 Simple-zoom-panel='https://gitlab.com/eliesat/extensions/-/raw/main/simple-zoom-panel/simple-zoom-panel.sh'
+
+Package: Snake
+Version: 2.5     لعبة سنايك
+Status: Plg Games
+Snake='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/snake/snake.sh'
 
 Package: Skin-e2sentials
 Version: 1.07     اضافات على السكين المستخدم

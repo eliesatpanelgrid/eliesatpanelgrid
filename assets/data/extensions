@@ -54,9 +54,9 @@ Status: Plg Qur
 Ansite='https://gitlab.com/eliesat/extensions/-/raw/main/ansite/ansite.sh'
 
 Package: Arabic-savior
-Version: 2.1     المنقذ العربي
+Version: 2.3     المنقذ العربي
 Status: Plg Uti
-Arabic-savior='https://gitlab.com/eliesat/extensions/-/raw/main/arabicsavior/arabicsavior.sh'
+Arabic-savior='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/arabicsavior/arabicsavior.sh'
 
 Package: Arabic-support
 Version: shabah.net     atv hdf pli egami obh vix تعريب قوائم الصورة

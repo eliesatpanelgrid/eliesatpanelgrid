@@ -5,6 +5,8 @@
 ○ vavoo 1.67
 ○ astra-sm
 ○ xtreamity 5.43
+○ furybiss 4.0
+○ h.wahba-motor
 
 ● 28.04.2026
 ○ arabicsavior 2.3
@@ -52,7 +54,7 @@ ncam-15.8.r0
 ===========
 ○ levi oscam-11950-emu-803
 ○ simplysports 5.3
-○ furybiss 4.2
+○ furybiss 3.2
 
 ● 20.04.2026
 ===========

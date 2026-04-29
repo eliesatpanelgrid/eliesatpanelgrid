@@ -399,9 +399,9 @@ Status: Plg Free
 Freeserver='https://gitlab.com/eliesat/extensions/-/raw/main/freeserver/freeserver.sh'
 
 Package: Furybiss
-Version: 4.2     الفيدات و شفرات البيس
+Version: 4.0     الفيدات و شفرات البيس
 Status: Plg Enc
-Furybiss='https://gitlab.com/eliesat/extensions/-/raw/main/furybiss/furybiss.sh'
+Furybiss='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/furybiss/furybiss.sh'
 
 Package: Geminipatcher
 Version: 1.0     ترجمة الدليل الالكتروني

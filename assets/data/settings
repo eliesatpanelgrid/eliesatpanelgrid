@@ -19,7 +19,7 @@ Status: Settings
 Ciefp-motor='https://gitlab.com/eliesat/settings/-/raw/main/ciefp-motor/ciefp-motor.sh'
 
 Package: H.wahba-motor
-Version: 17.04.2026     ملف قنوات
+Version: 24.04.2026     ملف قنوات
 Status: Settings
 H.wahba-motor='https://gitlab.com/eliesat/settings/-/raw/main/h.wahba/h.wahba-motor.sh'
 

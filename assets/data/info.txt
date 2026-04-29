@@ -3,6 +3,7 @@
 ○ skin aglare atv 7.4
 ○ globaltranslatepro 5.4
 ○ vavoo 1.67
+○ astra-sm
 
 ● 28.04.2026
 ○ arabicsavior 2.3

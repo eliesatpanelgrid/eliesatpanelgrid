@@ -2,6 +2,7 @@
 ○ footonsat7.3
 ○ skin aglare atv 7.4
 ○ globaltranslatepro 5.4
+○ vavoo 1.67
 
 ● 28.04.2026
 ○ arabicsavior 2.3

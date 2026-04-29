@@ -1099,9 +1099,9 @@ Status: Plg Nov
 Ultracam='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/ultracam/ultracam.sh'
 
 Package: Vavoo-plugin
-Version: 1.63     اي بي تي في مجاني
+Version: 1.67     اي بي تي في مجاني
 Status: Plg Free
-Vavoo-plugin='https://gitlab.com/eliesat/extensions/-/raw/main/vavoo/vavoo.sh'
+Vavoo-plugin='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/vavoo/vavoo.sh'
 
 Package: Vavoo-maker
 Version: 1.3     اي بي تي في مجاني

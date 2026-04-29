@@ -1179,9 +1179,9 @@ Status: Plg Sys
 xmlupdate.byiet5='https://gitlab.com/eliesat/extensions/-/raw/main/xmlupdatebyiet5/xmlupdatebyiet5.sh'
 
 Package: Xstreamity
-Version: 5.42     مشغل اي بي تي في
+Version: 5.43     مشغل اي بي تي في
 Status: Plg Ipt
-Xstreamity='https://gitlab.com/eliesat/extensions/-/raw/main/xstreamity/xstreamity.sh'
+Xstreamity='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xstreamity/xstreamity.sh'
 
 Package: Xtraevent-1
 Version: 4.2     تسطيب بوسترات

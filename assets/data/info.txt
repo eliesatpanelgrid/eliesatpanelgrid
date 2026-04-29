@@ -4,6 +4,7 @@
 ○ globaltranslatepro 5.4
 ○ vavoo 1.67
 ○ astra-sm
+xtreamity 5.43
 
 ● 28.04.2026
 ○ arabicsavior 2.3

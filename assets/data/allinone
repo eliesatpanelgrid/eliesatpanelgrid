@@ -236,10 +236,10 @@ Version: 1.0       openpli مكتبات تشغيل الصوتيات صورة
 Status: Deps
 Gstreamer='https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-dependencies-audio.sh'
 
-Package: Astra-sm-plugin
+Package: Astra-sm-server
 Version: 2.0       اداة لتشغيل باقة ابيرتيس قمر هيسباسات
 Status: Deps
-Astra-sm-plugin='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/softcams/astra-sm/astra-sm.sh '
+Astra-sm-server='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/softcams/astra-sm/astra-sm.sh'
 
 Package: Astra-sm-config
 Version: 1.0       تحديث ملف الكونفيج

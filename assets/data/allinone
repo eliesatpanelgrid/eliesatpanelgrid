@@ -237,7 +237,7 @@ Status: Deps
 Gstreamer='https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-dependencies-audio.sh'
 
 Package: Astra-sm-plugin
-Version: 1.0       اداة لتشغيل باقة ابيرتيس قمر هيسباسات
+Version: 2.0       اداة لتشغيل باقة ابيرتيس قمر هيسباسات
 Status: Deps
 Astra-sm-plugin='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/softcams/astra-sm/astra-sm.sh '
 

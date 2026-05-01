@@ -384,7 +384,7 @@ Status: Plg Spo
 Footonsat='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/footonsat/footonsat.sh'
 
 Package: Foreca
-Version: 1.2.6     حالة الطقس
+Version: 1.2.8     حالة الطقس
 Status: Plg Wea
 Foreca='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/foreca-one/foreca-one.sh'
 

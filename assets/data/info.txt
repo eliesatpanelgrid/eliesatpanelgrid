@@ -5,6 +5,7 @@
 ○ historyzapselector 1.0.46
 ○ footonsat7.3 
 ○ xtreamity 5.44
+○ foreca 1.2.8
 
 ● 29.04.2026
 ============

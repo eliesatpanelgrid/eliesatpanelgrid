@@ -434,7 +434,7 @@ Status: Plg Rad
 Hdfradio='https://gitlab.com/eliesat/extensions/-/raw/main/hdfradio/hdfradio.sh'
 
 Package: Historyzapselector
-Version: 1.0.45     تصفح آخر قنوات سات قلبت فيهم
+Version: 1.0.46     تصفح آخر قنوات سات قلبت فيهم
 Status: Plg Uti
 Historyzapselector='https://gitlab.com/eliesat/extensions/-/raw/main/historyzapselector/historyzapselector-dorik.sh'
 

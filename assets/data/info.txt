@@ -2,6 +2,7 @@
 ============
 ○ simplysports 5.6
 ○ bouquetmakerxtream
+○ historyzapselector 1.0.46
 
 ● 29.04.2026
 ============

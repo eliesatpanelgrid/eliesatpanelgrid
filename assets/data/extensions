@@ -436,7 +436,7 @@ Hdfradio='https://gitlab.com/eliesat/extensions/-/raw/main/hdfradio/hdfradio.sh'
 Package: Historyzapselector
 Version: 1.0.46     تصفح آخر قنوات سات قلبت فيهم
 Status: Plg Uti
-Historyzapselector='https://gitlab.com/eliesat/extensions/-/raw/main/historyzapselector/historyzapselector-dorik.sh'
+Historyzapselector='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/historyzap/historyzap.sh'
 
 Package: Holidaycountdown
 Version: 1.0     عرض الأيام المتبقية للأعياد والفصول
@@ -1217,4 +1217,5 @@ Package: Zouplayer
 Version: 1.1     مشغل اي بي تي في
 Status: Plg Ipt
 Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'/fonts/fonts.sh'
+'
 '

@@ -1006,7 +1006,7 @@ Smartaddonspanel='https://gitlab.com/eliesat/extensions/-/raw/main/smartaddonspa
 Package: Spinnerselector
 Version: 3.3     تسطيب سبينرات
 Status: Plg Uti
-Spinnerselector='https://gitlab.com/eliesat/extensions/-/raw/main/spinnerselector/spinnerselector.sh'
+Spinnerselector='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/spinner-selector/spinner-selector.sh'
 
 Package: Stalkerportalconverter
 Version: 1.6     تحويل بورتلات لمفضلات و m3u     

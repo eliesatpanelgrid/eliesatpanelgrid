@@ -1,5 +1,16 @@
 ● 01.05.2026
 ============
+○ wahba-motor
+○ ciefp-motor
+○ vhannibal-motor
+○ gioppygio-motor
+○ morpheus888-motor
+○ abouomar-motor
+○ monuser-motor
+○ spinner-selector 3.3
+
+● 01.05.2026
+============
 ○ simplysports 5.6
 ○ bouquetmakerxtream 1.74
 ○ historyzapselector 1.0.46

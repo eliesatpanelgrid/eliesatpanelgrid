@@ -27,6 +27,17 @@ Package: Eliesat-motor
 Version: 30.03.2026     ملف قنوات افتراضي لتجربة البيكونات
 Status: Settings
 Eliesat-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/eliesat-motor.sh'
+
+Package: Gioppygio-motor
+Version: 28.04.2026     ملف قنوات 
+Status: Settings
+Gioppygio-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/eliesat-motor.sh'
+
+Package: Monuser-motor
+Version: 01.05.2026     ملف قنوات
+Status: Settings
+Monuser-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/monuser-motor.sh'
+
 Package: Morpheus883-motor
 Version: 19.04.2026     ملف قنوات
 Status: Settings
@@ -106,4 +117,6 @@ sh'
 ner-1.3.sh'
 '
 sh'
+'
+'
 '

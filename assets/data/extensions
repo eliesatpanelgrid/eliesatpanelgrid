@@ -1004,7 +1004,7 @@ Status: Plg Pan
 Smartaddonspanel='https://gitlab.com/eliesat/extensions/-/raw/main/smartaddonspanel/smartaddonspanel.sh'
 
 Package: Spinnerselector
-Version: 3.2     تسطيب سبينرات
+Version: 3.3     تسطيب سبينرات
 Status: Plg Uti
 Spinnerselector='https://gitlab.com/eliesat/extensions/-/raw/main/spinnerselector/spinnerselector.sh'
 

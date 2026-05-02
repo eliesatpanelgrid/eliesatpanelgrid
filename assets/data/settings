@@ -19,12 +19,16 @@ Status: Settings
 alashry-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/alashry-motor.sh'
 
 Package: Ciefp-motor
-Version: 11.04.2026     ملف قنوات
+Version: 01.05.2026     ملف قنوات
 Status: Settings
 Ciefp-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/ciefp-motor.sh'
 
+Package: Eliesat-motor
+Version: 30.03.2026     ملف قنوات افتراضي لتجربة البيكونات
+Status: Settings
+Eliesat-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/eliesat-motor.sh'
 Package: Morpheus883-motor
-Version: 01.02.2026     ملف قنوات
+Version: 19.04.2026     ملف قنوات
 Status: Settings
 Morpheus883-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/morpheus883-motor.sh'
 

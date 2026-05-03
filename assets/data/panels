@@ -37,7 +37,7 @@ Emilpanel='https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Emi
 Package: Emilpanelpro
 Version: N/A     بانل تسطيب اضافات
 Status: Pan
-Emilpanelpro='https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/EmilPanelPro/emilpanelpro.sh'
+Emilpanelpro='https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanelPro/emilpanelpro.sh'
 
 Package: Epanel
 Version: N/A     بانل خدمات متنوعة للصورة
@@ -62,7 +62,7 @@ Linuxsat-panel='https://raw.githubusercontent.com/Belfagor2005/LinuxsatPanel/mai
 Package: Magicpanelgold
 Version: N/A     بانل تسطيب اضافات
 Status: Pan
-Magicpanelgold='https://raw.githubusercontent.com/Ham-ahmed/G/refs/heads/main/MagicPanelGold-v9_install.sh'
+Magicpanelgold='https://raw.githubusercontent.com/Ham-ahmed/G10/refs/heads/main/MagicPanelGold-install.sh'
 
 Package: Novalerstore
 Version: N/A     بانل تسطيب اضافات

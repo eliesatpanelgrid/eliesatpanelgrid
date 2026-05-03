@@ -67,7 +67,7 @@ Magicpanelgold='https://raw.githubusercontent.com/Ham-ahmed/G/refs/heads/main/Ma
 Package: Novalerstore
 Version: N/A     بانل تسطيب اضافات
 Status: Pan
-Novalerstore='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novalerstore/novalerstore.sh'
+Novalerstore='http://ipk.ath.cx/pg/novalerstor/installer.sh'
 
 Package: Oneupdater
 Version: N/A     بانل تسطيب بيكونات و ملفات قنوات

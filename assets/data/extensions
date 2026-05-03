@@ -139,7 +139,7 @@ Status: Plg Uti
 Bootlogoswapper='https://gitlab.com/eliesat/extensions/-/raw/main/bootlogoswapper/bootlogoswapper-eliesat-special-edition.sh'
 
 Package: Bouquetmakerxtream
-Version: 1.74     تحويل الاي بي تي في لمفضلات
+Version: 1.75     تحويل الاي بي تي في لمفضلات
 Status: Plg Ipt
 Bouquetmakerxtream='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/bouquetmakerxtream/bouquetmakerxtream.sh'
 
@@ -329,9 +329,9 @@ Status: Plg Pan
 Epanel='https://gitlab.com/eliesat/extensions/-/raw/main/epanel/epanel.sh'
 
 Package: Estalker
-Version: 1.37     مشغل بورتلات اي بي تي في
+Version: 1.38     مشغل بورتلات اي بي تي في
 Status: Plg Ipt
-Estalker='https://gitlab.com/eliesat/extensions/-/raw/main/estalker/estalker.sh'
+Estalker='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/estalker/estalker.sh'
 
 Package: Estalker2webcontrol
 Version: 1.0     

@@ -176,7 +176,7 @@ Ciefsettingspanel='https://gitlab.com/eliesat/extensions/-/raw/main/ciefpsetting
 Package: Chocholousek
 Version: 5.0.240904     تسطيب بيكونات
 Status: Plg Pic
-Chocholousek='https://gitlab.com/eliesat/extensions/-/raw/main/chocholousek-picons/chocholousek-picons.sh'
+Chocholousek='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/chocholousek-picons/chocholousek-picons.sh'
 
 Package: Ciefpkingsat
 Version: 1.0     تصفح افمار و ترددات موقع كينج اوف سات

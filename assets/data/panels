@@ -9,6 +9,11 @@ Version: N/A     بانل تسطيب اضافات
 Status: Pan
 Ajpanel-Eliesatpanel='https://gitlab.com/eliesat/eliesatpanel/-/raw/main/eliesatpanel.sh'
 
+Package: Boxtools
+Version: 1.8     بانل تسطيب إضافات
+Status: Pan
+Boxtools='https://gitlab.com/eliesat/extensions/-/raw/main/boxtools/boxtools.sh'
+
 Package: Canpanel
 Version: N/A     بانل تسطيب اضافات
 Status: Pan
@@ -79,6 +84,11 @@ Version: N/A     بانل تسطيب اضافات
 Status: Pan
 Panelaio='https://raw.githubusercontent.com/OliOli2013/PanelAIO-Plugin/main/installer.sh'
 
+Package: pluginspanel
+Version: 1.1     تصفح لايحة البلاجينات
+Status: Pan
+pluginspanel='https://gitlab.com/eliesat/extensions/-/raw/main/pluginspanel/pluginspanel.sh'
+
 Package: S4aupdater
 Version: N/A     بانل تسطيب اضافات
 Status: Pan
@@ -103,3 +113,21 @@ Package: Tvmanager
 Version: N/A     بانل تسطيب اضافات
 Status: Pan
 Tvmanager='https://gitlab.com/eliesat/extensions/-/raw/main/tvaddon/tvaddon.sh'
+sh'
+
+
+Package: Tvaddon1
+Version: 2.1.5     بانل تسطيب اضافات
+Status: Pan
+Tvaddon='https://gitlab.com/eliesat/extensions/-/raw/main/tvaddon/tvaddon.sh'
+
+Package: Tvmanager1
+Version: 3.0     بانل تسطيب اضافات
+Status: Pan
+Tvmanager='https://gitlab.com/eliesat/extensions/-/raw/main/tvmanager/tvmanager.sh'
+
+Package: Simplezoompanel
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+Simplezoompanel='https://raw.githubusercontent.com/Belfagor2005/SimpleZooomPanel/main/installer.sh'
+sh'

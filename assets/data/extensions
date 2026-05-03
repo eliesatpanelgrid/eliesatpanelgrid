@@ -1,13 +1,3 @@
-Package: Ajpanel
-Version: 10.8.6     ادارة الملفات و مجموعة الخدمات
-Status: Plg Pan
-Ajpanel='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ajpanel/ajpanel.sh'
-
-Package: Ajpanel-Eliesatpanel
-Version: 1.0     بانل تسطيب اضافات
-Status: Plg Pan
-Ajpanel-Eliesatpanel='https://gitlab.com/eliesat/eliesatpanel/-/raw/main/eliesatpanel.sh'
-
 Package: Acherone
 Version: 1.4     تصفح لايحة السكريبتات و تنفيذهم
 Status: Plg Uti
@@ -143,11 +133,6 @@ Version: 1.75     تحويل الاي بي تي في لمفضلات
 Status: Plg Ipt
 Bouquetmakerxtream='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/bouquetmakerxtream/bouquetmakerxtream.sh'
 
-Package: Boxtools
-Version: 1.8     بانل تسطيب إضافات
-Status: Plg Pan
-Boxtools='https://gitlab.com/eliesat/extensions/-/raw/main/boxtools/boxtools.sh'
-
 Package: Bundesliga-clock
 Version: 1.0     تثبيت الساعة على الشاشة بشكل دائم
 Status: Plg Uti
@@ -173,11 +158,6 @@ Version: 2.1     رزنامة
 Status: Plg Uti
 Calendar='https://gitlab.com/eliesat/extensions/-/raw/main/calendar/calendar.sh'
 
-Package: Canpanel
-Version: 1.8.6     بانل تسطيب اضافات 
-Status: Plg Pan
-Canpanel='https://gitlab.com/eliesat/extensions/-/raw/main/canpanel/canpanel.sh'
-
 Package: Channel-logo-changer
 Version: 1.2     تخصيص شعار للقنوات من اختيارك
 Status: Plg uti
@@ -187,11 +167,6 @@ Package: Cccamimfo
 Version: 1.9     معلومات عن حالة السسكام
 Status: Plg Enc
 Cccamimfo='https://gitlab.com/eliesat/extensions/-/raw/main/cccaminfo/cccaminfo.sh'
-
-Package: Ciefp-plugins
-Version: 2.4     بانل تسطيب اضافات خاصة ببافل سييف
-Status: Plg Pan
-Ciefp-plugins='https://gitlab.com/eliesat/extensions/-/raw/main/ciefp-plugins/ciefp-plugins.sh'
 
 Package: Ciefsettingspanel
 Version: 5.0     بانل تسطيب اضافات
@@ -312,21 +287,6 @@ Package: Emuinstaller
 Version: 1.0     تسطيب ايميو و اضافة ريدر
 Status: Plg Enc
 Emuinstaller='https://gitlab.com/eliesat/extensions/-/raw/main/emuinstaller/emuinstaller.sh'
-
-Package: Emilpanel
-Version: 1.6     بانل تسطيب اضافات
-Status: Plg Pan
-Emilpanel='https://gitlab.com/eliesat/extensions/-/raw/main/emilpanel/emilpanel.sh'
-
-Package: Emilpanelpro
-Version: 2.0     بانل تسطيب اضافات
-Status: Plg Pan
-Emilpanelpro='https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/EmilPanelPro/emilpanelpro.sh'
-
-Package: Epanel
-Version: 5.8r2     بانل خدمات متنوعة للصورة
-Status: Plg Pan
-Epanel='https://gitlab.com/eliesat/extensions/-/raw/main/epanel/epanel.sh'
 
 Package: Estalker
 Version: 1.38     مشغل بورتلات اي بي تي في
@@ -558,16 +518,6 @@ Version: 13.2     دمج ملفين قنوات و اقمار ببعض
 Status: Plg Set
 Lamedbmerger='https://gitlab.com/eliesat/extensions/-/raw/main/lamedbmerger/lamedbmerger.sh'
 
-Package: Leviaddonmanager
-Version: 10.1.r31     بانل تسطيب اضافات
-Status: Plg Pan
-Addonmanager='https://gitlab.com/eliesat/extensions/-/raw/main/levi45-addon-manager/levi45-addon-manager.sh'
-
-Package: Levimulticammanager
-Version: 10.2.r6     بانل تسطيب كامات
-Status: Plg Pan
-Multicammanager='https://gitlab.com/eliesat/extensions/-/raw/main/levi45-addon-manager/levi45multicammanager.sh'
-
 Package: Levi45-freeserver
 Version: 2.4     سسكام مجاني
 Status: Plg Free
@@ -587,11 +537,6 @@ Package: Levi45settings
 Version: 1.6     ملف قنوات
 Status: Plg Set
 Levi45settings='https://gitlab.com/eliesat/extensions/-/raw/main/levi45settings/levi45settings.sh'
-
-Package: Linuxsat-panel
-Version: 2.9.0     بانل تسطيب اضافات
-Status: Plg Pan
-Linuxsat-panel='https://gitlab.com/eliesat/extensions/-/raw/main/linuxsat-panel/linuxsat-panel.sh'
 
 Package: Livematch
 Version: 2.0     تغطية مباشرة لنتائج المباريات
@@ -813,11 +758,6 @@ Version: 1.4     حالة الطقس
 Status: Plg Wea
 Oaweatheriet='https://gitlab.com/eliesat/extensions/-/raw/main/oaweatheriet5/oaweatheriet5.sh'
 
-Package: Oneupdater
-Version: 3.1     بانل تسطيب بيكونات و ملفات قنوات
-Status: Plg Pan
-Oneupdater='https://gitlab.com/eliesat/extensions/-/raw/main/oneupdater/oneupdater.sh'
-
 Package: Opdboot
 Version: 3.1.20251102     تسطيب صور على الذاكرة الخارجية
 Status: Plg Mul
@@ -838,11 +778,6 @@ Version: 7.0     معلومات عن حالة المحاكي
 Status: Plg Enc
 Oscam-status='https://gitlab.com/eliesat/extensions/-/raw/main/oscam-status/oscam-status.sh'
 
-Package: Panelaio
-Version: 11.0     بانل تسطيب اضافات
-Status: Plg Pan
-Panelaio='https://gitlab.com/eliesat/extensions/-/raw/main/panelaio/panelaio.sh'
-
 Package: Pulsesoftcamupdater
 Version: 1.0     تحديث ملف السوفتكام الخاص بشفرات البيس
 Status: Plg Enc
@@ -857,11 +792,6 @@ Package: Piconinstaller
 Version: 24.08.23     تسطيب بيكونات
 Status: Plg Pic
 Piconinstaller='https://gitlab.com/eliesat/extensions/-/raw/main/piconinstaller/piconinstaller.sh'
-
-Package: pluginspanel
-Version: 1.1     تصفح لايحة البلاجينات
-Status: Plg Uti
-pluginspanel='https://gitlab.com/eliesat/extensions/-/raw/main/pluginspanel/pluginspanel.sh'
 
 Package: Pluginskinmover
 Version: 0.8     نقل و قراءة البلاجينات على التخزين الخارجي
@@ -1083,16 +1013,6 @@ Version: 2.3     اي بي تي في مجاني
 Status: Plg Free
 Tvgarden='https://gitlab.com/eliesat/extensions/-/raw/main/tvgarden/tvgarden.sh'
 
-Package: Tvaddon
-Version: 2.1.5     بانل تسطيب اضافات
-Status: Plg Pan
-Tvaddon='https://gitlab.com/eliesat/extensions/-/raw/main/tvaddon/tvaddon.sh'
-
-Package: Tvmanager
-Version: 3.0     بانل تسطيب اضافات
-Status: Plg Pan
-Tvmanager='https://gitlab.com/eliesat/extensions/-/raw/main/tvmanager/tvmanager.sh'
-
 Package: Ultracam
 Version: 3.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
@@ -1219,3 +1139,6 @@ Status: Plg Ipt
 Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'/fonts/fonts.sh'
 '
 '
+Version: 1.1     مشغل اي بي تي في
+Status: Plg Ipt
+Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'/fonts/fonts.sh'

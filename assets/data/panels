@@ -115,7 +115,6 @@ Status: Pan
 Tvmanager='https://gitlab.com/eliesat/extensions/-/raw/main/tvaddon/tvaddon.sh'
 sh'
 
-
 Package: Tvaddon1
 Version: 2.1.5     بانل تسطيب اضافات
 Status: Pan
@@ -130,4 +129,3 @@ Package: Simplezoompanel
 Version: N/A     بانل تسطيب اضافات
 Status: Pan
 Simplezoompanel='https://raw.githubusercontent.com/Belfagor2005/SimpleZooomPanel/main/installer.sh'
-sh'

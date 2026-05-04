@@ -208,6 +208,11 @@ Version: 1.2     حذف  الافلام
 Status: Plg Uti
 Cutsclear='https://gitlab.com/eliesat/extensions/-/raw/main/cutsclear/cutsclear.sh'
 
+Package: Dame
+Version: 1.0     لعبة دايم
+Status: Plg Games
+Dame='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/dame/dame.sh'
+
 Package: Diskcputemp
 Version: 1.2     تصفح حرارة الهارد زدو المعالج
 Status: Plg Uti
@@ -548,6 +553,11 @@ Version: 2.0     تغطية مباشرة لنتائج المباريات
 Status: Plg Spo
 Livematch='https://gitlab.com/eliesat/extensions/-/raw/main/livematch/livematch.sh'
 
+Package: Ludo
+Version: 1.0     لعبة لودو
+Status: Plg Games
+Ludo='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ludo/ludo.sh'
+
 Package: M3uconverter
 Version: 3.2     تحويل ال اي بي تي في لمفضلات
 Status: Plg Ipt
@@ -557,6 +567,11 @@ Package: Magicpanelpro
 Version: 6.5     بانل تسطيب اضافات
 Status: Plg Pan
 Magicpanelpro='https://gitlab.com/eliesat/extensions/-/raw/main/magicpanel/magicpanel.sh'
+
+Package: Mastermind
+Version: 2.6     لعبة ماستر مايند
+Status: Plg Games
+Mastermind='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/mastermind/mastermind.sh'
 
 Package: Mawaqit
 Version: 1.1     القرآن الكريم مواقيت 
@@ -592,6 +607,11 @@ Package: Moviesmanager
 Version: 1.7     تصفح الافلام  و المسلسلات المخزنة
 Status: Plg Uti
 Moviesmanager='https://gitlab.com/eliesat/extensions/-/raw/main/moviesmanager/moviesmanager.sh'
+
+Package: Muehle
+Version: 1.0     لعبة موهل
+Status: Plg Games
+Muehle='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/muehle/muehle.sh'
 
 Package: Multiboot-flashonline
 Version: 7.1     تنزيل و تسطيب صور خام

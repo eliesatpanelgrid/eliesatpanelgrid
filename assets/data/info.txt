@@ -2,6 +2,7 @@
 ============
 ○ levi oscam-11958-emu-803
 ○ vavoo 1.67
+○ satellitemanager 1.0
 
 ● 03.05.2026
 ============

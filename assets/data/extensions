@@ -369,7 +369,7 @@ Status: Plg Set Pic
 Gioppygio='https://gitlab.com/eliesat/extensions/-/raw/main/gioppygio/gioppygio.sh'
 
 Package: Globaltranslatepro
-Version:  5.4     ترجمة الى اللغة العربية
+Version:  6.5     ترجمة الى اللغة العربية
 Status: Plg Sub
 Globaltranslatepro='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/globaltranslatepro/globaltranslatepro.sh'
 

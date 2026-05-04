@@ -4,6 +4,7 @@
 ○ vavoo 1.67
 ○ satellitemanager 1.0
 ○ globaltranslatepro 6.5
+skin aglare atv 7.6
 
 ● 03.05.2026
 ============

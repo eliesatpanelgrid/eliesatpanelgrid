@@ -416,7 +416,7 @@ Imdb='https://gitlab.com/eliesat/extensions/-/raw/main/imdb/imdb.sh'
 Package: Internetspeedtest
 Version: 1.7     اختبار سرعة الاتصال بالانترنيت
 Status: Plg Uti
-Internetspeedtest='https://gitlab.com/eliesat/extensions/-/raw/main/internetspeedtest/internet-speed-test.sh'
+Internetspeedtest='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/internetspeedtest/internetspeedtest.sh'
 
 Package: Ipaudio-.mnasr
 Version: 8.11     اضافة الصوتيات على قنوات السات

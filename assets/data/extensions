@@ -188,6 +188,11 @@ Version: 5.8.r2     تعريف الكامة الخارجية
 Status: Plg Sys
 Ciplushelper='https://gitlab.com/eliesat/systemplugins/-/raw/main/ciplushelper/ciplushelper.sh'
 
+Package: Connectfour
+Version: 1.0     لعبة كونكت فور
+Status: Plg Games
+Connectfour='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/connectfour/connectfour.sh'
+
 Package: Crashlogviewer
 Version: 1.8     تصفح ملفات الكراش
 Status: Plg Uti

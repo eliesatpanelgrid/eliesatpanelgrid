@@ -1,5 +1,6 @@
 ● 04.05.2026
 ============
+○ furybiss 4.1
 ○ levi oscam-11958-emu-803
 ○ vavoo 1.70
 ○ satellitemanager 1.0
@@ -10,7 +11,7 @@
 ○ dame 1.0 game
 ○ ludo 1.0 game
 ○ mastermind 2.6 game
-○ miehlw 1.0 game
+○ muehle 1.0 game
 
 ● 03.05.2026
 ============

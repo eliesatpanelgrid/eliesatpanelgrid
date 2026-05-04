@@ -5,6 +5,8 @@
 ○ satellitemanager 1.0
 ○ globaltranslatepro 6.5
 ○ skin aglare atv 7.6
+○ battleship 1.0 game
+○ connectfour 1.0 game
 
 ● 03.05.2026
 ============

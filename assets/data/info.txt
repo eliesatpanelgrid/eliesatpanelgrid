@@ -7,6 +7,10 @@
 ○ skin aglare atv 7.6
 ○ battleship 1.0 game
 ○ connectfour 1.0 game
+○ dame 1.0 game
+○ ludo 1.0 game
+○ mastermind 2.6 game
+○ miehlw 1.0 game
 
 ● 03.05.2026
 ============

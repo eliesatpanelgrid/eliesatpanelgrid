@@ -98,6 +98,11 @@ Version: 12.91.r1     تسطيب صور على الذاكرة الخارجية
 Status: Plg Mul
 Barryallen='https://gitlab.com/eliesat/extensions/-/raw/main/barryallen/barryallen.sh'
 
+Package: Battleship
+Version: 1.0     لعبة باتل شيب
+Status: Plg Games
+Battleship='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/battleship/battleship.sh'
+
 Package: Beengo
 Version: 11.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov

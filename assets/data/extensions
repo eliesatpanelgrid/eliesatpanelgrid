@@ -471,7 +471,7 @@ Ipchecker-004='https://gitlab.com/eliesat/extensions/-/raw/main/ipchecker/ipchec
 Package: Iptosat
 Version: 1.8     مشاهدة الاي ابي تي على قنوات السات
 Status: Plg Ipt
-Iptosat='https://gitlab.com/eliesat/extensions/-/raw/main/iptosat/iptosat.sh'
+Iptosat='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/iptosat/iptosat.sh'
 
 Package: Ip2sat
 Version: 1.0     مشاهدة الاي ابي تي على قنوات السات

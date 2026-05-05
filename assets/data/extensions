@@ -529,7 +529,7 @@ Status: Plg Set
 Lamedbmerger='https://gitlab.com/eliesat/extensions/-/raw/main/lamedbmerger/lamedbmerger.sh'
 
 Package: Levi45-freeserver
-Version: 2.4     سسكام مجاني
+Version: 2.5     سسكام مجاني
 Status: Plg Free
 Levi45-freeserver='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/levi45-freeserver/levi45-freeserver.sh'
 

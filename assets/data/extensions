@@ -531,7 +531,7 @@ Lamedbmerger='https://gitlab.com/eliesat/extensions/-/raw/main/lamedbmerger/lame
 Package: Levi45-freeserver
 Version: 2.4     سسكام مجاني
 Status: Plg Free
-Levi45-freeserver='https://gitlab.com/eliesat/extensions/-/raw/main/levi45-freeserver/levi45-freeserver.sh'
+Levi45-freeserver='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/levi45-freeserver/levi45-freeserver.sh'
 
 Package: Levi45freeiptv
 Version: 1.3     اي بي تي في محاني

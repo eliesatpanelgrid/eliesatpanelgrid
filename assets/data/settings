@@ -28,6 +28,11 @@ Version: 30.03.2026     ملف قنوات افتراضي لتجربة البيك
 Status: Settings
 Eliesat-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/eliesat-motor.sh'
 
+Package: Faouzi-motor
+Version: 04.05.2026     ملف قنوات افتراضي لتجربة البيكونات
+Status: Settings
+Faouzi-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/faouzi-motor.sh'
+
 Package: Gioppygio-motor
 Version: 28.04.2026     ملف قنوات 
 Status: Settings

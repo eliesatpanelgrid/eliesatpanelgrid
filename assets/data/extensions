@@ -520,7 +520,7 @@ Jedimakerxtream='https://gitlab.com/eliesat/extensions/-/raw/main/jedimakerxtrea
 
 Package: Keyadder
 Version: 9.5     اضافة مفتاح بيس بملف السوفتكام
-Status: Plg Emc
+Status: Plg Enc
 Keyadder='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/keyadder/keyadder.sh'
 
 Package: Lamedbmerger

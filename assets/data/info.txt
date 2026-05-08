@@ -1,5 +1,9 @@
 ● 05.05.2026
 ============
+○ arabicsavior 2.5
+
+● 05.05.2026
+============
 ○ fawzi-motor
 ○ levi45-freecccamserver 2.5
 

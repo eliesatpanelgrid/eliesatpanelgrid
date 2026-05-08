@@ -589,7 +589,7 @@ Status: Plg Pic
 Missingpicons='https://gitlab.com/eliesat/extensions/-/raw/main/missingpicons/missingpicons.sh'
 
 Package: Mixpaudio
-Version: 1.0.r2     اضافة الصوتيات على قنوات السات
+Version: 1.2     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
 Mixpaudio='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/mixaudio/mixaudio.sh'
 
@@ -1174,3 +1174,4 @@ Version: 1.1     مشغل اي بي تي في
 Status: Plg Ipt
 Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
 r/zouplayer.sh'
+h'

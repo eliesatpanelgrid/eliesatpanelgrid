@@ -12,6 +12,8 @@
 • supcam-oscam-11959-emu-r802
 • ultracam-oscam-11959-emu-r802
 
+○ ciefp-motor
+
 ● 05.05.2026
 ============
 ○ fawzi-motor

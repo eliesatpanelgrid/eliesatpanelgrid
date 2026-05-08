@@ -369,7 +369,7 @@ Status: Plg Free
 Freeserver='https://gitlab.com/eliesat/extensions/-/raw/main/freeserver/freeserver.sh'
 
 Package: Furybiss
-Version: 4.1     الفيدات و شفرات البيس
+Version: 4.2     الفيدات و شفرات البيس
 Status: Plg Enc
 Furybiss='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/furybiss/furybiss.sh'
 

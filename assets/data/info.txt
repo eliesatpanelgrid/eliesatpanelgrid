@@ -5,6 +5,13 @@
 ○ furybiss 4.2
 ○ audi  oscam-11958-emu-802
 
+○ Mohamed_os
+gosatplus-oscam-11959-emu-r802
+oscam-11959-emu-r802
+powercam-oscam-11959-emu-r802
+supcam-oscam-11959-emu-r802
+ultracam-oscam-11959-emu-r802
+
 ● 05.05.2026
 ============
 ○ fawzi-motor

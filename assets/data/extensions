@@ -134,7 +134,7 @@ Status: Plg Uti
 Bootlogoswapper='https://gitlab.com/eliesat/extensions/-/raw/main/bootlogoswapper/bootlogoswapper-eliesat-special-edition.sh'
 
 Package: Bouquetmakerxtream
-Version: 1.75     تحويل الاي بي تي في لمفضلات
+Version: 1.76     تحويل الاي بي تي في لمفضلات
 Status: Plg Ipt
 Bouquetmakerxtream='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/bouquetmakerxtream/bouquetmakerxtream.sh'
 
@@ -1129,7 +1129,7 @@ Status: Plg Sys
 xmlupdate.byiet5='https://gitlab.com/eliesat/extensions/-/raw/main/xmlupdatebyiet5/xmlupdatebyiet5.sh'
 
 Package: Xstreamity
-Version: 5.44     مشغل اي بي تي في
+Version: 5.45     مشغل اي بي تي في
 Status: Plg Ipt
 Xstreamity='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xstreamity/xstreamity.sh'
 

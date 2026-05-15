@@ -456,7 +456,7 @@ Ipaudiopro-1='https://gitlab.com/eliesat/extensions/-/raw/main/ipaudiopro/1.3/ip
 Package: Ipaudiopro-2
 Version: 1.5     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
-Ipaudiopro-2='https://gitlab.com/eliesat/extensions/-/raw/main/ipaudiopro/1.5/ipaudiopro.sh'
+Ipaudiopro-2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ipaudiopro/1.5/ipaudiopro.sh'
 
 Package: Ipaudioplus
 Version: 5.0.r0     خاص باجهزة نوفالر
@@ -916,12 +916,12 @@ Servereaglesat='https://gitlab.com/eliesat/extensions/-/raw/main/servereaglesat/
 Package: Setpicon
 Version: 2.0     تمرير بيكون للقناة
 Status: Plg Pic
-Setpicon='https://gitlab.com/eliesat/extensions/-/raw/main/setpicon/setpicon.sh'
+Setpicon='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/setpicon/setpicon.sh'
 
 Package: Servicescanupdates
 Version: 3.2     انشاء مفضلة للقنوات الجديدة بعد البحث
 Status: Plg Sys
-Servicescanupdates='https://gitlab.com/eliesat/extensions/-/raw/main/servicescanupdates/servicescanupdates.sh'
+Servicescanupdates='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/servicescanupdates/servicescanupdates.sh'
 
 Package: Sherlockmod
 Version: 1.4.2     اينفوبار اضافي
@@ -986,7 +986,7 @@ Subssupport='https://gitlab.com/eliesat/extensions/-/raw/main/subssupport/subssu
 Package: Subssupport-mnasr
 Version: 1.8.0.r8     الترجمة
 Status: Plg Sub
-Subssupport-mnasr='https://gitlab.com/eliesat/extensions/-/raw/main/subssupport/subssupport.sh'
+Subssupport-mnasr='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/subssupport/subssupport.sh'
 
 Package: Sudoku
 Version: 7.1     لعبة سودوكو
@@ -1036,7 +1036,7 @@ Translateai='https://gitlab.com/eliesat/extensions/-/raw/main/translateai/transl
 Package: Ts-sateditor
 Version: 4.4     اضافة حذف تعديل بالاقمار و الترددات
 Status: Plg Sys
-Ts-sateditor='https://gitlab.com/eliesat/extensions/-/raw/main/ts-sateditor/ts-sateditor.sh'
+Ts-sateditor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ts-sateditor/ts-sateditor.sh'
 
 Package: Tvgarden
 Version: 2.3     اي بي تي في مجاني
@@ -1126,7 +1126,7 @@ xmlupdate='https://gitlab.com/eliesat/systemplugins/-/raw/main/xmlupdate/xmlupda
 Package: xmlupdate.byiet5
 Version: 1.4     تحديث ملف الترددات
 Status: Plg Sys
-xmlupdate.byiet5='https://gitlab.com/eliesat/extensions/-/raw/main/xmlupdatebyiet5/xmlupdatebyiet5.sh'
+xmlupdate.byiet5='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xmlupdatebyiet5/xmlupdatebyiet5.sh'
 
 Package: Xstreamity
 Version: 5.45     مشغل اي بي تي في
@@ -1146,7 +1146,7 @@ Xtraevent-2='https://gitlab.com/eliesat/extensions/-/raw/main/xtraevent/xtraeven
 Package: Xtraevent-mnasr
 Version: 7.1     تسطيب بوسترات بايتون٣
 Status: Plg Epg
-Xtraevent-mnasr='https://gitlab.com/eliesat/extensions/-/raw/main/xtraevent/new/xtraevent.sh'
+Xtraevent-mnasr='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xtraevent/xtraevent.sh'
 
 Package: Youtube
 Version: 2025.03.10     مشاهدة فيديوهات اليوتيوب

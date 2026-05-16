@@ -106,7 +106,7 @@ Battleship='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons
 Package: Beengo
 Version: 11.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Beengo='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/beengo/beengo.sh'
+Beengo='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/furybiss/furybiss.sh'
 
 Package: Bissfeedautokey
 Version: 2.8     الفيدات و شفرات البيس
@@ -461,7 +461,7 @@ Ipaudiopro-2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addo
 Package: Ipaudioplus
 Version: 5.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Ipaudioplus='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/ipaudioplus/ipaudioplus.sh'
+Ipaudioplus='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/ipaudioplus/ipaudioplus.sh'
 
 Package: Ipchecker-004
 Version: 1.0     عرض اي يي الرسيفر

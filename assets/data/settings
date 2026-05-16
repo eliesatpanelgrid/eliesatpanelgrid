@@ -101,27 +101,20 @@ Freq-Openpli='https://gitlab.com/eliesat/settings/-/raw/main/eliesat/installer.s
 Package: Tuner-diseqc-1.0
 Version: 1.0     اعدادات افتراضيه للدايسك ٤ مخارج
 Status: Tuner
-Tuner-diseqc-1.0='https://gitlab.com/eliesat/settings/-/raw/main/tuner/tuner-1.0.sh'
+Tuner-diseqc-1.0='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/tuner/tuner-1.0.sh'
 
 Package: Tuner-diseqc-1.1
 Version: 1.1     اعدادات افتراضيه للدايسك ٨ مخارج
 Status: Tuner
-Tuner-diseqc-1.1='https://gitlab.com/eliesat/settings/-/raw/main/tuner/tuner-1.1.sh'
+Tuner-diseqc-1.1='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/tuner/tuner-1.1.sh'
 
 Package: Tuner-diseqc-1.2
 Version: 1.2     اعدادات التيونر للمتحرك ١.٢
 Status: Tuner
-Tuner-diseqc-1.2='https://gitlab.com/eliesat/settings/-/raw/main/tuner/tuner-1.2.sh'
+Tuner-diseqc-1.2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/tuner/tuner-1.2.sh'
 
 Package: Tuner-diseqc-1.3
 Version: usals     اعدادات التيونر للدايسك موتور
 Status: Tuner
-Tuner-diseqc-1.3='https://gitlab.com/eliesat/settings/-/raw/main/tuner/tuner-1.3.sh'
-'
-sh'
-ner-1.3.sh'
-'
-sh'
-'
-'
+Tuner-diseqc-1.3='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/tuner/tuner-1.3.sh'
 '

@@ -771,7 +771,7 @@ Novalertv='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novaler
 Package: Novatv
 Version: 11.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Novatv='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novacam/novatv.sh'
+Novatv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/novatv/novatv.sh'
 
 Package: Oaweather
 Version: 4.0     حالة الطقس

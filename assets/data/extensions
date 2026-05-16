@@ -756,7 +756,7 @@ Nfr4xboot='https://gitlab.com/eliesat/extensions/-/raw/main/nfr4xboot/nfr4xboot.
 Package: Novacampro
 Version: 4.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Novacampro='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novacam/novacampro.sh'
+Novacampro='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/novacampro/novacampro.sh'
 
 Package: Novalerstore
 Version: 3.0.r0     خاص باجهزة نوفالر

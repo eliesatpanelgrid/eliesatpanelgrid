@@ -766,7 +766,7 @@ Novalerstore='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addo
 Package: Novalertv
 Version: 11.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Novalertv='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novalertv/novalertv.sh'
+Novalertv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/novalertv/novalertv.sh'
 
 Package: Novatv
 Version: 11.0.r0     خاص باجهزة نوفالر

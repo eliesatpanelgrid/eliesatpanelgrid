@@ -4,6 +4,7 @@
 ○ ipaudioplus 5.0
 ○ ipsat 11.0
 ○ novacampro 4.0
+○ novatv 11.0
 
 ● 14.05.2026
 ============

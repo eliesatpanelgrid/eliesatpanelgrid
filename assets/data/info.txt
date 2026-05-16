@@ -3,6 +3,7 @@
 ○ beengo 11.0
 ○ ipaudioplus 5.0
 ○ ipsat 11.0
+○ novacampro 4.0
 
 ● 14.05.2026
 ============

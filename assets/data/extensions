@@ -1020,7 +1020,7 @@ Status: Plg Epg
 Tmdb='https://gitlab.com/eliesat/extensions/-/raw/main/tmdb/tmbd.sh'
 
 Package: Total90
-Version: 1.0    تفعيل  اشتراك كود السوب تيفي 
+Version: 1.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
 Total90='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/total90/total90.sh'
 
@@ -1181,4 +1181,6 @@ Version: 1.1     مشغل اي بي تي في
 Status: Plg Ipt
 Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
 r/zouplayer.sh'
+h'
+ouplayer.sh'
 h'

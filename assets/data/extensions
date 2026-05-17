@@ -772,12 +772,12 @@ Novalerstore='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addo
 Package: Novalertv
 Version: 11.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Novalertv='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novalertv/novalertv.sh'
+Novalertv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/novalertv/novalertv.sh'
 
 Package: Novatv
 Version: 11.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Novatv='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novacam/novatv.sh'
+Novatv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/novatv/novatv.sh'
 
 Package: Oaweather
 Version: 4.0     حالة الطقس
@@ -1002,7 +1002,7 @@ Sudoku='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/sud
 Package: Suptv
 Version: 6.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Suptv='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/suptv/suptv.sh'
+Suptv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/suptv/suptv.sh'
 
 Package: Tetris
 Version: 7.1     لعبة تيتريس
@@ -1047,7 +1047,7 @@ Tvgarden='https://gitlab.com/eliesat/extensions/-/raw/main/tvgarden/tvgarden.sh'
 Package: Ultracam
 Version: 3.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Ultracam='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/ultracam/ultracam.sh'
+Ultracam='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/ultracam/ultracam.sh'
 
 Package: Vavoo
 Version: 1.70     اي بي تي في مجاني

@@ -1004,11 +1004,6 @@ Version: 6.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
 Suptv='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/suptv/suptv.sh'
 
-Package: Supvod
-Version: 6.0.r0     خاص باجهزة نوفالر
-Status: Plg Nov
-Supvod='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/suptv/supvod.sh'
-
 Package: Tetris
 Version: 7.1     لعبة تيتريس
 Status: Plg Games
@@ -1176,6 +1171,12 @@ Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.
 ain/zoom/zoom.sh'
 
 Package: Zouplayer
+Version: 1.1     مشغل اي بي تي في
+Status: Plg Ipt
+Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
+r/zouplayer.sh'
+h'
+uplayer
 Version: 1.1     مشغل اي بي تي في
 Status: Plg Ipt
 Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'

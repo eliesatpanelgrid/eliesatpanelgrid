@@ -28,6 +28,11 @@ Version:  3.1    ترجمة الى اللغة العربية
 Status: Plg Sub
 Aitranslate='https://gitlab.com/eliesat/extensions/-/raw/main/aitranslate/aitranslate.sh'
 
+Package: Airnet-fnc
+Version: 6.0.r0     خاص باجهزة نوفالر
+Status: Plg Nov
+Airnet-fnc='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/airnet-fnc/airnet-fnc.sh'
+
 Package: Altsoftcammanager
 Version: 2.0     ادارة الكامات
 Status: Plg Enc

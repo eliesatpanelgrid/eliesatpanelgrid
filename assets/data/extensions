@@ -28,11 +28,6 @@ Version:  3.1    ترجمة الى اللغة العربية
 Status: Plg Sub
 Aitranslate='https://gitlab.com/eliesat/extensions/-/raw/main/aitranslate/aitranslate.sh'
 
-Package: Airnet-fnc
-Version: 6.0.r0     خاص باجهزة نوفالر
-Status: Plg Nov
-Airnet-fnc='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/airnet-fnc/airnet-fnc.sh'
-
 Package: Altsoftcammanager
 Version: 2.0     ادارة الكامات
 Status: Plg Enc
@@ -111,7 +106,7 @@ Battleship='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons
 Package: Beengo
 Version: 11.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Beengo='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/furybiss/furybiss.sh'
+Beengo='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/beengo/beengo.sh'
 
 Package: Bissfeedautokey
 Version: 2.8     الفيدات و شفرات البيس
@@ -466,7 +461,7 @@ Ipaudiopro-2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addo
 Package: Ipaudioplus
 Version: 5.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Ipaudioplus='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/ipaudioplus/ipaudioplus.sh'
+Ipaudioplus='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/ipaudioplus/ipaudioplus.sh'
 
 Package: Ipchecker-004
 Version: 1.0     عرض اي يي الرسيفر
@@ -484,9 +479,9 @@ Status: Plg Ipt
 Ip2sat='https://gitlab.com/eliesat/extensions/-/raw/main/ip2sat/ip2sat.sh'
 
 Package: Ipsat
-Version: 11.0..r0     خاص باجهزة نوفالر
+Version: 9.5.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Ipsat='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/ipsat/ipsat.sh'
+Ipsat='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/ipsat/ipsat.sh'
 
 Package: Iptvarchive
 Version: 2.0.92     معاينة ارشيف الاي بي تي في
@@ -761,22 +756,22 @@ Nfr4xboot='https://gitlab.com/eliesat/extensions/-/raw/main/nfr4xboot/nfr4xboot.
 Package: Novacampro
 Version: 4.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Novacampro='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/novacampro/novacampro.sh'
+Novacampro='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novacam/novacampro.sh'
 
 Package: Novalerstore
-Version: 5.0.r0     خاص باجهزة نوفالر
+Version: 3.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov 
-Novalerstore='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/novalerstore/novalerstore.sh'
+Novalerstore='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novalerstore/novalerstore.sh'
 
 Package: Novalertv
 Version: 11.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Novalertv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/novalertv/novalertv.sh'
+Novalertv='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novalertv/novalertv.sh'
 
 Package: Novatv
 Version: 11.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Novatv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/novatv/novatv.sh'
+Novatv='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novacam/novatv.sh'
 
 Package: Oaweather
 Version: 4.0     حالة الطقس
@@ -998,10 +993,20 @@ Version: 7.1     لعبة سودوكو
 Status: Plg Games
 Sudoku='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/sudoku/sudoku.sh'
 
+Package: Suptv-1
+Version: 4.4     تفعيل  اشتراك كود السوب تيفي 
+Status: Plg Enc
+Suptv-1='https://gitlab.com/eliesat/extensions/-/raw/main/suptv/suptv.sh'
+
 Package: Suptv
 Version: 6.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
 Suptv='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/suptv/suptv.sh'
+
+Package: Supvod
+Version: 6.0.r0     خاص باجهزة نوفالر
+Status: Plg Nov
+Supvod='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/suptv/supvod.sh'
 
 Package: Tetris
 Version: 7.1     لعبة تيتريس
@@ -1041,7 +1046,7 @@ Tvgarden='https://gitlab.com/eliesat/extensions/-/raw/main/tvgarden/tvgarden.sh'
 Package: Ultracam
 Version: 3.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Ultracam='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/ultracam/ultracam.sh'
+Ultracam='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/ultracam/ultracam.sh'
 
 Package: Vavoo
 Version: 1.70     اي بي تي في مجاني
@@ -1166,19 +1171,6 @@ ain/zoom/zoom.sh'
 
 Package: Zouplayer
 Version: 1.1     مشغل اي بي تي في
-Status: Plg Ipt
-Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
-r/zouplayer.sh'
-h'
-�ل اي بي تي في
-Status: Plg Ipt
-Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
-r/zouplayer.sh'
-h'
-main/zouplayer/zouplayer.sh'
-r/zouplayer.sh'
-h'
-�ل اي بي تي في
 Status: Plg Ipt
 Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
 r/zouplayer.sh'

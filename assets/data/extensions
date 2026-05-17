@@ -467,7 +467,7 @@ Ipaudiopro-2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addo
 Package: Ipaudioplus
 Version: 5.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Ipaudioplus='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/ipaudioplus/ipaudioplus.sh'
+Ipaudioplus='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/ipaudioplus/ipaudioplus.sh'
 
 Package: Ipchecker-004
 Version: 1.0     عرض اي يي الرسيفر
@@ -485,9 +485,9 @@ Status: Plg Ipt
 Ip2sat='https://gitlab.com/eliesat/extensions/-/raw/main/ip2sat/ip2sat.sh'
 
 Package: Ipsat
-Version: 9.5.r0     خاص باجهزة نوفالر
+Version: 11.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Ipsat='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/ipsat/ipsat.sh'
+Ipsat='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/ipsat/ipsat.sh'
 
 Package: Iptvarchive
 Version: 2.0.92     معاينة ارشيف الاي بي تي في
@@ -762,12 +762,12 @@ Nfr4xboot='https://gitlab.com/eliesat/extensions/-/raw/main/nfr4xboot/nfr4xboot.
 Package: Novacampro
 Version: 4.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Novacampro='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novacam/novacampro.sh'
+Novacampro='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/novacampro/novacampro.sh'
 
 Package: Novalerstore
-Version: 3.0.r0     خاص باجهزة نوفالر
+Version: 5.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov 
-Novalerstore='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novalerstore/novalerstore.sh'
+Novalerstore='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/novalerstore/novalerstore.sh'
 
 Package: Novalertv
 Version: 11.0.r0     خاص باجهزة نوفالر

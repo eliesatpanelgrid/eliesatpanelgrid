@@ -111,7 +111,8 @@ Battleship='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons
 Package: Beengo
 Version: 11.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Beengo='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/beengo/beengo.sh'
+Beengo='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/beengo/beengo.sh'
+
 
 Package: Bissfeedautokey
 Version: 2.8     الفيدات و شفرات البيس

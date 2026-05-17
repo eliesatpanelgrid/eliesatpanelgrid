@@ -1,5 +1,9 @@
 ● 17.05.2026
 ============
+○ ultracam 3.0
+○ total90 1.0
+○ suptv 6.0
+○ airnetfnc 6.0
 ○ novalertore 5.0
 ○ novalertv 11.0
 

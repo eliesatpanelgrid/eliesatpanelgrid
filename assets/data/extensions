@@ -998,20 +998,10 @@ Version: 7.1     لعبة سودوكو
 Status: Plg Games
 Sudoku='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/sudoku/sudoku.sh'
 
-Package: Suptv-1
-Version: 4.4     تفعيل  اشتراك كود السوب تيفي 
-Status: Plg Enc
-Suptv-1='https://gitlab.com/eliesat/extensions/-/raw/main/suptv/suptv.sh'
-
 Package: Suptv
 Version: 6.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
 Suptv='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/suptv/suptv.sh'
-
-Package: Supvod
-Version: 6.0.r0     خاص باجهزة نوفالر
-Status: Plg Nov
-Supvod='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/suptv/supvod.sh'
 
 Package: Tetris
 Version: 7.1     لعبة تيتريس
@@ -1027,6 +1017,11 @@ Package: Tmdb
 Version: 8.6.r7     عرض بوستر و معلومات فيلم
 Status: Plg Epg
 Tmdb='https://gitlab.com/eliesat/extensions/-/raw/main/tmdb/tmbd.sh'
+
+Package: total90
+Version: 1.0.r0     خاص باجهزة نوفالر
+Status: Plg Nov
+total90='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/total90/total90.sh'
 
 Package: Transmission
 Version: 4.0.6.1     مشاهدة و تنزيل افلام و مسلسلات
@@ -1051,7 +1046,7 @@ Tvgarden='https://gitlab.com/eliesat/extensions/-/raw/main/tvgarden/tvgarden.sh'
 Package: Ultracam
 Version: 3.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Ultracam='https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/ultracam/ultracam.sh'
+Ultracam='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/ultracam/ultracam.sh'
 
 Package: Vavoo
 Version: 1.70     اي بي تي في مجاني
@@ -1176,6 +1171,11 @@ ain/zoom/zoom.sh'
 
 Package: Zouplayer
 Version: 1.1     مشغل اي بي تي في
+Status: Plg Ipt
+Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
+r/zouplayer.sh'
+h'
+�ل اي بي تي في
 Status: Plg Ipt
 Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
 r/zouplayer.sh'

@@ -998,11 +998,6 @@ Version: 7.1     لعبة سودوكو
 Status: Plg Games
 Sudoku='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/sudoku/sudoku.sh'
 
-Package: Suptv-1
-Version: 4.4     تفعيل  اشتراك كود السوب تيفي 
-Status: Plg Enc
-Suptv-1='https://gitlab.com/eliesat/extensions/-/raw/main/suptv/suptv.sh'
-
 Package: Suptv
 Version: 6.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
@@ -1027,6 +1022,11 @@ Package: Tmdb
 Version: 8.6.r7     عرض بوستر و معلومات فيلم
 Status: Plg Epg
 Tmdb='https://gitlab.com/eliesat/extensions/-/raw/main/tmdb/tmbd.sh'
+
+Package: Total90
+Version: 1.0    تفعيل  اشتراك كود السوب تيفي 
+Status: Plg Enc
+Total90='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/total90/total90.sh'
 
 Package: Transmission
 Version: 4.0.6.1     مشاهدة و تنزيل افلام و مسلسلات

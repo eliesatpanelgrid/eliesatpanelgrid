@@ -1018,11 +1018,6 @@ Version: 8.6.r7     عرض بوستر و معلومات فيلم
 Status: Plg Epg
 Tmdb='https://gitlab.com/eliesat/extensions/-/raw/main/tmdb/tmbd.sh'
 
-Package: total90
-Version: 1.0.r0     خاص باجهزة نوفالر
-Status: Plg Nov
-total90='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/total90/total90.sh'
-
 Package: Transmission
 Version: 4.0.6.1     مشاهدة و تنزيل افلام و مسلسلات
 Status: Plg Free
@@ -1173,6 +1168,14 @@ Package: Zouplayer
 Version: 1.1     مشغل اي بي تي في
 Status: Plg Ipt
 Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
+r/zouplayer.sh'
+h'
+�ل اي بي تي في
+Status: Plg Ipt
+Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
+r/zouplayer.sh'
+h'
+main/zouplayer/zouplayer.sh'
 r/zouplayer.sh'
 h'
 �ل اي بي تي في

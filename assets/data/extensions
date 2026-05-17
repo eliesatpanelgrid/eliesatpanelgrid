@@ -1021,7 +1021,7 @@ Tmdb='https://gitlab.com/eliesat/extensions/-/raw/main/tmdb/tmbd.sh'
 
 Package: Total90
 Version: 1.0    تفعيل  اشتراك كود السوب تيفي 
-Status: Plg Enc
+Status: Plg Nov
 Total90='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/total90/total90.sh'
 
 Package: Transmission

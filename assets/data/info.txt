@@ -3,6 +3,7 @@
 ○ canpanel 1.9.7
 ○ furybiss 4.3
 ○ estalker 1.39
+○ levi  oscam-11960-emu-803
 
 ● 17.05.2026
 ============

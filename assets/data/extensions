@@ -305,7 +305,7 @@ Status: Plg Enc
 Emuinstaller='https://gitlab.com/eliesat/extensions/-/raw/main/emuinstaller/emuinstaller.sh'
 
 Package: Estalker
-Version: 1.38     مشغل بورتلات اي بي تي في
+Version: 1.39     مشغل بورتلات اي بي تي في
 Status: Plg Ipt
 Estalker='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/estalker/estalker.sh'
 

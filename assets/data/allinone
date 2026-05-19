@@ -31,10 +31,10 @@ Dns-Default='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_d
 
 ###################################
 
-Package: Fix-Freeserver
-Version: 1.0     freeserver serviceinfo-module اصلاح
+Package: Fix-Openatv.8.0
+Version: Arabic.language     اصلاح اللغة العربية 
 Status: Fix
-Fix-Freeserver='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_fix-freeserver-serviceinfo-module.sh'
+Fix-Freeserver='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/tools/fix/Directories.sh'
 
 Package: Fix-Ipk-installation
 Version: 1.0     .ipk حل مشكلة تنصيب باكجات  بامتداد
@@ -343,4 +343,6 @@ Package: Scripts-chmod
 Version: 1.0       اعطاء لايحة السكريبتات تصريح بالتنفيذ
 Status: Other
 Scripts-chmod='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_scripts_chmod.sh'
+
+ipts_chmod.sh'
 

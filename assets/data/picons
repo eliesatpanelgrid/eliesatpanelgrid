@@ -5,12 +5,12 @@ Status: Demo
 Satellites.xml='https://gitlab.com/eliesat/picons/-/raw/main/satellites.xml.sh'
 
 Package: Channels
-Version: 15.05.2026     ملف قنوات افتراضي لتجربة شعارات القنوات
+Version: 19.05.2026     ملف قنوات افتراضي لتجربة شعارات القنوات
 Status: Demo
 Channels='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/eliesat-motor.sh'
 
 Package: picons-motor
-Version: 23.04.2026      شعارات القنوات للمتحرك
+Version: 19.05.2026      شعارات القنوات للمتحرك
 Status: Service.name.picons
 picons-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/picons/picons-all.sh'
 

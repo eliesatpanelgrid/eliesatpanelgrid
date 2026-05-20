@@ -24,7 +24,7 @@ Status: Settings
 Ciefp-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/ciefp-motor.sh'
 
 Package: Eliesat-motor
-Version: 15.05.2026     ملف قنوات افتراضي لتجربة البيكونات
+Version: 19.05.2026     ملف قنوات افتراضي لتجربة البيكونات
 Status: Settings
 Eliesat-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/eliesat-motor.sh'
 

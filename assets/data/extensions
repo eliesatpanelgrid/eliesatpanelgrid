@@ -1130,7 +1130,7 @@ Status: Plg Sys
 xmlupdate.byiet5='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xmlupdatebyiet5/xmlupdatebyiet5.sh'
 
 Package: Xstreamity
-Version: 5.47     مشغل اي بي تي في
+Version: 5.49     مشغل اي بي تي في
 Status: Plg Ipt
 Xstreamity='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xstreamity/xstreamity.sh'
 

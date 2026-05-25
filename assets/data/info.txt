@@ -1,3 +1,10 @@
+● 25.05.2026
+============
+○ tuner 1.2
+○ eliesat-motor
+○ picons-motor
+○ xtreamtity 5.50
+
 ● 23.05.2026
 ============
 ○ levi  oscam-11961-emu-803

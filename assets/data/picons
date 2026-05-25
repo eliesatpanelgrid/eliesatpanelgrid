@@ -1,6 +1,6 @@
 ##############picons###############
 Package: Satellites.xml
-Version: 30.03.2026     ملف ترددات افتراضي لاجراء بحث جديد
+Version: 25.05.2026     ملف ترددات افتراضي لاجراء بحث جديد
 Status: Demo
 Satellites.xml='https://gitlab.com/eliesat/picons/-/raw/main/satellites.xml.sh'
 

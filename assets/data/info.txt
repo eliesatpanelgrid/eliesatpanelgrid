@@ -2,6 +2,7 @@
 ============
 ○ wahba-motor
 ○ mnasr-motor
+○ simplysports 6.0
 
 ● 25.05.2026
 ============

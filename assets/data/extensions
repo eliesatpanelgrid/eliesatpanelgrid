@@ -669,6 +669,11 @@ Version: 1.64     الترجمة
 Status: Plg Sub
 Mytranslator='https://gitlab.com/eliesat/extensions/-/raw/main/mytranslator/mytranslator.sh'
 
+Package: Myhybridiptv
+Version: 2.0.r5     مشغل اي بي تي في
+Status: Plg Ipt
+Myhybridiptv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/myhybridiptv/myhybridiptv.sh'
+
 Package: Ncam-status
 Version: 3.2     معلومات عن حالة المحاكي
 Status: Plg Enc

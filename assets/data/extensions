@@ -189,6 +189,11 @@ Version: 1.0     تصفح افمار و ترددات موقع كينج اوف س
 Status: Plg Uti
 Ciefpkingsat='https://gitlab.com/eliesat/extensions/-/raw/main/ciefpkingsat/ciefpkingsat.sh'
 
+Package: Ciefpyoutube
+Version: 1.4     يوتيوب
+Status: Plg Uti
+Ciefpyoutube='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ciefpyoutube/ciefpyoutube.sh'
+
 Package: Ciplushelper
 Version: 5.8.r2     تعريف الكامة الخارجية
 Status: Plg Sys

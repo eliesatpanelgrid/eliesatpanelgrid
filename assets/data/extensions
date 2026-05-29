@@ -191,7 +191,7 @@ Ciefpkingsat='https://gitlab.com/eliesat/extensions/-/raw/main/ciefpkingsat/cief
 
 Package: Ciefpyoutube
 Version: 1.4     يوتيوب
-Status: Plg Uti
+Status: Plg Ipt
 Ciefpyoutube='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ciefpyoutube/ciefpyoutube.sh'
 
 Package: Ciplushelper

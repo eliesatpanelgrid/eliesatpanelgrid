@@ -42,7 +42,7 @@ Aglare-fhd-atv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/sk
 Package: Aglare-fhd-pli
 Version: 7.0     
 Status: Soebased Sobh Spli3 Svix
-Aglare-fhd-pli='https://gitlab.com/eliesat/skins/-/raw/main/all/aglare-fhd/aglare-fhd-pli.sh'
+Aglare-fhd-pli='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/aglare-fhd-pli/aglare-fhd-pli.sh'
 
 Package: Alayam-fhd
 Version: 1.1     

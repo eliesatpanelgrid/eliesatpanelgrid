@@ -102,7 +102,7 @@ Fullhdglass17='https://gitlab.com/eliesat/skins/-/raw/main/all/fullhdglass17/ful
 Package: Fury-fhd
 Version: 7.4     
 Status: Soebased Segami Satv Sspa Sobh Spure Svix Spli3
-Fury-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/fury-fhd/fury-fhd.sh'
+Fury-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/fury/fury.sh'
 
 Package: KIII-pro
 Version: 3.3     

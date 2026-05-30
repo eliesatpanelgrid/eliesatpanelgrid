@@ -934,6 +934,11 @@ Version: 1.0     تصفح لايحة السكريبتات و تنفيذهم
 Status: Plg Uti
 Scriptexecuter='https://gitlab.com/eliesat/extensions/-/raw/main/scriptexecuter/scriptexecuter.sh'
 
+Package: Servercoloring
+Version: 1.0     تلوين قنوات الشيرينج
+Status: Plg uti
+Servercoloring='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/servercoloring/servercoloring.sh'
+
 Package: Servereaglesat
 Version: 1.1     تعريف اشتراك الشيرينج
 Status: Plg Enc

@@ -5,6 +5,7 @@
 ○ commandcenter 1.1
 ○ enigma2uninstaller 1.0
 ○ aglare fhd pli  7.0
+○ ServerColoring  1.0
 
 ● 29.05.2026
 ============

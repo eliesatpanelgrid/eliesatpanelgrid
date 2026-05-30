@@ -2,6 +2,8 @@
 ============
 ○ fury-fhd  7.4
 ○ ciefp-motor
+○ commandcenter 1.1
+○ enigma2uninstaller 1.0
 
 ● 29.05.2026
 ============

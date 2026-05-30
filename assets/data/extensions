@@ -936,7 +936,7 @@ Scriptexecuter='https://gitlab.com/eliesat/extensions/-/raw/main/scriptexecuter/
 
 Package: Servercoloring
 Version: 1.0     تلوين قنوات الشيرينج
-Status: Plg uti
+Status: Plg Uti
 Servercoloring='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/servercoloring/servercoloring.sh'
 
 Package: Servereaglesat

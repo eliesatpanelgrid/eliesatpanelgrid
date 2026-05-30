@@ -309,6 +309,11 @@ Version: 1.0     تسطيب ايميو و اضافة ريدر
 Status: Plg Enc
 Emuinstaller='https://gitlab.com/eliesat/extensions/-/raw/main/emuinstaller/emuinstaller.sh'
 
+Package: Enigma2uninstaller
+Version: 1.0     حذف الاضافات
+Status: Plg Uti
+Enigma2uninstaller='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/enigma2uninstaller/enigma2uninstaller.sh'
+
 Package: Estalker
 Version: 1.39     مشغل بورتلات اي بي تي في
 Status: Plg Ipt

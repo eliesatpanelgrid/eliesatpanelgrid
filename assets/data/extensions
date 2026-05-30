@@ -200,7 +200,7 @@ Status: Plg Sys
 Ciplushelper='https://gitlab.com/eliesat/systemplugins/-/raw/main/ciplushelper/ciplushelper.sh'
 
 Package: Commandcenter
-Version: 1.1     اوامر لينوكس
+Version: 1.2     اوامر لينوكس
 Status: Plg Uti
 Commandcenter='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/commandcenter/commandcenter.sh'
 

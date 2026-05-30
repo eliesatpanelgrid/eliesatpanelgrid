@@ -2,7 +2,7 @@
 ============
 ○ fury-fhd  7.4
 ○ ciefp-motor
-○ commandcenter 1.1
+○ commandcenter 1.2
 ○ enigma2uninstaller 1.0
 ○ aglare fhd pli  7.0
 ○ ServerColoring  1.0

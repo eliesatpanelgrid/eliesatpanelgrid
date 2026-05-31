@@ -510,9 +510,9 @@ Status: Plg Ipt
 Iptvarchive='https://gitlab.com/eliesat/extensions/-/raw/main/iptvarchive/iptvarchive.sh'
 
 Package: Iptvdream
-Version: 6.5.2     m3u قارئ و مشغل ملفات 
+Version: 6.6.1     m3u قارئ و مشغل ملفات 
 Status: Plg Ipt
-Iptvdream='https://gitlab.com/eliesat/extensions/-/raw/main/iptvdream-all/iptvdream-all.sh'
+Iptvdream='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/iptvdream/iptvdream.sh'
 
 Package: Ipstreamer
 Version: 1.3     اضافة الصوتيات على قنوات السات

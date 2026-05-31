@@ -9,25 +9,28 @@
 
     <!-- Title -->
     <eLabel text="● Scripts Manager – Run, manage and control your scripts"
-        position="233,0" size="933,33" zPosition="11"
-        font="Bold;21" halign="left" valign="center"
-        foregroundColor="#E6BE3A" backgroundColor="#000000" />
+        position="100,23" size="933,33" zPosition="11"
+        font="Bold;21"
+        halign="left"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        backgroundColor="#000000" />
 
-    <!-- Counter (FIXED HD VERSION) -->
+    <!-- Counter -->
     <widget name="counter"
-        position="53,92"
-        size="787,25"
+        position="53,93"
+        size="787,27"
         zPosition="12"
-        font="Bold;20"
+        font="Bold;21"
         halign="center"
         valign="center"
         foregroundColor="#FF8C00"
-        backgroundColor="#000000"
         transparent="1" />
 
+    <!-- Scripts List -->
     <widget name="list"
-        position="53,120"
-        size="787,400"
+        position="100,120"
+        size="733,400"
         itemHeight="40"
         font="Bold;21"
         halign="left"
@@ -38,79 +41,140 @@
         scrollbarMode="showOnDemand"
         transparent="1" />
 
-    <!-- Selected script -->
+    <!-- Selected Script -->
     <widget name="script_name"
-        position="32,587" size="827,33" zPosition="12"
-        font="Bold;24"
+        position="32,627"
+        size="827,33"
+        zPosition="12"
+        font="Bold;21"
         halign="center"
         valign="center"
         foregroundColor="#FF8C00"
-        backgroundColor="#000000"
         transparent="1" />
 
-    <!-- Page indicator -->
     <widget name="page_info"
-        position="1100,627" size="133,40" zPosition="12"
+        position="848,627"
+        size="367,30"
+        zPosition="12"
         font="Bold;21"
         halign="center"
         valign="center"
-        foregroundColor="#E6BE3A"
-        backgroundColor="#000000"
+        foregroundColor="#FF8C00"
         transparent="1" />
 
-    <!-- Date -->
+    <!-- DATE -->
     <widget source="global.CurrentTime" render="Label"
-        position="900,120" size="333,23" zPosition="12"
+        position="848,80"
+        size="367,27"
+        zPosition="12"
         font="Bold;21"
         halign="center"
         valign="center"
-        foregroundColor="#E6BE3A"
-        backgroundColor="#000000"
+        foregroundColor="#FF8C00"
         transparent="1">
         <convert type="ClockToText">Format %A %d %B</convert>
     </widget>
 
-    <!-- Clock -->
+    <!-- CLOCK -->
     <widget source="global.CurrentTime" render="Label"
-        position="900,147" size="333,23" zPosition="12"
+        position="848,107"
+        size="367,27"
+        zPosition="12"
         font="Bold;21"
         halign="center"
         valign="center"
-        foregroundColor="#E6BE3A"
-        backgroundColor="#000000"
+        foregroundColor="#FF8C00"
         transparent="1">
         <convert type="ClockToText">Format %H:%M:%S</convert>
     </widget>
 
-    <!-- System info -->
-    <widget name="image_name" position="980,280" size="333,23" zPosition="12"
-        font="Bold;21" halign="left" valign="center"
-        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+    <!-- Top separator -->
+    <eLabel position="913,143"
+        size="233,2"
+        zPosition="12"
+        backgroundColor="#E6BE3A" />
 
-    <widget name="python_ver" position="980,307" size="333,23" zPosition="12"
-        font="Bold;21" halign="left" valign="center"
-        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+    <!-- MiniTV -->
+    <widget source="session.VideoPicture"
+        render="Pig"
+        position="848,157"
+        size="367,193"
+        zPosition="1"
+        backgroundColor="transparent" />
 
-    <widget name="local_ip" position="980,333" size="333,23" zPosition="12"
-        font="Bold;21" halign="left" valign="center"
-        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+    <!-- Bottom separator -->
+    <eLabel position="913,363"
+        size="233,2"
+        zPosition="12"
+        backgroundColor="#E6BE3A" />
 
-    <widget name="StorageInfo" position="980,360" size="333,23" zPosition="12"
-        font="Bold;21" halign="left" valign="center"
-        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+    <!-- System Information -->
+    <widget name="image_name"
+        position="848,380"
+        size="367,23"
+        zPosition="12"
+        font="Bold;20"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
 
-    <widget name="RAMInfo" position="980,387" size="333,23" zPosition="12"
-        font="Bold;21" halign="left" valign="center"
-        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+    <widget name="python_ver"
+        position="848,407"
+        size="367,23"
+        zPosition="12"
+        font="Bold;20"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
 
-    <widget name="net_status" position="980,414" size="333,23" zPosition="12"
-        font="Bold;21" halign="left" valign="center"
-        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+    <widget name="local_ip"
+        position="848,433"
+        size="367,23"
+        zPosition="12"
+        font="Bold;20"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
 
-    <!-- Bottom buttons -->
+    <widget name="StorageInfo"
+        position="848,460"
+        size="367,23"
+        zPosition="12"
+        font="Bold;20"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
+
+    <widget name="RAMInfo"
+        position="848,487"
+        size="367,23"
+        zPosition="12"
+        font="Bold;20"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
+
+    <widget name="net_status"
+        position="848,513"
+        size="367,23"
+        zPosition="12"
+        font="Bold;20"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
+
+    <!-- Bottom Buttons -->
+
     <eLabel position="0,717" size="320,3" backgroundColor="red" />
     <widget name="red"
-        position="0,667" size="320,50"
+        position="0,667"
+        size="320,50"
         font="Bold;21"
         halign="center"
         valign="center"
@@ -120,7 +184,8 @@
 
     <eLabel position="320,717" size="320,3" backgroundColor="green" />
     <widget name="green"
-        position="320,667" size="320,50"
+        position="320,667"
+        size="320,50"
         font="Bold;21"
         halign="center"
         valign="center"
@@ -130,7 +195,8 @@
 
     <eLabel position="640,717" size="320,3" backgroundColor="#E6BE3A" />
     <widget name="yellow"
-        position="640,667" size="320,50"
+        position="640,667"
+        size="320,50"
         font="Bold;21"
         halign="center"
         valign="center"
@@ -140,7 +206,8 @@
 
     <eLabel position="960,717" size="320,3" backgroundColor="blue" />
     <widget name="blue"
-        position="960,667" size="320,50"
+        position="960,667"
+        size="320,50"
         font="Bold;21"
         halign="center"
         valign="center"
@@ -148,13 +215,22 @@
         foregroundColor="#E6BE3A"
         backgroundColor="#000000" />
 
-    <!-- Side bars -->
-    <eLabel position="0,87" size="53,580" zPosition="10" backgroundColor="#000000" />
-    <eLabel position="1200,87" size="80,580" zPosition="10" backgroundColor="#000000" />
+    <!-- Side Bars -->
+    <eLabel position="0,87"
+        size="53,580"
+        zPosition="10"
+        backgroundColor="#000000" />
 
-    <!-- Vertical bars -->
+    <eLabel position="1227,87"
+        size="53,580"
+        zPosition="10"
+        backgroundColor="#000000" />
+
+    <!-- Vertical Bars -->
     <widget name="left_bar"
-        position="7,107" size="40,507" zPosition="20"
+        position="7,107"
+        size="40,507"
+        zPosition="20"
         font="Regular;17"
         halign="center"
         valign="top"
@@ -164,7 +240,9 @@
         noWrap="1" />
 
     <widget name="right_bar"
-        position="1233,107" size="40,507" zPosition="20"
+        position="1233,107"
+        size="40,507"
+        zPosition="20"
         font="Regular;17"
         halign="center"
         valign="top"

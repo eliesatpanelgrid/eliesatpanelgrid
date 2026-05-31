@@ -1,0 +1,176 @@
+<screen name="Scripts" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="transparent" title="Scripts">
+
+    <!-- Background -->
+    <ePixmap position="0,0" zPosition="-1" size="1280,720"
+        pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.jpg" />
+
+    <!-- Top black bar -->
+    <eLabel position="0,0" size="1280,87" zPosition="10" backgroundColor="#000000" />
+
+    <!-- Title -->
+    <eLabel text="● Scripts Manager – Run, manage and control your scripts"
+        position="233,0" size="933,33" zPosition="11"
+        font="Bold;21" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" />
+
+    <!-- Counter (FIXED HD VERSION) -->
+    <widget name="counter"
+        position="53,92"
+        size="787,25"
+        zPosition="12"
+        font="Bold;20"
+        halign="center"
+        valign="center"
+        foregroundColor="#FF8C00"
+        backgroundColor="#000000"
+        transparent="1" />
+
+    <widget name="list"
+        position="53,120"
+        size="787,400"
+        itemHeight="40"
+        font="Bold;21"
+        halign="left"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        foregroundColorSelected="#FF8C00"
+        selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/icon/selection.png"
+        scrollbarMode="showOnDemand"
+        transparent="1" />
+
+    <!-- Selected script -->
+    <widget name="script_name"
+        position="32,587" size="827,33" zPosition="12"
+        font="Bold;24"
+        halign="center"
+        valign="center"
+        foregroundColor="#FF8C00"
+        backgroundColor="#000000"
+        transparent="1" />
+
+    <!-- Page indicator -->
+    <widget name="page_info"
+        position="1100,627" size="133,40" zPosition="12"
+        font="Bold;21"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        backgroundColor="#000000"
+        transparent="1" />
+
+    <!-- Date -->
+    <widget source="global.CurrentTime" render="Label"
+        position="900,120" size="333,23" zPosition="12"
+        font="Bold;21"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        backgroundColor="#000000"
+        transparent="1">
+        <convert type="ClockToText">Format %A %d %B</convert>
+    </widget>
+
+    <!-- Clock -->
+    <widget source="global.CurrentTime" render="Label"
+        position="900,147" size="333,23" zPosition="12"
+        font="Bold;21"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        backgroundColor="#000000"
+        transparent="1">
+        <convert type="ClockToText">Format %H:%M:%S</convert>
+    </widget>
+
+    <!-- System info -->
+    <widget name="image_name" position="980,280" size="333,23" zPosition="12"
+        font="Bold;21" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <widget name="python_ver" position="980,307" size="333,23" zPosition="12"
+        font="Bold;21" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <widget name="local_ip" position="980,333" size="333,23" zPosition="12"
+        font="Bold;21" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <widget name="StorageInfo" position="980,360" size="333,23" zPosition="12"
+        font="Bold;21" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <widget name="RAMInfo" position="980,387" size="333,23" zPosition="12"
+        font="Bold;21" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <widget name="net_status" position="980,414" size="333,23" zPosition="12"
+        font="Bold;21" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+
+    <!-- Bottom buttons -->
+    <eLabel position="0,717" size="320,3" backgroundColor="red" />
+    <widget name="red"
+        position="0,667" size="320,50"
+        font="Bold;21"
+        halign="center"
+        valign="center"
+        text="Remove List"
+        foregroundColor="#E6BE3A"
+        backgroundColor="#000000" />
+
+    <eLabel position="320,717" size="320,3" backgroundColor="green" />
+    <widget name="green"
+        position="320,667" size="320,50"
+        font="Bold;21"
+        halign="center"
+        valign="center"
+        text="Update List"
+        foregroundColor="#E6BE3A"
+        backgroundColor="#000000" />
+
+    <eLabel position="640,717" size="320,3" backgroundColor="#E6BE3A" />
+    <widget name="yellow"
+        position="640,667" size="320,50"
+        font="Bold;21"
+        halign="center"
+        valign="center"
+        text="-"
+        foregroundColor="#E6BE3A"
+        backgroundColor="#000000" />
+
+    <eLabel position="960,717" size="320,3" backgroundColor="blue" />
+    <widget name="blue"
+        position="960,667" size="320,50"
+        font="Bold;21"
+        halign="center"
+        valign="center"
+        text="-"
+        foregroundColor="#E6BE3A"
+        backgroundColor="#000000" />
+
+    <!-- Side bars -->
+    <eLabel position="0,87" size="53,580" zPosition="10" backgroundColor="#000000" />
+    <eLabel position="1200,87" size="80,580" zPosition="10" backgroundColor="#000000" />
+
+    <!-- Vertical bars -->
+    <widget name="left_bar"
+        position="7,107" size="40,507" zPosition="20"
+        font="Regular;17"
+        halign="center"
+        valign="top"
+        foregroundColor="#E6BE3A"
+        backgroundColor="#000000"
+        transparent="1"
+        noWrap="1" />
+
+    <widget name="right_bar"
+        position="1233,107" size="40,507" zPosition="20"
+        font="Regular;17"
+        halign="center"
+        valign="top"
+        foregroundColor="#E6BE3A"
+        backgroundColor="#000000"
+        transparent="1"
+        noWrap="1" />
+
+</screen>

@@ -5,6 +5,7 @@
 ○ aglare fhd   7.8
 ○ footonsat 7.5
 ○ globaltranslatepro 6.6.1
+○ Newmultiquickbutton 2.8
 
 ● 31.05.2026
 ============

@@ -764,6 +764,11 @@ Version: 3.9.1     تسطيب صور على الذاكرة الخارجية
 Status: Plg Mul
 Neoboot-e2turk='https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot-e2turk.sh'
 
+Package: Newmultiquickbutton
+Version: 2.8    تخصيص وظائف لازرار الرومونت
+Status: Plg Uti
+Newmultiquickbutton='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/multiquickbutton/multiquickbutton.sh'
+
 Package: Newpermanentclock
 Version: 1.0     تثبيت الساعة على الشاشة بشكل دائم
 Status: Plg Uti

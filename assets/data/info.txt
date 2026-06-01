@@ -7,6 +7,8 @@
 ○ globaltranslatepro 6.6.1
 ○ Newmultiquickbutton 2.8
 ○ Ip2sat-hamdy 2.0
+○ autobiss 1.9
+○ backupflashe12.4
 
 ● 31.05.2026
 ============

@@ -73,6 +73,11 @@ Version: 4.0     دمج صوتيات قناتين
 Status: Plg Aud
 Audiomerge='https://gitlab.com/eliesat/extensions/-/raw/main/audiomerge/audiomerge.sh'
 
+Package: Autobiss
+Version: 1.9     الفيدات و شفرات البيس
+Status: Plg Enc
+Autobiss='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/autobiss/autobiss.sh'
+
 Package: Auto-dcw-key-add
 Version: 1.0.9     اضافة مفتاح بيس بملف السوفتكام
 Status: Plg Enc
@@ -89,9 +94,9 @@ Status: Plg Qur
 Azkar-almuslim='https://gitlab.com/eliesat/extensions/-/raw/main/azkar-almuslim/azkar-almuslim.sh'
 
 Package: Backupflashe
-Version: 9.5     باكآب الصورة
+Version: 12.4     باكآب الصورة
 Status: Plg Bac
-Backupflashe='https://gitlab.com/eliesat/extensions/-/raw/main/backupflashe/backupflashe.sh'
+Backupflashe='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/backupflashe/backupflashe.sh'
 
 Package: Backupsuite
 Version: 3.0.r10     باكآب الصورة

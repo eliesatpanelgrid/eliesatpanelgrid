@@ -6,6 +6,7 @@
 ○ footonsat 7.5
 ○ globaltranslatepro 6.6.1
 ○ Newmultiquickbutton 2.8
+○ Ip2sat-hamdy 2.0
 
 ● 31.05.2026
 ============
@@ -436,6 +437,7 @@ dm900 920
 ○ vavoo 1.61
 ○ foreca 1.1.6
 ○ h.wahba-motor 20-3-2026
+
 
 ● 18.03.2026 
 ===========

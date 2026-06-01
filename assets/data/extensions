@@ -494,6 +494,11 @@ Version: 1.8     مشاهدة الاي ابي تي على قنوات السات
 Status: Plg Ipt
 Iptosat='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/iptosat/iptosat.sh'
 
+Package: Ip2sat-hamdy
+Version: 2.0     مشاهدة الاي ابي تي على فنوات السات
+Status: Plg Ipt
+Ip2sat-hamdy='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ip2sat-hamdy/ip2sat-hamdy.sh'
+
 Package: Ip2sat
 Version: 1.0     مشاهدة الاي ابي تي على قنوات السات
 Status: Plg Ipt

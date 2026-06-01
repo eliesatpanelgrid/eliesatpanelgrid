@@ -3,6 +3,7 @@
 ○ ServerColoring  1.0
 ○ subssupport 1.8.0-r9
 ○ aglare fhd   7.8
+○ footonsat 7.5
 
 ● 31.05.2026
 ============

@@ -1015,7 +1015,7 @@ Status: Plg Sub
 Subssupport='https://gitlab.com/eliesat/extensions/-/raw/main/subssupport/subssupport-1.5.8-r9.sh'
 
 Package: Subssupport-mnasr
-Version: 1.8.0.r8     الترجمة
+Version: 1.8.0.r9     الترجمة
 Status: Plg Sub
 Subssupport-mnasr='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/subssupport/subssupport.sh'
 

@@ -695,7 +695,7 @@ Status: Plg Sub
 Mytranslator='https://gitlab.com/eliesat/extensions/-/raw/main/mytranslator/mytranslator.sh'
 
 Package: Myhybridiptv
-Version: 2.0.r5     مشغل اي بي تي في
+Version: 2.1.r0     مشغل اي بي تي في
 Status: Plg Ipt
 Myhybridiptv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/myhybridiptv/myhybridiptv.sh'
 

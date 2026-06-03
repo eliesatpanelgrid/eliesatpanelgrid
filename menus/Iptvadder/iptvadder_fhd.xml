@@ -41,39 +41,124 @@
     <eLabel position="0,130" size="80,870" zPosition="10" backgroundColor="#000000" />
     <eLabel position="1840,130" size="80,870" zPosition="10" backgroundColor="#000000" />
 
-    <!-- Date & Time -->
+    <!-- System info -->
+        <!-- header -->
+    <eLabel text="New Xtream Code..."
+        position="150,140"
+        size="1100,35"
+        zPosition="12"
+        font="Bold;32"
+        halign="center"
+        valign="center"
+        foregroundColor="#FF8C00"
+        backgroundColor="transparent"
+        transparent="1" />
+    <!-- DATE -->
     <widget source="global.CurrentTime" render="Label"
-        position="1350,180" size="500,35" zPosition="12"
-        font="Bold;32" halign="center" valign="center"
-        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1">
+        position="1272,120"
+        size="550,40"
+        zPosition="12"
+        font="Bold;32"
+        halign="center"
+        valign="center"
+        foregroundColor="#FF8C00"
+        transparent="1">
         <convert type="ClockToText">Format %A %d %B</convert>
     </widget>
+
+    <!-- CLOCK -->
     <widget source="global.CurrentTime" render="Label"
-        position="1350,220" size="500,35" zPosition="12"
-        font="Bold;32" halign="center" valign="center"
-        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1">
+        position="1272,160"
+        size="550,40"
+        zPosition="12"
+        font="Bold;32"
+        halign="center"
+        valign="center"
+        foregroundColor="#FF8C00"
+        transparent="1">
         <convert type="ClockToText">Format %H:%M:%S</convert>
     </widget>
 
-    <!-- System info -->
-    <widget name="image_name" position="1470,420" size="500,35" zPosition="12"
-        font="Bold;32" halign="left" valign="center"
-        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
-    <widget name="python_ver" position="1470,460" size="500,35" zPosition="12"
-        font="Bold;32" halign="left" valign="center"
-        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
-    <widget name="local_ip" position="1470,500" size="500,35" zPosition="12"
-        font="Bold;32" halign="left" valign="center"
-        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
-    <widget name="StorageInfo" position="1470,540" size="500,35" zPosition="12"
-        font="Bold;32" halign="left" valign="center"
-        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
-    <widget name="RAMInfo" position="1470,580" size="500,35" zPosition="12"
-        font="Bold;32" halign="left" valign="center"
-        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
-    <widget name="net_status" position="1470,620" size="500,35" zPosition="12"
-        font="Bold;32" halign="left" valign="center"
-        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="1" />
+    <!-- Top separator -->
+    <eLabel position="1370,215"
+        size="350,2"
+        zPosition="12"
+        backgroundColor="#E6BE3A" />
+
+    <!-- MiniTV -->
+    <widget source="session.VideoPicture"
+        render="Pig"
+        position="1272,235"
+        size="550,290"
+        zPosition="1"
+        backgroundColor="transparent" />
+
+    <!-- Bottom separator -->
+    <eLabel position="1370,545"
+        size="350,2"
+        zPosition="12"
+        backgroundColor="#E6BE3A" />
+
+    <!-- System Information -->
+    <widget name="image_name"
+        position="1272,570"
+        size="550,35"
+        zPosition="12"
+        font="Bold;30"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
+
+    <widget name="python_ver"
+        position="1272,610"
+        size="550,35"
+        zPosition="12"
+        font="Bold;30"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
+
+    <widget name="local_ip"
+        position="1272,650"
+        size="550,35"
+        zPosition="12"
+        font="Bold;30"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
+
+    <widget name="StorageInfo"
+        position="1272,690"
+        size="550,35"
+        zPosition="12"
+        font="Bold;30"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
+
+    <widget name="RAMInfo"
+        position="1272,730"
+        size="550,35"
+        zPosition="12"
+        font="Bold;30"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
+
+    <widget name="net_status"
+        position="1272,770"
+        size="550,35"
+        zPosition="12"
+        font="Bold;30"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
 
     <!-- Config / Playlists / Panel path -->
     <widget name="config" position="150,180" size="1100,700"

@@ -950,7 +950,7 @@ Status: Plg Uti
 Scriptexecuter='https://gitlab.com/eliesat/extensions/-/raw/main/scriptexecuter/scriptexecuter.sh'
 
 Package: Servercoloring
-Version: 1.0     تلوين قنوات الشيرينج
+Version: 3.0     تلوين قنوات الشيرينج
 Status: Plg Uti
 Servercoloring='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/servercoloring/servercoloring.sh'
 

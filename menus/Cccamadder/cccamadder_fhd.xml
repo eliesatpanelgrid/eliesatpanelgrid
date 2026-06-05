@@ -8,7 +8,7 @@
         position="150,35" size="1400,50" zPosition="11"
         font="Bold;32" halign="left" valign="center"
         foregroundColor="#E6BE3A" backgroundColor="#000000"
-        transparent="0" />
+        transparent="0" alphatest="blend" />
 
     <!-- Bottom buttons -->
     <eLabel position="0,1075" size="480,5" zPosition="2" backgroundColor="red" />
@@ -42,8 +42,8 @@
         halign="center"
         valign="center"
         foregroundColor="#FF8C00"
-        backgroundColor="transparent"
-        transparent="1" />
+        backgroundColor="background"
+        transparent="1" alphatest="blend" />
     <!-- DATE -->
     <widget source="global.CurrentTime" render="Label"
         position="1272,120"
@@ -52,8 +52,9 @@
         font="Bold;32"
         halign="center"
         valign="center"
+        backgroundColor="background"
         foregroundColor="#FF8C00"
-        transparent="1">
+        transparent="1" alphatest="blend" >
         <convert type="ClockToText">Format %A %d %B</convert>
     </widget>
 
@@ -65,8 +66,9 @@
         font="Bold;32"
         halign="center"
         valign="center"
+        backgroundColor="background"
         foregroundColor="#FF8C00"
-        transparent="1">
+        transparent="1" alphatest="blend" >
         <convert type="ClockToText">Format %H:%M:%S</convert>
     </widget>
 
@@ -98,8 +100,9 @@
         font="Bold;30"
         halign="center"
         valign="center"
+        backgroundColor="background"
         foregroundColor="#E6BE3A"
-        transparent="1" />
+        transparent="1" alphatest="blend" />
 
     <widget name="python_ver"
         position="1272,610"
@@ -109,7 +112,7 @@
         halign="center"
         valign="center"
         foregroundColor="#E6BE3A"
-        transparent="1" />
+        transparent="1" alphatest="blend" />
 
     <widget name="local_ip"
         position="1272,650"
@@ -118,8 +121,9 @@
         font="Bold;30"
         halign="center"
         valign="center"
+        backgroundColor="background"
         foregroundColor="#E6BE3A"
-        transparent="1" />
+        transparent="1" alphatest="blend" />
 
     <widget name="StorageInfo"
         position="1272,690"
@@ -128,8 +132,9 @@
         font="Bold;30"
         halign="center"
         valign="center"
+        backgroundColor="background"
         foregroundColor="#E6BE3A"
-        transparent="1" />
+        transparent="1" alphatest="blend" />
 
     <widget name="RAMInfo"
         position="1272,730"
@@ -138,8 +143,9 @@
         font="Bold;30"
         halign="center"
         valign="center"
+        backgroundColor="background"
         foregroundColor="#E6BE3A"
-        transparent="1" />
+        transparent="1" alphatest="blend" />
 
     <widget name="net_status"
         position="1272,770"
@@ -148,18 +154,22 @@
         font="Bold;30"
         halign="center"
         valign="center"
+        backgroundColor="background"
         foregroundColor="#E6BE3A"
-        transparent="1" />
+        transparent="1" alphatest="blend" />
 
 
     <!-- Config list -->
     <widget name="config" position="150,180" size="1100,900"
         font="Bold;32" itemHeight="50"
         foregroundColor="#E6BE3A"
+        backgroundColor="background"    
+      backgroundColorSelected="#11000000"
+        foregroundColorSelected="#FF8C00"
         transparent="1" scrollbarMode="showOnDemand"
         enableWrapAround="1"
         valign="center"
-        selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/icon/selection.png"
+        selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/icon/selection.png" alphatest="blend"
     />
 
     <!-- Vertical texts -->

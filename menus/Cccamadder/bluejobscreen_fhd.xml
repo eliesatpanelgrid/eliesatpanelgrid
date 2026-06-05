@@ -1,26 +1,14 @@
-<screen name="OscamReadersScreen" position="center,center" size="1920,1080">
-
-<ePixmap position="0,0" size="1920,1080"
-    pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.jpg"
-    zPosition="-10"/>
-
-<eLabel position="0,0" size="1920,130"
-    backgroundColor="#000000"
-    zPosition="10"/>
-
-    <!-- Top black bar -->
+<screen name="bluejobscreen" position="0,0" size="1920,1080" backgroundColor="transparent" flags="wfNoBorder" title="Scripts">
+    <ePixmap position="0,0" zPosition="-1" size="1920,1080"
+        pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.jpg"/>
     <eLabel position="0,0" size="1920,130" zPosition="10" backgroundColor="#000000" />
+    <eLabel text="● Readers manager"
+        position="740,0" size="1400,50" zPosition="11"
+        font="Bold;32" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
 
-    <!-- Title -->
-<eLabel text="● Readers manager"
-        position="150,35" size="1400,50" zPosition="11"
-        font="Bold;32"
-        halign="left"
-        valign="center"
-        foregroundColor="#E6BE3A"
-        backgroundColor="#000000" />
-
-<eLabel text="LABEL                    │ ADDRESS                   │ PORT     │ PROTOCOL     │ STATUS"
+   <eLabel text="LABEL                    │ ADDRESS                   │ PORT     │ PROTOCOL     │ STATUS"
     position="100,150" size="1740,40"
     font="Console;30"
     foregroundColor="#FF8C00"/>
@@ -49,6 +37,7 @@
     font="Bold;44"
     halign="center"
     valign="center"
+    backgroundColor="background"
     foregroundColor="#FF0000"
     transparent="1"/>
 
@@ -61,7 +50,7 @@
     foregroundColor="#FF8C00"
     transparent="1" alphatest="blend"/>
 
-    <!-- Bottom Buttons -->
+<!-- Bottom Buttons -->
 
     <eLabel position="0,1075" size="480,5" backgroundColor="red" />
     <widget name="red"
@@ -107,40 +96,19 @@
         foregroundColor="#E6BE3A"
         backgroundColor="#000000" />
 
-    <!-- Side Bars -->
-    <eLabel position="0,130"
-        size="80,870"
-        zPosition="10"
-        backgroundColor="#000000" />
 
-    <eLabel position="1840,130"
-        size="80,870"
-        zPosition="10"
-        backgroundColor="#000000" />
+    <!-- Side bars -->
+    <eLabel position="0,130" size="80,870" zPosition="10" backgroundColor="#000000" />
+    <eLabel position="1840,130" size="80,870" zPosition="10" backgroundColor="#000000" />
 
-    <!-- Vertical Bars -->
-    <widget name="left_bar"
-        position="10,160"
-        size="60,760"
-        zPosition="20"
-        font="Regular;26"
-        halign="center"
-        valign="top"
-        foregroundColor="#E6BE3A"
+    <!-- Left / Right vertical bars -->
+    <widget name="left_bar" position="10,160" size="60,760" zPosition="20"
+        font="Regular;26" halign="center" valign="top"
         backgroundColor="#000000"
-        transparent="1"
-        noWrap="1" />
-
-    <widget name="right_bar"
-        position="1850,160"
-        size="60,760"
-        zPosition="20"
-        font="Regular;26"
-        halign="center"
-        valign="top"
-        foregroundColor="#E6BE3A"
+        foregroundColor="#E6BE3A" transparent="1" noWrap="1" />
+    <widget name="right_bar" position="1850,160" size="60,760" zPosition="20"
+        font="Regular;26" halign="center" valign="top"
         backgroundColor="#000000"
-        transparent="1"
-        noWrap="1" />
-
+        foregroundColor="#E6BE3A" transparent="1" noWrap="1" />
 </screen>
+

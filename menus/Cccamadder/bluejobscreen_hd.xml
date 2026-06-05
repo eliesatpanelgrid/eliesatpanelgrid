@@ -1,31 +1,22 @@
-<screen name="OscamReadersScreen" position="center,center" size="1280,720">
+<screen name="bluejobscreen" position="0,0" size="1280,720" backgroundColor="transparent" flags="wfNoBorder" title="Scripts">
+    
+    <ePixmap position="0,0" zPosition="-1" size="1280,720"
+        pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.jpg"/>
 
-    <ePixmap position="0,0" size="1280,720"
-        pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.jpg"
-        zPosition="-10"/>
-
-    <eLabel position="0,0" size="1280,87"
-        backgroundColor="#000000"
-        zPosition="10"/>
-
-    <!-- Top black bar -->
     <eLabel position="0,0" size="1280,87" zPosition="10" backgroundColor="#000000" />
 
-    <!-- Title -->
     <eLabel text="● Readers manager"
-        position="100,23" size="933,33" zPosition="11"
-        font="Bold;21"
-        halign="left"
-        valign="center"
-        foregroundColor="#E6BE3A"
-        backgroundColor="#000000" />
+        position="493,0" size="700,33" zPosition="11"
+        font="Bold;21" halign="left" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
 
     <eLabel text="LABEL                    │ ADDRESS                   │ PORT     │ PROTOCOL     │ STATUS"
         position="67,100" size="1160,27"
         font="Console;20"
         foregroundColor="#FF8C00"/>
 
-    <eLabel text="────────────────────────────────────────────────────────────────────────────────────────────────────────────"
+    <eLabel text="────────────────────────────────────────────────────────────────────────────────────────────"
         position="67,125" size="1160,27"
         font="Console;20"
         foregroundColor="#E6BE3A"/>
@@ -50,6 +41,7 @@
         font="Bold;29"
         halign="center"
         valign="center"
+        backgroundColor="background"
         foregroundColor="#FF0000"
         transparent="1"/>
 
@@ -109,18 +101,11 @@
         foregroundColor="#E6BE3A"
         backgroundColor="#000000" />
 
-    <!-- Side Bars -->
-    <eLabel position="0,87"
-        size="53,580"
-        zPosition="10"
-        backgroundColor="#000000" />
+    <!-- Side bars -->
+    <eLabel position="0,87" size="53,580" zPosition="10" backgroundColor="#000000" />
+    <eLabel position="1227,87" size="53,580" zPosition="10" backgroundColor="#000000" />
 
-    <eLabel position="1227,87"
-        size="53,580"
-        zPosition="10"
-        backgroundColor="#000000" />
-
-    <!-- Vertical Bars -->
+    <!-- Left / Right vertical bars -->
     <widget name="left_bar"
         position="7,107"
         size="40,507"
@@ -128,8 +113,8 @@
         font="Regular;17"
         halign="center"
         valign="top"
-        foregroundColor="#E6BE3A"
         backgroundColor="#000000"
+        foregroundColor="#E6BE3A"
         transparent="1"
         noWrap="1" />
 
@@ -140,8 +125,8 @@
         font="Regular;17"
         halign="center"
         valign="top"
-        foregroundColor="#E6BE3A"
         backgroundColor="#000000"
+        foregroundColor="#E6BE3A"
         transparent="1"
         noWrap="1" />
 

@@ -1,38 +1,39 @@
-<screen name="ProtocolEditorScreen" position="0,0" size="1280,720" backgroundColor="transparent">
-
-    <!-- Background -->
+<screen name="cccamadder" position="0,0" size="1280,720" backgroundColor="transparent" flags="wfNoBorder" title="Scripts">
     <ePixmap position="0,0" zPosition="-1" size="1280,720"
         pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.jpg"/>
 
-    <!-- Top bar -->
     <eLabel position="0,0" size="1280,87" zPosition="10" backgroundColor="#000000" />
 
     <eLabel text="● Subscription Editor"
-        position="100,23" size="933,33" zPosition="11"
+        position="493,0" size="933,33" zPosition="11"
         font="Bold;21" halign="left" valign="center"
         foregroundColor="#E6BE3A" backgroundColor="#000000"
-        transparent="0" alphatest="blend" />
+        transparent="0" />
 
     <!-- Bottom buttons -->
     <eLabel position="0,717" size="320,3" zPosition="2" backgroundColor="red" />
     <widget name="red" position="0,667" size="320,50" zPosition="2"
         font="Bold;21" halign="center" valign="center"
-        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="0" />
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
 
     <eLabel position="320,717" size="320,3" zPosition="2" backgroundColor="green" />
     <widget name="green" position="320,667" size="320,50" zPosition="2"
         font="Bold;21" halign="center" valign="center"
-        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="0" />
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
 
     <eLabel position="640,717" size="320,3" zPosition="2" backgroundColor="#E6BE3A" />
     <widget name="yellow" position="640,667" size="320,50" zPosition="2"
         font="Bold;21" halign="center" valign="center"
-        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="0" />
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
 
     <eLabel position="960,717" size="320,3" zPosition="2" backgroundColor="blue" />
     <widget name="blue" position="960,667" size="320,50" zPosition="2"
         font="Bold;21" halign="center" valign="center"
-        foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="0" />
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
 
     <!-- Side bars -->
     <eLabel position="0,87" size="53,580" zPosition="10" backgroundColor="#000000" />
@@ -47,8 +48,8 @@
         halign="center"
         valign="center"
         foregroundColor="#FF8C00"
-        backgroundColor="background"
-        transparent="1" alphatest="blend" />
+        backgroundColor="transparent"
+        transparent="1" />
 
     <!-- DATE -->
     <widget source="global.CurrentTime" render="Label"
@@ -58,9 +59,8 @@
         font="Bold;21"
         halign="center"
         valign="center"
-        backgroundColor="background"
         foregroundColor="#FF8C00"
-        transparent="1" alphatest="blend">
+        transparent="1">
         <convert type="ClockToText">Format %A %d %B</convert>
     </widget>
 
@@ -72,9 +72,8 @@
         font="Bold;21"
         halign="center"
         valign="center"
-        backgroundColor="background"
         foregroundColor="#FF8C00"
-        transparent="1" alphatest="blend">
+        transparent="1">
         <convert type="ClockToText">Format %H:%M:%S</convert>
     </widget>
 
@@ -106,9 +105,8 @@
         font="Bold;20"
         halign="center"
         valign="center"
-        backgroundColor="background"
         foregroundColor="#E6BE3A"
-        transparent="1" alphatest="blend" />
+        transparent="1" />
 
     <widget name="python_ver"
         position="848,407"
@@ -118,7 +116,7 @@
         halign="center"
         valign="center"
         foregroundColor="#E6BE3A"
-        transparent="1" alphatest="blend" />
+        transparent="1" />
 
     <widget name="local_ip"
         position="848,433"
@@ -127,9 +125,8 @@
         font="Bold;20"
         halign="center"
         valign="center"
-        backgroundColor="background"
         foregroundColor="#E6BE3A"
-        transparent="1" alphatest="blend" />
+        transparent="1" />
 
     <widget name="StorageInfo"
         position="848,460"
@@ -138,9 +135,8 @@
         font="Bold;20"
         halign="center"
         valign="center"
-        backgroundColor="background"
         foregroundColor="#E6BE3A"
-        transparent="1" alphatest="blend" />
+        transparent="1" />
 
     <widget name="RAMInfo"
         position="848,487"
@@ -149,9 +145,8 @@
         font="Bold;20"
         halign="center"
         valign="center"
-        backgroundColor="background"
         foregroundColor="#E6BE3A"
-        transparent="1" alphatest="blend" />
+        transparent="1" />
 
     <widget name="net_status"
         position="848,513"
@@ -160,9 +155,8 @@
         font="Bold;20"
         halign="center"
         valign="center"
-        backgroundColor="background"
         foregroundColor="#E6BE3A"
-        transparent="1" alphatest="blend" />
+        transparent="1" />
 
     <!-- Config list -->
     <widget name="config"
@@ -171,17 +165,14 @@
         font="Bold;21"
         itemHeight="33"
         foregroundColor="#E6BE3A"
-        backgroundColor="background"
-        backgroundColorSelected="#11000000"
-        foregroundColorSelected="#FF8C00"
         transparent="1"
         scrollbarMode="showOnDemand"
         enableWrapAround="1"
         valign="center"
         selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/icon/selection.png"
-        alphatest="blend" />
+    />
 
-    <!-- Vertical texts -->
+    <!-- Left / Right vertical bars -->
     <widget name="left_bar"
         position="7,107"
         size="40,507"
@@ -189,10 +180,10 @@
         font="Regular;17"
         halign="center"
         valign="top"
-        noWrap="1"
-        foregroundColor="#E6BE3A"
         backgroundColor="#000000"
-        transparent="0" />
+        foregroundColor="#E6BE3A"
+        transparent="1"
+        noWrap="1" />
 
     <widget name="right_bar"
         position="1233,107"
@@ -201,9 +192,8 @@
         font="Regular;17"
         halign="center"
         valign="top"
-        noWrap="1"
-        foregroundColor="#E6BE3A"
         backgroundColor="#000000"
-        transparent="0" />
-
+        foregroundColor="#E6BE3A"
+        transparent="1"
+        noWrap="1" />
 </screen>

@@ -3,6 +3,7 @@
 ○ mytranlator 1.70
 ○ abouomar-motor
 ○ furybiss 5.0
+○ picons-motor 06.06.2026
 
 ● 04.06.2026
 ============

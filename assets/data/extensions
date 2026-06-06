@@ -690,9 +690,9 @@ Status: Plg Enc
 Mycam='https://gitlab.com/eliesat/extensions/-/raw/main/mycam/mycam.sh'
 
 Package: Mytranslator
-Version: 1.64     الترجمة
+Version: 1.70     الترجمة
 Status: Plg Sub
-Mytranslator='https://gitlab.com/eliesat/extensions/-/raw/main/mytranslator/mytranslator.sh'
+Mytranslator='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/mytranslator/mytranslator.sh'
 
 Package: Myhybridiptv
 Version: 2.1.r0     مشغل اي بي تي في

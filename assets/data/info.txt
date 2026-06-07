@@ -4,6 +4,7 @@
 ○ simplysports 6.1
 ○ numberzapext 1.0
 ○ vavoo 1.73
+○ freeaihey 3.1
 ○ ciefp-motor
 ○ vhannibal-motor
 ○ morpheus888-motor

@@ -422,7 +422,7 @@ Hardwareinfo='https://gitlab.com/eliesat/extensions/-/raw/main/hardwareinfo/hard
 Package: Hasbahca
 Version: 2.3     اي بي تي في مجاني
 Status: Plg Free
-Hasbahca='https://gitlab.com/eliesat/extensions/-/raw/main/hasbahca/hasbahca.sh'
+Hasbahca='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/hasbahca/hasbahca.sh'
 
 Package: Hdfradio
 Version: 2.22.4     راديو

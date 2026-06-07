@@ -1085,9 +1085,9 @@ Status: Plg Sys
 Ts-sateditor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ts-sateditor/ts-sateditor.sh'
 
 Package: Tvgarden
-Version: 2.3     اي بي تي في مجاني
+Version: 2.6     اي بي تي في مجاني
 Status: Plg Free
-Tvgarden='https://gitlab.com/eliesat/extensions/-/raw/main/tvgarden/tvgarden.sh'
+Tvgarden='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/tvgarden/tvgarden.sh'
 
 Package: Ultracam
 Version: 3.0.r0     خاص باجهزة نوفالر

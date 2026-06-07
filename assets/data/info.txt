@@ -1,5 +1,6 @@
 ● 07.06.2026
 ============
+○ levi oscam-11965-emu-803
 ○ simplysports 6.1
 ○ ciefp-motor
 ○ vhannibal-motor

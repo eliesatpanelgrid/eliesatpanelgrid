@@ -815,7 +815,7 @@ Status: Plg Nov
 Novatv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/novatv/novatv.sh'
 
 Package: Numberzapext
-Version: 1.0      تخصيص مفاتيح الرومونت
+Version: 1.22      تخصيص مفاتيح الرومونت
 Status: Plg Sys
 Numberzapext='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/numberzapext/numberzapext.sh'
 

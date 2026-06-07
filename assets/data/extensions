@@ -155,7 +155,7 @@ Status: Plg Uti
 Bundesliga-clock='https://gitlab.com/eliesat/extensions/-/raw/main/bundesliga-permanent-clock/bundesliga-permanent-clock.sh'
 
 Package: Buttonpatcher
-Version: 1.0      برمجة مفاتيح الرومونت
+Version: 1.0      تخصيص مفاتيح الرومونت
 Status: Plg Uti
 Buttonpatcher='https://gitlab.com/eliesat/extensions/-/raw/main/buttonpatcher/buttonpatcher.sh'
 
@@ -813,6 +813,11 @@ Package: Novatv
 Version: 11.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
 Novatv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/novatv/novatv.sh'
+
+Package: Numberzapext
+Version: 1.0      تخصيص مفاتيح الرومونت
+Status: Plg Sys
+Numberzapext='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/numberzapext/numberzapext.sh'
 
 Package: Oaweather
 Version: 4.0     حالة الطقس

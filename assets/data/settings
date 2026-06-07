@@ -19,7 +19,7 @@ Status: Settings
 alashry-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/alashry-motor.sh'
 
 Package: Ciefp-motor
-Version: 29.05.2026     ملف قنوات
+Version: 05.06.2026     ملف قنوات
 Status: Settings
 Ciefp-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/ciefp-motor.sh'
 
@@ -44,7 +44,7 @@ Status: Settings
 Monuser-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/monuser-motor.sh'
 
 Package: Morpheus883-motor
-Version: 19.04.2026     ملف قنوات
+Version: 31.05.2026     ملف قنوات
 Status: Settings
 Morpheus883-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/morpheus883-motor.sh'
 
@@ -69,7 +69,7 @@ Status: Settings
 Salama-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/salama-motor.sh'
 
 Package: Vhannibal-motor
-Version: 01.05.2026     ملف قنوات
+Version: 04.06.!2026     ملف قنوات
 Status: Settings
 Vhannibal-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/vhannibal-motor.sh'
 

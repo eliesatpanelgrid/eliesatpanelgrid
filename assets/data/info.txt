@@ -1,6 +1,9 @@
 ● 07.06.2026
 ============
 ○ simplysports 6.1
+○ ciefp-motor
+○ vhannibal-motor
+○ morpheus888-motor
 
 ● 06.06.2026
 ============

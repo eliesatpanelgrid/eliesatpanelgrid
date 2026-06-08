@@ -515,9 +515,9 @@ Status: Plg Nov
 Ipsat='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/ipsat/ipsat.sh'
 
 Package: Iptvarchive
-Version: 2.0.92     معاينة ارشيف الاي بي تي في
+Version: 2.0.94     معاينة ارشيف الاي بي تي في
 Status: Plg Ipt
-Iptvarchive='https://gitlab.com/eliesat/extensions/-/raw/main/iptvarchive/iptvarchive.sh'
+Iptvarchive='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/iptvarchive/iptvarchive.sh'
 
 Package: Iptvdream
 Version: 6.6.1     m3u قارئ و مشغل ملفات 

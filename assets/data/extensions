@@ -700,7 +700,7 @@ Status: Plg Ipt
 Myhybridiptv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/myhybridiptv/myhybridiptv.sh'
 
 Package: Mywebuicontroller
-Version: 1.0 .0    اضافة اشتراكات الاي بي تي في و الشيرينج عبر المتصفح
+Version: 1.0.0     اضافة اشتراكات الاي بي تي في و الشيرينج عبر المتصفح
 Status: Plg Uti
 Mywebuicontroller='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/mywebuicontroller/mywebuicontroller.sh'
 

@@ -1,5 +1,6 @@
 ● 08.06.2026
 ============
+○ transmission 5.0
 ○ fullbaxkup 7.2
 ○ subssupport 1.5.8.r10
 ○ iptvarchive 2.0.94

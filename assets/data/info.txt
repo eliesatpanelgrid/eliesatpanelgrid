@@ -1,5 +1,6 @@
 ● 08.06.2026
 ============
+○ iptvarchive 2.0.94
 ○ mywebuicontroller 1.0.0
 ○ hasbahca 2.3
 ○ tvgarden 2.6

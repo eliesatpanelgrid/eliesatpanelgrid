@@ -1151,8 +1151,8 @@ Wireguard-vpn='https://gitlab.com/eliesat/extensions/-/raw/main/wireguard-vpn/wi
 
 Package: Worldcam
 Version: 6.7     كاميرات حول العالم
-Status: Plg Uti
-Worldcam='https://gitlab.com/eliesat/extensions/-/raw/main/worldcam/worldcam.sh'
+Status: Plg Free
+Worldcam='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/worldcam/worldcam.sh'
 
 Package: Xcplugin-forever
 Version: 5.2     مشغل اي بي تي في

@@ -699,6 +699,11 @@ Version: 2.1.r0     مشغل اي بي تي في
 Status: Plg Ipt
 Myhybridiptv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/myhybridiptv/myhybridiptv.sh'
 
+Package: Mywebuicontroller
+Version: 1.0 .0    اضافة اشتراكات الاي بي تي في و الشيرينج عبر المتصفح
+Status: Plg Uti
+Mywebuicontroller='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/mywebuicontroller/mywebuicontroller.sh'
+
 Package: Ncam-status
 Version: 3.2     معلومات عن حالة المحاكي
 Status: Plg Enc

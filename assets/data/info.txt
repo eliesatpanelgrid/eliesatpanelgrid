@@ -1,5 +1,6 @@
 ● 08.06.2026
 ============
+○ mywebuicontroller 1.0.0
 ○ hasbahca 2.3
 ○ tvgarden 2.6
 ○ worldcam 6.8
@@ -10,7 +11,7 @@
 ○ simplysports 6.1
 ○ numberzapext 1.0
 ○ vavoo 1.73
-○ freeaihey 3.1
+○ freeairhey 3.1
 ○ ciefp-motor
 ○ vhannibal-motor
 ○ morpheus888-motor

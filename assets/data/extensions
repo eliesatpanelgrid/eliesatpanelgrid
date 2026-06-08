@@ -1080,9 +1080,9 @@ Status: Plg Nov
 Total90='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/total90/total90.sh'
 
 Package: Transmission
-Version: 4.0.6.1     مشاهدة و تنزيل افلام و مسلسلات
+Version: 5.0     مشاهدة و تنزيل افلام و مسلسلات
 Status: Plg Free
-Transmission='https://gitlab.com/eliesat/extensions/-/raw/main/transmission/transmission.sh'
+Transmission='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/transmission/transmission.sh'
 
 Package: Translateai
 Version: 6.6     الترجمة

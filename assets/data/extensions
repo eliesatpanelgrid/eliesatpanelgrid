@@ -900,9 +900,9 @@ Status: Plg Qur
 Quran='https://gitlab.com/eliesat/extensions/-/raw/main/quran/quran.sh'
 
 Package: Radiom
-Version: 1.1     ستريم لمحطات راديو
+Version: 1.5     ستريم لمحطات راديو
 Status: Plg Rad
-Radiom='https://gitlab.com/eliesat/extensions/-/raw/main/radiom/radiom.sh'
+Radiom='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/radiom/radiom.sh'
 
 Package: Radiogit
 Version: 1.2     ستريم لمحطات راديو

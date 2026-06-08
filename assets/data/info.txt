@@ -1,5 +1,6 @@
 ● 08.06.2026
 ============
+○ e2iplayeroem 07.06.2026
 ○ redflagflashtool 3.0
 ○ radiom 1.5
 ○ transmission 5.0

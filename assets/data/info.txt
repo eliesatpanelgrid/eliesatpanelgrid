@@ -1,5 +1,6 @@
 ● 08.06.2026
 ============
+○ subssupport 1.5.8.r10
 ○ iptvarchive 2.0.94
 ○ mywebuicontroller 1.0.0
 ○ hasbahca 2.3

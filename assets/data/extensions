@@ -924,6 +924,11 @@ Version: 20240324     اي بي تي في مجاني
 Status: Plg Free
 Rakutentv='https://gitlab.com/eliesat/extensions/-/raw/main/rakutentv/rakutentv.sh'
 
+Package: Redflagflashtool
+Version: 3.0     تنزيل و تسطيب صور خام
+Status: Plg Mul
+Redflagflashtool='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/redflagflashtool/redflagflashtool.sh'
+
 Package: Satellitemanager
 Version: 1.0     اضافة حذف تعديل بالاقمار و الترددات
 Status: Plg Sys

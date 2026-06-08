@@ -2,7 +2,7 @@
 ============
 ○ hasbahca 2.3
 ○ tvgarden 2.6
-○ worldcam 6.7
+○ worldcam 6.8
 
 ● 07.06.2026
 ============

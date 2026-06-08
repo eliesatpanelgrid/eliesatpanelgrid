@@ -1150,7 +1150,7 @@ Status: Plg Uti
 Wireguard-vpn='https://gitlab.com/eliesat/extensions/-/raw/main/wireguard-vpn/wireguard-vpn.sh'
 
 Package: Worldcam
-Version: 6.7     كاميرات حول العالم
+Version: 6.8     كاميرات حول العالم
 Status: Plg Free
 Worldcam='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/worldcam/worldcam.sh'
 

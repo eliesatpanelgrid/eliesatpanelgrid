@@ -175,5 +175,57 @@
         font="Regular;26" halign="center" valign="top"
         backgroundColor="#000000"
         foregroundColor="#E6BE3A" transparent="1" noWrap="1" />
+
+     <!-- Active Subscription Block Header -->
+    <eLabel text="Active Reader Details:"
+        position="1272,815"
+        size="550,35"
+        zPosition="12"
+        font="Bold;30"
+        halign="center"
+        valign="center"
+        foregroundColor="#FF8C00"
+        transparent="1" />
+
+    <!-- Active Subscription Fields Data -->
+    <widget name="last_label"
+        position="1272,855"
+        size="550,30"
+        zPosition="12"
+        font="Regular;28"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
+
+    <widget name="last_proto"
+        position="1272,890"
+        size="550,30"
+        zPosition="12"
+        font="Regular;28"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
+
+    <widget name="last_host"
+        position="1272,925"
+        size="550,30"
+        zPosition="12"
+        font="Regular;28"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
+
+    <widget name="last_user"
+        position="1272,960"
+        size="550,30"
+        zPosition="12"
+        font="Regular;28"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
 </screen>
 

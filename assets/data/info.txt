@@ -3,6 +3,7 @@
 ○ footonsat 7.9
 ○ skin xdreamy 6.6
 ○ skin jihad-atv 2.8
+○ skin jihad-pli 2.9
 
 ● 11.06.2026
 ============

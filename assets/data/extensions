@@ -970,7 +970,7 @@ Status: Plg Uti
 Scriptexecuter='https://gitlab.com/eliesat/extensions/-/raw/main/scriptexecuter/scriptexecuter.sh'
 
 Package: Servercoloring
-Version: 3.0     تلوين قنوات الشيرينج
+Version: 4.0     تلوين قنوات الشيرينج
 Status: Plg Uti
 Servercoloring='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/servercoloring/servercoloring.sh'
 
@@ -979,15 +979,15 @@ Version: 1.1     تعريف اشتراك الشيرينج
 Status: Plg Enc
 Servereaglesat='https://gitlab.com/eliesat/extensions/-/raw/main/servereaglesat/servereaglesat.sh'
 
-Package: Setpicon
-Version: 2.0     تمرير بيكون للقناة
-Status: Plg Pic
-Setpicon='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/setpicon/setpicon.sh'
-
 Package: Servicescanupdates
 Version: 3.2     انشاء مفضلة للقنوات الجديدة بعد البحث
 Status: Plg Sys
 Servicescanupdates='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/servicescanupdates/servicescanupdates.sh'
+
+Package: Setpicon
+Version: 2.0     تمرير بيكون للقناة
+Status: Plg Pic
+Setpicon='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/setpicon/setpicon.sh'
 
 Package: Sherlockmod
 Version: 1.4.2     اينفوبار اضافي

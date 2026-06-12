@@ -35,9 +35,9 @@ Mymetrixlitebackup='https://gitlab.com/eliesat/skins/-/raw/main/skins-parts/myme
 #########################################################################################################
 
 Package: Aglare-fhd-atv
-Version: 7.8     
+Version: 7.8          11.06.2026
 Status: Soebased Segami Satv Sspa Spure
-Aglare-fhd-atv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/aglareatv/aglareatv.sh'
+Aglare-fhd-atv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/aglare-fhd-atv/aglare-fhd-atv.sh'
 
 Package: Aglare-fhd-pli
 Version: 7.0     

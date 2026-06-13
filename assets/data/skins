@@ -104,15 +104,10 @@ Version: 7.4
 Status: Soebased Segami Satv Sspa Sobh Spure Svix Spli3
 Fury-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/fury/fury.sh'
 
-Package: Jihad-fhd-atv
-Version: 2.8          12.06.2026
-Status: Soebased Segami Satv Sspa Spure
-Jihad-fhd-atv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/jihad-atv/jihad-atv.sh'
-
-Package: Jihad-fhd-pli
-Version: 2.9          12.06.2026     
-Status: Soebased Sobh Spli3 Svix
-Jihad-fhd-pli='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/jihad-pli/jihad-pli.sh'
+Package: Jihad-fhd
+Version: 2.10          13.06.2026
+Status: Soebased Segami Satv Sspa Sobh Spure Svix Spli3
+Jihad-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/jihad/jihad.sh'
 
 Package: KIII-pro
 Version: 3.3     
@@ -200,6 +195,10 @@ Status: Soebased Spli3 Sobh Svix
 Youchie-pli-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/youchie-pli-fhd/pli/youchie-pli-fhd.sh'
 
 Package: Xdreamy-fhd
+Version: 6.6     11.06.2026
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Xdreamy-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
+age: Xdreamy-fhd
 Version: 6.6     11.06.2026
 Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
 Xdreamy-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'

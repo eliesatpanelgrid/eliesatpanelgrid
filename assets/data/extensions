@@ -837,7 +837,7 @@ Oaweather='https://gitlab.com/eliesat/extensions/-/raw/main/oaweather/oaweather.
 Package: Oaweatheriet
 Version: 1.4     حالة الطقس
 Status: Plg Wea
-Oaweatheriet='https://gitlab.com/eliesat/extensions/-/raw/main/oaweatheriet5/oaweatheriet5.sh'
+Oaweatheriet='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/oaweatheriet5/oaweatheriet5.sh'
 
 Package: Opdboot
 Version: 3.1.20251102     تسطيب صور على الذاكرة الخارجية

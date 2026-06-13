@@ -300,7 +300,7 @@ Status: Plg Epg
 Epgimport='https://gitlab.com/eliesat/extensions/-/raw/main/epgimport/epgimport.sh'
 
 Package: Epgimport-iet5
-Version: 3.3     قراءة و عرض ملفات الدليل الاكتروني
+Version: 3.4     قراءة و عرض ملفات الدليل الاكتروني
 Status: Plg Epg
 Epgimport-iet5='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/epgimportiet5/epgimportiet5.sh'
 

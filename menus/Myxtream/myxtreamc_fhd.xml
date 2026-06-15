@@ -1,7 +1,15 @@
 <screen name="MyXtreamChannels" position="0,0" size="1920,1080" title="MyXtream Channels" flags="wfNoBorder">
         <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.jpg" position="0,0" size="1920,1080" zPosition="-1"/>
-        <widget name="title" position="40,30" size="1840,60" font="Regular;42" foregroundColor="#E6BE3A" transparent="1"/>
-        <widget name="list" position="150,180" size="1100,700" itemHeight="50" font="Regular;32" foregroundColor="#E6BE3A" foregroundColorSelected="#FF8C00" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/icon/selection.png" scrollbarMode="showOnDemand" transparent="1"/>
+    <eLabel position="0,0" size="1920,130" zPosition="10" backgroundColor="#000000" />
+    <!-- Title -->
+    <widget name ="title"
+        position="150,35" size="1400,50" zPosition="11"
+        font="Bold;32"
+        halign="left"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        backgroundColor="#000000" />
+        <widget name="list" position="150,180" size="1100,700" itemHeight="50" font="Bold;32" foregroundColor="#E6BE3A" foregroundColorSelected="#FF8C00" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/icon/selection.png" scrollbarMode="showOnDemand" transparent="1"/>
     <!-- Bottom buttons -->
     <eLabel position="0,1075" size="480,5" zPosition="2" backgroundColor="red" />
     <widget name="red" position="0,1000" size="480,75" zPosition="2"

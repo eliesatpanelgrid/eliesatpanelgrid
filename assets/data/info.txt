@@ -2,7 +2,7 @@
 ============
 ○ subssupportpro 1.0
 ○ vavoo 1.74
-○ simplysports 6.1
+○ simplysports 6.2
 ○ footonsat 8.5
 
 ● 13.06.2026

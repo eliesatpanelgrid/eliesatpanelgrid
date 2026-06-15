@@ -1,0 +1,5 @@
+<screen name="MyXtreamCategories" position="0,0" size="1920,1080" title="MyXtream" flags="wfNoBorder">
+        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.jpg" position="0,0" size="1920,1080" zPosition="-1"/>
+        <widget name="title" position="40,30" size="1840,60" font="Regular;42" foregroundColor="#E6BE3A" transparent="1"/>
+        <widget name="list" position="150,180" size="1100,700" itemHeight="50" font="Regular;32" foregroundColor="#E6BE3A" foregroundColorSelected="#FF8C00" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/icon/selection.png" scrollbarMode="showOnDemand" transparent="1"/>
+    </screen>

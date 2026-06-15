@@ -1049,6 +1049,11 @@ Version: 1.5.8.r10     الترجمة
 Status: Plg Sub
 Subssupport='https://gitlab.com/eliesat/extensions/-/raw/main/subssupport/subssupport-1.5.8-r9.sh'
 
+Package: Subssupportpro
+Version: 1.0     الترجمة
+Status: Plg Sub
+Subssupportpro='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/subssupportpro/subssupportpro.sh'
+
 Package: Subssupport-mnasr
 Version: 1.8.0.r9     الترجمة
 Status: Plg Sub
@@ -1110,7 +1115,7 @@ Status: Plg Nov
 Ultracam='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/ultracam/ultracam.sh'
 
 Package: Vavoo
-Version: 1.73     اي بي تي في مجاني
+Version: 1.74     اي بي تي في مجاني
 Status: Plg Free
 Vavoo='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/vavoo/vavoo.sh'
 

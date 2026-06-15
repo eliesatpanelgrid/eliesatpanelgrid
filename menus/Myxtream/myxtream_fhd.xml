@@ -1,15 +1,30 @@
 <screen name="MyXtreamCategories" position="0,0" size="1920,1080" title="MyXtream" flags="wfNoBorder">
     <eLabel position="0,0" size="1920,130" zPosition="10" backgroundColor="#000000" />
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.jpg" position="0,0" size="1920,1080" zPosition="-1"/>
-    <!-- Title -->
-    <widget name ="title"
-        position="150,35" size="1400,50" zPosition="11"
+    <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.jpg" position="0,0" size="1920,1080" zPosition="-1"/>
+    
+    <eLabel text="● Myxtream Bouquets list..."
+        position="150,35"
+        size="1400,50"
+        zPosition="11"
         font="Bold;32"
         halign="left"
         valign="center"
         foregroundColor="#E6BE3A"
-        backgroundColor="#000000" />
-        <widget name="list" position="150,180" size="1100,700" itemHeight="50" font="Bold;32" foregroundColor="#E6BE3A" foregroundColorSelected="#FF8C00" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/icon/selection.png" scrollbarMode="showOnDemand" transparent="1"/>
+        backgroundColor="#000000"
+        transparent="1" />
+        
+    <widget name ="title"
+        position="150,140" 
+        size="1100,35" 
+        zPosition="12"
+        font="Bold;32"
+        halign="center"
+        valign="center"
+        foregroundColor="#FF8C00"
+        backgroundColor="transparent" />
+        
+    <widget name="list" position="150,180" size="1100,700" itemHeight="50" font="Bold;32" foregroundColor="#E6BE3A" foregroundColorSelected="#FF8C00" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/icon/selection.png" scrollbarMode="showOnDemand" transparent="1"/>
+
     <!-- Bottom buttons -->
     <eLabel position="0,1075" size="480,5" zPosition="2" backgroundColor="red" />
     <widget name="red" position="0,1000" size="480,75" zPosition="2"
@@ -40,17 +55,6 @@
     <eLabel position="1840,130" size="80,870" zPosition="10" backgroundColor="#000000" />
 
     <!-- System info -->
-        <!-- header -->
-    <eLabel text="Playlists..."
-        position="150,140"
-        size="1100,35"
-        zPosition="12"
-        font="Bold;32"
-        halign="center"
-        valign="center"
-        foregroundColor="#FF8C00"
-        backgroundColor="transparent"
-        transparent="1" />
     <!-- DATE -->
     <widget source="global.CurrentTime" render="Label"
         position="1272,120"

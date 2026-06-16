@@ -74,7 +74,7 @@ Status: Settings
 Vhannibal-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/vhannibal-motor.sh'
 
 Package: Wahba-motor
-Version: 11.06.2026     ملف قنوات
+Version: 16.06.2026     ملف قنوات
 Status: Settings
 wahba-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/wahba-motor.sh'
 

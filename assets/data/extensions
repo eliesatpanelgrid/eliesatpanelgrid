@@ -1029,6 +1029,11 @@ Version: 2.0     بانل تسطيب اضافات
 Status: Plg Pan
 Smartaddonspanel='https://gitlab.com/eliesat/extensions/-/raw/main/smartaddonspanel/smartaddonspanel.sh'
 
+Package: Soundstream
+Version: 4.0     اضافة الصوتيات على قنوات السات
+Status: Plg Aud
+Soundstream='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/soundstream/soundstream.sh'
+
 Package: Spinnerselector
 Version: 3.3     تسطيب سبينرات
 Status: Plg Uti

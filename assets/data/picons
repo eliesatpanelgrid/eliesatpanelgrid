@@ -10,7 +10,7 @@ Status: Demo
 Channels='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/eliesat-motor.sh'
 
 Package: picons-motor
-Version: 06.06.2026      شعارات القنوات للمتحرك
+Version: 16.06.2026      شعارات القنوات للمتحرك
 Status: Service.name.picons
 picons-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/picons/picons-all.sh'
 

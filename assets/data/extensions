@@ -700,7 +700,7 @@ Status: Plg Enc
 Mycam='https://gitlab.com/eliesat/extensions/-/raw/main/mycam/mycam.sh'
 
 Package: Mytranslator
-Version: 1.70     الترجمة
+Version: 1.71     الترجمة
 Status: Plg Sub
 Mytranslator='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/mytranslator/mytranslator.sh'
 
@@ -1035,7 +1035,7 @@ Status: Plg Pan
 Smartaddonspanel='https://gitlab.com/eliesat/extensions/-/raw/main/smartaddonspanel/smartaddonspanel.sh'
 
 Package: Soundstream
-Version: 4.0     اضافة الصوتيات على قنوات السات
+Version: 1.0     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
 Soundstream='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/soundstream/soundstream.sh'
 

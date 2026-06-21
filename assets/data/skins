@@ -201,6 +201,6 @@ Xdreamy-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins
 
 Package: test
 Version: 0.0     
-Status: Soebased
+Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
 

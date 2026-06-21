@@ -29,3 +29,8 @@ Package: Pure2-7.4
 Version: 2025.09.10     باكآب محدث تاريخ تسطيبه
 Status: Pur
 Pure2-7.4='https://gitlab.com/eliesat/images/-/raw/main/pure-7.4/backup.sh'
+
+Package: test
+Version: 0.0     
+Status: 
+test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'

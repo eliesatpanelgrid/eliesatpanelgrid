@@ -60,3 +60,8 @@ Version: 1.0     فيد تسطيب اضافات
 Status: Feeds
 Tarek='https://gitlab.com/eliesat/scripts/-/raw/main/feed/tarek-feed.sh'
 
+Package: test
+Version: 0.0     
+Status: 
+test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
+

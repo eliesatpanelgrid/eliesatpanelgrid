@@ -214,4 +214,9 @@ Mohamed_os='https://gitlab.com/eliesat/softcams/-/raw/main/softcam-key/Cam-softc
 Package: Smartcam-team
 Version: 1.0     ملف الخاص بالتشفير و مفاتيح البيس
 Status: Soft
-Smartcam-team='https://gitlab.com/eliesat/softcams/-/raw/main/softcam-key/Cam-softcam.key-smartcam-team.sh'h'
+Smartcam-team='https://gitlab.com/eliesat/softcams/-/raw/main/softcam-key/Cam-softcam.key-smartcam-team.sh'
+
+Package: test
+Version: 0.0     
+Status: 
+test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'

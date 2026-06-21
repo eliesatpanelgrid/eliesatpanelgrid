@@ -117,4 +117,9 @@ Package: Tuner-diseqc-1.3
 Version: usals     اعدادات التيونر للدايسك موتور
 Status: Tuner
 Tuner-diseqc-1.3='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/tuner/tuner-1.3.sh'
+
+Package: test
+Version: 0.0     
+Status: 
+test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
 '

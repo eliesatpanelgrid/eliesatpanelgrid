@@ -1243,4 +1243,8 @@ Package: Zouplayer
 Version: 1.1     مشغل اي بي تي في
 Status: Plg Ipt
 Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
-ain/zoom/zoom.sh'
+
+Package: test
+Version: 0.0     
+Status: 
+test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'

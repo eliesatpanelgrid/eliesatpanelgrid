@@ -129,3 +129,8 @@ Package: Simplezoompanel
 Version: N/A     بانل تسطيب اضافات
 Status: Pan
 Simplezoompanel='https://raw.githubusercontent.com/Belfagor2005/SimpleZooomPanel/main/installer.sh'
+
+Package: test
+Version: 0.0     
+Status: 
+test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'

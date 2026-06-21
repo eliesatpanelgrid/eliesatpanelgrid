@@ -344,5 +344,7 @@ Version: 1.0       اعطاء لايحة السكريبتات تصريح بال�
 Status: Other
 Scripts-chmod='https://raw.githubusercontent.com/eliesat/oe2/main/allineone/all/_scripts_chmod.sh'
 
-ipts_chmod.sh'
-
+Package: test
+Version: 0.0     
+Status: 
+test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'

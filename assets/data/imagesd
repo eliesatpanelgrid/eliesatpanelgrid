@@ -248,3 +248,8 @@ Package: Teamblue-7.5
 Version: 3.12     تنزيل صور خام من الموقع الرسمي
 Status: Tea
 Teamblue-7.5='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/images-download/teamblue-7.5.sh'
+
+Package: test
+Version: 0.0     
+Status: 
+test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'

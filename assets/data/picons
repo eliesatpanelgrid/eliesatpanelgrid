@@ -118,3 +118,8 @@ Package: Picons-zelda
 Version: 15.02.2026     شعارات الايميو السات البروفايدر و التشفير
 Status: other
 Picons-zelda='https://gitlab.com/eliesat/picons/-/raw/main/picons-zelda.sh'
+
+Package: test
+Version: 0.0     
+Status: 
+test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'

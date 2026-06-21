@@ -410,3 +410,8 @@ Version: 1.0     نادي ريال مدريد
 Status: Spn
 Spinner-Realmadrid='https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-realmadrid-1.sh'
 
+Package: test
+Version: 0.0     
+Status: 
+test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
+

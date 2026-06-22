@@ -1035,7 +1035,7 @@ Status: Plg Pan
 Smartaddonspanel='https://gitlab.com/eliesat/extensions/-/raw/main/smartaddonspanel/smartaddonspanel.sh'
 
 Package: Soundstream
-Version: 1.0     اضافة الصوتيات على قنوات السات
+Version: 3.1     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
 Soundstream='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/soundstream/soundstream.sh'
 

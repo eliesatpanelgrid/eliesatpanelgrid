@@ -94,6 +94,12 @@ Version: N/A     بانل تسطيب اضافات
 Status: Pan
 S4aupdater='http://s4aupdater.one.pl/instalujs4aupdater.sh'
 
+
+Package: Servereaglesat
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+Servereaglesat='https://raw.githubusercontent.com/eliesat/ServerEagleSat/main/installer.sh'
+
 Package: Simple-zoom-panel
 Version: N/A     بانل تسطيب اضافات
 Status: Pan

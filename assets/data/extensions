@@ -700,7 +700,7 @@ Status: Plg Enc
 Mycam='https://gitlab.com/eliesat/extensions/-/raw/main/mycam/mycam.sh'
 
 Package: Mytranslator
-Version: 1.71     الترجمة
+Version: 1.72     الترجمة
 Status: Plg Sub
 Mytranslator='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/mytranslator/mytranslator.sh'
 

@@ -705,7 +705,7 @@ Status: Plg Sub
 Mytranslator='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/mytranslator/mytranslator.sh'
 
 Package: Myhybridiptv
-Version: 2.1.r0     مشغل اي بي تي في
+Version: 2.1.r7     مشغل اي بي تي في
 Status: Plg Ipt
 Myhybridiptv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/myhybridiptv/myhybridiptv.sh'
 
@@ -1205,7 +1205,7 @@ Status: Plg Sys
 xmlupdate.byiet5='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xmlupdatebyiet5/xmlupdatebyiet5.sh'
 
 Package: Xportal
-Version: 3.4     مشغل اي بي تي في
+Version: 3.5     مشغل اي بي تي في
 Status: Plg Ipt
 Xportal='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xportal/xportal.sh'
 

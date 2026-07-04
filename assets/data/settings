@@ -38,6 +38,11 @@ Version: 28.04.2026     ملف قنوات
 Status: Settings
 Gioppygio-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/eliesat-motor.sh'
 
+Package: Hamid-motor
+Version: 27.06.2026     ملف قنوات
+Status: Settings
+Hamid-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/hamid-motor.sh'
+
 Package: Monuser-motor
 Version: 01.05.2026     ملف قنوات
 Status: Settings
@@ -62,11 +67,6 @@ Package: Refaey-motor
 Version: 21.05.2026     ملف قنوات
 Status: Settings
 Refaey-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/refaey-motor.sh'
-
-Package: Salama-motor
-Version: 23.12.2025     ملف قنوات
-Status: Settings
-Salama-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/salama-motor.sh'
 
 Package: Vhannibal-motor
 Version: 04.06.!2026     ملف قنوات
@@ -122,4 +122,6 @@ Package: test
 Version: 0.0     
 Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
+'
+
 '

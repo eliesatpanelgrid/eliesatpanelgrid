@@ -40,7 +40,7 @@ Status: Soebased Segami Satv Sspa Spure
 Aglare-fhd-atv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/aglare-fhd-atv/aglare-fhd-atv.sh'
 
 Package: Aglare-fhd-pli
-Version: 7.0     
+Version: 7.0          04.07.2026
 Status: Soebased Sobh Spli3 Svix
 Aglare-fhd-pli='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/aglare-fhd-pli/aglare-fhd-pli.sh'
 
@@ -105,7 +105,7 @@ Status: Soebased Segami Satv Sspa Sobh Spure Svix Spli3
 Fury-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/fury/fury.sh'
 
 Package: Jihad-fhd
-Version: 2.13          13.06.2026
+Version: 2.13          04.07.2026
 Status: Soebased Segami Satv Sspa Sobh Spure Svix Spli3
 Jihad-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/jihad/jihad.sh'
 

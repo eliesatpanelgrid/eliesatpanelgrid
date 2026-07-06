@@ -163,7 +163,7 @@ Status: Soebased Segami Satv Sspa Sobh Spure Svix Spli3
 Jihad-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/jihad/jihad.sh'
 
 Package: KIII-pro          06.07.2026
-Version: 3.3     
+Version: 3.3          04.07.2026     
 Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
 KIII-pro='https://gitlab.com/eliesat/skins/-/raw/main/all/KIII-pro/KIII-pro.sh'
 
@@ -188,7 +188,7 @@ Status: Soebased Segami Satv Sspa Spure
 Luka-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/luka-fhd/luka-fhd.sh'
 
 Package: Luka-fhd-pli
-Version: 1.0          06.07.2026  
+Version: 1.5          06.07.2026  
 Status: Soebased Sobh Spli3 Svix
 Luka-fhd-pli='https://gitlab.com/eliesat/skins/-/raw/main/all/luka-fhd-pli/luka-fhd-pli.sh'
 
@@ -289,7 +289,7 @@ Nitro-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/nitro/nitro-fhd.sh'
 
 Package: Nitrogreenwood
 Version: 1.0     
-Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Status: Soebased
 Nitrogreenwood='https://gitlab.com/eliesat/skins/-/raw/main/all/nitro/nitrogreenwood-fhd.sh'
 
 Package: Nitrohoneycomb
@@ -400,20 +400,7 @@ Youchie-pli-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/youchie-pli-fhd
 Package: Xdreamy-fhd
 Version: 7.0         04.07.2026     
 Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
-Xdreamy-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
-
-Package: test
-Version: 0.0     
-Status: 
-test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
-
-
---------------openblackhole-------------
-
-
-
-
---------------openatv-------------
+Xdreamy-fhd='https://raw.githubusercont
 
 --------------openpli-9.x--------------
 
@@ -463,5 +450,10 @@ Skyline='https://gitlab.com/eliesat/skins/-/raw/main/openspa/skyline/skyline.sh'
 
 Package: Qxklass-ovix
 Version: 2.0     
-Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure 
+Status: Soebased Svix
 Qxklass-ovix='https://gitlab.com/eliesat/skins/-/raw/main/openvix/qxklass-ovix/qxklass-ovix.sh'
+
+Package: test
+Version: 0.0     
+Status: 
+test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'

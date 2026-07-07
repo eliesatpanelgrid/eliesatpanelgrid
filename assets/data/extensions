@@ -155,9 +155,9 @@ Status: Plg Uti
 Bundesliga-clock='https://gitlab.com/eliesat/extensions/-/raw/main/bundesliga-permanent-clock/bundesliga-permanent-clock.sh'
 
 Package: Buttonpatcher
-Version: 1.0      تخصيص مفاتيح الرومونت
+Version: 1.1      تخصيص مفاتيح الرومونت
 Status: Plg Uti
-Buttonpatcher='https://gitlab.com/eliesat/extensions/-/raw/main/buttonpatcher/buttonpatcher.sh'
+Buttonpatcher='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/buttonpatcher/buttonpatcher.sh'
 
 Package: Cacheflush
 Version: 2.2     مسح ملفات الكاش من الذاكرة العشوائية

@@ -133,7 +133,7 @@ Status: Soebased
 Fullhdglass17='https://gitlab.com/eliesat/skins/-/raw/main/all/fullhdglass17/fullhdglass17.sh'
 
 Package: Fury-fhd
-Version: 7.4     
+Version: 7.4          07.07.2026     
 Status: Soebased Segami Satv Sspa Sobh Spure Svix Spli3
 Fury-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/fury/fury.sh'
 
@@ -158,7 +158,7 @@ Status: Soebased
 Icone-vpx2-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/icone/icone-vpx2-fhd.sh
 
 Package: Jihad-fhd
-Version: 2.14          04.07.2026
+Version: 2.14          06.07.2026
 Status: Soebased Segami Satv Sspa Sobh Spure Svix Spli3
 Jihad-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/jihad/jihad.sh'
 
@@ -166,16 +166,6 @@ Package: KIII-pro
 Version: 3.3          06.07.2026     
 Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
 KIII-pro='https://gitlab.com/eliesat/skins/-/raw/main/all/KIII-pro/KIII-pro.sh'
-
-Package: Nacht-digiteng
-Version: 7.0     
-Status: Soebased
-Nacht-digiteng='https://gitlab.com/eliesat/skins/-/raw/main/all/nacht-digiteng/nacht-digiteng.sh'
-
-Package: Nitroadvance-fhd
-Version: 5.4     
-Status: Soebased
-Nitroadvance-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/teamnitro/nitroadvance/nitroadvance-fhd.sh'
 
 Package: Lava
 Version: 2.0     
@@ -227,8 +217,8 @@ Version: 1.4
 Status: Soebased Segami Satv Sspa Spure
 Maxy-fhd-1='https://gitlab.com/eliesat/skins/-/raw/main/all/maxy-fhd/maxy-fhd.sh'
 
-Package: Maxi-fhd-pli
-Version: 1.0     
+Package: Maxi-fhd-pli 
+Version: 1.0          07.07.2026     
 Status: Soebased Sobh Spli3 Svix
 Maxi-fhd-pli='https://gitlab.com/eliesat/skins/-/raw/main/all/maxy-fhd/maxy-fhd-pli.sh'
 
@@ -236,6 +226,16 @@ Package: Nacht-ash
 Version: 2.2     
 Status: Soebased
 Nacht-ash='https://gitlab.com/eliesat/skins/-/raw/main/all/nacht/nacht-a.shawky.sh'
+
+Package: Nacht-digiteng
+Version: 7.0     
+Status: Soebased
+Nacht-digiteng='https://gitlab.com/eliesat/skins/-/raw/main/all/nacht-digiteng/nacht-digiteng.sh'
+
+Package: Nitroadvance-fhd
+Version: 5.4     
+Status: Soebased
+Nitroadvance-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/teamnitro/nitroadvance/nitroadvance-fhd.sh'
 
 Package: Novaler-s-fhd
 Version: 3.6.green     
@@ -297,31 +297,6 @@ Version: 4.0
 Status: Soebased
 Nitrohoneycomb='https://gitlab.com/eliesat/skins/-/raw/main/all/nitro/nitrohoneycomb.sh'
 
-Package: Premium-fhd
-Version: 3.1.black     
-Status: Soebased
-Premium-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premiumfhd-black.sh'
-
-Package: Premium-fhd
-Version: 3.1.blue     
-Status: Soebased
-Premium-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premiumfhd-blue.sh'
-
-Package: Premium-fhd
-Version: 3.1.magneta     
-Status: Soebased
-Premium-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premiumfhd-magneta.sh'
-
-Package: Red-knight-fhd
-Version: 1.0.    py.3.13
-Status: Soebased
-Red-knight-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/red-knight-fhd/red-knight-fhd.sh'
-
-Package: Slyk-q-1080
-Version: 2.50     
-Status: Soebased
-Slyk-q-1080='https://gitlab.com/eliesat/skins/-/raw/main/all/slyk-q-1080/slyk-q-1080.sh'
-
 Package: Obs-elite-fhd
 Version: 1.0     
 Status: Soebased
@@ -343,14 +318,9 @@ Status: Soebased
 Orangesky-xp2-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/orangesky/orangesky-xp2-fhd.sh'
 
 Package: Openbhgreenfhd
-Version: 5.2     
+Version: 5.2            07.07.2026   
 Status: Soebased Sobh
 Openbhgreenfhd='https://gitlab.com/eliesat/skins/-/raw/main/obh/openbhgreenfhd/openbhgreenfhd.sh'
-
-Package: Qxklass-obh
-Version: 2.0     
-Status: Soebased Sobh 
-Qxklass-obh='https://gitlab.com/eliesat/skins/-/raw/main/obh/qxklass-obh/qxklass-obh.sh'
 
 Package: Ozeta-fhd-2
 Version: 2.0.4     
@@ -372,10 +342,40 @@ Version: 1.0
 Status: Soebased
 Pdreamy-n-fhd='https://gitlab.com/eliesat/skins/-/raw/main/egami/pdreamy/pdreamy-n-fhd.sh'
 
+Package: Premium-fhd
+Version: 3.1.black     
+Status: Soebased
+Premium-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premiumfhd-black.sh'
+
+Package: Premium-fhd
+Version: 3.1.blue     
+Status: Soebased
+Premium-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premiumfhd-blue.sh'
+
+Package: Premium-fhd
+Version: 3.1.magneta     
+Status: Soebased
+Premium-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premiumfhd-magneta.sh'
+
+Package: Qxklass-obh
+Version: 2.0            07.07.2026   
+Status: Soebased Sobh 
+Qxklass-obh='https://gitlab.com/eliesat/skins/-/raw/main/obh/qxklass-obh/qxklass-obh.sh'
+
+Package: Red-knight-fhd
+Version: 1.0.    py.3.13
+Status: Soebased
+Red-knight-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/red-knight-fhd/red-knight-fhd.sh'
+
 Package: Revolution-pro
 Version: 6.3     
 Status: Soebased
 Revolution-pro='https://gitlab.com/eliesat/skins/-/raw/main/atv/revolution-pro.sh'
+
+Package: Slyk-q-1080
+Version: 2.50     
+Status: Soebased
+Slyk-q-1080='https://gitlab.com/eliesat/skins/-/raw/main/all/slyk-q-1080/slyk-q-1080.sh'
 
 Package: Spiderman-vpx-fhd
 Version: 1.0     
@@ -387,8 +387,13 @@ Version: 1.0
 Status: Soebased
 Spiderman-vpx2-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/spiderman/spiderman-vpx2-fhd.sh'
 
+Package: Xdreamy-fhd
+Version: 7.0         04.07.2026     
+Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
+Xdreamy-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
+
 Package: Youchie-obh-fhd
-Version: 1.0.2     
+Version: 1.0.2          07.07.2026   
 Status: Soebased Sobh  
 Youchie-obh-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/youchie-pli-fhd/youchie-pli-fhd.sh'
 
@@ -396,11 +401,6 @@ Package: Youchie-pli-fhd
 Version: 1.0.3     
 Status: Soebased Spli3 Svix
 Youchie-pli-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/youchie-pli-fhd/pli/youchie-pli-fhd.sh'
-
-Package: Xdreamy-fhd
-Version: 7.0         04.07.2026     
-Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
-Xdreamy-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
 
 --------------openpli-9.x--------------
 

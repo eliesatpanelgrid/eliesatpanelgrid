@@ -1,3 +1,7 @@
+07.07.2026
+============
+○ xtreamity 5.53
+
 06.07.2026
 ============
 ○ simplysports 6.4
@@ -601,6 +605,8 @@ dm900 920
 ○ mawaqit 1.0
 ○ newvirtualkeyboard 13.8
 ○ simplysports 4.5
+
+
 
 
 

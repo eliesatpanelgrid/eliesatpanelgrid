@@ -670,14 +670,9 @@ Status: Plg Enc
 Multicamadder='https://gitlab.com/eliesat/extensions/-/raw/main/muticamadder/muticamadder.sh'
 
 Package: MultiQuickButton
-Version: 2.8.0     تعريف اشتراك الاي بي تي في
+Version: 2.8.0    openvix obh تعريف اشتراك الاي بي تي في 
 Status: Plg Uti
 MultiQuickButton='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/multiquickbutton/multiquickbutton-obh.sh'
-
-Package: Multiquickbutton
-Version: 2.7.15.r10     تخصيص وظائف لازرار الرومونت
-Status: Plg Uti
-Multiquickbutton='https://gitlab.com/eliesat/extensions/-/raw/main/multiquickbutton/multiquickbutton.sh'
 
 Package: Multiquickbutton
 Version: 2.7.15.r10     تخصيص وظائف لازرار الرومونت
@@ -1253,6 +1248,12 @@ Package: Zouplayer
 Version: 1.1     مشغل اي بي تي في
 Status: Plg Ipt
 Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
+
+Package: test
+Version: 0.0     
+Status: 
+test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
+r='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
 
 Package: test
 Version: 0.0     

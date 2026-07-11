@@ -1209,10 +1209,10 @@ Version: 3.8     مشغل اي بي تي في
 Status: Plg Ipt
 Xportal='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xportal/xportal.sh'
 
-Package: Xstreamity
-Version: 5.53     مشغل اي بي تي في
+Package: XStreamity
+Version: 5.55     مشغل اي بي تي في
 Status: Plg Ipt
-Xstreamity='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xstreamity/xstreamity.sh'
+XStreamity='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xstreamity/xstreamity.sh'
 
 Package: Xtraevent-1
 Version: 4.2     تسطيب بوسترات

@@ -157,10 +157,10 @@ Version: 1.0
 Status: Soebased
 Icone-vpx2-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/icone/icone-vpx2-fhd.sh
 
-Package: Jihad-fhd
-Version: 2.14          06.07.2026
+Package: Jihad
+Version: 2.16          06.07.2026
 Status: Soebased Segami Satv Sspa Sobh Spure Svix Spli3
-Jihad-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/jihad/jihad.sh'
+Jihad='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/jihad/jihad.sh'
 
 Package: KIII-pro          
 Version: 3.3          06.07.2026     
@@ -457,3 +457,4 @@ Package: test
 Version: 0.0     
 Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
+amy.sh'

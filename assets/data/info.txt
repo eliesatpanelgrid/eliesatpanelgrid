@@ -1,5 +1,6 @@
 10.07.2026
 ============
+○ skin jihad 2.16
 ○ footonsat 8.7
 ○ e2m3u2bouquet 3.0.3
 ○ subssupportpro 1.0.2

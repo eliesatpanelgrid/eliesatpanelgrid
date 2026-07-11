@@ -3,6 +3,7 @@
 ○ oscamstatus 7.40
 ○ servercoloring 5.0
 ○ xtreamity 5.55
+○ mutiquickbutton 2.8.0
 
 07.07.2026
 ============

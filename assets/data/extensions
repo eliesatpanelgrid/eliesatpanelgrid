@@ -669,10 +669,15 @@ Version: 1.0     كتابة سطر السسكام و ارساله الى الا�
 Status: Plg Enc
 Multicamadder='https://gitlab.com/eliesat/extensions/-/raw/main/muticamadder/muticamadder.sh'
 
-Package: Multiiptvadder
-Version: 1.0     تعريف اشتراك الاي بي تي في
-Status: Plg Ipt
-Multiiptvadder='https://gitlab.com/eliesat/extensions/-/raw/main/mutiiptvadder/mutiiptvadder.sh'
+Package: MultiQuickButton
+Version: 2.8.0     تعريف اشتراك الاي بي تي في
+Status: Plg Uti
+MultiQuickButton='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/multiquickbutton/multiquickbutton-obh.sh'
+
+Package: Multiquickbutton
+Version: 2.7.15.r10     تخصيص وظائف لازرار الرومونت
+Status: Plg Uti
+Multiquickbutton='https://gitlab.com/eliesat/extensions/-/raw/main/multiquickbutton/multiquickbutton.sh'
 
 Package: Multiquickbutton
 Version: 2.7.15.r10     تخصيص وظائف لازرار الرومونت

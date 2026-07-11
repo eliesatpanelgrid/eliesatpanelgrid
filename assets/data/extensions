@@ -374,10 +374,10 @@ Version: 1.1     مواعيد مباريات كرة القدم مع القنوا
 Status: Plg Spo
 Footscores='https://gitlab.com/eliesat/extensions/-/raw/main/footscores/footscores.sh'
 
-Package: Footonsat
-Version: 8.5     مواعيد مباريات كرة القدم مع القنوات الناقلة
+Package: FootOnSat
+Version: 8.7     مواعيد مباريات كرة القدم مع القنوات الناقلة
 Status: Plg Spo
-Footonsat='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/footonsat/footonsat.sh'
+FootOnSat='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/footonsat/footonsat.sh'
 
 Package: Foreca
 Version: 1.2.8     حالة الطقس

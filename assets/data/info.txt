@@ -1,5 +1,6 @@
 10.07.2026
 ============
+○ e2m3u2bouquet 3.0.3
 ○ subssupportpro 1.0.2
 ○ oscamstatus 7.40
 ○ servercoloring 5.0

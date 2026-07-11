@@ -1,5 +1,6 @@
 10.07.2026
 ============
+○ vavoo 1.76
 ○ epggrabber 25.0
 ○ skin jihad 2.16
 ○ footonsat 8.7

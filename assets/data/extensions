@@ -974,10 +974,10 @@ Version: 1.0     تصفح لايحة السكريبتات و تنفيذهم
 Status: Plg Uti
 Scriptexecuter='https://gitlab.com/eliesat/extensions/-/raw/main/scriptexecuter/scriptexecuter.sh'
 
-Package: Servercoloring
-Version: 4.0     تلوين قنوات الشيرينج
+Package: ServerColoring
+Version: 5.0     تلوين قنوات الشيرينج
 Status: Plg Uti
-Servercoloring='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/servercoloring/servercoloring.sh'
+ServerColoring='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/servercoloring/servercoloring.sh'
 
 Package: Servereaglesat
 Version: 1.1     تعريف اشتراك الشيرينج

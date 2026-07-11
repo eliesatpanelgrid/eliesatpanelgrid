@@ -1,5 +1,5 @@
 10.07.2026
-============○ xportal 3.8
+============
 ○ xportal 4.1
 ○ vavoo 1.76
 ○ epggrabber 25.0

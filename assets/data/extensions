@@ -679,10 +679,10 @@ Version: 2.8.0    openvix obh تخصيص وظائف لازرار الرومون�
 Status: Plg Uti
 MultiQuickButton='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/multiquickbutton/multiquickbutton-obh.sh'
 
-Package: MultiQuickButton
+Package: MultiQuickButton1
 Version: 2.7.15.r10     تخصيص وظائف لازرار الرومونت
 Status: Plg Uti
-MultiQuickButton='https://gitlab.com/eliesat/extensions/-/raw/main/multiquickbutton/multiquickbutton.sh'
+MultiQuickButton1='https://gitlab.com/eliesat/extensions/-/raw/main/multiquickbutton/multiquickbutton.sh'
 
 Package: Multistalker
 Version: 1.5     مشغل بورتلات اي بي تي في

@@ -1,5 +1,6 @@
 10.07.2026
-============
+============○ xportal 3.8
+○ xportal 4.1
 ○ vavoo 1.76
 ○ epggrabber 25.0
 ○ skin jihad 2.16
@@ -8,7 +9,7 @@
 ○ subssupportpro 1.0.2
 ○ oscamstatus 7.40
 ○ servercoloring 5.0
-○ xtreamity 5.55
+○ xstreamity 5.55
 ○ mutiquickbutton 2.8.0
 
 07.07.2026

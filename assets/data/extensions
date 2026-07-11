@@ -289,10 +289,10 @@ Version: 10.6     تسطيب صور على الذاكرة الخارجية
 Status: Plg Mul
 Egamiboot='https://gitlab.com/eliesat/extensions/-/raw/main/egamiboot/egamiboot.sh'
 
-Package: Epggrabber-ziko
-Version: 24.9     الدليل الالكتروني
+Package: EPGGrabber
+Version: 25.0     الدليل الالكتروني
 Status: Plg Epg
-Epggrabber-ziko='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/epggrabber/epggrabber.sh'
+EPGGrabber='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/epggrabber/epggrabber.sh'
 
 Package: Epgimport
 Version: 2.0     قراءة و عرض ملفات الدليل الاكتروني
@@ -1264,5 +1264,8 @@ Package: test
 Version: 0.0     
 Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
+
+sh'
+.sh'
 
 sh'

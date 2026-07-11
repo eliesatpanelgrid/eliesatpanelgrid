@@ -1,5 +1,6 @@
 10.07.2026
 ============
+○ oscamstatus 7.40
 ○ servercoloring 5.0
 ○ xtreamity 5.55
 

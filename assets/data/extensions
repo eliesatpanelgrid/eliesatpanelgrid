@@ -859,10 +859,10 @@ Version: 1.1     صوتيات اورانج
 Status: Plg Aud
 Orangeaudio='https://gitlab.com/eliesat/extensions/-/raw/main/orangeaudio/orangeaudio.sh'
 
-Package: Oscam-status
-Version: 7.0     معلومات عن حالة المحاكي
+Package: OscamStatus
+Version: 7.40     معلومات عن حالة المحاكي
 Status: Plg Enc
-Oscam-status='https://gitlab.com/eliesat/extensions/-/raw/main/oscam-status/oscam-status.sh'
+OscamStatus='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/oscamstatus/oscamstatus.sh'
 
 Package: Pulsesoftcamupdater
 Version: 1.0     تحديث ملف السوفتكام الخاص بشفرات البيس

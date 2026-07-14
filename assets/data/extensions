@@ -983,6 +983,11 @@ Version: 1.0     تصفح لايحة السكريبتات و تنفيذهم
 Status: Plg Uti
 Scriptexecuter='https://gitlab.com/eliesat/extensions/-/raw/main/scriptexecuter/scriptexecuter.sh'
 
+Package: scsearch
+Version: 1.26     تطبيق مشاهدة افلام 
+Status: Plg free
+scsearch='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/scsearch/scsearch.sh'
+
 Package: ServerColoring
 Version: 5.0     تلوين قنوات الشيرينج
 Status: Plg Uti
@@ -1278,6 +1283,12 @@ Package: test
 Version: 0.0     
 Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
+
+sh'
+.sh'
+
+sh'
+eamy.sh'
 
 sh'
 .sh'

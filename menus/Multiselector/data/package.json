@@ -1,0 +1,172 @@
+{
+  "Icons": [
+    {
+      "name": "Allinone",
+      "code": "&#xe5c3;",
+      "font": "MaterialIcons",
+      "description": "List / Channel Navigation"
+    },
+    {
+      "name": "Audio",
+      "code": "&#xe3a1;",
+      "font": "MaterialIcons",
+      "description": "Audio Tracks / Acoustic Feeds"
+    },
+    {
+      "name": "Backup",
+      "code": "&#xe864;",
+      "font": "MaterialIcons",
+      "description": "Flash Image Backup Storage"
+    },
+    {
+      "name": "Encryption",
+      "code": "&#xe63f;",
+      "font": "MaterialIcons",
+      "description": "Softcam Keys / Security / VPN"
+    },
+    {
+      "name": "Epg",
+      "code": "&#xe878;",
+      "font": "MaterialIcons",
+      "description": "Electronic Program Guide / Calendar"
+    },
+    {
+      "name": "Free",
+      "code": "&#xe89a;",
+      "font": "MaterialIcons",
+      "description": "Cloud / Free Server Connections"
+    },
+    {
+      "name": "Games",
+      "code": "&#xe021;",
+      "font": "MaterialIcons",
+      "description": "Games / Entertainment"
+    },
+    {
+      "name": "Iptv",
+      "code": "&#xe639;",
+      "font": "MaterialIcons",
+      "description": "IPTV Stream / Live TV Net"
+    },
+    {
+      "name": "Multiboot",
+      "code": "&#xe1db;",
+      "font": "MaterialIcons",
+      "description": "Multi-Image Selection Slots"
+    },
+    {
+      "name": "Novaler",
+      "code": "&#xe8d0;",
+      "font": "MaterialIcons",
+      "description": "System Tweaks / Configurations"
+    },
+    {
+      "name": "Picons",
+      "code": "&#xe3f4;",
+      "font": "MaterialIcons",
+      "description": "Channel Logos / Creative Brand Icons"
+    },
+    {
+      "name": "Quran",
+      "code": "&#xea19;",
+      "font": "MaterialIcons",
+      "description": "Book / Religious / Audio Quran Recitations"
+    },
+    {
+      "name": "Radio",
+      "code": "&#xe03e;",
+      "font": "MaterialIcons",
+      "description": "Radio Channels / Audio Streams"
+    },
+    {
+      "name": "Settings",
+      "code": "&#xe8b8;",
+      "font": "MaterialIcons",
+      "description": "Grid Extension Layout Interface"
+    },
+    {
+      "name": "Sport",
+      "code": "&#xea30;",
+      "font": "MaterialIcons",
+      "description": "Football / Live Match Feed Statistics"
+    },
+    {
+      "name": "Subtitle",
+      "code": "&#xe048;",
+      "font": "MaterialIcons",
+      "description": "Media Player / Video Library Subtitles"
+    },
+    {
+      "name": "System",
+      "code": "&#xe322;",
+      "font": "MaterialIcons",
+      "description": "Python Packages / System Shared Components"
+    },
+    {
+      "name": "Utility",
+      "code": "&#xe869;",
+      "font": "MaterialIcons",
+      "description": "Receiver Boot Graphics / Spinning Wait Icons"
+    },
+    {
+      "name": "Weather",
+      "code": "&#xe430;",
+      "font": "MaterialIcons",
+      "description": "Weather Status / Forecast Details"
+    },
+    {
+      "name": "addons remove",
+      "code": "&#xe872;",
+      "font": "MaterialIcons",
+      "description": "OPKG / DPKG Package Uninstaller"
+    },
+    {
+      "name": "image downloader",
+      "code": "&#xe2c4;",
+      "font": "MaterialIcons",
+      "description": "Firmware Image Source Web Downloader"
+    },
+    {
+      "name": "picons",
+      "code": "&#xe3b6;",
+      "font": "MaterialIcons",
+      "description": "Channel Logos / Creative Brand Icons"
+    },
+    {
+      "name": "skins openatv",
+      "code": "&#xe40a;",
+      "font": "MaterialIcons",
+      "description": "OpenATV Look & Feel Graphic Layouts"
+    },
+    {
+      "name": "skins openblackhole",
+      "code": "&#xe40a;",
+      "font": "MaterialIcons",
+      "description": "OpenBH Interface Layout Themes"
+    },
+    {
+      "name": "skins pure2",
+      "code": "&#xe40a;",
+      "font": "MaterialIcons",
+      "description": "PurE2 Interface Layout Styles"
+    },
+    {
+      "name": "skins openspa",
+      "code": "&#xe40a;",
+      "font": "MaterialIcons",
+      "description": "OpenSPA Media Skins Custom Layouts"
+    },
+    {
+      "name": "skins openvix",
+      "code": "&#xe40a;",
+      "font": "MaterialIcons",
+      "description": "OpenViX Custom Skin Panels"
+    },
+    {
+      "name": "skins openpli",
+      "code": "&#xe40a;",
+      "font": "MaterialIcons",
+      "description": "OpenPLi Skin Graphics Adjustments"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<keymap>
+    <map context="ElieSatPanelActions">
+        <key id="KEY_EXIT" mapto="cancel" flags="m" />
+        <key id="KEY_LEFT" mapto="ds_left" flags="mr" />
+        <key id="KEY_RIGHT" mapto="ds_right" flags="mr" />
+        <key id="KEY_UP" mapto="ds_up" flags="mr" />
+        <key id="KEY_DOWN" mapto="ds_down" flags="mr" />
+        <key id="KEY_OK" mapto="ok" flags="m"/>
+        <key id="KEY_MENU" mapto="menu" flags="mr"/>
+        <key id="KEY_GREEN" mapto="green" flags="m"/>
+        <key id="KEY_RED" mapto="red" flags="m"/>
+        <key id="KEY_BLUE" mapto="blue" flags="m"/>
+    </map>
+</keymap>

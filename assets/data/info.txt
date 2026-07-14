@@ -1,3 +1,10 @@
+14.07.2026
+============
+○ scsearch 1.26
+○ slwebcams 1.0.3
+○ customiptvmakerpro 8.2
+○ xtreamnew 1.0
+
 10.07.2026
 ============
 ○ xportal 4.1

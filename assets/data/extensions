@@ -985,7 +985,7 @@ Scriptexecuter='https://gitlab.com/eliesat/extensions/-/raw/main/scriptexecuter/
 
 Package: scsearch
 Version: 1.26     تطبيق مشاهدة افلام 
-Status: Plg free
+Status: Plg Free
 scsearch='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/scsearch/scsearch.sh'
 
 Package: ServerColoring

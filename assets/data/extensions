@@ -1239,6 +1239,11 @@ Version: 2025.03.10     مشاهدة فيديوهات اليوتيوب
 Status: Plg Ipt
 Youtube='https://gitlab.com/eliesat/extensions/-/raw/main/youtube/youtube.sh'
 
+Package: XtreamNew
+Version: 1.0     مشغل اي بي تي في
+Status: Plg Ipt
+XtreamNew='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xtreamnew/xtreamnew.sh'
+
 Package: Zaptimer
 Version: 1.0     توقيت للرجوع للقناة
 Status: Plg Uti

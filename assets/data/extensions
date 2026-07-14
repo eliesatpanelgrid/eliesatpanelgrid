@@ -118,7 +118,6 @@ Version: 11.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
 Beengo='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/beengo/beengo.sh'
 
-
 Package: Bissfeedautokey
 Version: 2.8     الفيدات و شفرات البيس
 Status: Plg Enc
@@ -223,6 +222,11 @@ Package: Crondmanager
 Version: 1.3     اضافة توقيت للسكريبت برسم التنفيذ
 Status: Plg Uti
 Crondmanager='https://gitlab.com/eliesat/extensions/-/raw/main/crondmanager/crondmanager.sh'
+
+Package: CustomIPTVArchiveMakerPro
+Version: 8.2     واجهة مخصصة لادارة اشتراك اي بي تي في
+Status: Plg Ipt
+CustomIPTVArchiveMakerPro='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/customiptvarchivemakerpro/customiptvarchivemakerpro.sh'
 
 Package: Cutsclear
 Version: 1.2     حذف  الافلام

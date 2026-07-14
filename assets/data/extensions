@@ -1028,6 +1028,11 @@ Version: 2.3.2    بانل تسطيب اضافات
 Status: Plg Pan
 Simple-zoom-panel='https://gitlab.com/eliesat/extensions/-/raw/main/simple-zoom-panel/simple-zoom-panel.sh'
 
+Package: SLwebcams
+Version: 1.0.3     كاميرات حول العالم
+Status: Plg Free
+SLwebcams='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/slwebcams/slwebcams.sh'
+
 Package: Snake
 Version: 2.5     لعبة سنايك
 Status: Plg Games

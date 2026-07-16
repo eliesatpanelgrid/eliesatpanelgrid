@@ -2,6 +2,8 @@
 ============
 ○ estalker 1.40
 ○ foreca 1.2.9
+○ scsearch 1.26
+○ xtreamity 5.57
 
 14.07.2026
 ============
@@ -9,7 +11,6 @@
 ○ slwebcams 1.0.3
 ○ customiptvmakerpro 8.2
 ○ xtreamnew 1.0
-
 10.07.2026
 ============
 ○ xportal 4.1

@@ -52,12 +52,12 @@ Epanel='https://gitlab.com/eliesat/extensions/-/raw/main/epanel/epanel.sh'
 Package: LeviAddonmanager
 Version: N/A     بانل تسطيب اضافات
 Status: Pan Pandm
-LeviAddonmanager='https://raw.githubusercontent.com/Belfagor2005/tvManager/main/installer.sh'
+LeviAddonmanager='https://raw.githubusercontent.com/levi-45/Addon/main/installer.sh'
 
 Package: LeviMulticammanager
 Version: N/A     بانل تسطيب كامات
 Status: Pan Pandm
-LeviMulticammanager='https://raw.githubusercontent.com/levi-45/Manager/main/installer.sh'
+LeviMulticammanager='https://raw.githubusercontent.com/Belfagor2005/tvManager/main/installer.sh'
 
 Package: Linuxsat-panel
 Version: N/A     بانل تسطيب اضافات
@@ -81,7 +81,7 @@ Oneupdater='https://raw.githubusercontent.com/Sat-Club/ONEupdaterE2/main/install
 
 Package: Panelaio
 Version: N/A     بانل تسطيب اضافات
-Status: Pan Pandm
+Status: Pan 
 Panelaio='https://raw.githubusercontent.com/OliOli2013/PanelAIO-Plugin/main/installer.sh'
 
 Package: pluginspanel

@@ -1,5 +1,11 @@
 ##############feeds###############
 
+
+Package: Dreamarabia
+Version: 1.0      فيد تسطيب اضافات متنوعة
+Status: Feedsdm
+Dreamarabia='https://raw.githubusercontent.com/eliesatpanelgrid/dream_os/main/feeds/dreamarabbia/feed-dreamarabia.sh'
+
 Package: Eliesat
 Version: 1.0      فيد تسطيب اضافات متنوعة
 Status: Feeds

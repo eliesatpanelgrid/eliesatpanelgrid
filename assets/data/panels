@@ -1,12 +1,12 @@
 ##############panels###############
 Package: Ajpanel
 Version: N/A     ادارة الملفات و مجموعة الخدمات
-Status: Pan
+Status: Pan Pandm
 Ajpanel='https://raw.githubusercontent.com/AMAJamry/AJPanel/main/installer.sh'
 
 Package: Ajpanel-Eliesatpanel
 Version: N/A     بانل تسطيب اضافات
-Status: Pan
+Status: Pan Pandm
 Ajpanel-Eliesatpanel='https://gitlab.com/eliesat/eliesatpanel/-/raw/main/eliesatpanel.sh'
 
 Package: Boxtools
@@ -41,7 +41,7 @@ Emilpanel='https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Emi
 
 Package: Emilpanelpro
 Version: N/A     بانل تسطيب اضافات
-Status: Pan
+Status: Pan Pandm
 Emilpanelpro='https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanelPro/emilpanelpro.sh'
 
 Package: Epanel
@@ -51,17 +51,17 @@ Epanel='https://gitlab.com/eliesat/extensions/-/raw/main/epanel/epanel.sh'
 
 Package: LeviAddonmanager
 Version: N/A     بانل تسطيب اضافات
-Status: Pan
+Status: Pan Pandm
 LeviAddonmanager='https://raw.githubusercontent.com/Belfagor2005/tvManager/main/installer.sh'
 
 Package: LeviMulticammanager
 Version: N/A     بانل تسطيب كامات
-Status: Pan
+Status: Pan Pandm
 LeviMulticammanager='https://raw.githubusercontent.com/levi-45/Manager/main/installer.sh'
 
 Package: Linuxsat-panel
 Version: N/A     بانل تسطيب اضافات
-Status: Pan
+Status: Pan Pandm
 Linuxsat-panel='https://raw.githubusercontent.com/Belfagor2005/LinuxsatPanel/main/installer.sh'
 
 Package: Magicpanelgold
@@ -81,7 +81,7 @@ Oneupdater='https://raw.githubusercontent.com/Sat-Club/ONEupdaterE2/main/install
 
 Package: Panelaio
 Version: N/A     بانل تسطيب اضافات
-Status: Pan
+Status: Pan Pandm
 Panelaio='https://raw.githubusercontent.com/OliOli2013/PanelAIO-Plugin/main/installer.sh'
 
 Package: pluginspanel
@@ -112,7 +112,7 @@ Smartaddonspanel='https://raw.githubusercontent.com/emilnabil/download-plugins/r
 
 Package: Tvaddon
 Version: N/A     بانل تسطيب اضافات
-Status: Pan
+Status: Pan 
 Tvaddon='https://raw.githubusercontent.com/Belfagor2005/tvPanel/main/installer.sh'
 
 Package: Tvmanager

@@ -2,6 +2,7 @@
 ============
 ○ simplysports 6.5
 ○ skin xdreamy 7.1
+○ servercoloring 6.0
 
 16.07.2026
 ============

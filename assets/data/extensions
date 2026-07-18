@@ -989,7 +989,7 @@ Status: Plg Free
 scsearch='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/scsearch/scsearch.sh'
 
 Package: ServerColoring
-Version: 5.0     تلوين قنوات الشيرينج
+Version: 6.0     تلوين قنوات الشيرينج
 Status: Plg Uti
 ServerColoring='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/servercoloring/servercoloring.sh'
 

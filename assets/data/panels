@@ -1,12 +1,12 @@
 ##############panels###############
 Package: Ajpanel
 Version: N/A     ادارة الملفات و مجموعة الخدمات
-Status: Pan Pandm
+Status: Pan dmpan
 Ajpanel='https://raw.githubusercontent.com/AMAJamry/AJPanel/main/installer.sh'
 
 Package: Ajpanel-Eliesatpanel
 Version: N/A     بانل تسطيب اضافات
-Status: Pan Pandm
+Status: Pan dmpan
 Ajpanel-Eliesatpanel='https://gitlab.com/eliesat/eliesatpanel/-/raw/main/eliesatpanel.sh'
 
 Package: Boxtools
@@ -41,7 +41,7 @@ Emilpanel='https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Emi
 
 Package: Emilpanelpro
 Version: N/A     بانل تسطيب اضافات
-Status: Pan Pandm
+Status: Pan dmpan
 Emilpanelpro='https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanelPro/emilpanelpro.sh'
 
 Package: Epanel
@@ -51,17 +51,17 @@ Epanel='https://gitlab.com/eliesat/extensions/-/raw/main/epanel/epanel.sh'
 
 Package: LeviAddonmanager
 Version: N/A     بانل تسطيب اضافات
-Status: Pan Pandm
+Status: Pan dmpan
 LeviAddonmanager='https://raw.githubusercontent.com/levi-45/Addon/main/installer.sh'
 
 Package: LeviMulticammanager
 Version: N/A     بانل تسطيب كامات
-Status: Pan Pandm
+Status: Pan dmpan
 LeviMulticammanager='https://raw.githubusercontent.com/Belfagor2005/tvManager/main/installer.sh'
 
 Package: Linuxsat-panel
 Version: N/A     بانل تسطيب اضافات
-Status: Pan Pandm
+Status: Pan dmpan
 Linuxsat-panel='https://raw.githubusercontent.com/Belfagor2005/LinuxsatPanel/main/installer.sh'
 
 Package: Magicpanelgold

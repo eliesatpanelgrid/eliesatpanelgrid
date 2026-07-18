@@ -1,7 +1,7 @@
 ##############panels###############
 Package: Ajpanel
 Version: N/A     ادارة الملفات و مجموعة الخدمات
-Status: Pan dmpan
+Status: Pan 
 Ajpanel='https://raw.githubusercontent.com/AMAJamry/AJPanel/main/installer.sh'
 
 Package: Ajpanel-Eliesatpanel

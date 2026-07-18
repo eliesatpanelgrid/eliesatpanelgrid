@@ -1254,7 +1254,7 @@ Status: Plg Ipt
 Youtube='https://gitlab.com/eliesat/extensions/-/raw/main/youtube/youtube.sh'
 
 Package: XtreamNew
-Version: 1.0     مشغل اي بي تي في
+Version: 1.0.3     مشغل اي بي تي في
 Status: Plg Ipt
 XtreamNew='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xtreamnew/xtreamnew.sh'
 
@@ -1283,8 +1283,7 @@ Package: test
 Version: 0.0     
 Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
-
-sh'
+h'
 .sh'
 
 sh'

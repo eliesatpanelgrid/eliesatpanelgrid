@@ -3,6 +3,7 @@
 ○ simplysports 6.5
 ○ skin xdreamy 7.1
 ○ servercoloring 6.0
+○ xtreamnew 1.0.3
 
 16.07.2026
 ============

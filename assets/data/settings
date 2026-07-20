@@ -1,5 +1,5 @@
 Package: Abouomar-motor
-Version: 04.06.2026     ملف قنوات
+Version: 15.07.2026     ملف قنوات
 Status: Settings
 Abouomar-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/abouomar-motor.sh'
 
@@ -49,7 +49,7 @@ Status: Settings
 Monuser-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/monuser-motor.sh'
 
 Package: Morpheus883-motor
-Version: 31.05.2026     ملف قنوات
+Version: 18.07.2026     ملف قنوات
 Status: Settings
 Morpheus883-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/morpheus883-motor.sh'
 

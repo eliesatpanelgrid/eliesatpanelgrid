@@ -498,6 +498,11 @@ Version: 1.7     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
 Ipaudiopro-3='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ipaudiopro/1.7/ipaudiopro.sh'
 
+Package: Ipaudiopro-4
+Version: 1.8     اضافة الصوتيات على قنوات السات
+Status: Plg Aud
+Ipaudiopro-3='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ipaudiopro/1.8/ipaudiopro.sh'
+
 Package: Ipaudioplus
 Version: 5.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov

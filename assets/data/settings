@@ -54,7 +54,7 @@ Status: Settings
 Morpheus883-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/morpheus883-motor.sh'
 
 Package: Mnasr-motor
-Version: 27.05.2026     ملف قنوات
+Version: 18.07.2026     ملف قنوات
 Status: Settings
 Mnasr-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/mnasr-motor.sh'
 
@@ -69,7 +69,7 @@ Status: Settings
 Refaey-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/refaey-motor.sh'
 
 Package: Vhannibal-motor
-Version: 04.06.!2026     ملف قنوات
+Version: 19.07.2026     ملف قنوات
 Status: Settings
 Vhannibal-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/vhannibal-motor.sh'
 
@@ -125,3 +125,4 @@ test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdream
 '
 
 '
+

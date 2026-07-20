@@ -2,6 +2,8 @@
 ============
 ○ ipaudiopro 1.8
 ○ ciefp-motor
+○ morpheus883-motor
+○ vhannibal-motor
 
 18.07.2026
 ============

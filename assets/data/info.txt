@@ -1,3 +1,8 @@
+21.07.2026
+============
+○ eliesat-motor
+○ picons-motor (nilesat)
+
 20.07.2026
 ============
 ○ ipaudiopro 1.8

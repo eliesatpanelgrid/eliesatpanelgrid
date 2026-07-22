@@ -78,25 +78,20 @@ Version: 20.06.2026     ملف قنوات
 Status: Settings
 wahba-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/wahba-motor.sh'
 
-Package: Freq-Flysat
-Version: 18.12.2024     ملف ترددات
+Package: Freq-Eliesat
+Version: 22.07.2026     ملف ترددات
 Status: Freq
-Freq-Flysat='https://gitlab.com/eliesat/settings/-/raw/main/flysat/installer.sh'
-
-Package: Freq-Lyngsat
-Version: 02.02.2026     ملف ترددات
-Status: Freq
-Freq-Lyngsat='https://gitlab.com/eliesat/settings/-/raw/main/lyngsat/installer.sh'
+Freq-Eliesat='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/xml/satellites.xml.sh'
 
 Package: Freq-Oe-alliance
 Version: uptodate     ملف ترددات
 Status: Freq
-Freq-Oe-alliance='https://gitlab.com/eliesat/settings/-/raw/main/oe-alliance/installer.sh'
+Freq-Oe-alliance='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/xml/oe-alliance.sh'
 
 Package: Freq-Openpli
 Version: uptodate     ملف ترددات
 Status: Freq
-Freq-Openpli='https://gitlab.com/eliesat/settings/-/raw/main/eliesat/installer.sh'
+Freq-Openpli='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/xml/openpli.sh'
 
 Package: Tuner-diseqc-1.0
 Version: 1.0     اعدادات افتراضيه للدايسك ٤ مخارج
@@ -120,6 +115,13 @@ Tuner-diseqc-1.3='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/
 
 Package: test
 Version: 0.0     
+Status: 
+test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
+'
+
+'
+
+.0     
 Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
 '

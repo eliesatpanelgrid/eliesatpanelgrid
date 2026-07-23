@@ -1149,7 +1149,7 @@ Status: Plg Nov
 Ultracam='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/ultracam/ultracam.sh'
 
 Package: vavoo
-Version: 1.76     اي بي تي في مجاني
+Version: 1.79     اي بي تي في مجاني
 Status: Plg Free
 vavoo='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/vavoo/vavoo.sh'
 
@@ -1234,7 +1234,7 @@ Status: Plg Ipt
 XPortal='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xportal/xportal.sh'
 
 Package: XStreamity
-Version: 5.57     مشغل اي بي تي في
+Version: 5.58     مشغل اي بي تي في
 Status: Plg Ipt
 XStreamity='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xstreamity/xstreamity.sh'
 
@@ -1253,15 +1253,15 @@ Version: 7.1     تسطيب بوسترات بايتون٣
 Status: Plg Epg
 Xtraevent-mnasr='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xtraevent/xtraevent.sh'
 
-Package: Youtube
-Version: 2025.03.10     مشاهدة فيديوهات اليوتيوب
-Status: Plg Ipt
-Youtube='https://gitlab.com/eliesat/extensions/-/raw/main/youtube/youtube.sh'
-
 Package: XtreamNew
 Version: 1.0.3     مشغل اي بي تي في
 Status: Plg Ipt
 XtreamNew='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xtreamnew/xtreamnew.sh'
+
+Package: Youtube
+Version: 2025.03.10     مشاهدة فيديوهات اليوتيوب
+Status: Plg Ipt
+Youtube='https://gitlab.com/eliesat/extensions/-/raw/main/youtube/youtube.sh'
 
 Package: Zaptimer
 Version: 1.0     توقيت للرجوع للقناة
@@ -1284,17 +1284,3 @@ Status:
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
 r='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
 
-Package: test
-Version: 0.0     
-Status: 
-test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
-h'
-.sh'
-
-sh'
-eamy.sh'
-
-sh'
-.sh'
-
-sh'

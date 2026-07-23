@@ -3,6 +3,8 @@
 ○ footonsat 8.8
 ○ athantimss 3.5
 ○ backupflashe 12.6
+○ xtreamity 5.58
+○ vavoo 1.79
 
 21.07.2026
 ============

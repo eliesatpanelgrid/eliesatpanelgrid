@@ -5,6 +5,7 @@
 ○ backupflashe 12.6
 ○ xtreamity 5.58
 ○ vavoo 1.79
+○ e2piconizer 1.29
 
 21.07.2026
 ============

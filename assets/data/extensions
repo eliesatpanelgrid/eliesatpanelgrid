@@ -278,6 +278,11 @@ Version: 3.0.3     تحويل ال اي بي تي في لمفضلات
 Status: Plg Ipt
 E2m3u2bouquet='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/e2m3u2bouquet/e2m3u2bouquet.sh'
 
+Package: E2Piconizer
+Version: 1.29     تسطيب بيكونات
+Status: Plg Pic
+E2Piconizer='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/e2piconizer/e2piconizer.sh'
+
 Package: E2readeradder
 Version: 3.0     كتابة سطر السسكام و ارساله الى الايميوهات
 Status: Plg Enc
@@ -1283,4 +1288,6 @@ Version: 0.0
 Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
 r='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
+
+zouplayer/zouplayer.sh'
 

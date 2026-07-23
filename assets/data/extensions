@@ -64,9 +64,9 @@ Status: Plg Uti
 Astronomy='https://gitlab.com/eliesat/extensions/-/raw/main/astronomy/astronomy.sh'
 
 Package: Athantimes
-Version: 2.8     الآذان
+Version: 3.5     الآذان
 Status: Plg Qur
-Athantimes='https://gitlab.com/eliesat/extensions/-/raw/main/athantimes/athantimes.sh'
+Athantimes='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/athantimes/athantimes.sh'
 
 Package: Audiomerge
 Version: 4.0     دمج صوتيات قناتين
@@ -379,7 +379,7 @@ Status: Plg Spo
 Footscores='https://gitlab.com/eliesat/extensions/-/raw/main/footscores/footscores.sh'
 
 Package: FootOnSat
-Version: 8.7     مواعيد مباريات كرة القدم مع القنوات الناقلة
+Version: 8.8     مواعيد مباريات كرة القدم مع القنوات الناقلة
 Status: Plg Spo
 FootOnSat='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/footonsat/footonsat.sh'
 

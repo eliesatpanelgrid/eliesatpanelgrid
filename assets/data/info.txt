@@ -1,5 +1,10 @@
 21.07.2026
 ============
+○ footonsat 8.8
+○ athantimss 3.5
+
+21.07.2026
+============
 ○ eliesat-motor
 ○ picons-motor (nilesat)
 ○ xtreamnew 1.0.3 (fixed)

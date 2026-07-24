@@ -554,9 +554,9 @@ Status: Plg Aud
 Ipstreamer='https://gitlab.com/eliesat/extensions/-/raw/main/ipstreamer/ipstreamer.sh'
 
 Package: Iqraaquran
-Version: 1.2     إقرا القرآن الكريم
+Version: 1.3     إقرا القرآن الكريم
 Status: Plg Qur
-Iqraaquran='https://gitlab.com/eliesat/extensions/-/raw/main/iqraaquran/iqraaquran.sh'
+Iqraaquran='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/iqraaquran/iqraaquran.sh'
 
 Package: Isettingse2
 Version: 5.8     تسطيب ملفات قنوات
@@ -629,9 +629,9 @@ Status: Plg Games
 Mastermind='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/mastermind/mastermind.sh'
 
 Package: Mawaqit
-Version: 1.1     القرآن الكريم مواقيت 
+Version: 1.2     القرآن الكريم مواقيت 
 Status: Plg Qur
-Mawaqit='https://gitlab.com/eliesat/extensions/-/raw/main/mawaqit/mawaqit.sh'
+Mawaqit='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/mawaqit/mawaqit.sh'
 
 Package: Meoboot
 Version: 0.1     تسطيب صور على الذاكرة الخارجية

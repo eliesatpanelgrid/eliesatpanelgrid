@@ -428,6 +428,11 @@ Version:  6.6.1     ترجمة الى اللغة العربية
 Status: Plg Sub
 Globaltranslatepro='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/globaltranslatepro/globaltranslatepro.sh'
 
+Package: HamzaMovie
+Version: 3.0     عرض معلومات و بوستر الفيلم
+Status: Plg Uti
+HamzaMovie='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/hamzamovie/hamzamovie.sh'
+
 Package: Hardwareinfo
 Version: 5.2     معلومات عن الجهاز
 Status: Plg Uti

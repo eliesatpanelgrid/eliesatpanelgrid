@@ -1,0 +1,10 @@
+##############ciefp###############
+Package: Ciefp-plugins
+Version: N/A     بانل تسطيب اضافات خاصة ببافل سييف
+Status: Pan
+Ciefp-plugins='https://raw.githubusercontent.com/ciefp/CiefpPlugins/main/installer.sh'
+
+Package: Ciefsettingspanel
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+Ciefsettingspanel='https://raw.githubusercontent.com/ciefp/CiefpsettingsPanel/main/installer.sh'

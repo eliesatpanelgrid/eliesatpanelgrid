@@ -84,7 +84,7 @@ Status: Freq
 Freq-Eliesat='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/xml/satellites.xml.sh'
 
 Package: Freq-Newsat
-Version: 22.07.2026     ملف ترددات
+Version: 26.07.2026     ملف ترددات
 Status: Freq
 Freq-Newsat='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/xml/newsat.sh'
 

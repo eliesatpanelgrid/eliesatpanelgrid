@@ -1,5 +1,6 @@
 25.07.2026
 ============
+○ vavoo 1.81
 ○ skin xdreamy 7.2
 ○ skin aglare fhd  8.1
 

@@ -1159,7 +1159,7 @@ Status: Plg Nov
 Ultracam='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/ultracam/ultracam.sh'
 
 Package: vavoo
-Version: 1.79     اي بي تي في مجاني
+Version: 1.81     اي بي تي في مجاني
 Status: Plg Free
 vavoo='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/vavoo/vavoo.sh'
 

@@ -1,6 +1,8 @@
-25.07.2026
+26.07.2026
 ============
- ○ abdulazimrefaat-motor
+○ newsat (satellires.xml)
+○ scsearch 1.27
+○ abdulazimrefaat-motor
 ○ furybiss 6.0
 ○ vavoo 1.81
 ○ skin xdreamy 7.2

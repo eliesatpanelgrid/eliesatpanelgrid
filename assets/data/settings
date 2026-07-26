@@ -3,10 +3,10 @@ Version: 15.07.2026     ملف قنوات
 Status: Settings
 Abouomar-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/abouomar-motor.sh'
 
-Package: Adelsat-motor
-Version: 30.01.2026     ملف قنوات
+Package: Abdulazimrefaat-motor
+Version: 26.07.2026     ملف قنوات
 Status: Settings
-Adelsat-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/adelsat-motor.sh'
+Abdulazimrefaat-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/abdulazimrefaat-motor.sh'
 
 Package: Atef-motor
 Version: 14.04.2026     ملف قنوات

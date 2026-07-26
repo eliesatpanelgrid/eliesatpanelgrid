@@ -83,6 +83,11 @@ Version: 22.07.2026     ملف ترددات
 Status: Freq
 Freq-Eliesat='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/xml/satellites.xml.sh'
 
+Package: Freq-Newsat
+Version: 22.07.2026     ملف ترددات
+Status: Freq
+Freq-Newsat='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/xml/newsat.sh'
+
 Package: Freq-Oe-alliance
 Version: uptodate     ملف ترددات
 Status: Freq
@@ -117,14 +122,6 @@ Package: test
 Version: 0.0     
 Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
-'
 
-'
-
-.0     
-Status: 
-test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
-'
-
-'
+h'
 

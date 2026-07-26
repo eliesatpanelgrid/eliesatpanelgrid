@@ -403,13 +403,13 @@ Version: 8.3.8.r1     سسكام مجاني
 Status: Plg Free
 Freeserver='https://gitlab.com/eliesat/extensions/-/raw/main/freeserver/freeserver.sh'
 
-Package: Fullackup
+Package: Fullbackup
 Version: 7.2     باكآب صورة اوبن بلي
 Status: Plg Bac
-Fullackup='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/fullbackup/fullbackup.sh'
+Fullbackup='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/fullbackup/fullbackup.sh'
 
 Package: Furybiss
-Version: 5.0     الفيدات و شفرات البيس
+Version: 6.0     الفيدات و شفرات البيس
 Status: Plg Enc
 Furybiss='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/furybiss/furybiss.sh'
 
@@ -1292,7 +1292,9 @@ Package: test
 Version: 0.0     
 Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
-r='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
+
+
+'https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
 
 zouplayer/zouplayer.sh'
 

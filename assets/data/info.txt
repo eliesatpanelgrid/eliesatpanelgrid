@@ -2,11 +2,11 @@
 ============
 
 ○ Mohamed_os
-• gosatplus-oscam-11965-emu-r802
-• oscam-11965-emu-r802
-• powercam-oscam-11965-emu-r802
-• supcam-oscam-11965-emu-r802
-• ultracam-oscam-11965-emu-r802
+• gosatplus-oscam-11966-emu-r802
+• oscam-11966-emu-r802
+• powercam-oscam-11966-emu-r802
+• supcam-oscam-11966-emu-r802
+• ultracam-oscam-11966-emu-r802
 
 ○ Levi45
 oscam-11966-emu-r803

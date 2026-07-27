@@ -41,7 +41,7 @@ Status: Kit
 Oscamicamnew='https://gitlab.com/eliesat/softcams/-/raw/main/kite888/oscamicam.sh'
 
 Package: Oscam-Levi45
-Version: 11965.emu.r803     .ipk .deb
+Version: 11966.emu.r803     .ipk .deb
 Status: Lev
 Oscam-Levi45='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/softcams/levi45/oscam.sh'
 
@@ -61,27 +61,27 @@ Status: Lin
 Oscam-Linuxsat25='https://gitlab.com/eliesat/softcams/-/raw/main/linuxsat25/oscam.sh'
 
 Package: Oscam
-Version: 11965.emu.r802     .ipk .deb
+Version: 11966.emu.r802     .ipk .deb
 Status: Moh
 Oscam='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/softcams/mohamed_os/oscam.sh'
 
 Package: Gosatplus-Oscam
-Version: 11965.emu.r802     .ipk
+Version: 11966.emu.r802     .ipk
 Status: Moh
 Gosatplus-Oscam='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/softcams/mohamed_os/gosatplus-oscam.sh'
 
 Package: Powercam-Oscam
-Version: 11965.emu.r802     .ipk
+Version: 11966.emu.r802     .ipk
 Status: Moh
 Powercam-Oscam='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/softcams/mohamed_os/powercam-oscam.sh'
 
 Package: Supcam-Oscam
-Version: 11965.emu.r802     .ipk
+Version: 11966.emu.r802     .ipk
 Status: Moh
 Supcam-Oscam='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/softcams/mohamed_os/supcam-oscam.sh'
 
 Package: Ultracam-Oscam
-Version: 11965.emu.r802     .ipk
+Version: 11966.emu.r802     .ipk
 Status: Moh
 Ultracam-Oscam='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/softcams/mohamed_os/ultracam-oscam.sh'
 

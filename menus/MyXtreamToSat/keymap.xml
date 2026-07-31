@@ -1,0 +1,21 @@
+<keymap>
+	<map context="IPtoSATActions">
+		<key id="KEY_LEFT" mapto="left" flags="mr"/>
+		<key id="KEY_RIGHT" mapto="right" flags="mr"/>
+		<key id="KEY_UP" mapto="up" flags="mr"/>
+		<key id="KEY_DOWN" mapto="down" flags="mr"/>
+		<key id="KEY_OK" mapto="ok" flags="m"/>
+		<key id="KEY_EXIT" mapto="cancel" flags="m"/>
+		<key id="KEY_ESC" mapto="cancel" flags="m"/>
+		<key id="KEY_RED" mapto="red" flags="m"/>
+		<key id="KEY_GREEN" mapto="green" flags="m"/>
+		<key id="KEY_YELLOW" mapto="yellow" flags="m"/>
+		<key id="KEY_BLUE" mapto="blue" flags="m"/>
+		<key id="KEY_CHANNELUP" mapto="nextBouquet" flags="mr"/>
+		<key id="KEY_CHANNELDOWN" mapto="prevBouquet" flags="mr"/>
+		<key id="KEY_PAGEUP" mapto="nextBouquet" flags="mr"/>
+		<key id="KEY_PAGEDOWN" mapto="prevBouquet" flags="mr"/>
+		<key id="KEY_NEXT" mapto="nextBouquet" flags="mr"/>
+		<key id="KEY_PREVIOUS" mapto="prevBouquet" flags="mr"/>
+	</map>
+</keymap>

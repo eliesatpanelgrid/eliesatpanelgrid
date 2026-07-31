@@ -134,6 +134,11 @@ Version: 3.13     تنزيل صور خام من الموقع الرسمي
 Status: Obh
 Openblackhole-5.6='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/images-download/openblackhole-5.6.sh'
 
+Package: Openblackhole-6.0
+Version: 3.14     تنزيل صور خام من الموقع الرسمي
+Status: Obh
+Openblackhole-6.0='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/images-download/openblackhole-6.0.sh'
+
 Package: Opendroid-7.6
 Version: 3.13     تنزيل صور خام من الموقع الرسمي
 Status: Dro

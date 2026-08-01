@@ -199,9 +199,9 @@ Status: Plg Ipt
 Ciefpyoutube='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ciefpyoutube/ciefpyoutube.sh'
 
 Package: Ciplushelper
-Version: 5.8.r2     تعريف الكامة الخارجية
+Version: 6.1     تعريف منفذ الكامة الخارجية
 Status: Plg Sys
-Ciplushelper='https://gitlab.com/eliesat/systemplugins/-/raw/main/ciplushelper/ciplushelper.sh'
+Ciplushelper='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ci-plus-helper/ci-plus-helper.sh'
 
 Package: Commandcenter
 Version: 1.2     اوامر لينوكس

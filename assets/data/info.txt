@@ -2,6 +2,7 @@
 ============
 ○ raedquicksignal 18.8
 ○ skin xdreamy 7.3
+○ ciplushelper 6.1
 
 29.07.2026
 ============

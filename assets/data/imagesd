@@ -139,15 +139,10 @@ Version: 3.14     تنزيل صور خام من الموقع الرسمي
 Status: Obh
 Openblackhole-6.0='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/images-download/openblackhole-6.0.sh'
 
-Package: Opendroid-7.6
-Version: 3.13     تنزيل صور خام من الموقع الرسمي
+Package: Opendroid-8.1
+Version: 3.14     تنزيل صور خام من الموقع الرسمي
 Status: Dro
-Opendroid-7.6='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/images-download/opendroid-7.6.sh'
-
-Package: Opendroid-8.0
-Version: 3.13     تنزيل صور خام من الموقع الرسمي
-Status: Dro
-Opendroid-8.0='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/images-download/opendroid-8.0.sh'
+Opendroid-8.1='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/images-download/opendroid-8.1.sh'
 
 Package: Openhdf-6.5
 Version: 2.7.18     تنزيل صور خام من الموقع الرسمي
@@ -234,6 +229,11 @@ Version: 3.13     تنزيل صور خام من الموقع الرسمي
 Status: Spa
 Openspa-8.6='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/images-download/openspa-8.6.sh'
 
+Package: Openspa-8.7
+Version: 3.14     تنزيل صور خام من الموقع الرسمي
+Status: Spa
+Openspa-8.7='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/images-download/openspa-8.7.sh'
+
 Package: Openvix-6.8
 Version: N/A     تنزيل صور خام من الموقع الرسمي
 Status: Vix
@@ -258,3 +258,4 @@ Package: test
 Version: 0.0     
 Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
+y.sh'

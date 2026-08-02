@@ -3,6 +3,7 @@
 ○ tivimatee2 1.0.02
 ○ abouomarmotor
 ○ estalker 1.43
+○ footonsat 9.5
 
 01.08.2026
 ============

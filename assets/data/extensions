@@ -496,22 +496,22 @@ Ipaudio='https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio/ipaudio-7.4-ff
 Package: Ipaudiopro
 Version: 1.3     py2 py3.9 اضافة الصوتيات على قنوات السات
 Status: Plg Aud
-Ipaudiopro='https://gitlab.com/eliesat/extensions/-/raw/main/ipaudiopro/1.3/ipaudiopro.sh'
+Ipaudiopro-1='https://gitlab.com/eliesat/extensions/-/raw/main/ipaudiopro/1.3/ipaudiopro.sh'
 
 Package: Ipaudiopro
 Version: 1.5     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
-Ipaudiopro='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ipaudiopro/1.5/ipaudiopro.sh'
+Ipaudiopro-2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ipaudiopro/1.5/ipaudiopro.sh'
 
 Package: Ipaudiopro
 Version: 1.7     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
-Ipaudiopro='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ipaudiopro/1.7/ipaudiopro.sh'
+Ipaudiopro-3='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ipaudiopro/1.7/ipaudiopro.sh'
 
 Package: Ipaudiopro
 Version: 1.8     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
-Ipaudiopro='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ipaudiopro/1.8/ipaudiopro.sh'
+Ipaudiopro-4='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ipaudiopro/1.8/ipaudiopro.sh'
 
 Package: Ipaudioplus
 Version: 5.0.r0     خاص باجهزة نوفالر
@@ -1305,5 +1305,5 @@ zouplayer/zouplayer.sh'
 
 player.sh'
 
-player.sh'
+h'
 

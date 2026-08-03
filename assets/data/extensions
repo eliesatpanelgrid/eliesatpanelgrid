@@ -483,32 +483,32 @@ Version: 8.11     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
 Ipaudio-mnasr='https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio-mnasr/ipaudio.sh'
 
-Package: Ipaudio-1
+Package: Ipaudio
 Version: 6.8     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
 Ipaudio-1='https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio/ipaudio.sh'
 
-Package: Ipaudio-2
+Package: Ipaudio
 Version: 7.4.ffmpeg     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
 Ipaudio-2='https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio/ipaudio-7.4-ffmpeg.sh'
   
-Package: Ipaudiopro-1
+Package: Ipaudiopro
 Version: 1.3     py2 py3.9 اضافة الصوتيات على قنوات السات
 Status: Plg Aud
 Ipaudiopro-1='https://gitlab.com/eliesat/extensions/-/raw/main/ipaudiopro/1.3/ipaudiopro.sh'
 
-Package: Ipaudiopro-2
+Package: Ipaudiopro
 Version: 1.5     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
 Ipaudiopro-2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ipaudiopro/1.5/ipaudiopro.sh'
 
-Package: Ipaudiopro-3
+Package: Ipaudiopro
 Version: 1.7     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
 Ipaudiopro-3='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ipaudiopro/1.7/ipaudiopro.sh'
 
-Package: Ipaudiopro-4
+Package: Ipaudiopro
 Version: 1.8     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
 Ipaudiopro-3='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ipaudiopro/1.8/ipaudiopro.sh'
@@ -1302,4 +1302,6 @@ test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdream
 'https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
 
 zouplayer/zouplayer.sh'
+
+player.sh'
 

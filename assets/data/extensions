@@ -1248,20 +1248,20 @@ Version: 5.58     مشغل اي بي تي في
 Status: Plg Ipt
 XStreamity='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xstreamity/xstreamity.sh'
 
-Package: Xtraevent-1
+Package: Xtraevent
 Version: 4.2     تسطيب بوسترات
 Status: Plg Epg
 Xtraevent-1='https://gitlab.com/eliesat/extensions/-/raw/main/xtraevent/xtraevent-4.2.sh'
 
-Package: Xtraevent-2
+Package: Xtraevent
 Version: 4.5     تسطيب بوسترات
 Status: Plg Epg
 Xtraevent-2='https://gitlab.com/eliesat/extensions/-/raw/main/xtraevent/xtraevent-4.5.sh'
 
-Package: Xtraevent-mnasr
-Version: 7.1     تسطيب بوسترات بايتون٣
+Package: Xtraevent
+Version: 7.1.mnasr      تسطيب بوسترات بايتون
 Status: Plg Epg
-Xtraevent-mnasr='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xtraevent/xtraevent.sh'
+Xtraevent-3='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xtraevent/xtraevent.sh'
 
 Package: XtreamNew
 Version: 1.0.3     مشغل اي بي تي في

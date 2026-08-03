@@ -263,15 +263,15 @@ Version: 2.0     إضافة مفاتيح البيس
 Status: Plg Enc
 E2bisskeyeditor='https://gitlab.com/eliesat/extensions/-/raw/main/e2Bisskeyseditor/e2Bisskeyseditor.sh'
 
-Package: E2iplayer-moh_os
-Version: 1.0     مشغل اي بي تي في
+Package: Iptvplayer
+Version: E2iplayer.moh.os     مشغل اي بي تي في
 Status: Plg Ipt
-E2iplayer-moh_os='https://gitlab.com/eliesat/extensions/-/raw/main/e2iplayer/e2iplayer-main.sh'
+Iptvplayer-1='https://gitlab.com/eliesat/extensions/-/raw/main/e2iplayer/e2iplayer-main.sh'
 
-Package: E2iplayer-oem
-Version: 07.06.2026     مشغل اي بي تي في
+Package: Iptvplayer
+Version: E2iplayer.oem     مشغل اي بي تي في
 Status: Plg Ipt
-E2iplayer-oem='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/e2iplayer-oem/e2iplayer-oem.sh'
+Iptvplayer-2='https://raw.githubusercontent.com/eliesatpanelgrid/scripts/main/usr/script/Oe-mirrors-e2iplayer.sh'
 
 Package: E2m3u2bouquet
 Version: 3.0.3     تحويل ال اي بي تي في لمفضلات
@@ -1301,4 +1301,5 @@ zouplayer/zouplayer.sh'
 player.sh'
 
 h'
+
 

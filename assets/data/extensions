@@ -1114,9 +1114,9 @@ Status: Plg Wea
 Theweather='https://gitlab.com/eliesat/extensions/-/raw/main/theweather/theweather.sh'
 
 Package: Tmdb
-Version: 8.6.r7     عرض بوستر و معلومات فيلم
+Version: 8.8     عرض بوستر و معلومات فيلم
 Status: Plg Epg
-Tmdb='https://gitlab.com/eliesat/extensions/-/raw/main/tmdb/tmbd.sh'
+Tmdb='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/tmbd/tmbd.sh'
 
 Package: Total90
 Version: 1.0.r0     خاص باجهزة نوفالر
@@ -1133,10 +1133,10 @@ Version: 6.6     الترجمة
 Status: Plg Sub
 Translateai='https://gitlab.com/eliesat/extensions/-/raw/main/translateai/translateai.sh'
 
-Package: Ts-sateditor
+Package: Tssateditor
 Version: 4.4     اضافة حذف تعديل بالاقمار و الترددات
 Status: Plg Sys
-Ts-sateditor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ts-sateditor/ts-sateditor.sh'
+Tssateditor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ts-sateditor/ts-sateditor.sh'
 
 Package: Tvgarden
 Version: 2.6     اي بي تي في مجاني

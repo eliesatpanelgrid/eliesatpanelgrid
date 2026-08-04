@@ -903,10 +903,10 @@ Version: 3.02     اي بي تي في مجاني
 Status: Plg Free
 Plutotv='https://gitlab.com/eliesat/extensions/-/raw/main/plutotv/plutotv.sh'
 
-Package: Quarter-pounder
+Package: QuarterPounder
 Version: 6.2.0     تنشيط قنوات الاي بي تي في
 Status: Plg Ipt
-Quarter-pounder='https://gitlab.com/eliesat/extensions/-/raw/main/quarter-pounder/quarter-pounder.sh'
+QuarterPounder='https://gitlab.com/eliesat/extensions/-/raw/main/quarter-pounder/quarter-pounder.sh'
 
 Package: Quran-karim
 Version: 2.2     القرآن الكريم
@@ -1208,10 +1208,10 @@ Version: 6.8     كاميرات حول العالم
 Status: Plg Free
 Worldcam='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/worldcam/worldcam.sh'
 
-Package: Xcplugin-forever
+Package: XCplugin
 Version: 5.2     مشغل اي بي تي في
 Status: Plg Ipt
-Xcplugin-forever='https://gitlab.com/eliesat/extensions/-/raw/main/xcplugin-forever/xcplugin-forever.sh'
+XCplugin='https://gitlab.com/eliesat/extensions/-/raw/main/xcplugin-forever/xcplugin-forever.sh'
 
 Package: Xklass
 Version: 1.80     مشغل اي بي تي في
@@ -1347,6 +1347,23 @@ h'
 
 
 '
+
+
+
+
+'
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

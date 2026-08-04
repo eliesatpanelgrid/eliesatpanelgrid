@@ -96,12 +96,12 @@ Azkar-almuslim='https://gitlab.com/eliesat/extensions/-/raw/main/azkar-almuslim/
 Package: Backupflashe
 Version: 12.6     باكآب الصورة
 Status: Plg Bac
-Backupflashe='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/backupsuite/backupsuite.sh'
+Backupflashe='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/backupflashe/backupflashe.sh'
 
 Package: Backupsuite
 Version: 3.0.r10     باكآب الصورة
 Status: Plg Bac
-Backupsuite='https://gitlab.com/eliesat/extensions/-/raw/main/backupsuite/backupsuite.sh'
+Backupsuite='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/backupsuite/backupsuite.sh'
 
 Package: Barryallen
 Version: 12.91.r1     تسطيب صور على الذاكرة الخارجية

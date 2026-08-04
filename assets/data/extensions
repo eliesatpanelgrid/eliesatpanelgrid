@@ -738,68 +738,68 @@ Version: 3.2     معلومات عن حالة المحاكي
 Status: Plg Enc
 Ncam-status='https://gitlab.com/eliesat/extensions/-/raw/main/ncam-status/ncam-status.sh'
 
-Package: Neoboot-1
+Package: Neoboot
 Version: 2.05     تسطيب صور على الذاكرة الخارجية
 Status: Plg Mul
 Neoboot-1='https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot-2.05.sh'
 
-Package: Neoboot-2
+Package: Neoboot
 Version: 5.8     تسطيب صور على الذاكرة الخارجية
 Status: Plg Mul
 Neoboot-2='https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot-5.8.sh'
 
-Package: Neoboot-3
+Package: Neoboot
 Version: 8.20     تسطيب صور على الذاكرة الخارجية
 Status: Plg Mul
 Neoboot-3='https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot-8.20.sh'
 
-Package: Neoboot-4
+Package: Neoboot
 Version: 9.11     تسطيب صور على الذاكرة الخارجية
 Status: Plg Mul
 Neoboot-4='https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot-9.11.sh'
 
-Package: Neoboot-5
+Package: Neoboot
 Version: 9.32     تسطيب صور على الذاكرة الخارجية
 Status: Plg Mul
 Neoboot-5='https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot-9.32.sh'
 
-Package: Neoboot-6
+Package: Neoboot
 Version: 9.36     تسطيب صور على الذاكرة الخارجية
 Status: Plg Mul
 Neoboot-6='https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot-9.36.sh'
 
-Package: Neoboot-7
+Package: Neoboot
 Version: 9.54     تسطيب صور على الذاكرة الخارجية
 Status: Plg Mul
 Neoboot-7='https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot-9.54.sh'
 
-Package: Neoboot-8
+Package: Neoboot
 Version: 9.58     تسطيب صور على الذاكرة الخارجية
 Status: Plg Mul
 Neoboot-8='https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot-9.58-r3.sh'
 
-Package: Neoboot-9
+Package: Neoboot
 Version: 9.60     تسطيب صور على الذاكرة الخارجية
 Status: Plg Mul
 Neoboot-9='https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot-9.60.sh'
 
-Package: Neoboot10
+Package: Neoboot
 Version: 9.62     تسطيب صور على الذاكرة الخارجية
 Status: Plg Mul
-Neoboot10='https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot-9.62.sh'
+Neoboot-10='https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot-9.62.sh'
 
-Package: Neoboot11
+Package: Neoboot
 Version: 9.65     تسطيب صور على الذاكرة الخارجية
 Status: Plg Mul
-Neoboot11='https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot-9.65.sh'
+Neoboot-11='https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot-9.65.sh'
 
-Package: Neoboot12
+Package: Neoboot
 Version: 9.65     تسطيب صور م.الصفطي 
 Status: Plg Mul
-Neoboot12='https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot-lea.sh'
+Neoboot-12='https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot-lea.sh'
 
-Package: Neoboot-duo4k
-Version: 5.3     تسطيب صور على الذاكرة الخارجية
+Package: Neoboot
+Version: 5.3.duo4k     تسطيب صور على الذاكرة الخارجية
 Status: Plg Mul
 Neoboot-duo4k='https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot-duo4k.sh'
 

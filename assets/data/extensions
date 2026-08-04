@@ -478,20 +478,20 @@ Version: 1.7     اختبار سرعة الاتصال بالانترنيت
 Status: Plg Uti
 Internetspeedtest='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/internetspeedtest/internetspeedtest.sh'
 
-Package: Ipaudio-mnasr
+Package: Ipaudio
 Version: 8.11.mnasr     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
-Ipaudio-mnasr='https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio-mnasr/ipaudio.sh'
+Ipaudio-1='https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio-mnasr/ipaudio.sh'
 
 Package: Ipaudio
 Version: 6.8     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
-Ipaudio='https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio/ipaudio.sh'
+Ipaudio-2='https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio/ipaudio.sh'
 
 Package: Ipaudio
 Version: 7.4.ffmpeg     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
-Ipaudio='https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio/ipaudio-7.4-ffmpeg.sh'
+Ipaudio-3='https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio/ipaudio-7.4-ffmpeg.sh'
 
 Package: Ipaudiopro
 Version: 1.5     اضافة الصوتيات على قنوات السات

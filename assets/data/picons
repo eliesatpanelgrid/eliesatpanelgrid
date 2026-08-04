@@ -119,7 +119,13 @@ Version: 15.02.2026     شعارات الايميو السات البروفاي�
 Status: other
 Picons-zelda='https://gitlab.com/eliesat/picons/-/raw/main/picons-zelda.sh'
 
+Package: WeatherPluginIcons
+Version: 1.1     ايقونات بلاجين الطقس
+Status: other
+WeatherPluginIcons='https://gitlab.com/eliesat/extensions/-/raw/main/weatherplugin-icons/weatherplugin-icons.sh'
+
 Package: test
 Version: 0.0     
 Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
+'

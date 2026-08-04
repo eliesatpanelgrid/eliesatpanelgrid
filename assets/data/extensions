@@ -388,10 +388,10 @@ Version: 9.5     مواعيد مباريات كرة القدم مع القنوا
 Status: Plg Spo
 FootOnSat='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/footonsat/footonsat.sh'
 
-Package: Foreca
+Package: Foreca1
 Version: 1.2.9     حالة الطقس
 Status: Plg Wea
-Foreca='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/foreca-one/foreca-one.sh'
+Foreca1='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/foreca-one/foreca-one.sh'
 
 Package: Freearhey
 Version: 3.1     اي بي تي في مجاني
@@ -853,10 +853,10 @@ Version: 4.0     حالة الطقس
 Status: Plg Wea
 Oaweather='https://gitlab.com/eliesat/extensions/-/raw/main/oaweather/oaweather.sh'
 
-Package: Oaweatheriet
+Package: Oaweatheriet5
 Version: 1.4     حالة الطقس
 Status: Plg Wea
-Oaweatheriet='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/oaweatheriet5/oaweatheriet5.sh'
+Oaweatheriet5='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/oaweatheriet5/oaweatheriet5.sh'
 
 Package: Opdboot
 Version: 3.1.20251102     تسطيب صور على الذاكرة الخارجية
@@ -1108,10 +1108,10 @@ Version: 7.1     لعبة تيتريس
 Status: Plg Games
 Tetris='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/tetris/tetris.sh'
 
-Package: Theweather
+Package: TheWeatherIet5
 Version: 5.5     حالة الطقس
 Status: Plg Wea
-Theweather='https://gitlab.com/eliesat/extensions/-/raw/main/theweather/theweather.sh'
+TheWeatherIet5='https://gitlab.com/eliesat/extensions/-/raw/main/theweather/theweather.sh'
 
 Package: Tmbd
 Version: 8.8     عرض بوستر و معلومات فيلم
@@ -1192,11 +1192,6 @@ Package: Weatherplugin
 Version: 2.4     حالة الطقس
 Status: Plg Wea
 Weatherplugin='https://gitlab.com/eliesat/extensions/-/raw/main/weatherplugin/weatherplugin.sh'
-
-Package: WeatherPluginIcons
-Version: 1.1     ايقونات بلاجين الطقس
-Status: Plg Wea
-WeatherPluginIcons='https://gitlab.com/eliesat/extensions/-/raw/main/weatherplugin-icons/weatherplugin-icons.sh'
 
 Package: Wifimanager
 Version: 1.1     خدمات خاصة بالواي فاي
@@ -1301,6 +1296,40 @@ h'
  
 Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
+
+
+'https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
+
+zouplayer/zouplayer.sh'
+
+player.sh'
+
+h'
+
+
+h'
+
+h'
+
+
+'
+
+
+
+
+'
+
+
+
+
+
+
+
+
+
+
+
+rcontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
 
 
 'https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'

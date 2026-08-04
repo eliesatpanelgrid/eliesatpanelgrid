@@ -1228,10 +1228,10 @@ Version: 6.8     تحديث ملف الترددات
 Status: Plg Sys
 xmlupdate='https://gitlab.com/eliesat/systemplugins/-/raw/main/xmlupdate/xmlupdate.sh'
 
-Package: xmlupdate.byiet5
+Package: XmlUpdatByiet5
 Version: 1.4     تحديث ملف الترددات
 Status: Plg Sys
-xmlupdate.byiet5='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xmlupdatebyiet5/xmlupdatebyiet5.sh'
+XmlUpdatByiet5='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xmlupdatebyiet5/xmlupdatebyiet5.sh'
 
 Package: XPortal
 Version: 4.1     مشغل اي بي تي في
@@ -1315,5 +1315,8 @@ h'
 h'
 
 h'
+
+
+'
 
 

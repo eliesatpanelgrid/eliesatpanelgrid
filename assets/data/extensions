@@ -306,17 +306,17 @@ EPGGrabber='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons
 Package: Epgimport
 Version: 2.0     قراءة و عرض ملفات الدليل الاكتروني
 Status: Plg Epg
-Epgimport='https://gitlab.com/eliesat/extensions/-/raw/main/epgimport/epgimport.sh'
+Epgimport-1='https://gitlab.com/eliesat/extensions/-/raw/main/epgimport/epgimport.sh'
 
-Package: Epgimport-iet5
-Version: 3.4     قراءة و عرض ملفات الدليل الاكتروني
+Package: Epgimport
+Version: 3.4-iet5     قراءة و عرض ملفات الدليل الاكتروني
 Status: Plg Epg
-Epgimport-iet5='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/epgimportiet5/epgimportiet5.sh'
+Epgimport-2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/epgimportiet5/epgimportiet5.sh'
 
-Package: Epgimport-mod-dorik
-Version: 1.9.1     قراءة و عرض ملفات الدليل الاكتروني
+Package: Epgimport
+Version: 1.9.1.mod-dorik     قراءة و عرض ملفات الدليل الاكتروني
 Status: Plg Epg
-Epgimport-mod-dorik='https://gitlab.com/eliesat/extensions/-/raw/main/epgimport-mod-dorik1972/epgimport-mod-dorik1972.sh'
+Epgimport-3='https://gitlab.com/eliesat/extensions/-/raw/main/epgimport-mod-dorik1972/epgimport-mod-dorik1972.sh'
 
 Package: Epgtranslator
 Version: 1.4.r2     ترجمة الدليل الالكتروني
@@ -1308,6 +1308,11 @@ test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdream
 zouplayer/zouplayer.sh'
 
 player.sh'
+
+h'
+
+
+h'
 
 h'
 

@@ -1048,10 +1048,10 @@ Version: 2.5     لعبة سنايك
 Status: Plg Games
 Snake='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/snake/snake.sh'
 
-Package: Skin-e2sentials
+Package: KiddaC_Skin_E2sentials
 Version: 1.07     اضافات على السكين المستخدم
 Status: Plg Uti
-Skin-e2sentials='https://gitlab.com/eliesat/extensions/-/raw/main/simplysports/simplysports.sh'
+KiddaC_Skin_E2sentials='https://gitlab.com/eliesat/extensions/-/raw/main/simplysports/simplysports.sh'
 
 Package: Smartaddonspanel
 Version: 2.0     بانل تسطيب اضافات

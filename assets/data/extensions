@@ -1178,10 +1178,10 @@ Version: 4.1     دليل  البرامج
 Status: Plg Epg
 Whattowatch='https://gitlab.com/eliesat/extensions/-/raw/main/whattowatch/whattowatch.sh'
 
-Package: Weathercomphandler
+Package: WeatherComponentHandler
 Version: 1.0     اداة خاصة بالطقس
 Status: Plg Sys
-Weathercomponenthandler='https://gitlab.com/eliesat/extensions/-/raw/main/weathercomponenthandler/weathercomponenthandler.sh'
+WeatherComponentHandler='https://gitlab.com/eliesat/extensions/-/raw/main/weathercomponenthandler/weathercomponenthandler.sh'
 
 Package: Weathermsn
 Version: 1.3.r3     حالة الطقس

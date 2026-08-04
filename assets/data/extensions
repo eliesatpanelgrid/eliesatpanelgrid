@@ -479,7 +479,7 @@ Status: Plg Uti
 Internetspeedtest='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/internetspeedtest/internetspeedtest.sh'
 
 Package: Ipaudio-mnasr
-Version: 8.11     اضافة الصوتيات على قنوات السات
+Version: 8.11.mnasr     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
 Ipaudio-mnasr='https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio-mnasr/ipaudio.sh'
 
@@ -523,15 +523,15 @@ Version: 1.8     مشاهدة الاي ابي تي على قنوات السات
 Status: Plg Ipt
 Iptosat='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/iptosat/iptosat.sh'
 
-Package: Ip2sat-hamdy
-Version: 2.0     مشاهدة الاي ابي تي على فنوات السات
+Package: Ip2sat
+Version: 2.0.hamdy     مشاهدة الاي ابي تي على فنوات السات
 Status: Plg Ipt
-Ip2sat-hamdy='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ip2sat-hamdy/ip2sat-hamdy.sh'
+Ip2sat-1='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ip2sat-hamdy/ip2sat-hamdy.sh'
 
 Package: Ip2sat
 Version: 1.0     مشاهدة الاي ابي تي على قنوات السات
 Status: Plg Ipt
-Ip2sat='https://gitlab.com/eliesat/extensions/-/raw/main/ip2sat/ip2sat.sh'
+Ip2sat-2='https://gitlab.com/eliesat/extensions/-/raw/main/ip2sat/ip2sat.sh'
 
 Package: Ipsat
 Version: 11.0.r0     خاص باجهزة نوفالر

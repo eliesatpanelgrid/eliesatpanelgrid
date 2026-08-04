@@ -48,10 +48,10 @@ Version: 1.10     py3 انصت للقرآن الكريم
 Status: Plg Qur
 Ansite='https://gitlab.com/eliesat/extensions/-/raw/main/ansite/ansite.sh'
 
-Package: Arabic-savior
+Package: ArabicSavior
 Version: 2.5     المنقذ العربي
 Status: Plg Uti
-Arabic-savior='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/arabicsavior/arabicsavior.sh'
+ArabicSavior='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/arabicsavior/arabicsavior.sh'
 
 Package: Arabic-support
 Version: shabah.net     atv hdf pli egami obh vix تعريب قوائم الصورة
@@ -126,12 +126,12 @@ Bissfeedautokey='https://gitlab.com/eliesat/extensions/-/raw/main/bissfeedautoke
 Package: Bitrate
 Version: 2.0     عرض معدل البت رايت على الشاشة
 Status: Plg Uti
-Bitrate='https://gitlab.com/eliesat/extensions/-/raw/main/bitrate/bitrate.sh'
+Bitrate-1='https://gitlab.com/eliesat/extensions/-/raw/main/bitrate/bitrate.sh'
 
-Package: Bitrate-mod-ariad
-Version: 1.0     عرض معدل البت رايت على الشاشة
+Package: Bitrate
+Version: 1.0.modariad     عرض معدل البت رايت على الشاشة
 Status: Plg Uti
-Bitrate-mod-ariad='https://gitlab.com/eliesat/extensions/-/raw/main/bitrate/bitrate-mod-ariad.sh'
+Bitrate-2='https://gitlab.com/eliesat/extensions/-/raw/main/bitrate/bitrate-mod-ariad.sh'
 
 Package: Bootlogokids-stony272
 Version: 1.0     صور اقلاع للاطفال
@@ -1318,6 +1318,14 @@ h'
 
 
 '
+
+
+
+
+'
+
+
+
 
 
 

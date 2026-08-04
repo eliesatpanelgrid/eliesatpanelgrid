@@ -1113,10 +1113,10 @@ Version: 5.5     حالة الطقس
 Status: Plg Wea
 Theweather='https://gitlab.com/eliesat/extensions/-/raw/main/theweather/theweather.sh'
 
-Package: Tmdb
+Package: Tmbd
 Version: 8.8     عرض بوستر و معلومات فيلم
 Status: Plg Epg
-Tmdb='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/tmbd/tmbd.sh'
+Tmbd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/tmbd/tmbd.sh'
 
 Package: Total90
 Version: 1.0.r0     خاص باجهزة نوفالر

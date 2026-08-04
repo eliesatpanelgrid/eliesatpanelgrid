@@ -686,24 +686,24 @@ Multiiptvadder='https://gitlab.com/eliesat/extensions/-/raw/main/mutiiptvadder/m
 Package: MultiQuickButton
 Version: 2.8.0    openvix obh تخصيص وظائف لازرار الرومونت
 Status: Plg Uti
-MultiQuickButton='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/multiquickbutton/multiquickbutton-obh.sh'
+MultiQuickButton-1='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/multiquickbutton/multiquickbutton-obh.sh'
 
-Package: MultiQuickButton1
+Package: MultiQuickButton
 Version: 2.7.15.r10     تخصيص وظائف لازرار الرومونت
 Status: Plg Uti
-MultiQuickButton1='https://gitlab.com/eliesat/extensions/-/raw/main/multiquickbutton/multiquickbutton.sh'
+MultiQuickButton-2='https://gitlab.com/eliesat/extensions/-/raw/main/multiquickbutton/multiquickbutton.sh'
 
 Package: Multistalker
 Version: 1.5     مشغل بورتلات اي بي تي في
 Status: Plg Ipt
 Multistalker='https://gitlab.com/eliesat/extensions/-/raw/main/multistalker/multistalker.sh'
 
-Package: Multistalkerpro-1
+Package: Multistalkerpro
 Version: 1.0     مشغل بورتلات اي بي تي في
 Status: Plg Ipt
 Multistalkerpro-1='https://gitlab.com/eliesat/extensions/-/raw/main/multistalker-pro/multistalkerpro.sh'
 
-Package: Multistalkerpro-2
+Package: Multistalkerpro
 Version: 1.2     py3.12.x مشغل بورتلات اي بي تي في 
 Status: Plg Ipt
 Multistalkerpro-2='https://gitlab.com/eliesat/extensions/-/raw/main/multistalker-pro/multi-stalkerpro.sh'
@@ -1323,6 +1323,10 @@ h'
 
 
 '
+
+
+
+
 
 
 

@@ -183,10 +183,10 @@ Version: 1.9     معلومات عن حالة السسكام
 Status: Plg Enc
 Cccamimfo='https://gitlab.com/eliesat/extensions/-/raw/main/cccaminfo/cccaminfo.sh'
 
-Package: Chocholousek
+Package: Chocholousekpicons
 Version: 5.0.240904     تسطيب بيكونات
 Status: Plg Pic
-Chocholousek='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/chocholousek-picons/chocholousek-picons.sh'
+Chocholousekpicons='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/chocholousek-picons/chocholousek-picons.sh'
 
 Package: Ciefpkingsat
 Version: 1.0     تصفح افمار و ترددات موقع كينج اوف سات
@@ -794,7 +794,7 @@ Status: Plg Mul
 Neoboot-11='https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot-9.65.sh'
 
 Package: Neoboot
-Version: 9.65     تسطيب صور م.الصفطي 
+Version: 9.65.msafty     تسطيب صور م.الصفطي 
 Status: Plg Mul
 Neoboot-12='https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot-lea.sh'
 

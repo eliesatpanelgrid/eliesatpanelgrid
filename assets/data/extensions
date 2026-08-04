@@ -3,10 +3,10 @@ Version: 1.4     تصفح لايحة السكريبتات و تنفيذهم
 Status: Plg Uti
 Acherone='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/acherone/acherone.sh'
 
-Package: Advancedbootlogo
+Package: AdvancedBootLogoSwapper
 Version: 1.0     إدارة صور الاقلاع
 Status: Plg Uti
-Advancedbootlogo='https://gitlab.com/eliesat/extensions/-/raw/main/advancedbootlogo/advancedbootlogo.sh'
+AdvancedBootLogoSwapper='https://gitlab.com/eliesat/extensions/-/raw/main/advancedbootlogo/advancedbootlogo.sh'
 
 Package: Adenchmanager
 Version: 1.1     ادارة الاقمار و مفضلات و قنوات السات
@@ -133,10 +133,10 @@ Version: 1.0.modariad     عرض معدل البت رايت على الشاشة
 Status: Plg Uti
 Bitrate-2='https://gitlab.com/eliesat/extensions/-/raw/main/bitrate/bitrate-mod-ariad.sh'
 
-Package: Bootlogokids-stony272
+Package: Bootlogokids_stony272
 Version: 1.0     صور اقلاع للاطفال
 Status: Plg Uti
-Bootlogokids-stony272='https://gitlab.com/eliesat/extensions/-/raw/main/bootlogokids/bootlogokids-stony272.sh'
+Bootlogokids_stony272='https://gitlab.com/eliesat/extensions/-/raw/main/bootlogokids/bootlogokids-stony272.sh'
 
 Package: Bootlogoswapper
 Version: 1.0     eliesat-special-edition صور اقلاع
@@ -148,10 +148,10 @@ Version: 1.77     تحويل الاي بي تي في لمفضلات
 Status: Plg Ipt
 Bouquetmakerxtream='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/bouquetmakerxtream/bouquetmakerxtream.sh'
 
-Package: Bundesliga-clock
+Package: BundesligaPermanentClock
 Version: 1.0     تثبيت الساعة على الشاشة بشكل دائم
 Status: Plg Uti
-Bundesliga-clock='https://gitlab.com/eliesat/extensions/-/raw/main/bundesliga-permanent-clock/bundesliga-permanent-clock.sh'
+BundesligaPermanentClock='https://gitlab.com/eliesat/extensions/-/raw/main/bundesliga-permanent-clock/bundesliga-permanent-clock.sh'
 
 Package: Buttonpatcher
 Version: 1.1      تخصيص مفاتيح الرومونت

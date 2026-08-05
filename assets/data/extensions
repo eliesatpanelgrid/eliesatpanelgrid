@@ -988,10 +988,10 @@ Version: 1.0     تصفح لايحة السكريبتات و تنفيذهم
 Status: Plg Uti
 Scriptexecuter='https://gitlab.com/eliesat/extensions/-/raw/main/scriptexecuter/scriptexecuter.sh'
 
-Package: scsearch
-Version: 1.27     تطبيق مشاهدة افلام 
+Package: Scsearch
+Version: 1.28     تطبيق مشاهدة افلام 
 Status: Plg Free
-scsearch='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/scsearch/scsearch.sh'
+Scsearch='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/scsearch/scsearch.sh'
 
 Package: ServerColoring
 Version: 6.0     تلوين قنوات الشيرينج
@@ -1282,101 +1282,3 @@ Package: test
 Version: 0.0     
 Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
-
-
-'https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
-
-zouplayer/zouplayer.sh'
-
-player.sh'
-
-h'
-
-
- 
-Status: 
-test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
-
-
-'https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
-
-zouplayer/zouplayer.sh'
-
-player.sh'
-
-h'
-
-
-h'
-
-h'
-
-
-'
-
-
-
-
-'
-
-
-
-
-
-
-
-
-
-
-
-rcontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
-
-
-'https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
-
-zouplayer/zouplayer.sh'
-
-player.sh'
-
-h'
-
-
-h'
-
-h'
-
-
-'
-
-
-
-
-'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-'
-
-
-
-
-
-
-
-
-
-
-

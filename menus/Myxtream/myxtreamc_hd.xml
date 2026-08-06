@@ -1,5 +1,177 @@
-<screen name="MyXtreamChannels" position="0,0" size="1920,1080" title="MyXtream Channels" flags="wfNoBorder">
-        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.jpg" position="0,0" size="1920,1080" zPosition="-1"/>
-        <widget name="title" position="40,30" size="1840,60" font="Regular;42" foregroundColor="#E6BE3A" transparent="1"/>
-        <widget name="list" position="150,180" size="1100,700" itemHeight="50" font="Regular;32" foregroundColor="#E6BE3A" foregroundColorSelected="#FF8C00" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/icon/selection.png" scrollbarMode="showOnDemand" transparent="1"/>
-    </screen>
+<screen name="MyXtreamChannels" position="0,0" size="1280,720" title="MyXtream Channels" flags="wfNoBorder">
+    <!-- Top Bar & Background -->
+    <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.jpg" position="0,0" size="1280,720" zPosition="-1"/>
+    <eLabel position="0,0" size="1280,87" zPosition="10" backgroundColor="#000000" />
+
+    <!-- Title / Header -->
+    <eLabel text="● Myxtream channels list..."
+        position="100,23"
+        size="933,33"
+        zPosition="11"
+        font="Bold;21"
+        halign="left"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        backgroundColor="#000000"
+        transparent="1" />
+        
+    <widget name="title"
+        position="100,93" 
+        size="733,23" 
+        zPosition="12"
+        font="Bold;21"
+        halign="center"
+        valign="center"
+        foregroundColor="#FF8C00"
+        backgroundColor="transparent" />
+
+    <!-- Channels List -->
+    <widget name="list" position="100,120" size="733,467" itemHeight="33" font="Bold;21" foregroundColor="#E6BE3A" foregroundColorSelected="#FF8C00" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/icon/selection.png" scrollbarMode="showOnDemand" transparent="1"/>
+
+    <!-- Bottom buttons -->
+    <eLabel position="0,717" size="320,3" zPosition="2" backgroundColor="red" />
+    <widget name="red" position="0,667" size="320,50" zPosition="2"
+        font="Bold;21" halign="center" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
+
+    <eLabel position="320,717" size="320,3" zPosition="2" backgroundColor="green" />
+    <widget name="green" position="320,667" size="320,50" zPosition="2"
+        font="Bold;21" halign="center" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
+
+    <eLabel position="640,717" size="320,3" zPosition="2" backgroundColor="#E6BE3A" />
+    <widget name="yellow" position="640,667" size="320,50" zPosition="2"
+        font="Bold;21" halign="center" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
+
+    <eLabel position="960,717" size="320,3" zPosition="2" backgroundColor="blue" />
+    <widget name="blue" position="960,667" size="320,50" zPosition="2"
+        font="Bold;21" halign="center" valign="center"
+        foregroundColor="#E6BE3A" backgroundColor="#000000"
+        transparent="0" />
+
+    <!-- Side bars -->
+    <eLabel position="0,87" size="53,580" zPosition="10" backgroundColor="#000000" />
+    <eLabel position="1227,87" size="53,580" zPosition="10" backgroundColor="#000000" />
+
+    <!-- System info -->
+    <!-- DATE -->
+    <widget source="global.CurrentTime" render="Label"
+        position="848,80"
+        size="367,27"
+        zPosition="12"
+        font="Bold;21"
+        halign="center"
+        valign="center"
+        foregroundColor="#FF8C00"
+        transparent="1">
+        <convert type="ClockToText">Format %A %d %B</convert>
+    </widget>
+
+    <!-- CLOCK -->
+    <widget source="global.CurrentTime" render="Label"
+        position="848,107"
+        size="367,27"
+        zPosition="12"
+        font="Bold;21"
+        halign="center"
+        valign="center"
+        foregroundColor="#FF8C00"
+        transparent="1">
+        <convert type="ClockToText">Format %H:%M:%S</convert>
+    </widget>
+
+    <!-- Top separator -->
+    <eLabel position="913,143"
+        size="233,1"
+        zPosition="12"
+        backgroundColor="#E6BE3A" />
+
+    <!-- MiniTV -->
+    <widget source="session.VideoPicture"
+        render="Pig"
+        position="848,157"
+        size="367,193"
+        zPosition="1"
+        backgroundColor="transparent" />
+
+    <!-- Bottom separator -->
+    <eLabel position="913,363"
+        size="233,1"
+        zPosition="12"
+        backgroundColor="#E6BE3A" />
+
+    <!-- System Information -->
+    <widget name="image_name"
+        position="848,380"
+        size="367,23"
+        zPosition="12"
+        font="Bold;20"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
+
+    <widget name="python_ver"
+        position="848,407"
+        size="367,23"
+        zPosition="12"
+        font="Bold;20"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
+
+    <widget name="local_ip"
+        position="848,433"
+        size="367,23"
+        zPosition="12"
+        font="Bold;20"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
+
+    <widget name="StorageInfo"
+        position="848,460"
+        size="367,23"
+        zPosition="12"
+        font="Bold;20"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
+
+    <widget name="RAMInfo"
+        position="848,487"
+        size="367,23"
+        zPosition="12"
+        font="Bold;20"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
+
+    <widget name="net_status"
+        position="848,513"
+        size="367,23"
+        zPosition="12"
+        font="Bold;20"
+        halign="center"
+        valign="center"
+        foregroundColor="#E6BE3A"
+        transparent="1" />
+
+    <!-- Left / Right vertical bars -->
+    <widget name="left_bar" position="7,107" size="40,507" zPosition="20"
+        font="Regular;17" halign="center" valign="top"
+        backgroundColor="#000000"
+        foregroundColor="#E6BE3A" transparent="1" noWrap="1" />
+    <widget name="right_bar" position="1233,107" size="40,507" zPosition="20"
+        font="Regular;17" halign="center" valign="top"
+        backgroundColor="#000000"
+        foregroundColor="#E6BE3A" transparent="1" noWrap="1" />
+</screen>

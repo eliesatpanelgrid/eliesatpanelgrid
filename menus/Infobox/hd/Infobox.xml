@@ -1,0 +1,18 @@
+<screen name="Infobox" position="center,center" size="1280,720">
+	<ePixmap position="0,0" size="1280,720" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.jpg" zPosition="-1"/>
+	<eLabel position="0,0" size="1280,87" backgroundColor="#000000" zPosition="10"/>
+	<eLabel text="● Welcome to ElieSatPanel – Enjoy the best plugins, addons and tools for your E2 box." position="233,13" size="933,40" font="Bold;21" halign="left" valign="center" foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="0" zPosition="11"/>
+	<eLabel position="60,73" size="1160,520" backgroundColor="#000000" transparent="0" zPosition="-1"/>
+
+	<widget name="list" position="80,93" size="1120,480" font="Console;20" foregroundColor="#E6BE3A" transparent="1" zPosition="5"/>
+
+	<eLabel position="0,660" size="320,27" text="System Monitor" font="Bold;20" halign="center" foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="0"/>
+	<eLabel position="320,660" size="320,27" text="IPTV" font="Bold;20" halign="center" foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="0"/>
+	<eLabel position="640,660" size="320,27" text="NCam" font="Bold;20" halign="center" foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="0"/>
+	<eLabel position="960,660" size="320,27" text="OSCam" font="Bold;20" halign="center" foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="0"/>
+    
+	<eLabel position="0,687" size="320,3" zPosition="2" backgroundColor="red" />
+	<eLabel position="320,687" size="320,3" zPosition="2" backgroundColor="green" />
+	<eLabel position="640,687" size="320,3" zPosition="2" backgroundColor="#E6BE3A" />
+	<eLabel position="960,687" size="320,3" zPosition="2" backgroundColor="blue" />
+</screen>

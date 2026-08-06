@@ -1,0 +1,19 @@
+<screen name="NCamReadersScreen" position="center,center" size="1280,720">
+	<ePixmap position="0,0" size="1280,720" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.jpg" zPosition="-10"/>
+	<eLabel position="0,0" size="1280,87" backgroundColor="#000000" zPosition="10"/>
+	<eLabel text="● Ncam readers monitor" position="233,13" size="933,40" font="Bold;21" halign="left" valign="center" foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="0" zPosition="11"/>
+	<eLabel position="60,80" size="1160,520" backgroundColor="#000000" zPosition="-1"/>
+	<eLabel text=" Label                │ADDRESS                    │PORT      │PROTOCOL      │STATUS" position="67,100" size="1147,27" font="Console;20" foregroundColor="#E6BE3A" backgroundColor="#000000" zPosition="6"/>
+	<eLabel text="────────────────────────────────────────────────────────────────────────────────────" position="67,123" size="1147,27" font="Console;20" foregroundColor="#E6BE3A" backgroundColor="#000000" zPosition="6"/>
+	<widget name="list" position="67,150" size="1147,417" font="Console;20" foregroundColor="#E6BE3A" transparent="1" zPosition="5" scrollbarMode="showOnDemand"/>
+	<widget name="error" position="0,150" size="1280,417" font="Bold;29" halign="center" valign="center" foregroundColor="#FF0000" transparent="1" zPosition="7"/>
+	<widget name="title" position="0,633" size="1280,33" font="Bold;19" halign="center" foregroundColor="#E6BE3A" transparent="1"/>
+	<eLabel position="0,660" size="320,27" text="System Monitor" font="Bold;20" halign="center" foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="0"/>
+	<eLabel position="320,660" size="320,27" text="IPTV" font="Bold;20" halign="center" foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="0"/>
+	<eLabel position="640,660" size="320,27" text="NCam" font="Bold;20" halign="center" foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="0"/>
+	<eLabel position="960,660" size="320,27" text="OSCam" font="Bold;20" halign="center" foregroundColor="#E6BE3A" backgroundColor="#000000" transparent="0"/>
+	<eLabel position="0,687" size="320,3" zPosition="2" backgroundColor="red" />
+	<eLabel position="320,687" size="320,3" zPosition="2" backgroundColor="green" />
+	<eLabel position="640,687" size="320,3" zPosition="2" backgroundColor="#E6BE3A" />
+	<eLabel position="960,687" size="320,3" zPosition="2" backgroundColor="blue" />
+</screen>

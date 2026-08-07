@@ -25,7 +25,7 @@ Ciefp-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/setti
 
 Package: Eliesat-motor
 Version: 21.07.2026     ملف قنوات افتراضي لتجربة البيكونات
-Status: Settings
+Status: Mot
 Eliesat-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/eliesat-motor.sh'
 
 Package: Faouzi-motor

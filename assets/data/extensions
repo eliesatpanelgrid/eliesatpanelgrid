@@ -689,7 +689,7 @@ Status: Plg Ipt
 Multiiptvadder='https://gitlab.com/eliesat/extensions/-/raw/main/mutiiptvadder/mutiiptvadder.sh'
 
 Package: MultiQuickButton
-Version: 2.8.0    openvix obh تخصيص وظائف لازرار الرومونت
+Version: 2.8.0.py3.14    openvix obh تخصيص وظائف لازرار الرومونت
 Status: Plg Uti
 MultiQuickButton-1='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/multiquickbutton/multiquickbutton-obh.sh'
 

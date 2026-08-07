@@ -1,5 +1,6 @@
 07.08.2026
 ============
+○ MultiQuickButton 2.8.0 py3.14
 ○ vavoo 1.84
 ○ simplysports 6.6
 ○ subextractorlite 1.4

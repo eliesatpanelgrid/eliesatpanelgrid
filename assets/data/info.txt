@@ -1,5 +1,6 @@
 07.08.2026
 ============
+○ footonsat 9.7
 ○ MultiQuickButton 2.8.0 py3.14
 ○ vavoo 1.84
 ○ simplysports 6.6

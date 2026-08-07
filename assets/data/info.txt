@@ -2,6 +2,7 @@
 ============
 ○ subextractorlite 1.4
 ○ ipaudiopro 1.8
+○ furybiss 6.1
 
 05.08.2026
 ============

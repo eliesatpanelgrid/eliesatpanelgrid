@@ -1,3 +1,8 @@
+07.08.2026
+============
+○ subextractorlite 1.4
+○ ipaudiopro 1.8
+
 05.08.2026
 ============
 ○ scsearch 1.28

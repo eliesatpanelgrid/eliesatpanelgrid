@@ -499,9 +499,14 @@ Status: Plg Aud
 Ipaudiopro-1='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ipaudiopro/1.7/ipaudiopro.sh'
 
 Package: Ipaudiopro
+Version: 1.8     اضافة الصوتيات على قنوات السات
+Status: Plg Aud
+Ipaudiopro-2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ipaudiopro/1.8/ipaudiopro.sh'
+
+Package: Ipaudiopro
 Version: 1.9     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
-Ipaudiopro-2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ipaudiopro/1.9/ipaudiopro.sh'
+Ipaudiopro-3='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ipaudiopro/1.9/ipaudiopro.sh'
 
 Package: Ipaudioplus
 Version: 5.0.r0     خاص باجهزة نوفالر
@@ -1073,6 +1078,11 @@ Version: 1.6     تحويل بورتلات لمفضلات و m3u
 Status: Plg Ipt
 Stalkerportalconverter='https://gitlab.com/eliesat/extensions/-/raw/main/stalkerportalconverter/stalkerportalconverter.sh'
 
+Package: SubExtractorLite
+Version: 1.4     الترجمة
+Status: Plg Sub
+SubExtractorLite='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/subextractorlite/subextractorlite.sh'
+
 Package: Subtitles-mora
 Version: 1.0     ملفات ترجمة
 Status: Plg Sys
@@ -1282,3 +1292,4 @@ Package: test
 Version: 0.0     
 Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
+

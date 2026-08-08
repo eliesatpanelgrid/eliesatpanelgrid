@@ -22,10 +22,10 @@ Version: 7.0          04.07.2026
 Status: Soebased Sobh Spli3 Svix
 Aglare-fhd-pli='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/aglare-fhd-pli/aglare-fhd-pli.sh'
 
-Package: Alayam-fhd
+Package: Al_ayam_fhd
 Version: 1.1     
 Status: Soebased
-Alayam-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/teamnitro/alayam/alayam-fhd.sh'
+Al_ayam_fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/teamnitro/alayam/alayam-fhd.sh'
 
 Package: Artemisfhd
 Version: 5.6     

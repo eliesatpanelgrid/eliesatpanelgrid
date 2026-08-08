@@ -304,7 +304,7 @@ Status: Plg Epg
 EPGGrabber='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/epggrabber/epggrabber.sh'
 
 Package: Epgimport
-Version: 2.0     قراءة و عرض ملفات الدليل الاكتروني
+Version: 2.1     قراءة و عرض ملفات الدليل الاكتروني
 Status: Plg Epg
 Epgimport-1='https://gitlab.com/eliesat/extensions/-/raw/main/epgimport/epgimport.sh'
 

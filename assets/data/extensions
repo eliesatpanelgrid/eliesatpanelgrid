@@ -69,7 +69,7 @@ Status: Plg Qur
 Athantimes='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/athantimes/athantimes.sh'
 
 Package: Audiomerge
-Version: 4.0     دمج صوتيات قناتين
+Version: 4.1     دمج صوتيات قناتين
 Status: Plg Aud
 Audiomerge='https://gitlab.com/eliesat/extensions/-/raw/main/audiomerge/audiomerge.sh'
 

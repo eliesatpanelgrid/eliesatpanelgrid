@@ -70,7 +70,6 @@
         font="Bold;32"
         halign="center"
         valign="center"
-        text="Remove Reader"
         foregroundColor="#E6BE3A"
         backgroundColor="#000000" />
 
@@ -81,7 +80,6 @@
         font="Bold;32"
         halign="center"
         valign="center"
-        text="Enable/Disable Reader"
         foregroundColor="#E6BE3A"
         backgroundColor="#000000" />
 
@@ -92,7 +90,6 @@
         font="Bold;32"
         halign="center"
         valign="center"
-        text="Edit Reader"
         foregroundColor="#E6BE3A"
         backgroundColor="#000000" />
 
@@ -103,7 +100,6 @@
         font="Bold;32"
         halign="center"
         valign="center"
-        text="Restore Reader"
         foregroundColor="#E6BE3A"
         backgroundColor="#000000" />
 

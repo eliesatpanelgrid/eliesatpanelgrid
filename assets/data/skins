@@ -5,6 +5,11 @@ Version: 1.0.posters.4     تعديل على السكين بوستر اكس
 Status: Sparts
 Metrix-fhd-4-posters='https://gitlab.com/eliesat/skins/-/raw/main/skins-parts/skinparts-mnasr-7.4.4-r2.sh'
 
+Package: MetrixPoster
+Version: 11.08.2026     تعديل على السكين بوستر اكس
+Status: Sparts
+MetrixPoster='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/metrixposter/metrixposter.sh'
+
 Package: Mymetrixlitebackup
 Version: 1.0     باكآب اعدادات سكين ماتريكس (طارق العشري)
 Status: Sparts

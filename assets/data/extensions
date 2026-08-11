@@ -994,7 +994,7 @@ Status: Plg Uti
 Scriptexecuter='https://gitlab.com/eliesat/extensions/-/raw/main/scriptexecuter/scriptexecuter.sh'
 
 Package: Scsearch
-Version: 1.28     تطبيق مشاهدة افلام 
+Version: 1.29     تطبيق مشاهدة افلام 
 Status: Plg Free
 Scsearch='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/scsearch/scsearch.sh'
 

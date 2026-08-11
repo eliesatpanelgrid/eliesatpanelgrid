@@ -574,7 +574,7 @@ Status: Plg Ipt
 Jedimakerxtream='https://gitlab.com/eliesat/extensions/-/raw/main/jedimakerxtream/jedimakerxtream.sh'
 
 Package: Keyadder
-Version: 9.5     اضافة مفتاح بيس بملف السوفتكام
+Version: 9.6     اضافة مفتاح بيس بملف السوفتكام
 Status: Plg Enc
 Keyadder='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/keyadder/keyadder.sh'
 

@@ -5,11 +5,6 @@ Version: 1.0.posters.4     تعديل على السكين بوستر اكس
 Status: Sparts
 Metrix-fhd-4-posters='https://gitlab.com/eliesat/skins/-/raw/main/skins-parts/skinparts-mnasr-7.4.4-r2.sh'
 
-Package: MetrixPoster
-Version: 11.08.2026     تعديل على السكين بوستر اكس
-Status: Sparts
-MetrixPoster='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/metrixposter/metrixposter.sh'
-
 Package: Mymetrixlitebackup
 Version: 1.0     باكآب اعدادات سكين ماتريكس (طارق العشري)
 Status: Sparts
@@ -462,6 +457,13 @@ Package: Qxklass-ovix
 Version: 2.0     
 Status: Soebased Svix
 Qxklass-ovix='https://gitlab.com/eliesat/skins/-/raw/main/openvix/qxklass-ovix/qxklass-ovix.sh'
+
+Package: test
+Version: 0.0     
+Status: 
+test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
+amy.sh'
+ps://gitlab.com/eliesat/skins/-/raw/main/openvix/qxklass-ovix/qxklass-ovix.sh'
 
 Package: test
 Version: 0.0     

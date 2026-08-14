@@ -1,5 +1,5 @@
-<screen name="Backups" position="0,0" size="1920,1080" backgroundColor="transparent" flags="wfNoBorder" title="Smart Dependency Checker">
-
+<screen name="BackupsScreen" position="0,0" size="1920,1080" title="Backups Panel" flags="wfNoBorder" backgroundColor="transparent">
+    
     <!-- Background -->
     <ePixmap position="0,0" zPosition="-1" size="1920,1080"
         pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/background/panel_bg.jpg"/>
@@ -9,14 +9,14 @@
 
     <!-- Title -->
     <eLabel text="● Images backups"
-        position="350,0" size="1400,50" zPosition="11"
+        position="150,0" size="1400,50" zPosition="11"
         font="Bold;32" halign="left" valign="center"
         foregroundColor="#E6BE3A"
         transparent="1" />
 
     <!-- LIVE STATUS COUNTER -->
     <widget name="dep_status"
-        position="350,70" size="1400,50" zPosition="11"
+        position="150,70" size="1400,50" zPosition="11"
         font="Bold;28" halign="left" valign="center"
         foregroundColor="#E6BE3A"
         transparent="1" />
@@ -72,17 +72,40 @@
 
     <!-- Deps list -->
     <widget name="deps_text"
-        position="150,180" size="1100,700" zPosition="12"
+        position="150,180" size="1100,680" zPosition="12"
         font="Bold;32" halign="left" valign="top"
         foregroundColor="#E6BE3A"
         transparent="1" />
 
-    <!-- Page info -->
-    <widget name="page_info"
-        position="1700,940" size="600,60" zPosition="12"
-        font="Bold;32" halign="left" valign="center"
-        foregroundColor="#E6BE3A"
+    <!-- Current installing / Reboot Message -->
+    <widget name="current_install"
+        position="150,880" size="1100,50" zPosition="20"
+        font="Bold;28" halign="left" valign="center"
+        foregroundColor="#FF8C00"
         transparent="1" />
+
+    <!-- Temporary stop message -->
+    <widget name="stop_msg"
+        position="150,880" size="1100,50" zPosition="20"
+        font="Bold;28" halign="left" valign="center"
+        foregroundColor="#FF8C00"
+        transparent="1" />
+
+    <!-- STATIC PREFIX LABEL -->
+    <widget name="supported_images_static"
+        position="150,940" size="270,50" zPosition="15"
+        font="Bold;30" halign="left" valign="center"
+        foregroundColor="#FF8C00"
+        transparent="1" />
+
+    <!-- SCROLLING IMAGES TICKER -->
+    <widget source="supported_images_list"
+        render="RunningText"
+        position="420,940" size="830,50" zPosition="15"
+        font="Bold;30" halign="left" valign="center"
+        foregroundColor="#FF8C00"
+        transparent="1"
+        options="movetype=running,startpoint=0,direction=left,steptime=40,repeat=0,startdelay=1000,nowrap" />
 
     <!-- System Info -->
     <!-- DATE -->
@@ -203,20 +226,6 @@
         position="1850,160" size="60,760" zPosition="20"
         font="Regular;26" halign="center"
         foregroundColor="#E6BE3A"
-        transparent="1" />
-
-    <!-- Current installing package -->
-    <widget name="current_install"
-        position="150,900" size="1100,50" zPosition="15"
-        font="Bold;32" halign="left" valign="center"
-        foregroundColor="#FF8C00"
-        transparent="1" />
-
-    <!-- Temporary stop message -->
-    <widget name="stop_msg"
-        position="150,960" size="1100,50" zPosition="15"
-        font="Bold;32" halign="left" valign="center"
-        foregroundColor="#FF8C00"
         transparent="1" />
 
 </screen>

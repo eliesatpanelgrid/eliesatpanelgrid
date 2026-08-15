@@ -1,5 +1,6 @@
 11.08.2026
 ============
+○ hisnmuslim 1.0
 ○ MultiQuickButton 2.8.0 
 ○ xtreamnew 2.0.4
 ○ buttonpatcher 1.2

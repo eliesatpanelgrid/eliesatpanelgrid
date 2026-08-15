@@ -448,6 +448,11 @@ Version: 2.22.4     راديو
 Status: Plg Rad
 Hdfradio='https://gitlab.com/eliesat/extensions/-/raw/main/hdfradio/hdfradio.sh'
 
+Package: HisnMuslim
+Version: 1.0     حصن المسلم 
+Status: Plg Qur
+HisnMuslim='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/hisnmuslim/hisnmuslim.sh'
+
 Package: Historyzapselector
 Version: 1.0.46     تصفح آخر قنوات سات قلبت فيهم
 Status: Plg Uti

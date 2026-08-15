@@ -2,6 +2,7 @@
 ============
 ○ MultiQuickButton 2.8.0 
 ○ xtreamnew 2.0.4
+○ buttonpatcher 1.2
 
 11.08.2026
 ============

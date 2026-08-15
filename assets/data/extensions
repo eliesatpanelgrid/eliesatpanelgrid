@@ -1264,7 +1264,7 @@ Status: Plg Epg
 Xtraevent-3='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xtraevent/xtraevent.sh'
 
 Package: XtreamNew
-Version: 1.0.3     مشغل اي بي تي في
+Version: 2.0.4     مشغل اي بي تي في
 Status: Plg Ipt
 XtreamNew='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xtreamnew/xtreamnew.sh'
 

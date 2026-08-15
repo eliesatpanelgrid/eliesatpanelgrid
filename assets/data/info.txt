@@ -1,5 +1,10 @@
 11.08.2026
 ============
+○ MultiQuickButton 2.8.0 
+○ xtreamnew 2.0.4
+
+11.08.2026
+============
 ○ scsearch 1.29
 ○ estalker 1.44
 ○ keyadder 9.6

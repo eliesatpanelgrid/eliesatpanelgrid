@@ -1,6 +1,7 @@
 19.08.2026
 ============
-e2iplayer-oem
+○ e2iplayer-oem
+○ aui06 oscam-11966-emu
 
 12.08.2026
 ============

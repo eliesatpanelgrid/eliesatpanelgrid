@@ -1,7 +1,7 @@
 ##############softcams#############
 
 Package: Oscam-Audi06
-Version: 11958.emu.r802     .ipk .deb
+Version: 11966.emu.r802     .ipk .deb
 Status: Audi
 Oscam-Audi06-1='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/softcams/audi06/oscam.sh'
 

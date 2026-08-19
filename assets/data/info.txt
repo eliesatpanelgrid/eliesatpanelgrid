@@ -1,4 +1,8 @@
-11.08.2026
+19.08.2026
+============
+e2iplayer-oem
+
+12.08.2026
 ============
 ○ hisnmuslim 1.0
 ○ MultiQuickButton 2.8.0 

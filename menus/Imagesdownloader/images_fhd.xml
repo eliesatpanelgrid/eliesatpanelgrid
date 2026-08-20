@@ -13,11 +13,11 @@
 
     <!-- LIST (10 rows exactly) -->
     <widget name="list"
-        position="48,180"
-        size="1100,700"
+        position="70,180"
+        size="1100,600"
         zPosition="15"
         scrollbarMode="showOnDemand"
-        font="Regular;35"
+        font="Regular;32"
         render="Listbox"
         itemHeight="66"
         selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/icon/selection.png"
@@ -192,7 +192,7 @@
         font="Bold;32"
         halign="center"
         valign="center"
-        text="-"
+        text="Remove"
         foregroundColor="#E6BE3A"
         backgroundColor="#000000"/>
 
@@ -204,7 +204,7 @@
         font="Bold;32"
         halign="center"
         valign="center"
-        text="-"
+        text="Rename"
         foregroundColor="#E6BE3A"
         backgroundColor="#000000"/>
 

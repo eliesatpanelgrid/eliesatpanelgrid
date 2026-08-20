@@ -11,13 +11,13 @@
         font="Bold;21" halign="left" valign="center"
         foregroundColor="#E6BE3A" backgroundColor="#000000"/>
 
-    <!-- LIST (10 rows exactly) -->
+    <!-- LIST (10 rows) -->
     <widget name="list"
-        position="32,120"
-        size="733,467"
+        position="47,120"
+        size="733,400"
         zPosition="15"
         scrollbarMode="showOnDemand"
-        font="Regular;23"
+        font="Regular;21"
         render="Listbox"
         itemHeight="44"
         selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/assets/icon/selection.png"
@@ -192,7 +192,7 @@
         font="Bold;21"
         halign="center"
         valign="center"
-        text="Cancel"
+        text="Remove"
         foregroundColor="#E6BE3A"
         backgroundColor="#000000"/>
 
@@ -204,7 +204,7 @@
         font="Bold;21"
         halign="center"
         valign="center"
-        text="-"
+        text="Rename"
         foregroundColor="#E6BE3A"
         backgroundColor="#000000"/>
 
@@ -228,7 +228,7 @@
         font="Bold;21"
         halign="center"
         valign="center"
-        text="Reset Syslinks"
+        text="-"
         foregroundColor="#E6BE3A"
         backgroundColor="#000000"/>
 

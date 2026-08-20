@@ -14,7 +14,7 @@
     <!-- LIST (10 rows exactly) -->
     <widget name="list"
         position="48,180"
-        size="1100,700"
+        size="1100,600"
         zPosition="15"
         scrollbarMode="showOnDemand"
         font="Regular;35"

@@ -384,7 +384,7 @@ Status: Plg Spo
 Footscores='https://gitlab.com/eliesat/extensions/-/raw/main/footscores/footscores.sh'
 
 Package: FootOnSat
-Version: 9.7     مواعيد مباريات كرة القدم مع القنوات الناقلة
+Version: 10.1     مواعيد مباريات كرة القدم مع القنوات الناقلة
 Status: Plg Spo
 FootOnSat='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/footonsat/footonsat.sh'
 

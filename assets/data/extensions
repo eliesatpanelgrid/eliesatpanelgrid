@@ -214,7 +214,7 @@ Status: Plg Games
 Connectfour='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/connectfour/connectfour.sh'
 
 Package: Crashlogviewer
-Version: 1.8     تصفح ملفات الكراش
+Version: 2.0     تصفح ملفات الكراش
 Status: Plg Uti
 Crashlogviewer='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/crashlogviewer/crashlogviewer.sh'
 

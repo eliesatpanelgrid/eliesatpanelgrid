@@ -1,5 +1,6 @@
 28.08.2026
 ============
+○ ciplushelper 7.0
 ○ xklass.ipaudio 1.81
 ○ apod 2.2
 ○ backupsuite 3.0.r11

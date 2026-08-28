@@ -199,7 +199,7 @@ Status: Plg Ipt
 Ciefpyoutube='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ciefpyoutube/ciefpyoutube.sh'
 
 Package: Ciplushelper
-Version: 6.1     تعريف منفذ الكامة الخارجية
+Version: 7.0     تعريف منفذ الكامة الخارجية
 Status: Plg Sys
 Ciplushelper='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ci-plus-helper/ci-plus-helper.sh'
 

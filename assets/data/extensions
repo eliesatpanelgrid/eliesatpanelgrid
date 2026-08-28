@@ -366,7 +366,7 @@ Filecommander='https://gitlab.com/eliesat/extensions/-/raw/main/filecommander/fi
 Package: Filmon
 Version: 2.6     اي بي تي في مجاني
 Status: Plg Free
-Filmxy='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/filmon/filmon.sh'
+Filmon='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/filmon/filmon.sh'
 
 Package: Fonts
 Version: 1.0.r0     ملف خطوط

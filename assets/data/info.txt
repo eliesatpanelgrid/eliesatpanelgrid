@@ -1,5 +1,6 @@
 28.08.2026
 ============
+○ horoscope 1.2
 ○ hasbahca 2.3
 ○ gtiptvplayerpro 0.9.64
 ○ freearhey 3.2

@@ -469,9 +469,9 @@ Status: Plg Uti
 Holidaycountdown='https://gitlab.com/eliesat/extensions/-/raw/main/holidaycountdown/holidaycountdown.sh'
 
 Package: Horoscope
-Version: 1.3     الابراج
+Version: 1.2     الابراج
 Status: Plg Uti
-Horoscope='https://gitlab.com/eliesat/extensions/-/raw/main/horoscope/horoscope.sh'
+Horoscope='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/horoscope/horoscope.sh'
 
 Package: Image-downloader
 Version: 2.6     تنزيل صور خام خام

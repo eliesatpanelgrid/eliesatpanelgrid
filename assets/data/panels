@@ -1,4 +1,5 @@
 ##############panels###############
+
 Package: Ajpanel
 Version: N/A     ادارة الملفات و مجموعة الخدمات
 Status: Pan dmpan
@@ -68,6 +69,11 @@ Package: Magicpanelgold
 Version: N/A     بانل تسطيب اضافات
 Status: Pan
 Magicpanelgold='https://raw.githubusercontent.com/Ham-ahmed/G10/refs/heads/main/MagicPanelGold-install.sh'
+
+Package: MohamedStore
+Version: N/A     بانل تسطيب اضافات
+Status: Pan
+MohamedStore='https://raw.githubusercontent.com/wwwgoper77-wq/MohamedStore/main/install.sh'
 
 Package: Novalerstore
 Version: N/A     بانل تسطيب اضافات

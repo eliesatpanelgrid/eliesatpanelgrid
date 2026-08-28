@@ -363,10 +363,10 @@ Version: 2024.08.31     مدير ملفات
 Status: Plg Uti
 Filecommander='https://gitlab.com/eliesat/extensions/-/raw/main/filecommander/filecommander.sh'
 
-Package: Filmxy
-Version: 1.4     اي بي تي في مجاني
+Package: Filmon
+Version: 2.6     اي بي تي في مجاني
 Status: Plg Free
-Filmxy='https://gitlab.com/eliesat/extensions/-/raw/main/filmxy/filmxy.sh'
+Filmxy='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/filmon/filmon.sh'
 
 Package: Fonts
 Version: 1.0.r0     ملف خطوط

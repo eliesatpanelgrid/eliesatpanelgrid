@@ -39,9 +39,9 @@ Status: Plg Enc
 Altsoftcammanager='https://gitlab.com/eliesat/extensions/-/raw/main/alternativesoftcammanager/alternativesoftcammanager.sh'
 
 Package: Apod
-Version: 1.7     صورة و معلومات عن كوكب الارض
+Version: 2.2     صورة و معلومات عن كوكب الارض https://api.nasa.gov
 Status: Plg Uti
-Apod='https://gitlab.com/eliesat/extensions/-/raw/main/apod/apod.sh'
+Apod='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/apod/apod.sh'
 
 Package: Ansite
 Version: 1.10     py3 انصت للقرآن الكريم

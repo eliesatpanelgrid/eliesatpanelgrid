@@ -2,6 +2,7 @@
 ============
 ○ xklass.ipaudio 1.81
 ○ apod 2.2
+○ backupsuite 3.0.r11
 
 26.08.2026
 ============

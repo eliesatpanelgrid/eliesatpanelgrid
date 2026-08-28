@@ -99,7 +99,7 @@ Status: Plg Bac
 Backupflashe='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/backupflashe/backupflashe.sh'
 
 Package: Backupsuite
-Version: 3.0.r10     باكآب الصورة
+Version: 3.0.r11     باكآب الصورة
 Status: Plg Bac
 Backupsuite='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/backupsuite/backupsuite.sh'
 

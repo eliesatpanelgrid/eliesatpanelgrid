@@ -1233,6 +1233,11 @@ Version: 1.80     مشغل اي بي تي في
 Status: Plg Ipt
 Xklass='https://gitlab.com/eliesat/extensions/-/raw/main/xklass/xklass.sh'
 
+Package: Xklass
+Version: 1.81.alkudsipaudio     اضافة الصوتيات على قنوات السات
+Status: Plg Aud
+Xklass-1='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xklassipaudio/xklassipaudio.sh'
+
 Package: xmlupdate
 Version: 6.8     تحديث ملف الترددات
 Status: Plg Sys

@@ -5,6 +5,11 @@ Version: 1.0.posters.4     تعديل على السكين بوستر اكس
 Status: Sparts
 Metrix-fhd-4-posters='https://gitlab.com/eliesat/skins/-/raw/main/skins-parts/skinparts-mnasr-7.4.4-r2.sh'
 
+Package: Metrixposter
+Version: 1.0     باكآب اعدادات سكين ماتريكس (طارق العشري)
+Status: Sparts
+Metrixposter='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/metrixposter/metrixposter.sh'
+
 Package: Mymetrixlitebackup
 Version: 1.0     باكآب اعدادات سكين ماتريكس (طارق العشري)
 Status: Sparts
@@ -163,7 +168,7 @@ Status: Soebased
 Icone-vpx2-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/icone/icone-vpx2-fhd.sh
 
 Package: Jihad
-Version: 2.19          11.08.2026
+Version: 2.20          11.08.2026
 Status: Soebased Segami Satv Sspa Sobh Spure Svix Spli3
 Jihad='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/jihad/jihad.sh'
 
@@ -470,3 +475,4 @@ Version: 0.0
 Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
 amy.sh'
+'

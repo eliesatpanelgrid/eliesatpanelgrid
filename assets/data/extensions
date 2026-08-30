@@ -1128,6 +1128,11 @@ Version: 7.1     لعبة تيتريس
 Status: Plg Games
 Tetris='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/tetris/tetris.sh'
 
+Package: TheWeather
+Version: 3.2     حالة الطقس
+Status: Plg Wea
+TheWeather='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/theweather/theweather.sh'
+
 Package: TheWeatherIet5
 Version: 5.5     حالة الطقس
 Status: Plg Wea
@@ -1307,6 +1312,3 @@ Package: test
 Version: 0.0     
 Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
-
-eamy.sh'
-

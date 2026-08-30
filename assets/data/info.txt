@@ -1,5 +1,6 @@
 30.08.2026
 ============
+○ theweather 3.2
 ○ epggrabber 25.4
 ○ epgimportiet 3.5.2
 

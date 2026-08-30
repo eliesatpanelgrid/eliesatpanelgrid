@@ -1,3 +1,8 @@
+30.08.2026
+============
+○ epggrabber 25.4
+○ epgimportiet 3.5.2
+
 29.08.2026
 ============
 ○ Alashry-motor

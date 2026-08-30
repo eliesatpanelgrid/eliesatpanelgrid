@@ -1169,7 +1169,7 @@ Status: Plg Free
 Tvgarden='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/tvgarden/tvgarden.sh'
 
 Package: TiviMateE2
-Version: 1.0.04     مشغل اي بي تي في
+Version: 1.0.09     مشغل اي بي تي في
 Status: Plg Ipt
 TiviMateE2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/tivimatee2/tivimatee2.sh'
 

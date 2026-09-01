@@ -1219,9 +1219,9 @@ Status: Plg Wea
 Weatherplugin='https://gitlab.com/eliesat/extensions/-/raw/main/weatherplugin/weatherplugin.sh'
 
 Package: Wifimanager
-Version: 1.1     خدمات خاصة بالواي فاي
+Version: 1.4     خدمات خاصة بالواي فاي
 Status: Plg Uti
-Wifimanager='https://gitlab.com/eliesat/extensions/-/raw/main/wifimanager/wifimanager.sh'
+Wifimanager='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/wifimanager/wifimanager.sh'
 
 Package: Wireguard-vpn
 Version: 15.6     اضافة اشتراك في بي ان معاينة سرعة النت

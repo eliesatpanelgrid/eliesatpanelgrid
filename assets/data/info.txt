@@ -1,5 +1,6 @@
 01.09.2026
 ============
+○ wifimanager 1.4
 ○ tvgarden 2.6
 ○  vavoo 1.88
 

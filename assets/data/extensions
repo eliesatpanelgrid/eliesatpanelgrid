@@ -1236,7 +1236,7 @@ Worldcam='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/w
 Package: XCplugin
 Version: 5.2     مشغل اي بي تي في
 Status: Plg Ipt
-XCplugin='https://gitlab.com/eliesat/extensions/-/raw/main/xcplugin-forever/xcplugin-forever.sh'
+XCplugin='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xcplugin/xcplugin.sh'
 
 Package: Xklass
 Version: 1.80     مشغل اي بي تي في

@@ -1,5 +1,6 @@
 01.09.2026
 ============
+○ xcplugin 5.2
 ○ worldcam 6.8
 ○ wifimanager 1.4
 ○ tvgarden 2.6

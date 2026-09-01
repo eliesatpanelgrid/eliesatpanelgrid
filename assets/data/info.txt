@@ -1,5 +1,6 @@
 01.09.2026
 ============
+○ skin aglare fhd 8.5
 ○ audioshift 1.2.4.r4
 ○ xcplugin 5.2
 ○ worldcam 6.8

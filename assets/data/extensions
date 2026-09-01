@@ -73,6 +73,11 @@ Version: 4.0     دمج صوتيات قناتين
 Status: Plg Aud
 Audiomerge='https://gitlab.com/eliesat/extensions/-/raw/main/audiomerge/audiomerge.sh'
 
+Package: AudioShift
+Version: 1.2.4.r4     اضافة الصوتيات على قنوات السات
+Status: Plg Aud
+AudioShift='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/audioshift/audioshift.sh'
+
 Package: Autobiss
 Version: 1.9     الفيدات و شفرات البيس
 Status: Plg Enc

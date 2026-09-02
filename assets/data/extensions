@@ -143,6 +143,11 @@ Version: 1.0.modariad     عرض معدل البت رايت على الشاشة
 Status: Plg Uti
 Bitrate-2='https://gitlab.com/eliesat/extensions/-/raw/main/bitrate/bitrate-mod-ariad.sh'
 
+Package: BitrateMonitorPro
+Version: 1.0     عرض معدل البت رايت على الشاشة
+Status: Plg Uti
+BitrateMonitorPro='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/bitratemonitorpro/bitratemonitorpro.sh'
+
 Package: Bootlogokids_stony272
 Version: 1.0     صور اقلاع للاطفال
 Status: Plg Uti

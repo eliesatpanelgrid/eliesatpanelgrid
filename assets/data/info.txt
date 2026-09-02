@@ -1,5 +1,6 @@
 02.09.2026
 ============
+○ audioselectionpatcher 1.0
 ○ xtreamnew 2.0.5
 
 01.09.2026

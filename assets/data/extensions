@@ -78,6 +78,11 @@ Version: 1.2.4.r4     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
 AudioShift='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/audioshift/audioshift.sh'
 
+Package: AudioSelectionPatcher
+Version: 1.0     تايم شيفت
+Status: Plg Aud
+AudioSelectionPatcher='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/audioselectionpatcher/audioselectionpatcher.sh'
+
 Package: Autobiss
 Version: 1.9     الفيدات و شفرات البيس
 Status: Plg Enc

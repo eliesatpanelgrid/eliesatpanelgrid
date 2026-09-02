@@ -1198,6 +1198,11 @@ Version: 3.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
 Ultracam='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/ultracam/ultracam.sh'
 
+Package: UltraStalker
+Version: 7.1.6     مشغل بورتلات اي بي تي في
+Status: Plg Ipt
+UltraStalker='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ultrastalker/ultrastalker.sh'
+
 Package: Vavoo
 Version: 1.88     اي بي تي في مجاني
 Status: Plg Free

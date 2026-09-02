@@ -1,5 +1,6 @@
 02.09.2026
 ============
+○ utrastalker 7.1.6
 ○ subssupportpro 1.3.0
 ○ footonsat 10.1
 ○ simplysports 6.8

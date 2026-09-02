@@ -1,5 +1,6 @@
 02.09.2026
 ============
+○ mytranslator 1.73
 ○ customchannelselection 1.5
 ○ bitratemonitorpro 1.0
 ○ backupflashe 12.8

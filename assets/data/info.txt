@@ -1,5 +1,7 @@
 02.09.2026
 ============
+○ footonsat 10.1
+○ simplysports 6.8
 ○ estalker 1.48
 ○ mytranslator 1.73
 ○ customchannelselection 1.5

@@ -1064,7 +1064,7 @@ Status: Plg Uti
 Showclock='https://gitlab.com/eliesat/extensions/-/raw/main/showclock/showclock.sh'
 
 Package: Simplysports
-Version: 6.7     تغطية مباشرة لنتائج المباريات
+Version: 6.8     تغطية مباشرة لنتائج المباريات
 Status: Plg Spo
 Simplysports='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/simplysports/simplysports.sh'
 

@@ -1,5 +1,6 @@
 02.09.2026
 ============
+○ subssupportpro 1.3.0
 ○ footonsat 10.1
 ○ simplysports 6.8
 ○ estalker 1.48

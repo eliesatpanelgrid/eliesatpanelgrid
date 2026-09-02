@@ -104,7 +104,7 @@ Status: Plg Qur
 Azkar-almuslim='https://gitlab.com/eliesat/extensions/-/raw/main/azkar-almuslim/azkar-almuslim.sh'
 
 Package: Backupflashe
-Version: 12.6     باكآب الصورة
+Version: 12.8     باكآب الصورة
 Status: Plg Bac
 Backupflashe='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/backupflashe/backupflashe.sh'
 

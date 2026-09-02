@@ -243,6 +243,11 @@ Version: 8.2     واجهة مخصصة لادارة اشتراك اي بي تي 
 Status: Plg Ipt
 CustomIPTVArchiveMakerPro='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/customiptvarchivemakerpro/customiptvarchivemakerpro.sh'
 
+Package: CustomChannelSelection
+Version: 1.5     قائمة قنوات مخصصة ومطورة
+Status: Plg Uti
+CustomChannelSelection='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/customchannelselection/customchannelselection.sh'
+
 Package: Cutsclear
 Version: 1.2     حذف  الافلام
 Status: Plg Uti

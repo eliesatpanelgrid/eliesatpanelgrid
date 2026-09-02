@@ -1,5 +1,6 @@
 02.09.2026
 ============
+○ estalker 1.48
 ○ mytranslator 1.73
 ○ customchannelselection 1.5
 ○ bitratemonitorpro 1.0

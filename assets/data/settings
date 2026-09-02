@@ -64,7 +64,7 @@ Status: Settings
 Novaler-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/novaler-motor.sh'
 
 Package: Refaey-motor
-Version: 21.05.2026     ملف قنوات
+Version: 13.08.2026     ملف قنوات
 Status: Settings
 Refaey-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/refaey-motor.sh'
 

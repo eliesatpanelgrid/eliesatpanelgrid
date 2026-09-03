@@ -207,11 +207,6 @@ Version: 1.0
 Status: Soebased
 M-ashawky='https://gitlab.com/eliesat/skins/-/raw/main/atv/m-ashawky.sh'
 
-Package: Maxy-fhd-atv
-Version: 1.0     
-Status: Soebased
-Maxy-fhd-atv='https://gitlab.com/eliesat/skins/-/raw/main/all/maxy-fhd/maxy-fhd.sh'
-
 Package: Metrixfhd-neo 
 Version: 7.5.6     
 Status: Soebased

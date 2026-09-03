@@ -183,9 +183,9 @@ Status: Soebased
 Lava='https://gitlab.com/eliesat/skins/-/raw/main/all/lava/lava-ashawky.sh'
 
 Package: Luka-fhd
-Version: 1.5          06.07.2026     
+Version: 1.5          03.09.2026     
 Status: Soebased Segami Satv Sspa Spure
-Luka-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/luka-fhd/luka-fhd.sh'
+Luka-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/luka-fhd/luka-fhd.sh'
 
 Package: Luka-fhd-pli
 Version: 1.1          06.07.2026  

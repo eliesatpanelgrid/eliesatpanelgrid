@@ -222,10 +222,10 @@ Version: 1.4          03.09.2026
 Status: Soebased Segami Satv Sspa Spure
 Maxy-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/maxy-fhd/maxy-fhd.sh'
 
-Package: Maxi-fhd-pli 
+Package: Maxy-fhd-pli 
 Version: 1.0          03.09.2026     
 Status: Soebased Sobh Spli3 Svix
-Maxi-fhd-pli='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/maxy-fhd-pli/maxy-fhd-pli.sh'
+Maxy-fhd-pli='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/maxy-fhd-pli/maxy-fhd-pli.sh'
 
 Package: Nacht-ash
 Version: 2.2     
@@ -241,11 +241,6 @@ Package: Nitroadvance-fhd
 Version: 5.4     
 Status: Soebased
 Nitroadvance-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/teamnitro/nitroadvance/nitroadvance-fhd.sh'
-
-Package: Novaler-s-fhd
-Version: 3.6.green     
-Status: Soebased
-Novaler-s-fhd-green='https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-fhd-green.sh'
 
 Package: Novaler-s-fhd
 Version: 4.0.green     

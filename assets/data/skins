@@ -173,9 +173,9 @@ Status: Soebased Segami Satv Sspa Sobh Spure Svix Spli3
 Jihad='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/jihad/jihad.sh'
 
 Package: KIII-pro          
-Version: 3.3          06.07.2026     
+Version: 3.3          03.09.2026     
 Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
-KIII-pro='https://gitlab.com/eliesat/skins/-/raw/main/all/KIII-pro/KIII-pro.sh'
+KIII-pro='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/kIII-pro/KIII-pro.sh'
 
 Package: Lava
 Version: 2.0     

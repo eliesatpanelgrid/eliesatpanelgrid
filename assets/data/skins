@@ -352,20 +352,20 @@ Version: 1.0
 Status: Soebased
 Pdreamy-n-fhd='https://gitlab.com/eliesat/skins/-/raw/main/egami/pdreamy/pdreamy-n-fhd.sh'
 
-Package: Premium-fhd
-Version: 3.1.black     
+Package: Premium-FHD-Black
+Version: 3.1          03.09.2026     
 Status: Soebased
-Premium-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premiumfhd-black.sh'
+Premium-FHD-Black='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/premium-fhd/premium-fhd-black.sh'
 
-Package: Premium-fhd
-Version: 3.1.blue     
+Package: Premium-FHD-Blue
+Version: 3.1              03.09.2026
 Status: Soebased
-Premium-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premiumfhd-blue.sh'
+Premium-FHD-Blue='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/premium-fhd/premium-fhd-blue.sh'
 
-Package: Premium-fhd
-Version: 3.1.magneta     
+Package: Premium-FHD-Magenta
+Version: 3.1          03.09.2026
 Status: Soebased
-Premium-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premiumfhd-magneta.sh'
+Premium-FHD-Magenta='https://gitlab.com/eliesat/skins/-/raw/main/all/premium-fhd/premiumfhd-magneta.sh'
 
 Package: Qxklass-obh
 Version: 2.0            07.07.2026   

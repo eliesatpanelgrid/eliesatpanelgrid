@@ -190,7 +190,7 @@ Luka-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/lu
 Package: Luka-fhd-pli
 Version: 1.1          06.07.2026  
 Status: Soebased Sobh Spli3 Svix
-Luka-fhd-pli='https://gitlab.com/eliesat/skins/-/raw/main/all/luka-fhd-pli/luka-fhd-pli.sh'
+Luka-fhd-pli='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/luka-fhd-pli/luka-fhd-pli.sh'
 
 Package: Malek-fhd
 Version: 2.2     
@@ -222,15 +222,15 @@ Version: 3.12
 Status: Soebased
 Metrix-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/metrixfhd/metrix.sh'
 
-Package: Maxy-fhd-1
-Version: 1.4     
+Package: Maxy-fhd
+Version: 1.4          03.09.2026
 Status: Soebased Segami Satv Sspa Spure
-Maxy-fhd-1='https://gitlab.com/eliesat/skins/-/raw/main/all/maxy-fhd/maxy-fhd.sh'
+Maxy-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/maxy-fhd/maxy-fhd.sh'
 
 Package: Maxi-fhd-pli 
-Version: 1.0          07.07.2026     
+Version: 1.0          03.09.2026     
 Status: Soebased Sobh Spli3 Svix
-Maxi-fhd-pli='https://gitlab.com/eliesat/skins/-/raw/main/all/maxy-fhd/maxy-fhd-pli.sh'
+Maxi-fhd-pli='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/maxy-fhd-pli/maxy-fhd-pli.sh'
 
 Package: Nacht-ash
 Version: 2.2     

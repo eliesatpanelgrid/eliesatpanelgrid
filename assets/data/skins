@@ -140,12 +140,12 @@ Fullhdglass17='https://gitlab.com/eliesat/skins/-/raw/main/all/fullhdglass17/ful
 Package: Fury-fhd
 Version: 7.4          07.07.2026     
 Status: Soebased Segami Satv Sspa Sobh Spure Svix Spli3
-Fury-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/fury/fury.sh'
+Fury-fhd-1='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/fury/fury.sh'
 
-Package: Fury-ai-fhd
-Version: 8.1          29.07.2026     
+Package: Fury-fhd
+Version: 8.1.ai          29.07.2026     
 Status: Soebased Segami Satv Sspa Sobh Spure Svix Spli3
-Fury-ai-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/aifury/aifury.sh'
+Fury-fhd-2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/aifury/aifury.sh'
 
 Package: Gigabluepaxv2
 Version: 1.0     

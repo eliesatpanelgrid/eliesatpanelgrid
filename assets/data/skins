@@ -217,6 +217,11 @@ Version: 3.12
 Status: Soebased
 Metrix-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/metrixfhd/metrix.sh'
 
+Package: MetriXconfluencExp
+Version: 3.0          04.09.2026     
+Status: Soebased Satv
+MetriXconfluencExp='https://gitlab.com/eliesat/skins/-/raw/main/all/metrixfhd/metrix.sh'
+
 Package: Maxy-fhd
 Version: 1.4          03.09.2026
 Status: Soebased Segami Satv Sspa Spure
@@ -371,6 +376,8 @@ Package: Youchie-pli-fhd
 Version: 1.0.3     
 Status: Soebased Spli3 Svix
 Youchie-pli-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/youchie-pli-fhd/pli/youchie-pli-fhd.sh'
+
+--------------openatv--------------
 
 --------------openpli-9.x--------------
 

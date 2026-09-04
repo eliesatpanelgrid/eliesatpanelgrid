@@ -1,6 +1,6 @@
-03.09.2026
+04.09.2026
 ============
-○ اعادة فرز سكينات صورة اوبن اي تي في 
+○ updating openatv skins
 
 03.09.2026
 ============
@@ -833,6 +833,15 @@ dm900 920
 ○ audiomerge 4.0
 ○ mawaqit 1.0
 ○ newvirtualkeyboard 13.8
+○ simplysports 4.5
+
+
+
+
+
+
+
+keyboard 13.8
 ○ simplysports 4.5
 
 

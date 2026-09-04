@@ -207,21 +207,6 @@ Version: 1.0
 Status: Soebased
 M-ashawky='https://gitlab.com/eliesat/skins/-/raw/main/atv/m-ashawky.sh'
 
-Package: Metrixfhd-neo 
-Version: 7.5.6     
-Status: Soebased
-Metrixfhd-neo='https://gitlab.com/eliesat/skins/-/raw/main/atv/metrixfhd-neo/metrixfhd-neo.sh'
-
-Package: Metrix-fhd
-Version: 3.12     
-Status: Soebased
-Metrix-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/metrixfhd/metrix.sh'
-
-Package: MetriXconfluencExp
-Version: 3.0          04.09.2026     
-Status: Soebased Satv
-MetriXconfluencExp='https://gitlab.com/eliesat/skins/-/raw/main/all/metrixfhd/metrix.sh'
-
 Package: Maxy-fhd
 Version: 1.4          03.09.2026
 Status: Soebased Segami Satv Sspa Spure
@@ -231,6 +216,21 @@ Package: Maxy-fhd-pli
 Version: 1.0          03.09.2026     
 Status: Soebased Sobh Spli3 Svix
 Maxy-fhd-pli='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/maxy-fhd-pli/maxy-fhd-pli.sh'
+
+Package: Metrix-fhd
+Version: 3.12     
+Status: Soebased
+Metrix-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/metrixfhd/metrix.sh'
+
+Package: MetriXconfluencExp
+Version: 3.0          04.09.2026     
+Status: Soebased Satv
+MetriXconfluencExp='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/metrixconfluencexp/metrixconfluencexp.sh'
+
+Package: Metrixfhd-neo 
+Version: 7.5.6     
+Status: Soebased
+Metrixfhd-neo='https://gitlab.com/eliesat/skins/-/raw/main/atv/metrixfhd-neo/metrixfhd-neo.sh'
 
 Package: Nacht-ash
 Version: 2.2     

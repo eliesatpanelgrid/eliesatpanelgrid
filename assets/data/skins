@@ -243,39 +243,9 @@ Status: Soebased
 Nitroadvance-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/teamnitro/nitroadvance/nitroadvance-fhd.sh'
 
 Package: Novaler-s-fhd-green
-Version: 4.0.green     
+Version: 4.0          04.09.2026     
 Status: Soebased Segami Satv Sspa Spure
 Novaler-s-fhd-green='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/novaler-s-fhd-green/novaler-s-fhd-green.sh'
-
-Package: Novaler-s-x
-Version: 3.2.blue     
-Status: Soebased
-Novaler-s-x-blue='https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-x-blue.sh'
-
-Package: Novaler-s-x
-Version: 3.2.green     
-Status: Soebased
-Novaler-s-x-green='https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-x-green.sh'
-
-Package: Novaler-s-x
-Version: 3.2.infrared     
-Status: Soebased
-Novaler-s-x-infrared='https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-x-infrared.sh'
-
-Package: Novaler-s-xtra
-Version: 3.2.blue     
-Status: Soebased
-Novaler-s-xtra-blue='https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-xtra-fhd-blue.sh'
-
-Package: Novaler-s-xtra
-Version: 3.2.green     
-Status: Soebased
-Novaler-s-xtra-green='https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-xtra-fhd-green.sh'
-
-Package: Novaler-s-xtra
-Version: 3.2.indianred     
-Status: Soebased
-Novaler-s-xtra-indianred='https://gitlab.com/eliesat/skins/-/raw/main/all/novaler/novaler-s-xtra-fhd-indianred.sh'
 
 Package: Novax-fhd-2
 Version: 2.1     
@@ -322,10 +292,10 @@ Version: 5.2            07.07.2026
 Status: Soebased Sobh
 Openbhgreenfhd='https://gitlab.com/eliesat/skins/-/raw/main/obh/openbhgreenfhd/openbhgreenfhd.sh'
 
-Package: Ozeta-fhd-2
-Version: 2.0.4     
-Status: Soebased
-Ozeta-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/ozeta/ozeta.sh'
+Package: Ozeta-fhd
+Version: 2.0.3          04.09.2026
+Status: Soebased Satv Sspa Sobh Spure
+Ozeta-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/ozeta-fhd/ozeta-fhd.sh'
 
 Package: Pal
 Version: 1.0     

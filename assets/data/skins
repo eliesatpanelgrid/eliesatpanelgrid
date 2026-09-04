@@ -387,10 +387,10 @@ Version: 1.0
 Status: Soebased
 Spiderman-vpx2-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/spiderman/spiderman-vpx2-fhd.sh'
 
-Package: Xdreamy-fhd
+Package: Xdreamy
 Version: 7.4         11.08.2026     
 Status: Soebased Sobh Spli3 Svix Segami Satv Sspa Spure
-Xdreamy-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
+Xdreamy='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
 
 Package: Youchie-obh-fhd
 Version: 1.0.2          07.07.2026   

@@ -242,10 +242,10 @@ Version: 5.4
 Status: Soebased
 Nitroadvance-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/teamnitro/nitroadvance/nitroadvance-fhd.sh'
 
-Package: Novaler-s-fhd
+Package: Novaler-s-fhd-green
 Version: 4.0.green     
 Status: Soebased Segami Satv Sspa Spure
-Novaler-s-fhd-green-1='https://gitlab.com/eliesat/skins/-/raw/main/all/novaler-s-fhd-green/novaler-s-fhd-green.sh'
+Novaler-s-fhd-green='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/novaler-s-fhd-green/novaler-s-fhd-green.sh'
 
 Package: Novaler-s-x
 Version: 3.2.blue     

@@ -162,6 +162,11 @@ Version: 1.0
 Status: Soebased
 Icone-vpx-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/icone/icone-vpx-fhd.sh'
 
+Package: LiiS8
+Version: 1.0             05.09.2026
+Status: Soebased
+LiiS8='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/liis8/liis8.sh'
+
 Package: Icone-vpx2-fhd
 Version: 1.0     
 Status: Soebased

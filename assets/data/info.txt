@@ -1,5 +1,6 @@
 06.09.2026
 ============
+○ mytranslator 1.75
 ○ ciefp-motor
 ○ gtiptvplayerpro 1.0.0-r71
 
@@ -358,10 +359,7 @@ oscam-11966-emu-r803
 ○ freeairhey 3.1
 ○ ciefp-motor
 ○ vhannibal-motor
-○ morpheus888-motor
-
-● 06.06.2026
-============
+○ morpheus888-motor=======
 ○ mytranlator 1.70
 ○ abouomar-motor
 ○ furybiss 5.0

@@ -449,7 +449,7 @@ Status: Plg Sub
 Globaltranslatepro='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/globaltranslatepro/globaltranslatepro.sh'
 
 Package: Gtiptvplayerpro
-Version: 0.9.64     مشغل اي بي تي في
+Version: 1.0.0-r71     مشغل اي بي تي في
 Status: Plg Ipt
 Gtiptvplayerpro='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/gtiptvplayerpro/gtiptvplayerpro.sh'
 

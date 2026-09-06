@@ -1,3 +1,7 @@
+06.09.2026
+============
+○ gtiptvplayerpro 1.0.0-r71
+
 04.09.2026
 ============
 ○ updating openatv skins

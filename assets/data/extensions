@@ -1313,6 +1313,11 @@ Version: 2.0.5     مشغل اي بي تي في
 Status: Plg Ipt
 XtreamNew='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xtreamnew/xtreamnew.sh'
 
+Package: YoureWatching
+Version: 1.0     عرض بوستر و دليل الفيلم مترجم
+Status: Plg Uti
+YoureWatching='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/yourewatching/yourewatching.sh'
+
 Package: Youtube
 Version: 2025.03.10     مشاهدة فيديوهات اليوتيوب
 Status: Plg Ipt

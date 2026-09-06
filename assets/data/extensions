@@ -429,7 +429,7 @@ Status: Plg Bac
 Fullbackup='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/fullbackup/fullbackup.sh'
 
 Package: Furybiss
-Version: 6.1     الفيدات و شفرات البيس
+Version: 6.5     الفيدات و شفرات البيس
 Status: Plg Enc
 Furybiss='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/furybiss/furybiss.sh'
 

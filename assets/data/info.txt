@@ -1,5 +1,6 @@
 06.09.2026
 ============
+○ furybiss 6.5
 ○ mytranslator 1.75
 ○ ciefp-motor
 ○ gtiptvplayerpro 1.0.0-r71

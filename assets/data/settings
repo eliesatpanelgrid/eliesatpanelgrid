@@ -19,7 +19,7 @@ Status: Settings
 alashry-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/alashry-motor.sh'
 
 Package: Ciefp-motor
-Version: 18.07.2026     ملف قنوات
+Version: 05.09.2026     ملف قنوات
 Status: Settings
 Ciefp-motor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/settings/motor/ciefp-motor.sh'
 

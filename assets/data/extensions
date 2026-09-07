@@ -893,6 +893,11 @@ Version: 1.4     حالة الطقس
 Status: Plg Wea
 Oaweatheriet5='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/oaweatheriet5/oaweatheriet5.sh'
 
+Package: Obhpluginbrowsergrid
+Version: 1.8      تصفح لايحة البلاجينات بنظام الجريد
+Status: Plg Uti
+Obhpluginbrowsergrid='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/obhpluginbrowsergrid/obhpluginbrowsergrid.sh'
+
 Package: Opdboot
 Version: 3.1.20251102     تسطيب صور على الذاكرة الخارجية
 Status: Plg Mul

@@ -1269,7 +1269,7 @@ Status: Plg Ipt
 Xklass='https://gitlab.com/eliesat/extensions/-/raw/main/xklass/xklass.sh'
 
 Package: Xklass
-Version: 1.81.alkudsipaudio     اضافة الصوتيات على قنوات السات
+Version: 1.82.alkudsipaudio     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
 Xklass-1='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xklassipaudio/xklassipaudio.sh'
 

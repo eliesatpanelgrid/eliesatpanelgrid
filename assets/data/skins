@@ -382,6 +382,12 @@ Version: 1.0.3
 Status: Soebased Spli3 Svix
 Youchie-pli-fhd='https://gitlab.com/eliesat/skins/-/raw/main/all/youchie-pli-fhd/pli/youchie-pli-fhd.sh'
 
+Package: Waves4_Fire
+Version: 1.0.mod.ham          07.09.2027   
+Status: Soebased Sobh  
+Waves4_Fire='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/waves4_fire/waves4_fire.sh'
+
+
 --------------openatv--------------
 
 --------------openpli-9.x--------------
@@ -422,7 +428,7 @@ Status: Soebased  Spli3
 Simple-gray='https://gitlab.com/eliesat/skins/-/raw/main/pli3/simple-gray/simple-gray.sh'
 
 --------------openspa--------------
-Package: Skyline
+.Package: Skyline
 Version: 1.0     
 Status: Soebased Sspa
 Skyline='https://gitlab.com/eliesat/skins/-/raw/main/openspa/skyline/skyline.sh'
@@ -441,10 +447,3 @@ Status:
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
 amy.sh'
 ps://gitlab.com/eliesat/skins/-/raw/main/openvix/qxklass-ovix/qxklass-ovix.sh'
-
-Package: test
-Version: 0.0     
-Status: 
-test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
-amy.sh'
-'

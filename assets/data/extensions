@@ -1154,7 +1154,7 @@ Status: Plg Games
 Tetris='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/tetris/tetris.sh'
 
 Package: TheWeather
-Version: 3.2     حالة الطقس
+Version: 5.6     حالة الطقس
 Status: Plg Wea
 TheWeather='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/theweather/theweather.sh'
 

@@ -1,9 +1,9 @@
 ##############skins###############
 
 Package: Metrix-fhd
-Version: 1.0.posters.4     تعديل على السكين بوستر اكس
+Version: 4.0.posters     تعديل على السكين بوستر اكس
 Status: Sparts
-Metrix-fhd-4-posters='https://gitlab.com/eliesat/skins/-/raw/main/skins-parts/skinparts-mnasr-7.4.4-r2.sh'
+Metrix-fhd-4-posters='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/skinparts/skinparts-mnasr-7.4.4-r2.sh'
 
 Package: Metrixposter
 Version: 1.0     باكآب اعدادات سكين ماتريكس (طارق العشري)

@@ -1,5 +1,6 @@
 07.09.2026
 ============
+○ gtiptvplayerpro 1.0.0-r80
 ○ obhpluginbrowsergrid 1.8 a.shawky
 ○ Xklass1.82.alkudsipaudio 
 ○ vhannibal-motor

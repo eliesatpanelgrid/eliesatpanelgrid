@@ -3,7 +3,7 @@
 Package: Metrix-fhd
 Version: 4.0.posters     تعديل على السكين بوستر اكس
 Status: Sparts
-Metrix-fhd-4-posters='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/skinparts/skinparts-mnasr-7.4.4-r2.sh'
+Metrix-fhd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/skinparts/skinparts-mnasr-7.4.4-r2.sh'
 
 Package: Metrixposter
 Version: 1.0     باكآب اعدادات سكين ماتريكس (طارق العشري)
@@ -447,3 +447,4 @@ Status:
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
 amy.sh'
 ps://gitlab.com/eliesat/skins/-/raw/main/openvix/qxklass-ovix/qxklass-ovix.sh'
+-ovix.sh'

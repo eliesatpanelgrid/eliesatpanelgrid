@@ -254,6 +254,11 @@ Version: 3.12     تنزيل صور خام من الموقع الرسمي
 Status: Tea
 Teamblue-7.5='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/images-download/teamblue-7.5.sh'
 
+Package: vti-3.0
+Version: 2.7     تنزيل صور خام من الموقع الرسمي
+Status: Tea
+vti-3.0='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/images-download/vti.sh'
+
 Package: test
 Version: 0.0     
 Status: 

@@ -873,6 +873,11 @@ Version: 11.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
 Novalertv='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/novalertv/novalertv.sh'
 
+Package: NovalerMultiBoot
+Version: 1.2     تقسيم الميموري كارد و انشاء سلوتات 
+Status: Plg Mul Nov
+NovalerMultiBoot='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novalermultiboot/novalermultiboot.sh'
+
 Package: Novatv
 Version: 11.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov

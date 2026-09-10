@@ -1294,7 +1294,7 @@ Status: Plg Sys
 XmlUpdateByiet5='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xmlupdatebyiet5/xmlupdatebyiet5.sh'
 
 Package: XPortal
-Version: 4.1     مشغل اي بي تي في
+Version: 4.3     مشغل اي بي تي في
 Status: Plg Ipt
 XPortal='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xportal/xportal.sh'
 

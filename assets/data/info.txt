@@ -1,5 +1,6 @@
 10.09.2026
 ============
+○ furybiss 6.6
 ○ foreca1 1.3.2
 ○ tivimatee2 1.0.10
 ○ utraStalker 8.4.1

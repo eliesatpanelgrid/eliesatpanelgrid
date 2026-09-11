@@ -99,7 +99,6 @@ class InstalledPluginsScreen(Screen):
         self["yellow"] = Label("")
         self["blue"] = Label("Back")
 
-        # Check status for each of the 4 plugins
         ipaudio_pro_installed = self.check_plugin_status("IPaudioPro")
         ipaudio_installed = self.check_plugin_status("IPAudio")
         ipstreamer_installed = self.check_plugin_status("IPStreamer")
@@ -165,7 +164,6 @@ class Free1(Screen):
             self.close()
             return
 
-        # Track audio playback state
         self.is_playing = False
 
         # ---------------- COLORS ----------------
@@ -209,7 +207,7 @@ class Free1(Screen):
 
     def build_ui(self):
         self["description"] = Label("")
-        self["navigation_txt"] = Label("● Use UP/DOWN keys to select an option, or press YELLOW to listen/stop.")
+        self["navigation_txt"] = Label("● Press OK to listen, YELLOW to stop, RED to remove.")
         self["pagelabel"] = Label("● Free IP Audio Services")
 
         # System Information
@@ -227,21 +225,31 @@ class Free1(Screen):
         # Bottom Color Action Button Labels
         self["red"] = Label("Remove")
         self["green"] = Label("Save")
-        self["yellow"] = Label("Listen / Stop")
+        self["yellow"] = Label("Stop")
         self["blue"] = Label("ShowInstalledPlugins")
 
+        # Initialize MenuList component once
+        self.menu_items = []
+        self["menu_list"] = MenuList([])
+        self["menu_list"].onSelectionChanged.append(self.selectionChanged)
+
+        self.reloadMenu()
+
+    def reloadMenu(self):
         raw_audio_items = self.load_free_audio_json()
         self.menu_items = []
 
         for name, url in raw_audio_items:
             menu_title = f"{self.C_YELLOW}● {name}"
             menu_desc = f"Stream URL: {url}"
-            self.menu_items.append((menu_title, url, menu_desc))
+            self.menu_items.append((menu_title, url, menu_desc, name))
 
         menu_titles = [item[0] for item in self.menu_items]
-        self["menu_list"] = MenuList(menu_titles)
+        
+        # Correctly update list using the internal content list provider (.l.setList)
+        if hasattr(self["menu_list"], "l"):
+            self["menu_list"].l.setList(menu_titles)
 
-        self["menu_list"].onSelectionChanged.append(self.selectionChanged)
         self.selectionChanged()
 
     def setup_actions(self):
@@ -252,7 +260,7 @@ class Free1(Screen):
                 "cancel": self.cancelClicked,
                 "red": self.Remove,
                 "green": self.Save,
-                "yellow": self.listen,
+                "yellow": self.stopPlayback,
                 "blue": self.ShowInstalledPlugins,
                 "up": self.keyUp,
                 "down": self.keyDown,
@@ -271,9 +279,22 @@ class Free1(Screen):
         if index is not None and index < len(self.menu_items):
             desc = self.menu_items[index][2]
             self["description"].setText(f"● {desc}")
+        else:
+            self["description"].setText("● No items available")
 
     def okClicked(self):
-        self.listen()
+        index = self["menu_list"].getSelectedIndex()
+        if index is not None and index < len(self.menu_items):
+            station_name = self.menu_items[index][3]
+            stream_url = self.menu_items[index][1]
+            try:
+                sref = eServiceReference(4097, 0, stream_url)
+                sref.setName(station_name)
+                self.session.nav.playService(sref)
+                self.is_playing = True
+                print(f"[Free1] Playing stream -> {station_name}")
+            except Exception as e:
+                print(f"[Free1 Error] Failed to play stream: {e}")
 
     def cancelClicked(self):
         if self.is_playing:
@@ -283,7 +304,6 @@ class Free1(Screen):
                 pass
         self.close()
 
-    # Color button functions
     def ShowInstalledPlugins(self):
         print("[Free1] ShowInstalledPlugins triggered via Blue button.")
         self.session.open(InstalledPluginsScreen)
@@ -292,28 +312,49 @@ class Free1(Screen):
         print("[Free1] Save triggered via Green button.")
 
     def Remove(self):
-        print("[Free1] Remove triggered via Red button.")
-
-    def listen(self):
         index = self["menu_list"].getSelectedIndex()
         if index is not None and index < len(self.menu_items):
-            station_name = self.menu_items[index][0]
-            stream_url = self.menu_items[index][1]
+            target_name = self.menu_items[index][3]
+            target_url = self.menu_items[index][1]
 
-            if not self.is_playing:
+            current_dir = os.path.dirname(os.path.abspath(__file__))
+            json_path = os.path.join(current_dir, "freeaudio.json")
+
+            if os.path.exists(json_path):
                 try:
-                    # 4097 is the standard Enigma2 service reference type for gstreamer/multimedia stream playback
-                    sref = eServiceReference(4097, 0, stream_url)
-                    sref.setName(station_name)
-                    self.session.nav.playService(sref)
-                    self.is_playing = True
-                    print(f"[Free1] Started playing: {station_name} -> {stream_url}")
+                    lines = []
+                    with open(json_path, "r", encoding="utf-8", errors="ignore") as f:
+                        lines = f.readlines()
+
+                    new_lines = []
+                    removed = False
+                    for line in lines:
+                        stripped = line.strip()
+                        if not stripped:
+                            continue
+                        parts = stripped.split("|", 1)
+                        if len(parts) == 2:
+                            name = parts[0].strip()
+                            url = parts[1].strip()
+                            if not removed and name == target_name and url == target_url:
+                                removed = True
+                                continue
+                        new_lines.append(line if line.endswith("\n") else line + "\n")
+
+                    with open(json_path, "w", encoding="utf-8") as f:
+                        f.writelines(new_lines)
+                    
+                    print(f"[Free1] Removed item: {target_name}")
                 except Exception as e:
-                    print(f"[Free1 Error] Failed to play stream: {e}")
-            else:
-                try:
-                    self.session.nav.stopService()
-                    self.is_playing = False
-                    print(f"[Free1] Stopped playback for: {station_name}")
-                except Exception as e:
-                    print(f"[Free1 Error] Failed to stop stream: {e}")
+                    print(f"[Free1 Error] Failed to remove item from file: {e}")
+
+            self.reloadMenu()
+
+    def stopPlayback(self):
+        if self.is_playing:
+            try:
+                self.session.nav.stopService()
+                self.is_playing = False
+                print("[Free1] Stopped playback via Yellow button.")
+            except Exception as e:
+                print(f"[Free1 Error] Failed to stop stream: {e}")

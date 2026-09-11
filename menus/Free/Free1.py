@@ -78,7 +78,7 @@ class InstalledPluginsScreen(Screen):
 
     def setup_ui(self):
         self["description"] = Label("")
-        self["navigation_txt"] = Label("● Press CANCEL to return to main menu.")
+        self["navigation_txt"] = Label("● Press CANCEL or BLUE to return to main menu.")
         self["pagelabel"] = Label("● Installed Audio Plugins")
 
         # System Information
@@ -175,10 +175,41 @@ class Free1(Screen):
         self.build_ui()
         self.setup_actions()
 
+    def load_free_audio_json(self):
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        json_path = os.path.join(current_dir, "freeaudio.json")
+        items = []
+
+        if os.path.exists(json_path):
+            try:
+                with open(json_path, "r", encoding="utf-8", errors="ignore") as f:
+                    for line in f:
+                        line = line.strip()
+                        if not line:
+                            continue
+                        # Split by pipe character '|'
+                        parts = line.split("|", 1)
+                        if len(parts) == 2:
+                            name = parts[0].strip()
+                            url = parts[1].strip()
+                            items.append((name, url))
+            except Exception as e:
+                print(f"[Free1 Error] Failed to read freeaudio.json lines: {e}")
+        else:
+            print(f"[Free1 Warning] freeaudio.json not found at {json_path}")
+
+        # Fallback dummy sample items if file is empty or missing
+        if not items:
+            items = [
+                ("Anis Max 1", "http://radio.anisfm.vip/live/mx/1?token=6ZQ7WCPU#"),
+                ("Anis Max 2", "http://radio.anisfm.vip/live/mx/2?token=6ZQ7WCPU#")
+            ]
+        return items
+
     def build_ui(self):
         # Description text & static navigation text separated
         self["description"] = Label("")
-        self["navigation_txt"] = Label("● Use UP/DOWN keys to select an option, or press OK.")
+        self["navigation_txt"] = Label("● Use UP/DOWN keys to select an option, or press OK to play stream.")
         self["pagelabel"] = Label("● Free IP Audio Services")
 
         # System Information
@@ -199,12 +230,14 @@ class Free1(Screen):
         self["yellow"] = Label("listen")
         self["blue"] = Label("ShowInstalledPlugins")
 
-        # Create 10 demo menu items with yellow rounded bullets
+        raw_audio_items = self.load_free_audio_json()
         self.menu_items = []
-        for i in range(1, 11):
-            demo_title = f"{self.C_YELLOW}● {self.C_WHITE}Demo Audio Service {i}"
-            demo_desc = f"Description details for demo audio service item number {i}"
-            self.menu_items.append((demo_title, lambda idx=i: self.demoAction(idx), demo_desc))
+
+        for name, url in raw_audio_items:
+            # Bullet and Name completely rendered in yellow color
+            menu_title = f"{self.C_YELLOW}● {name}"
+            menu_desc = f"Stream URL: {url}"
+            self.menu_items.append((menu_title, url, menu_desc))
 
         # Populate MenuList
         menu_titles = [item[0] for item in self.menu_items]
@@ -245,11 +278,9 @@ class Free1(Screen):
     def okClicked(self):
         index = self["menu_list"].getSelectedIndex()
         if index is not None and index < len(self.menu_items):
-            action_function = self.menu_items[index][1]
-            action_function()
-
-    def demoAction(self, index):
-        print(f"[Free1] Executing action for Demo Audio Service {index}")
+            station_name = self.menu_items[index][0]
+            stream_url = self.menu_items[index][1]
+            print(f"[Free1] Playing stream -> Name: {station_name}, URL: {stream_url}")
 
     # Color button functions
     def ShowInstalledPlugins(self):

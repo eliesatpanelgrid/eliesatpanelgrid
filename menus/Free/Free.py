@@ -1,2 +1,186 @@
-import zlib,base64
-exec(zlib.decompress(base64.b64decode('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')))
+# -*- coding: utf-8 -*-
+import os
+import sys
+from sys import version_info
+
+from enigma import getDesktop
+from Screens.Screen import Screen
+from Components.Label import Label
+from Components.ActionMap import ActionMap
+from Components.MenuList import MenuList
+
+from Plugins.Extensions.ElieSatPanelGrid.__init__ import Version
+from Plugins.Extensions.ElieSatPanelGrid.menus.Helpers import (
+    get_local_ip,
+    check_internet,
+    get_image_name,
+    get_python_version,
+    get_storage_info,
+    get_ram_info,
+    is_device_unlocked
+)
+
+# Safe imports for sub-screens
+Free1 = None
+Free2 = None
+Free3 = None
+Free4 = None
+
+try:
+    from Plugins.Extensions.ElieSatPanelGrid.menus.Free.Free1 import Free1
+except Exception as e:
+    print(f"[ElieSatPanel Error] Could not import Free1: {e}")
+
+try:
+    from Plugins.Extensions.ElieSatPanelGrid.menus.Free.Free2 import Free2
+except Exception as e:
+    print(f"[ElieSatPanel Error] Could not import Free2: {e}")
+
+try:
+    from Plugins.Extensions.ElieSatPanelGrid.menus.Free.Free3 import Free3
+except Exception as e:
+    print(f"[ElieSatPanel Error] Could not import Free3: {e}")
+
+try:
+    from Plugins.Extensions.ElieSatPanelGrid.menus.Free.Free4 import Free4
+except Exception as e:
+    print(f"[ElieSatPanel Error] Could not import Free4: {e}")
+
+
+def get_plugin_skin():
+    screen_width = 1280
+    try:
+        screen_width = getDesktop(0).size().width()
+    except Exception:
+        pass
+
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    plugin_root = os.path.abspath(os.path.join(current_dir, "..", ".."))
+    base_skin_path = os.path.join(plugin_root, "assets", "menus", "Free")
+
+    if not os.path.exists(base_skin_path):
+        base_skin_path = "/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/menus/Free/"
+
+    fhd_path = os.path.join(base_skin_path, "Free_fhd.xml")
+    hd_path = os.path.join(base_skin_path, "Free_hd.xml")
+
+    skin_file = fhd_path if screen_width >= 1920 and os.path.exists(fhd_path) else hd_path
+
+    try:
+        with open(skin_file, "r", encoding="utf-8", errors="ignore") as f:
+            return f.read()
+    except Exception as e:
+        print(f"[Free Screen Error] Could not read skin file '{skin_file}': {e}")
+        return """<screen name="Free" position="0,0" size="1920,1080">
+                    <widget name="menu_list" position="150,200" size="1100,600" scrollbarMode="showOnDemand"/>
+                  </screen>"""
+
+
+class Free(Screen):
+    def __init__(self, session):
+        self.session = session
+        Screen.__init__(self, session)
+
+        if not is_device_unlocked() or not os.path.exists("/etc/eliesat_unlocked.cfg"):
+            print("[Free Screen Error] Security lock active or missing cfg file.")
+            self.close()
+            return
+
+        self.skin = get_plugin_skin()
+        self.build_ui()
+        self.setup_actions()
+
+    def build_ui(self):
+        # Description text & static navigation text separated
+        self["description"] = Label("")
+        self["navigation_txt"] = Label("● Use UP/DOWN keys to select an option, or press OK / Colored buttons.")
+        self["pagelabel"] = Label("● Free Services")
+
+        # System Information
+        self["image_name"] = Label(f"Image: {get_image_name()}")
+        self["local_ip"] = Label(f"IP: {get_local_ip()}")
+        self["StorageInfo"] = Label(get_storage_info())
+        self["RAMInfo"] = Label(get_ram_info())
+        self["python_ver"] = Label(f"Python: {get_python_version()}")
+        self["net_status"] = Label(f"Net: {check_internet()}")
+
+        # Vertical Side Text
+        self["left_bar"] = Label("\n".join(list("Version " + str(Version))))
+        self["right_bar"] = Label("\n".join(list("By ElieSat")))
+
+        # Bottom Color Action Button Labels
+        self["red"] = Label("Free Ipaudio")
+        self["green"] = Label("Free Cccam")
+        self["yellow"] = Label("Free XtreamCodes")
+        self["blue"] = Label("Free Portals")
+
+        # Items mapping: Label, Action Function, Subtitle Info
+        self.menu_items = [
+            ("Free Ipaudio", self.openFree1, "Open Free IP Audio player section"),
+            ("Free Cccam", self.openFree2, "Open Free CCcam generator and manager"),
+            ("Free XtreamCodes", self.openFree3, "Access Free Xtream IPTV playlists"),
+            ("Free Portals", self.openFree4, "Browse free stalker portal links")
+        ]
+
+        # Populate MenuList
+        menu_titles = [item[0] for item in self.menu_items]
+        self["menu_list"] = MenuList(menu_titles)
+
+        # Update description on list selection change
+        self["menu_list"].onSelectionChanged.append(self.selectionChanged)
+        self.selectionChanged()
+
+    def setup_actions(self):
+        self["setupActions"] = ActionMap(
+            ["OkCancelActions", "ColorActions", "DirectionActions"],
+            {
+                "ok": self.okClicked,
+                "cancel": self.close,
+                "red": self.openFree1,
+                "green": self.openFree2,
+                "yellow": self.openFree3,
+                "blue": self.openFree4,
+                "up": self.keyUp,
+                "down": self.keyDown,
+            },
+            -1,
+        )
+
+    def keyUp(self):
+        self["menu_list"].up()
+
+    def keyDown(self):
+        self["menu_list"].down()
+
+    def selectionChanged(self):
+        index = self["menu_list"].getSelectedIndex()
+        if index is not None and index < len(self.menu_items):
+            desc = self.menu_items[index][2]
+            self["description"].setText(f"● {desc}")
+
+    def okClicked(self):
+        index = self["menu_list"].getSelectedIndex()
+        if index is not None and index < len(self.menu_items):
+            action_function = self.menu_items[index][1]
+            action_function()
+
+    def openFree1(self):
+        self._safe_open(Free1, "Free1")
+
+    def openFree2(self):
+        self._safe_open(Free2, "Free2")
+
+    def openFree3(self):
+        self._safe_open(Free3, "Free3")
+
+    def openFree4(self):
+        self._safe_open(Free4, "Free4")
+
+    def _safe_open(self, screen_class, name):
+        if screen_class is None:
+            print(f"[Free Screen Error] Cannot open {name}: Screen module not loaded.")
+            return
+        try:
+            self.session.open(screen_class)
+        except Exception as e:
+            print(f"[Free Screen] {name} open error: {e}")

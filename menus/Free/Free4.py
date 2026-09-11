@@ -1,2 +1,150 @@
-import zlib,base64
-exec(zlib.decompress(base64.b64decode('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')))
+# -*- coding: utf-8 -*-
+import os
+import sys
+import socket
+from sys import version_info
+
+# Enigma2 / GUI imports
+from enigma import getDesktop
+from Screens.Screen import Screen
+from Components.Label import Label
+from Components.ActionMap import ActionMap
+
+# Plugin-specific imports
+from Plugins.Extensions.ElieSatPanelGrid.__init__ import Version
+from Plugins.Extensions.ElieSatPanelGrid.menus.Iptvadder import Iptvadder
+from Plugins.Extensions.ElieSatPanelGrid.menus.Cccamadder import Cccamadder
+from Plugins.Extensions.ElieSatPanelGrid.menus.News import News
+from Plugins.Extensions.ElieSatPanelGrid.menus.Scripts import Scripts
+from Plugins.Extensions.ElieSatPanelGrid.menus.Helpers import (
+    get_local_ip,
+    check_internet,
+    get_image_name,
+    get_python_version,
+    get_storage_info,
+    get_ram_info,
+    is_device_unlocked
+)
+
+PY3 = version_info[0] == 3
+
+# ---------------- Helper function to read plugin skin ----------------
+def get_plugin_skin():
+    screen_width = 1280
+    try:
+        screen_width = getDesktop(0).size().width()
+    except Exception:
+        pass
+
+    # Use dynamic base path relative to plugin installation
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    plugin_root = os.path.abspath(os.path.join(current_dir, "..", ".."))
+    base_skin_path = os.path.join(plugin_root, "assets", "menus", "Free")
+
+    # Fallback to standard absolute path
+    if not os.path.exists(base_skin_path):
+        base_skin_path = "/usr/lib/enigma2/python/Plugins/Extensions/ElieSatPanelGrid/menus/Free/"
+
+    fhd_path = os.path.join(base_skin_path, "Free_fhd.xml")
+    hd_path = os.path.join(base_skin_path, "Free_hd.xml")
+
+    # Select skin based on screen resolution
+    if screen_width >= 1920 and os.path.exists(fhd_path):
+        skin_file = fhd_path
+    elif os.path.exists(hd_path):
+        skin_file = hd_path
+    elif os.path.exists(fhd_path):
+        skin_file = fhd_path
+    else:
+        print(f"[Free Screen Error] Skin files not found in '{base_skin_path}'")
+        return """<screen name="Free" position="center,center" size="1280,720">
+                    <eLabel text="Skin File Missing" position="center,center" size="400,50"
+                    font="Regular;30" halign="center" valign="center"/>
+                  </screen>"""
+
+    try:
+        with open(skin_file, "r", encoding="utf-8", errors="ignore") as f:
+            return f.read()
+    except Exception as e:
+        print(f"[Free Screen Error] Could not read skin file '{skin_file}':", e)
+        return """<screen name="Free" position="center,center" size="1280,720">
+                    <eLabel text="Skin Read Error" position="center,center" size="400,50"
+                    font="Regular;30" halign="center" valign="center"/>
+                  </screen>"""
+
+# ---------------- Free Screen ----------------
+class Free4(Screen):
+    def __init__(self, session):
+        self.session = session
+        Screen.__init__(self, session)
+
+        # Security & device unlock checks
+        unlock_ok = is_device_unlocked()
+        unlock_file_exists = os.path.exists("/etc/eliesat_unlocked.cfg")
+        main_mac_exists = os.path.exists("/etc/eliesat_main_mac.cfg")
+
+        if not unlock_ok or not unlock_file_exists or not main_mac_exists:
+            self.close()
+            return
+
+        self.skin = get_plugin_skin()
+        self.build_ui()
+        self.setup_actions()
+
+    # ---------------- UI Setup ----------------
+    def build_ui(self):
+        # Description & Pager widgets defined in XML
+        self["description"] = Label("")
+        self["pageinfo"] = Label("")
+        self["pagelabel"] = Label("")
+
+        # System Info Bar Widgets
+        self["image_name"] = Label(f"Image: {get_image_name()}")
+        self["local_ip"] = Label(f"IP: {get_local_ip()}")
+        self["StorageInfo"] = Label(get_storage_info())
+        self["RAMInfo"] = Label(get_ram_info())
+        self["python_ver"] = Label(f"Python: {get_python_version()}")
+        self["net_status"] = Label(f"Net: {check_internet()}")
+
+        # Vertical Side Bars
+        self["left_bar"] = Label("\n".join(list("Version " + Version)))
+        self["right_bar"] = Label("\n".join(list("By ElieSat")))
+
+        # Color Action Button Labels (Matched exactly to skin XML text)
+        self["red"] = Label("Free Ipaudio")
+        self["green"] = Label("Free Cccam")
+        self["yellow"] = Label("Free XtreamCodes")
+        self["blue"] = Label("Portals")
+
+    # ---------------- Key Actions ----------------
+    def setup_actions(self):
+        self["setupActions"] = ActionMap(
+            ["OkCancelActions", "ColorActions"],
+            {
+                "cancel": self.close,
+                "red": self.openIptvadder,
+                "green": self.openCccamadder,
+                "yellow": self.openNews,
+                "blue": self.openScripts,
+            },
+            -1,
+        )
+
+    # ---------------- Colored Buttons Navigation ----------------
+    def openIptvadder(self):
+        self._safe_open(Iptvadder, "Free Ipaudio")
+
+    def openCccamadder(self):
+        self._safe_open(Cccamadder, "Free Cccam")
+
+    def openNews(self):
+        self._safe_open(News, "Free XtreamCodes")
+
+    def openScripts(self):
+        self._safe_open(Scripts, "Portals")
+
+    def _safe_open(self, screen, name):
+        try:
+            self.session.open(screen)
+        except Exception as e:
+            print(f"[Free Screen] {name} error:", e)

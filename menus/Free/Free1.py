@@ -209,7 +209,7 @@ class Free1(Screen):
 
     def build_ui(self):
         self["description"] = Label("")
-        self["navigation_txt"] = Label("● Press OK to listen, YELLOW to stop, RED to remove.")
+        self["navigation_txt"] = Label("● Press OK to listen, YELLOW to stop, RED to remove invalid.")
         self["pagelabel"] = Label("● Free IP Audio Services")
 
         # System Information
@@ -225,7 +225,7 @@ class Free1(Screen):
         self["right_bar"] = Label("\n".join(list("By ElieSat")))
 
         # Bottom Color Action Button Labels
-        self["red"] = Label("RemoveSelected")
+        self["red"] = Label("RemoveInvalid")
         self["green"] = Label("SaveToPlayLists")
         self["yellow"] = Label("StopListening")
         self["blue"] = Label("ShowInstalledPlugins")
@@ -260,7 +260,7 @@ class Free1(Screen):
             {
                 "ok": self.okClicked,
                 "cancel": self.cancelClicked,
-                "red": self.Remove,
+                "red": self.RemoveInvalid,
                 "green": self.Save,
                 "yellow": self.stopPlayback,
                 "blue": self.ShowInstalledPlugins,
@@ -315,50 +315,65 @@ class Free1(Screen):
     def Save(self):
         print("[Free1] SaveToPlayLists triggered via Green button.")
 
-    def Remove(self):
-        index = self["menu_list"].getSelectedIndex()
-        if index is not None and index < len(self.menu_items):
-            target_name = self.menu_items[index][3]
-            target_url = self.menu_items[index][1]
+    def check_url_validity(self, url):
+        try:
+            if sys.version_info[0] >= 3:
+                import urllib.request
+                req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+                response = urllib.request.urlopen(req, timeout=3)
+                code = response.getcode()
+                response.close()
+                return 200 <= code < 400
+            else:
+                import urllib2
+                req = urllib2.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+                response = urllib2.urlopen(req, timeout=3)
+                code = response.getcode()
+                response.close()
+                return 200 <= code < 400
+        except Exception:
+            return False
 
-            current_dir = os.path.dirname(os.path.abspath(__file__))
-            json_path = os.path.join(current_dir, "freeaudio.json")
+    def RemoveInvalid(self):
+        print("[Free1] Checking validity of all stream URLs via Red button...")
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        json_path = os.path.join(current_dir, "freeaudio.json")
 
-            if os.path.exists(json_path):
-                try:
-                    lines = []
-                    with open(json_path, "r", encoding="utf-8", errors="ignore") as f:
-                        lines = f.readlines()
+        if os.path.exists(json_path):
+            try:
+                lines = []
+                with open(json_path, "r", encoding="utf-8", errors="ignore") as f:
+                    lines = f.readlines()
 
-                    new_lines = []
-                    removed = False
-                    for line in lines:
-                        stripped = line.strip()
-                        if not stripped:
-                            continue
-                        parts = stripped.split("|", 1)
-                        if len(parts) == 2:
-                            name = parts[0].strip()
-                            url = parts[1].strip()
-                            if not removed and name == target_name and url == target_url:
-                                removed = True
-                                continue
-                        new_lines.append(line if line.endswith("\n") else line + "\n")
+                valid_lines = []
+                for line in lines:
+                    stripped = line.strip()
+                    if not stripped:
+                        continue
+                    parts = stripped.split("|", 1)
+                    if len(parts) == 2:
+                        name = parts[0].strip()
+                        url = parts[1].strip()
+                        if self.check_url_validity(url):
+                            valid_lines.append(line if line.endswith("\n") else line + "\n")
+                        else:
+                            print(f"[Free1] Removing dead/invalid URL: {name} -> {url}")
+                    else:
+                        valid_lines.append(line if line.endswith("\n") else line + "\n")
 
-                    with open(json_path, "w", encoding="utf-8") as f:
-                        f.writelines(new_lines)
-                    
-                    if self.playing_index == index:
-                        self.is_playing = False
-                        self.playing_index = -1
-                    elif self.playing_index > index:
-                        self.playing_index -= 1
+                with open(json_path, "w", encoding="utf-8") as f:
+                    f.writelines(valid_lines)
 
-                    print(f"[Free1] Removed item: {target_name}")
-                except Exception as e:
-                    print(f"[Free1 Error] Failed to remove item from file: {e}")
+                if self.is_playing:
+                    self.session.nav.stopService()
+                    self.is_playing = False
+                    self.playing_index = -1
 
-            self.reloadMenu()
+                print("[Free1] URL check and cleanup completed.")
+            except Exception as e:
+                print(f"[Free1 Error] Failed to check and clean JSON URLs: {e}")
+
+        self.reloadMenu()
 
     def stopPlayback(self):
         if self.is_playing:

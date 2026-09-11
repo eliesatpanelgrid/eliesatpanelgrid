@@ -51,15 +51,11 @@ def get_plugin_skin():
                   </screen>"""
 
 
-class Free1(Screen):
+class InstalledPluginsScreen(Screen):
     def __init__(self, session):
         self.session = session
         Screen.__init__(self, session)
-
-        if not is_device_unlocked() or not os.path.exists("/etc/eliesat_unlocked.cfg"):
-            print("[Free1 Screen Error] Security lock active or missing cfg file.")
-            self.close()
-            return
+        self.skin = get_plugin_skin()
 
         # ---------------- COLORS ----------------
         self.C_GREEN = "\\c0000FF00"
@@ -67,11 +63,7 @@ class Free1(Screen):
         self.C_YELLOW = "\\c00E6BE3A"
         self.C_WHITE = "\\c00FFFFFF"
 
-        # Check plugin installation and conditionally handle configuration files
-        self.check_and_handle_configs()
-
-        self.skin = get_plugin_skin()
-        self.build_ui()
+        self.setup_ui()
         self.setup_actions()
 
     def check_plugin_status(self, plugin_name):
@@ -81,40 +73,13 @@ class Free1(Screen):
                 if os.listdir(plugin_path):
                     return True
         except Exception as e:
-            print(f"[Free1 Error] Checking {plugin_name} path failed: {e}")
+            print(f"[InstalledPlugins Error] Checking {plugin_name} path failed: {e}")
         return False
 
-    def check_and_handle_configs(self):
-        plugins_config_map = [
-            ("IPaudioPro", "/etc/enigma2/IPaudioPro.json", "json"),
-            ("IPAudio", "/etc/enigma2/ipaudio.json", "json"),
-            ("IPStreamer", "/etc/enigma2/ipstreamer/ipstreamer_myextream.json", "json_nested"),
-            ("AudioSelectionPatcher", "/etc/enigma2/external_audio.txt", "txt")
-        ]
-
-        for plugin_name, file_path, file_type in plugins_config_map:
-            if self.check_plugin_status(plugin_name):
-                try:
-                    if not os.path.exists(file_path):
-                        directory = os.path.dirname(file_path)
-                        if directory and not os.path.exists(directory):
-                            os.makedirs(directory)
-                        
-                        if file_type in ("json", "json_nested"):
-                            with open(file_path, "w", encoding="utf-8") as jf:
-                                json.dump({}, jf, indent=4)
-                        elif file_type == "txt":
-                            with open(file_path, "w", encoding="utf-8") as tf:
-                                tf.write("")
-                        print(f"[Free1] Created missing configuration file for installed plugin: {file_path}")
-                except Exception as e:
-                    print(f"[Free1 Error] Could not create {file_path}: {e}")
-
-    def build_ui(self):
-        # Description text & static navigation text separated
+    def setup_ui(self):
         self["description"] = Label("")
-        self["navigation_txt"] = Label("● Use UP/DOWN keys to select an option, or press OK to launch stream.")
-        self["pagelabel"] = Label("● Free IP Audio Services")
+        self["navigation_txt"] = Label("● Press CANCEL to return to main menu.")
+        self["pagelabel"] = Label("● Installed Audio Plugins")
 
         # System Information
         self["image_name"] = Label(f"Image: {get_image_name()}")
@@ -129,10 +94,10 @@ class Free1(Screen):
         self["right_bar"] = Label("\n".join(list("By ElieSat")))
 
         # Bottom Color Action Button Labels
-        self["red"] = Label("Play Stream")
-        self["green"] = Label("Refresh")
+        self["red"] = Label("")
+        self["green"] = Label("")
         self["yellow"] = Label("")
-        self["blue"] = Label("")
+        self["blue"] = Label("Back")
 
         # Check status for each of the 4 plugins
         ipaudio_pro_installed = self.check_plugin_status("IPaudioPro")
@@ -140,7 +105,6 @@ class Free1(Screen):
         ipstreamer_installed = self.check_plugin_status("IPStreamer")
         audio_patcher_installed = self.check_plugin_status("AudioSelectionPatcher")
 
-        # Format labels using Enigma2 native hex color formatting strings (Green for installed, Red for uninstalled)
         if ipaudio_pro_installed:
             lbl_ipaudio_pro = f"{self.C_GREEN}● {self.C_YELLOW}IPaudioPro [Installed]{self.C_WHITE}"
         else:
@@ -161,13 +125,86 @@ class Free1(Screen):
         else:
             lbl_audio_patcher = f"{self.C_RED}● {self.C_YELLOW}AudioSelectionPatcher [Not Installed]{self.C_WHITE}"
 
-        # Items mapping: Label, Action Function, Subtitle Info
         self.menu_items = [
-            (lbl_ipaudio_pro, self.actionItem1, "Connect to IP Audio Pro service"),
-            (lbl_ipaudio, self.actionItem2, "Connect to IPAudio service"),
-            (lbl_ipstreamer, self.actionItem3, "Connect to IPStreamer service"),
-            (lbl_audio_patcher, self.actionItem4, "Configure Audio Selection Patcher")
+            (lbl_ipaudio_pro, "Status information for IPaudioPro plugin"),
+            (lbl_ipaudio, "Status information for IPAudio plugin"),
+            (lbl_ipstreamer, "Status information for IPStreamer plugin"),
+            (lbl_audio_patcher, "Status information for AudioSelectionPatcher plugin")
         ]
+
+        menu_titles = [item[0] for item in self.menu_items]
+        self["menu_list"] = MenuList(menu_titles)
+        self["menu_list"].onSelectionChanged.append(self.selectionChanged)
+        self.selectionChanged()
+
+    def setup_actions(self):
+        self["setupActions"] = ActionMap(
+            ["OkCancelActions", "ColorActions"],
+            {
+                "ok": self.close,
+                "cancel": self.close,
+                "blue": self.close,
+            },
+            -1,
+        )
+
+    def selectionChanged(self):
+        index = self["menu_list"].getSelectedIndex()
+        if index is not None and index < len(self.menu_items):
+            desc = self.menu_items[index][1]
+            self["description"].setText(f"● {desc}")
+
+
+class Free1(Screen):
+    def __init__(self, session):
+        self.session = session
+        Screen.__init__(self, session)
+
+        if not is_device_unlocked() or not os.path.exists("/etc/eliesat_unlocked.cfg"):
+            print("[Free1 Screen Error] Security lock active or missing cfg file.")
+            self.close()
+            return
+
+        # ---------------- COLORS ----------------
+        self.C_GREEN = "\\c0000FF00"
+        self.C_RED = "\\c00FF0000"
+        self.C_YELLOW = "\\c00E6BE3A"
+        self.C_WHITE = "\\c00FFFFFF"
+
+        self.skin = get_plugin_skin()
+        self.build_ui()
+        self.setup_actions()
+
+    def build_ui(self):
+        # Description text & static navigation text separated
+        self["description"] = Label("")
+        self["navigation_txt"] = Label("● Use UP/DOWN keys to select an option, or press OK.")
+        self["pagelabel"] = Label("● Free IP Audio Services")
+
+        # System Information
+        self["image_name"] = Label(f"Image: {get_image_name()}")
+        self["local_ip"] = Label(f"IP: {get_local_ip()}")
+        self["StorageInfo"] = Label(get_storage_info())
+        self["RAMInfo"] = Label(get_ram_info())
+        self["python_ver"] = Label(f"Python: {get_python_version()}")
+        self["net_status"] = Label(f"Net: {check_internet()}")
+
+        # Vertical Side Text
+        self["left_bar"] = Label("\n".join(list("Version " + str(Version))))
+        self["right_bar"] = Label("\n".join(list("By ElieSat")))
+
+        # Bottom Color Action Button Labels
+        self["red"] = Label("Remove")
+        self["green"] = Label("Save")
+        self["yellow"] = Label("listen")
+        self["blue"] = Label("ShowInstalledPlugins")
+
+        # Create 10 demo menu items with yellow rounded bullets
+        self.menu_items = []
+        for i in range(1, 11):
+            demo_title = f"{self.C_YELLOW}● {self.C_WHITE}Demo Audio Service {i}"
+            demo_desc = f"Description details for demo audio service item number {i}"
+            self.menu_items.append((demo_title, lambda idx=i: self.demoAction(idx), demo_desc))
 
         # Populate MenuList
         menu_titles = [item[0] for item in self.menu_items]
@@ -183,10 +220,10 @@ class Free1(Screen):
             {
                 "ok": self.okClicked,
                 "cancel": self.close,
-                "red": self.actionItem1,
-                "green": self.actionItem2,
-                "yellow": self.noAction,
-                "blue": self.noAction,
+                "red": self.Remove,
+                "green": self.Save,
+                "yellow": self.listen,
+                "blue": self.ShowInstalledPlugins,
                 "up": self.keyUp,
                 "down": self.keyDown,
             },
@@ -211,21 +248,19 @@ class Free1(Screen):
             action_function = self.menu_items[index][1]
             action_function()
 
-    def actionItem1(self):
-        print("[Free1] Executing action for IPaudioPro")
-        # Add your custom logic/player initialization here
+    def demoAction(self, index):
+        print(f"[Free1] Executing action for Demo Audio Service {index}")
 
-    def actionItem2(self):
-        print("[Free1] Executing action for IPAudio")
-        # Add your custom logic/player initialization here
+    # Color button functions
+    def ShowInstalledPlugins(self):
+        print("[Free1] ShowInstalledPlugins triggered via Blue button.")
+        self.session.open(InstalledPluginsScreen)
 
-    def actionItem3(self):
-        print("[Free1] Executing action for IPStreamer")
-        # Add your custom logic/player initialization here
+    def Save(self):
+        print("[Free1] Save triggered via Green button.")
 
-    def actionItem4(self):
-        print("[Free1] Executing action for AudioSelectionPatcher")
-        # Add your custom logic/player initialization here
+    def Remove(self):
+        print("[Free1] Remove triggered via Red button.")
 
-    def noAction(self):
-        pass
+    def listen(self):
+        print("[Free1] listen triggered via Yellow button.")

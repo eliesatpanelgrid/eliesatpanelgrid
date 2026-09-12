@@ -6,6 +6,7 @@ import json
 
 from enigma import getDesktop, eServiceReference
 from Screens.Screen import Screen
+from Screens.MessageBox import MessageBox
 from Components.Label import Label
 from Components.ActionMap import ActionMap
 from Components.MenuList import MenuList
@@ -78,8 +79,8 @@ class InstalledPluginsScreen(Screen):
 
     def setup_ui(self):
         self["description"] = Label("")
-        self["navigation_txt"] = Label("● Press CANCEL or BLUE to return to main menu.")
-        self["pagelabel"] = Label("● Installed Audio Plugins")
+        self["navigation_txt"] = Label("● Press RED to reset playlists, CANCEL or BLUE to return.")
+        self["pagelabel"] = Label("● Installed Audio Plugins & Playlist Manager")
 
         # System Information
         self["image_name"] = Label(f"Image: {get_image_name()}")
@@ -94,7 +95,7 @@ class InstalledPluginsScreen(Screen):
         self["right_bar"] = Label("\n".join(list("By ElieSat")))
 
         # Bottom Color Action Button Labels
-        self["red"] = Label("")
+        self["red"] = Label("ResetPlaylists")
         self["green"] = Label("")
         self["yellow"] = Label("")
         self["blue"] = Label("Back")
@@ -142,6 +143,7 @@ class InstalledPluginsScreen(Screen):
             {
                 "ok": self.close,
                 "cancel": self.close,
+                "red": self.ResetPlaylists,
                 "blue": self.close,
             },
             -1,
@@ -152,6 +154,61 @@ class InstalledPluginsScreen(Screen):
         if index is not None and index < len(self.menu_items):
             desc = self.menu_items[index][1]
             self["description"].setText(f"● {desc}")
+
+    def ResetPlaylists(self):
+        print("[InstalledPlugins] ResetPlaylists triggered via Red button...")
+        ipaudio_file = "/etc/enigma2/ipaudio.json"
+        ipaudio_pro_file = "/etc/enigma2/IPAudioPro.json"
+        ipstreamer_file = "/etc/enigma2/ipstreamer/ipstreamer_myextream.json"
+        external_audio_file = "/etc/enigma2/external_audio.txt"
+
+        reset_messages = []
+
+        # Reset IPAudio
+        try:
+            if os.path.exists(ipaudio_file):
+                with open(ipaudio_file, 'w', encoding='utf-8') as f:
+                    json.dump({"playlist": []}, f, indent=4, ensure_ascii=False)
+                reset_messages.append("Reset successful: ipaudio.json")
+        except Exception as e:
+            print(f"[InstalledPlugins Error] Failed to reset ipaudio.json: {e}")
+
+        # Reset IPAudio Pro
+        try:
+            if os.path.exists(ipaudio_pro_file):
+                with open(ipaudio_pro_file, 'w', encoding='utf-8') as f:
+                    json.dump({"Playlist": {"streams": []}}, f, indent=4, ensure_ascii=False)
+                reset_messages.append("Reset successful: IPAudioPro.json")
+        except Exception as e:
+            print(f"[InstalledPlugins Error] Failed to reset IPAudioPro.json: {e}")
+
+        # Reset IPStreamer
+        try:
+            if os.path.exists(ipstreamer_file):
+                with open(ipstreamer_file, 'w', encoding='utf-8') as f:
+                    json.dump({"playlist": []}, f, indent=4, ensure_ascii=False)
+                reset_messages.append("Reset successful: ipstreamer_myextream.json")
+        except Exception as e:
+            print(f"[InstalledPlugins Error] Failed to reset ipstreamer_myextream.json: {e}")
+
+        # Reset External Audio
+        try:
+            if os.path.exists(external_audio_file):
+                with open(external_audio_file, 'w', encoding='utf-8') as f:
+                    f.write("")
+                reset_messages.append("Reset successful: external_audio.txt")
+        except Exception as e:
+            print(f"[InstalledPlugins Error] Failed to reset external_audio.txt: {e}")
+
+        if not reset_messages:
+            reset_messages.append("No active playlist files found to reset.")
+
+        self.session.open(
+            MessageBox,
+            "\n".join(reset_messages),
+            type=MessageBox.TYPE_INFO,
+            timeout=8
+        )
 
 
 class Free1(Screen):
@@ -209,7 +266,7 @@ class Free1(Screen):
 
     def build_ui(self):
         self["description"] = Label("")
-        self["navigation_txt"] = Label("● Press OK to listen, YELLOW to stop, RED to remove invalid.")
+        self["navigation_txt"] = Label("● Press OK to listen, YELLOW to stop, RED to remove invalid links.")
         self["pagelabel"] = Label("● Free IP Audio Services")
 
         # System Information
@@ -225,10 +282,10 @@ class Free1(Screen):
         self["right_bar"] = Label("\n".join(list("By ElieSat")))
 
         # Bottom Color Action Button Labels
-        self["red"] = Label("RemoveInvalid")
+        self["red"] = Label("RemoveInvalidLinks")
         self["green"] = Label("SaveToPlayLists")
         self["yellow"] = Label("StopListening")
-        self["blue"] = Label("ShowInstalledPlugins")
+        self["blue"] = Label("SupportedPlugins")
 
         # Initialize MenuList component once
         self.menu_items = []
@@ -309,7 +366,7 @@ class Free1(Screen):
         self.close()
 
     def ShowInstalledPlugins(self):
-        print("[Free1] ShowInstalledPlugins triggered via Blue button.")
+        print("[Free1] ShowInstalledPlugins (SupportedPlugins) triggered via Blue button.")
         self.session.open(InstalledPluginsScreen)
 
     def Save(self):
@@ -317,6 +374,12 @@ class Free1(Screen):
         audio_items = self.load_free_audio_json()
         if not audio_items:
             print("[Free1 Warning] No items found in freeaudio.json to save.")
+            self.session.open(
+                MessageBox, 
+                "Save Failed:\nNo items found in freeaudio.json!", 
+                type=MessageBox.TYPE_ERROR, 
+                timeout=10
+            )
             return
 
         ipaudio_file = "/etc/enigma2/ipaudio.json"
@@ -324,89 +387,137 @@ class Free1(Screen):
         ipstreamer_file = "/etc/enigma2/ipstreamer/ipstreamer_myextream.json"
         external_audio_file = "/etc/enigma2/external_audio.txt"
 
-        for name, url in audio_items:
-            # 1. IPAudio
-            try:
-                os.makedirs(os.path.dirname(ipaudio_file), exist_ok=True)
-                data = {"playlist": []}
-                if os.path.exists(ipaudio_file) and os.path.getsize(ipaudio_file) > 0:
-                    try:
-                        with open(ipaudio_file, 'r', encoding='utf-8') as f:
-                            data = json.load(f)
-                    except Exception:
-                        data = {"playlist": []}
-                if "playlist" not in data or not isinstance(data["playlist"], list):
-                    data["playlist"] = []
+        messages = []
+
+        # 1. IPAudio
+        try:
+            os.makedirs(os.path.dirname(ipaudio_file), exist_ok=True)
+            data = {"playlist": []}
+            if os.path.exists(ipaudio_file) and os.path.getsize(ipaudio_file) > 0:
+                try:
+                    with open(ipaudio_file, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                except Exception:
+                    data = {"playlist": []}
+            if "playlist" not in data or not isinstance(data["playlist"], list):
+                data["playlist"] = []
+            
+            added_any = False
+            for name, url in audio_items:
                 if not any(item.get("url") == url for item in data["playlist"]):
                     data["playlist"].append({"channel": name, "url": url})
-                    with open(ipaudio_file, 'w', encoding='utf-8') as f:
-                        json.dump(data, f, indent=4, ensure_ascii=False)
-            except Exception as e:
-                print(f"[Free1 Error] IPAudio save failed for {name}: {e}")
+                    added_any = True
+            
+            if added_any:
+                with open(ipaudio_file, 'w', encoding='utf-8') as f:
+                    json.dump(data, f, indent=4, ensure_ascii=False)
+                messages.append("Successfully saved on IPAudio : ipaudio.json")
+            else:
+                messages.append("Already exists on IPAudio : ipaudio.json")
+        except Exception as e:
+            print(f"[Free1 Error] IPAudio save failed: {e}")
+            messages.append("Error on IPAudio : ipaudio.json")
 
-            # 2. IPAudio Pro
-            try:
-                os.makedirs(os.path.dirname(ipaudio_pro_file), exist_ok=True)
-                data = {"Playlist": {"streams": []}}
-                if os.path.exists(ipaudio_pro_file) and os.path.getsize(ipaudio_pro_file) > 0:
-                    try:
-                        with open(ipaudio_pro_file, 'r', encoding='utf-8') as f:
-                            data = json.load(f)
-                    except Exception:
-                        data = {"Playlist": {"streams": []}}
-                if "Playlist" not in data or not isinstance(data["Playlist"], dict):
-                    data["Playlist"] = {"streams": []}
-                if "streams" not in data["Playlist"] or not isinstance(data["Playlist"]["streams"], list):
-                    data["Playlist"]["streams"] = []
+        # 2. IPAudio Pro
+        try:
+            os.makedirs(os.path.dirname(ipaudio_pro_file), exist_ok=True)
+            data = {"Playlist": {"streams": []}}
+            if os.path.exists(ipaudio_pro_file) and os.path.getsize(ipaudio_pro_file) > 0:
+                try:
+                    with open(ipaudio_pro_file, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                except Exception:
+                    data = {"Playlist": {"streams": []}}
+            if "Playlist" not in data or not isinstance(data["Playlist"], dict):
+                data["Playlist"] = {"streams": []}
+            if "streams" not in data["Playlist"] or not isinstance(data["Playlist"]["streams"], list):
+                data["Playlist"]["streams"] = []
+            
+            added_any = False
+            for name, url in audio_items:
                 if not any(item.get("url") == url for item in data["Playlist"]["streams"]):
                     data["Playlist"]["streams"].append({"name": name, "display_name": name, "url": url})
-                    with open(ipaudio_pro_file, 'w', encoding='utf-8') as f:
-                        json.dump(data, f, indent=4, ensure_ascii=False)
-            except Exception as e:
-                print(f"[Free1 Error] IPAudio Pro save failed for {name}: {e}")
+                    added_any = True
+            
+            if added_any:
+                with open(ipaudio_pro_file, 'w', encoding='utf-8') as f:
+                    json.dump(data, f, indent=4, ensure_ascii=False)
+                messages.append("Successfully saved on IPaudioPro : IPAudioPro.json")
+            else:
+                messages.append("Already exists on IPaudioPro : IPAudioPro.json")
+        except Exception as e:
+            print(f"[Free1 Error] IPAudio Pro save failed: {e}")
+            messages.append("Error on IPaudioPro : IPAudioPro.json")
 
-            # 3. IPStreamer
-            try:
-                os.makedirs(os.path.dirname(ipstreamer_file), exist_ok=True)
-                data = {"playlist": []}
-                if os.path.exists(ipstreamer_file) and os.path.getsize(ipstreamer_file) > 0:
-                    try:
-                        with open(ipstreamer_file, 'r', encoding='utf-8') as f:
-                            data = json.load(f)
-                    except Exception:
-                        data = {"playlist": []}
-                if "playlist" not in data or not isinstance(data["playlist"], list):
-                    data["playlist"] = []
+        # 3. IPStreamer
+        try:
+            os.makedirs(os.path.dirname(ipstreamer_file), exist_ok=True)
+            data = {"playlist": []}
+            if os.path.exists(ipstreamer_file) and os.path.getsize(ipstreamer_file) > 0:
+                try:
+                    with open(ipstreamer_file, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                except Exception:
+                    data = {"playlist": []}
+            if "playlist" not in data or not isinstance(data["playlist"], list):
+                data["playlist"] = []
+            
+            added_any = False
+            for name, url in audio_items:
                 if not any(item.get("url") == url for item in data["playlist"]):
                     data["playlist"].append({"channel": name, "url": url})
-                    with open(ipstreamer_file, 'w', encoding='utf-8') as f:
-                        json.dump(data, f, indent=4, ensure_ascii=False)
-            except Exception as e:
-                print(f"[Free1 Error] IPStreamer save failed for {name}: {e}")
+                    added_any = True
+            
+            if added_any:
+                with open(ipstreamer_file, 'w', encoding='utf-8') as f:
+                    json.dump(data, f, indent=4, ensure_ascii=False)
+                messages.append("Successfully saved on IPStreamer : ipstreamer_myextream.json")
+            else:
+                messages.append("Already exists on IPStreamer : ipstreamer_myextream.json")
+        except Exception as e:
+            print(f"[Free1 Error] IPStreamer save failed: {e}")
+            messages.append("Error on IPStreamer : ipstreamer_myextream.json")
 
-            # 4. External Audio
-            try:
-                os.makedirs(os.path.dirname(external_audio_file), exist_ok=True)
-                existing_lines = []
-                if os.path.exists(external_audio_file):
-                    with open(external_audio_file, 'r', encoding='utf-8') as f:
-                        existing_lines = [line.strip() for line in f if line.strip()]
-                
+        # 4. External Audio
+        try:
+            os.makedirs(os.path.dirname(external_audio_file), exist_ok=True)
+            existing_lines = []
+            if os.path.exists(external_audio_file):
+                with open(external_audio_file, 'r', encoding='utf-8') as f:
+                    existing_lines = [line.strip() for line in f if line.strip()]
+            
+            added_any = False
+            for name, url in audio_items:
                 exists = False
                 for line in existing_lines:
                     if line.split("|")[0] == name:
                         exists = True
                         break
-                
                 if not exists:
                     existing_lines.append(f"{name}|{url}")
-                    with open(external_audio_file, 'w', encoding='utf-8') as f:
-                        for line in existing_lines:
-                            f.write(line + "\n")
-            except Exception as e:
-                print(f"[Free1 Error] External Audio save failed for {name}: {e}")
+                    added_any = True
+            
+            if added_any:
+                with open(external_audio_file, 'w', encoding='utf-8') as f:
+                    for line in existing_lines:
+                        f.write(line + "\n")
+                messages.append("Successfully saved on External Audio : external_audio.txt")
+            else:
+                messages.append("Already exists on External Audio : external_audio.txt")
+        except Exception as e:
+            print(f"[Free1 Error] External Audio save failed: {e}")
+            messages.append("Error on External Audio : external_audio.txt")
 
-        print("[Free1] Plugin configuration playlists updated successfully via Green button.")
+        print("[Free1] Playlist check completed.")
+
+        if messages:
+            message_text = "\n".join(messages)
+            self.session.open(
+                MessageBox,
+                message_text,
+                type=MessageBox.TYPE_INFO,
+                timeout=10
+            )
 
     def check_url_validity(self, url):
         try:

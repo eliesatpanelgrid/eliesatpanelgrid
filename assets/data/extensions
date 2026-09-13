@@ -751,7 +751,7 @@ Mycam='https://gitlab.com/eliesat/extensions/-/raw/main/mycam/mycam.sh'
 Package: MyHits
 Version: 1.1     اغاني لمعظم مطربين العرب
 Status: Plg Aud
-MyHits='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/audioshift/audioshift.sh'
+MyHits='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/myhits/myhits.sh'
 
 Package: Mytranslator
 Version: 1.75     الترجمة
@@ -1357,4 +1357,6 @@ Package: test
 Version: 0.0     
 Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
+'
+y.sh'
 '

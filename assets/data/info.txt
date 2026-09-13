@@ -1,5 +1,6 @@
 13.09.2026
 ============
+○ tivimatee2 1.0.11
 ○ levifreeserver 2.5
 ○ aisubtitles 2.0
 ○ gtiptvplayerpro 1.0.0-r103

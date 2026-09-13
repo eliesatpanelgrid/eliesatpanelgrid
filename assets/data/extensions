@@ -613,10 +613,10 @@ Version: 13.2     دمج ملفين قنوات و اقمار ببعض
 Status: Plg Set
 Lamedbmerger='https://gitlab.com/eliesat/extensions/-/raw/main/lamedbmerger/lamedbmerger.sh'
 
-Package: Levi45-freeserver
+Package: Levi45freeserver
 Version: 2.5     سسكام مجاني
 Status: Plg Free
-Levi45-freeserver='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/levi45-freeserver/levi45-freeserver.sh'
+Levi45freeserver='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/levi45-freeserver/levi45-freeserver.sh'
 
 Package: Levi45freeiptv
 Version: 1.3     اي بي تي في محاني
@@ -1199,7 +1199,7 @@ Status: Plg Free
 Tvgarden='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/tvgarden/tvgarden.sh'
 
 Package: TiviMateE2
-Version: 1.0.10     مشغل اي بي تي في
+Version: 1.0.11     مشغل اي بي تي في
 Status: Plg Ipt
 TiviMateE2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/tivimatee2/tivimatee2.sh'
 
@@ -1352,3 +1352,4 @@ Package: test
 Version: 0.0     
 Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
+'

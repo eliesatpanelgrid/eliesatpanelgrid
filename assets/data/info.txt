@@ -1,5 +1,6 @@
 14.09.2026
 ============
+○ customchannelselection 2.0
 ○ xklass 1.83.alkudsipaudio
 
 13.09.2026

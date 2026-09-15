@@ -233,7 +233,7 @@
         font="Bold;32"
         halign="center"
         valign="center"
-        text="-"
+        text="Search"
         foregroundColor="#E6BE3A"
         backgroundColor="#000000" />
 

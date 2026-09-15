@@ -1,11 +1,11 @@
 13.09.2026
 ============
-○ skin xdreamy
-○ utraStalker 8.5.1
+○ xdreamy
+○ ultraStalker 8.5.1
 ○ novalermultiBoot 2.0
 ○ myhits 1.1
 ○ tivimatee2 1.0.11
-○ levifreeserver 2.5
+○ levi45freeserver 2.5
 ○ aisubtitles 2.0
 ○ gtiptvplayerpro 1.0.0-r103
 
@@ -196,4 +196,6 @@
 
 ○ Levi45
 oscam-11966-emu-r803
+
+
 

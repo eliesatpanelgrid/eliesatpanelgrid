@@ -1,10 +1,11 @@
+16.09.2026
+============
+○ simplysports 7.0
+
 14.09.2026
 ============
 ○ customchannelselection 2.0
 ○ xklass 1.83.alkudsipaudio
-
-13.09.2026
-============
 ○ xdreamy
 ○ ultraStalker 8.5.1
 ○ novalermultiBoot 2.0
@@ -12,7 +13,7 @@
 ○ tivimatee2 1.0.11
 ○ levi45freeserver 2.5
 ○ aisubtitles 2.0
-○ gtiptvplayerpro 1.0.0-r103
+○ gtiptvplayerpro 1.0.0-r103tiptvplayerpro 1.0.0-r103
 
 10.09.2026
 ============
@@ -198,6 +199,13 @@
 • powercam-oscam-11966-emu-r802
 • supcam-oscam-11966-emu-r802
 • ultracam-oscam-11966-emu-r802
+
+○ Levi45
+oscam-11966-emu-r803
+
+
+
+acam-oscam-11966-emu-r802
 
 ○ Levi45
 oscam-11966-emu-r803

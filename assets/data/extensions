@@ -1304,7 +1304,7 @@ Status: Plg Ipt
 XPortal='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xportal/xportal.sh'
 
 Package: XStreamity
-Version: 5.58     مشغل اي بي تي في
+Version: 5.59     مشغل اي بي تي في
 Status: Plg Ipt
 XStreamity='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xstreamity/xstreamity.sh'
 

@@ -283,6 +283,11 @@ Version: 2.0     إضافة مفاتيح البيس
 Status: Plg Enc
 E2bisskeyeditor='https://gitlab.com/eliesat/extensions/-/raw/main/e2Bisskeyseditor/e2Bisskeyseditor.sh'
 
+Package: E2Doctor
+Version: 2.4.1     صيانة أجهزة الانيجما٢
+Status: Plg Uti
+E2Doctor='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/e2doctor/e2doctor.sh'
+
 Package: E2m3u2bouquet
 Version: 3.0.3     تحويل ال اي بي تي في لمفضلات
 Status: Plg Ipt

@@ -27,6 +27,11 @@ Version: 7.2          11.08.2026
 Status: Soebased Sobh Spli3 Svix
 Aglare-fhd-pli='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/aglare-fhd-pli/aglare-fhd-pli.sh'
 
+Package: Aiohd
+Version: 3.2.1.r5          20.09.2026
+Status: Soebased Segami Satv Sspa Spure
+Aiohd='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/aiohd/aiohd.sh'
+
 Package: Al_ayam_fhd
 Version: 1.1     
 Status: Soebased

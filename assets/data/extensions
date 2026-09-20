@@ -539,7 +539,7 @@ Status: Plg Nov
 Ipaudioplus-1='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/ipaudioplus/ipaudioplus.sh'
 
 Package: Ipaudioplus
-Version: 1.0.0     اضافة الصوتيات على قنوات السات
+Version: 1.0.1     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
 Ipaudioplus-2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ipaudioplus/ipaudioplus.sh'
 

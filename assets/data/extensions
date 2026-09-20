@@ -1286,12 +1286,12 @@ XCplugin='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/x
 Package: Xklass
 Version: 1.80     مشغل اي بي تي في
 Status: Plg Ipt
-Xklass-1='https://gitlab.com/eliesat/extensions/-/raw/main/xklass/xklass.sh'
+Xklass='https://gitlab.com/eliesat/extensions/-/raw/main/xklass/xklass.sh'
 
 Package: Xklass
 Version: 1.96.alkudsipaudio     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
-Xklass-2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xklassipaudio/xklassipaudio.sh'
+Xklass-1='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xklassipaudio/xklassipaudio.sh'
 
 Package: xmlupdate
 Version: 6.8     تحديث ملف الترددات
@@ -1362,6 +1362,8 @@ Package: test
 Version: 0.0     
 Status: 
 test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
-'
+
+
 y.sh'
+'
 '

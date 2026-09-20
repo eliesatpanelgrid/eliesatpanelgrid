@@ -574,7 +574,7 @@ Status: Plg Ipt
 Iptvarchive='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/iptvarchive/iptvarchive.sh'
 
 Package: Iptvdream
-Version: 6.6.1     m3u قارئ و مشغل ملفات 
+Version: 8.0.1     m3u قارئ و مشغل ملفات 
 Status: Plg Ipt
 Iptvdream='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/iptvdream/iptvdream.sh'
 

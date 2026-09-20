@@ -1,5 +1,6 @@
 20.09.2026
 ============
+○ Xklass 1.96.alkudsipaudio
 ○ E2Doctor 2.4.1
 
 18.09.2026

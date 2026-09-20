@@ -536,7 +536,12 @@ Ipaudiopro-3='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addo
 Package: Ipaudioplus
 Version: 5.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
-Ipaudioplus='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/ipaudioplus/ipaudioplus.sh'
+Ipaudioplus-1='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/ipaudioplus/ipaudioplus.sh'
+
+Package: Ipaudioplus
+Version: 1.0.0     اضافة الصوتيات على قنوات السات
+Status: Plg Aud
+Ipaudioplus-2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/ipaudioplus/ipaudioplus.sh'
 
 Package: Ipchecker-004
 Version: 1.0     عرض اي يي الرسيفر
@@ -1365,6 +1370,10 @@ test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdream
 
 
 y.sh'
+'
+'
+'
+'
 '
 '
 '

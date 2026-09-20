@@ -1,5 +1,6 @@
 20.09.2026
 ============
+○ gtiptvplayerpro 1.0.0-r127
 ○ Xklass 1.96.alkudsipaudio
 ○ E2Doctor 2.4.1
 
@@ -28,7 +29,7 @@
 ○ tivimatee2 1.0.11
 ○ levi45freeserver 2.5
 ○ aisubtitles 2.0
-○ gtiptvplayerpro 1.0.0-r103tiptvplayerpro 1.0.0-r103
+○ gtiptvplayerpro 1.0.0-r103
 
 10.09.2026
 ============

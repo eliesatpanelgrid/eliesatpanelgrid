@@ -1,5 +1,6 @@
 20.09.2026
 ============
+○ fury-fhd 8.7
 ○ aiohd 3.2.1.r5
 ○ soundstream 3.4
 ○ globaltranslatepro 8.2.5

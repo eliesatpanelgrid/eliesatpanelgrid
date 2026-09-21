@@ -1003,6 +1003,11 @@ Version: 20240324     اي بي تي في مجاني
 Status: Plg Free
 Rakutentv='https://gitlab.com/eliesat/extensions/-/raw/main/rakutentv/rakutentv.sh'
 
+Package: ReaderManager
+Version: 1.0     تعريف اشتراك الشيرينج
+Status: Plg Enc
+ReaderManager='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/readermanager/readermanager.sh'
+
 Package: Redflagflashtool
 Version: 3.0     تنزيل و تسطيب صور خام
 Status: Plg Mul
@@ -1119,7 +1124,7 @@ Status: Plg Pan
 Smartaddonspanel='https://gitlab.com/eliesat/extensions/-/raw/main/smartaddonspanel/smartaddonspanel.sh'
 
 Package: Soundstream
-Version: 3.4     اضافة الصوتيات على قنوات السات
+Version: 4.0     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
 Soundstream='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/soundstream/soundstream.sh'
 

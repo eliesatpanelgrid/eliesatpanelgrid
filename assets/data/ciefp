@@ -4,10 +4,10 @@ Version: N/A     بانل تسطيب اضافات خاصة ببافل سييف
 Status: Pan
 Plugins='https://raw.githubusercontent.com/ciefp/CiefpPlugins/main/installer.sh'
 
-Package: SettingsPanel
+Package: CiefpsettingsPanel
 Version: N/A     بانل تسطيب اضافات
 Status: Pan
-SettingsPanel='https://raw.githubusercontent.com/ciefp/CiefpsettingsPanel/main/installer.sh'
+CiefpsettingsPanel='https://raw.githubusercontent.com/ciefp/CiefpsettingsPanel/main/installer.sh'
 
 Package: SettingsDownloader
 Version: N/A     

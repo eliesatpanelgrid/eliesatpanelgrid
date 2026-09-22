@@ -1,201 +1,201 @@
 ##############ciefp###############
-Package: Plugins
+Package: CiefpPlugins
 Version: N/A     بانل تسطيب اضافات خاصة ببافل سييف
 Status: Pan
-Plugins='https://raw.githubusercontent.com/ciefp/CiefpPlugins/main/installer.sh'
+CiefpPlugins='https://raw.githubusercontent.com/ciefp/CiefpPlugins/main/installer.sh'
 
 Package: CiefpsettingsPanel
 Version: N/A     بانل تسطيب اضافات
 Status: Pan
 CiefpsettingsPanel='https://raw.githubusercontent.com/ciefp/CiefpsettingsPanel/main/installer.sh'
 
-Package: SettingsDownloader
+Package: CiefpSettingsDownloader
 Version: N/A     
 Status: Pan
-SettingsDownloader='https://raw.githubusercontent.com/ciefp/CiefpSettingsDownloader/main/installer.sh'
+CiefpSettingsDownloader='https://raw.githubusercontent.com/ciefp/CiefpSettingsDownloader/main/installer.sh'
 
-Package: SelectSatellite
+Package: CiefpSelectSatellite
 Version: N/A     
 Status: Pan
-SelectSatellite='https://raw.githubusercontent.com/ciefp/CiefpSelectSatellite/main/installer.sh'
+CiefpSelectSatellite='https://raw.githubusercontent.com/ciefp/CiefpSelectSatellite/main/installer.sh'
 
-Package: BouquetUpdater
+Package: CiefpBouquetUpdater
 Version: N/A     
 Status: Pan
-BouquetUpdater='https://raw.githubusercontent.com/ciefp/CiefpBouquetUpdater/main/installer.sh'
+CiefpBouquetUpdater='https://raw.githubusercontent.com/ciefp/CiefpBouquetUpdater/main/installer.sh'
 
-Package: ChannelManager
+Package: CiefpChannelManager
 Version: N/A     
 Status: Pan
-ChannelManager='https://raw.githubusercontent.com/ciefp/CiefpChannelManager/main/installer.sh'
+CiefpChannelManager='https://raw.githubusercontent.com/ciefp/CiefpChannelManager/main/installer.sh'
 
-Package: E2Converter
+Package: CiefpE2Converter
 Version: N/A     
 Status: Pan
-E2Converter='https://raw.githubusercontent.com/ciefp/CiefpE2Converter/main/installer.sh'
+CiefpE2Converter='https://raw.githubusercontent.com/ciefp/CiefpE2Converter/main/installer.sh'
 
-Package: SatelliteXmlEditor
+Package: CiefpSatelliteXmlEditor
 Version: N/A     
 Status: Pan
-SatelliteXmlEditor='https://raw.githubusercontent.com/ciefp/CiefpSatelliteXmlEditor/main/installer.sh'
+CiefpSatelliteXmlEditor='https://raw.githubusercontent.com/ciefp/CiefpSatelliteXmlEditor/main/installer.sh'
 
-Package: IPTVBouquets
+Package: CiefpIPTVBouquets
 Version: N/A     
 Status: Pan
-IPTVBouquets='https://raw.githubusercontent.com/ciefp/CiefpIPTVBouquets/main/installer.sh'
+CiefpIPTVBouquets='https://raw.githubusercontent.com/ciefp/CiefpIPTVBouquets/main/installer.sh'
 
-Package: WhitelistStreamrelay
+Package: CiefpWhitelistStreamrelay
 Version: N/A     
 Status: Pan
-WhitelistStreamrelay='https://raw.githubusercontent.com/ciefp/CiefpWhitelistStreamrelay/main/installer.sh'
+CiefpWhitelistStreamrelay='https://raw.githubusercontent.com/ciefp/CiefpWhitelistStreamrelay/main/installer.sh'
 
-Package: StreamrelayPY3
+Package: CiefpStreamrelayPY3
 Version: N/A     
 Status: Pan
-StreamrelayPY3='https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelay/main/installer.sh'
+CiefpStreamrelayPY3='https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelay/main/installer.sh'
 
-Package: StreamrelayPY2
+Package: CiefpStreamrelayPY2
 Version: N/A     
 Status: Pan
-StreamrelayPY2='https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelayPY2/main/installer.sh'
+CiefpStreamrelayPY2='https://raw.githubusercontent.com/ciefp/CiefpSettingsStreamrelayPY2/main/installer.sh'
 
-Package: SettingsT2miAbertis
+Package: CiefpSettingsT2miAbertis
 Version: N/A     
 Status: Pan
-SettingsT2miAbertis='https://raw.githubusercontent.com/ciefp/CiefpSettingsT2miAbertis/main/installer.sh'
+CiefpSettingsT2miAbertis='https://raw.githubusercontent.com/ciefp/CiefpSettingsT2miAbertis/main/installer.sh'
 
-Package: T2miAbertisOpenPLi
+Package: CiefpT2miAbertisOpenPLi
 Version: N/A     
 Status: Pan
-T2miAbertisOpenPLi='https://raw.githubusercontent.com/ciefp/CiefpSettingsT2miAbertisOpenPLi/main/installer.sh'
+CiefpT2miAbertisOpenPLi='https://raw.githubusercontent.com/ciefp/CiefpSettingsT2miAbertisOpenPLi/main/installer.sh'
 
-Package: ScreenGrab
+Package: CiefpScreenGrab
 Version: N/A     
 Status: Pan
-ScreenGrab='https://raw.githubusercontent.com/ciefp/CiefpScreenGrab/main/installer.sh'
+CiefpScreenGrab='https://raw.githubusercontent.com/ciefp/CiefpScreenGrab/main/installer.sh'
 
-Package: MojTvEPG
+Package: CiefpMojTvEPG
 Version: N/A     
 Status: Pan
-MojTvEPG='https://raw.githubusercontent.com/ciefp/CiefpMojTvEPG/main/installer.sh'
+CiefpMojTvEPG='https://raw.githubusercontent.com/ciefp/CiefpMojTvEPG/main/installer.sh'
 
-Package: TvProgram
+Package: CiefpTvProgram
 Version: N/A     
 Status: Pan
-TvProgram='https://raw.githubusercontent.com/ciefp/CiefpTvProgram/main/installer.sh'
+CiefpTvProgram='https://raw.githubusercontent.com/ciefp/CiefpTvProgram/main/installer.sh'
 
-Package: TvProgramSK
+Package: CiefpTvProgramSK
 Version: N/A     
 Status: Pan
-TvProgramSK='https://raw.githubusercontent.com/ciefp/CiefpTvProgramSK/main/installer.sh'
+CiefpTvProgramSK='https://raw.githubusercontent.com/ciefp/CiefpTvProgramSK/main/installer.sh'
 
-Package: TvProgramA1HR
+Package: CiefpTvProgramA1HR
 Version: N/A     
 Status: Pan
-TvProgramA1HR='https://raw.githubusercontent.com/ciefp/CiefpTvProgramA1HR/main/installer.sh'
+CiefpTvProgramA1HR='https://raw.githubusercontent.com/ciefp/CiefpTvProgramA1HR/main/installer.sh'
 
-Package: TvTodayDE
+Package: CiefpTvTodayDE
 Version: N/A     
 Status: Pan
-TvTodayDE='https://raw.githubusercontent.com/ciefp/CiefpTvTodayDE/main/installer.sh'
+CiefpTvTodayDE='https://raw.githubusercontent.com/ciefp/CiefpTvTodayDE/main/installer.sh'
 
-Package: EPGshare
+Package: CiefpEPGshare
 Version: N/A     
 Status: Pan
-EPGshare='https://raw.githubusercontent.com/ciefp/CiefpEPGshare/main/installer.sh'
+CiefpEPGshare='https://raw.githubusercontent.com/ciefp/CiefpEPGshare/main/installer.sh'
 
-Package: TvProgramSBB
+Package: CiefpTvProgramSBB
 Version: N/A     
 Status: Pan
-TvProgramSBB='https://raw.githubusercontent.com/ciefp/CiefpTvProgramSBB/main/installer.sh'
+CiefpTvProgramSBB='https://raw.githubusercontent.com/ciefp/CiefpTvProgramSBB/main/installer.sh'
 
-Package: OscamEditor
+Package: CiefpOscamEditor
 Version: N/A     
 Status: Pan
-OscamEditor='https://raw.githubusercontent.com/ciefp/CiefpOscamEditor/main/installer.sh'
+CiefpOscamEditor='https://raw.githubusercontent.com/ciefp/CiefpOscamEditor/main/installer.sh'
 
-Package: SatelliteAnalyzer
+Package: CiefpSatelliteAnalyzer
 Version: N/A     
 Status: Pan
-SatelliteAnalyzer='https://raw.githubusercontent.com/ciefp/CiefpSatelliteAnalyzer/main/installer.sh'
+CiefpSatelliteAnalyzer='https://raw.githubusercontent.com/ciefp/CiefpSatelliteAnalyzer/main/installer.sh'
 
-Package: OpenDirectories
+Package: CiefpOpenDirectories
 Version: N/A     
 Status: Pan
-OpenDirectories='https://raw.githubusercontent.com/ciefp/CiefpOpenDirectories/main/installer.sh'
+CiefpOpenDirectories='https://raw.githubusercontent.com/ciefp/CiefpOpenDirectories/main/installer.sh'
 
-Package: TMDBSearch
+Package: CiefpTMDBSearch
 Version: N/A     
 Status: Pan
-TMDBSearch='https://raw.githubusercontent.com/ciefp/CiefpTMDBSearch/main/installer.sh'
+CiefpTMDBSearch='https://raw.githubusercontent.com/ciefp/CiefpTMDBSearch/main/installer.sh'
 
-Package: Vibes
+Package: CiefpVibes
 Version: N/A     
 Status: Pan
-Vibes='https://raw.githubusercontent.com/ciefp/CiefpVibes/main/installer.sh'
+CiefpVibes='https://raw.githubusercontent.com/ciefp/CiefpVibes/main/installer.sh'
 
-Package: KingSat
+Package: CiefpKingSat
 Version: N/A     
 Status: Pan
-KingSat='https://raw.githubusercontent.com/ciefp/CiefpKingSat/main/installer.sh'
+CiefpKingSat='https://raw.githubusercontent.com/ciefp/CiefpKingSat/main/installer.sh'
 
-Package: ParabolaCZ
+Package: CiefpParabolaCZ
 Version: N/A     
 Status: Pan
-ParabolaCZ='https://raw.githubusercontent.com/ciefp/CiefpParabolaCZ/main/installer.sh'
+CiefpParabolaCZ='https://raw.githubusercontent.com/ciefp/CiefpParabolaCZ/main/installer.sh'
 
-Package: RottenTomatoes
+Package: CiefpRottenTomatoes
 Version: N/A     
 Status: Pan
-RottenTomatoes='https://raw.githubusercontent.com/ciefp/CiefpRottenTomatoes/main/installer.sh'
+CiefpRottenTomatoes='https://raw.githubusercontent.com/ciefp/CiefpRottenTomatoes/main/installer.sh'
 
-Package: OpenSubtitles
+Package: CiefpOpenSubtitles
 Version: N/A     
 Status: Pan
-OpenSubtitles='https://raw.githubusercontent.com/ciefp/CiefpOpenSubtitles/main/installer.sh'
+CiefpOpenSubtitles='https://raw.githubusercontent.com/ciefp/CiefpOpenSubtitles/main/installer.sh'
 
-Package: SRTplayer
+Package: CiefpSRTplayer
 Version: N/A     
 Status: Pan
-SRTplayer='https://raw.githubusercontent.com/ciefp/CiefpSRTplayer/main/installer.sh'
+CiefpSRTplayer='https://raw.githubusercontent.com/ciefp/CiefpSRTplayer/main/installer.sh'
 
-Package: EasySetup
+Package: CiefpEasySetup
 Version: N/A     
 Status: Pan
-EasySetup='https://raw.githubusercontent.com/ciefp/CiefpEasySetup/main/installer.sh'
+CiefpEasySetup='https://raw.githubusercontent.com/ciefp/CiefpEasySetup/main/installer.sh'
 
-Package: PicturePlayer
+Package: CiefpPicturePlayer
 Version: N/A     
 Status: Pan
-PicturePlayer='https://raw.githubusercontent.com/ciefp/CiefpPicturePlayer/main/installer.sh'
+CiefpPicturePlayer='https://raw.githubusercontent.com/ciefp/CiefpPicturePlayer/main/installer.sh'
 
-Package: VideoPlayer
+Package: CiefpVideoPlayer
 Version: N/A     
 Status: Pan
-VideoPlayer='https://raw.githubusercontent.com/ciefp/CiefpVideoPlayer/main/installer.sh'
+CiefpVideoPlayer='https://raw.githubusercontent.com/ciefp/CiefpVideoPlayer/main/installer.sh'
 
-Package: YouTube
+Package: CiefpYouTube
 Version: N/A     
 Status: Pan
-YouTube='https://raw.githubusercontent.com/ciefp/CiefpYouTube/main/installer.sh'
+CiefpYouTube='https://raw.githubusercontent.com/ciefp/CiefpYouTube/main/installer.sh'
 
-Package: E2editor
+Package: CiefpE2editor
 Version: N/A     
 Status: Pan
-E2editor='https://raw.githubusercontent.com/ciefp/Ciefpe2editor/main/installer.sh'
+CiefpE2editor='https://raw.githubusercontent.com/ciefp/Ciefpe2editor/main/installer.sh'
 
-Package: TitloviBrowser
+Package: CiefpTitloviBrowser
 Version: N/A     
 Status: Pan
-TitloviBrowser='https://raw.githubusercontent.com/ciefp/TitloviBrowser/main/installer.sh'
+CiefpTitloviBrowser='https://raw.githubusercontent.com/ciefp/TitloviBrowser/main/installer.sh'
 
-Package: WebCamE2PrenjSF
+Package: CiefpWebCamE2PrenjSF
 Version: N/A     
 Status: Pan
-WebCamE2PrenjSF='https://raw.githubusercontent.com/ciefp/WebCamE2PrenjSF/main/installer.sh'
+CiefpWebCamE2PrenjSF='https://raw.githubusercontent.com/ciefp/WebCamE2PrenjSF/main/installer.sh'
 
-Package: WebCamE2PrenjSF
+Package: CiefpWebCamE2PrenjSF
 Version: N/A     
 Status: test
-WebCamE2PrenjSF='https://raw.githubusercontent.com/ciefp/WebCamE2PrenjSF/main/installer.sh'
+CiefpWebCamE2PrenjSF='https://raw.githubusercontent.com/ciefp/WebCamE2PrenjSF/main/installer.sh'
 

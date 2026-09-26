@@ -5,7 +5,7 @@
 ○ UltraStalker 9.2.1
 ○ ReaderManager 2.0
 ○ Furybiss 7.0
-○ XStreamity 5.60
+○ XStreamity 5.61
 ○ SubsSupportPro 1.4.0
 ○ SubExtractorLite 2.1
 ○ Gtiptvplayerpro 1.1.0.r23

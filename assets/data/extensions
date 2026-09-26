@@ -1159,7 +1159,7 @@ Status: Plg Sub
 SubsSupport-2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/subssupport/subssupport.sh'
 
 Package: SubsSupportPro
-Version: 1.3.0     الترجمة
+Version: 1.4.0     الترجمة
 Status: Plg Sub
 SubsSupportPro='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/subssupportpro/subssupportpro.sh'
 
@@ -1319,7 +1319,7 @@ Status: Plg Ipt
 XPortal='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xportal/xportal.sh'
 
 Package: XStreamity
-Version: 5.59     مشغل اي بي تي في
+Version: 5.60     مشغل اي بي تي في
 Status: Plg Ipt
 XStreamity='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xstreamity/xstreamity.sh'
 

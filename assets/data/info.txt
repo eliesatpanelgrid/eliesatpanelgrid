@@ -1,5 +1,7 @@
 26.09.2026
 ============
+○ Ipaudioplus 1.0.3
+○ Simplysports 7.1
 ○ UltraStalker 9.2.1
 ○ ReaderManager 2.0
 ○ Furybiss 7.0

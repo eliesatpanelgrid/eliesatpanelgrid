@@ -84,7 +84,7 @@ Status: Plg Aud
 AudioSelectionPatcher='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/audioselectionpatcher/audioselectionpatcher.sh'
 
 Package: Autobiss
-Version: 1.9     الفيدات و شفرات البيس
+Version: 3.0     باحث مفاتيح بيسس في الوقت الفعلي وحاقن لملف السوفتكام
 Status: Plg Enc
 Autobiss='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/autobiss/autobiss.sh'
 

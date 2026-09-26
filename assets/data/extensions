@@ -1004,7 +1004,7 @@ Status: Plg Free
 Rakutentv='https://gitlab.com/eliesat/extensions/-/raw/main/rakutentv/rakutentv.sh'
 
 Package: ReaderManager
-Version: 1.0     تعريف اشتراك الشيرينج
+Version: 2.0     تعريف اشتراك الشيرينج
 Status: Plg Enc
 ReaderManager='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/readermanager/readermanager.sh'
 

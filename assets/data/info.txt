@@ -1,5 +1,6 @@
 26.09.2026
 ============
+○ ReaderManager 2.0
 ○ Furybiss 7.0
 ○ XStreamity 5.60
 ○ SubsSupportPro 1.4.0

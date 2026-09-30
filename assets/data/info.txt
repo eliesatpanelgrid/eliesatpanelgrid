@@ -1,3 +1,7 @@
+30.09.2026
+============
+○ globaltranslatemax 8.5
+
 29.09.2026
 ============
 ○ Gtiptvplayerpro 1.1.0.r58

@@ -1,5 +1,6 @@
 30.09.2026
 ============
+○ Alkuds 1.97.alkudsipaudio
 ○ globaltranslatemax 8.5
 
 29.09.2026

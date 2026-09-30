@@ -33,6 +33,11 @@ Version: 6.0.r0     خاص باجهزة نوفالر
 Status: Plg Nov
 Airnet-fnc='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/novaler/airnet-fnc/airnet-fnc.sh'
 
+Package: Alkuds
+Version: 1.97.alkudsipaudio     اضافة الصوتيات على قنوات السات
+Status: Plg Aud
+Alkuds='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/alkuds/alkuds.sh'
+
 Package: Altsoftcammanager
 Version: 2.0     ادارة الكامات
 Status: Plg Enc
@@ -1298,11 +1303,6 @@ Version: 1.80     مشغل اي بي تي في
 Status: Plg Ipt
 Xklass='https://gitlab.com/eliesat/extensions/-/raw/main/xklass/xklass.sh'
 
-Package: Xklass
-Version: 1.96.alkudsipaudio     اضافة الصوتيات على قنوات السات
-Status: Plg Aud
-Xklass-2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/xklassipaudio/xklassipaudio.sh'
-
 Package: xmlupdate
 Version: 6.8     تحديث ملف الترددات
 Status: Plg Sys
@@ -1371,7 +1371,7 @@ Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.
 Package: test
 Version: 0.0     
 Status: 
-test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'
+test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'eamy/xdreamy.sh'
 
 
 y.sh'

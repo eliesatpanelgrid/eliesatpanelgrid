@@ -438,10 +438,10 @@ Version: 12.5     بيكونات و ملفات قنوات
 Status: Plg Set Pic
 Gioppygio='https://gitlab.com/eliesat/extensions/-/raw/main/gioppygio/gioppygio.sh'
 
-Package: Globaltranslatepro
-Version:  8.2.5     ترجمة الى اللغة العربية
+Package: GlobalTranslateMax
+Version:  8.5     ترجمة الى اللغة العربية
 Status: Plg Sub
-Globaltranslatepro='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/globaltranslatepro/globaltranslatepro.sh'
+GlobalTranslateMax='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/globaltranslatemax/globaltranslatemax.sh'
 
 Package: Gtiptvplayerpro
 Version: 1.1.0.r58     مشغل اي بي تي في
@@ -504,7 +504,7 @@ Status: Plg Uti
 Internetspeedtest='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/internetspeedtest/internetspeedtest.sh'
 
 Package: Ipaudio
-Version: 8.11.mnasr     اضافة الصوتيات على قنوات السات
+Version: 8.11    mnasr  اضافة الصوتيات على قنوات السات
 Status: Plg Aud
 Ipaudio-1='https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio-mnasr/ipaudio.sh'
 
@@ -514,7 +514,7 @@ Status: Plg Aud
 Ipaudio-2='https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio/ipaudio.sh'
 
 Package: Ipaudio
-Version: 7.4.ffmpeg     اضافة الصوتيات على قنوات السات
+Version: 7.4     اضافة الصوتيات على قنوات السات
 Status: Plg Aud
 Ipaudio-3='https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio/ipaudio-7.4-ffmpeg.sh'
 
@@ -1379,6 +1379,11 @@ y.sh'
 '
 '
 '
+'
+'
+'
+'
+
 '
 '
 '

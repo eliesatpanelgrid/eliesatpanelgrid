@@ -98,6 +98,11 @@ Version: 1.0.9     اضافة مفتاح بيس بملف السوفتكام
 Status: Plg Enc
 Auto-dcw-key-add='https://gitlab.com/eliesat/extensions/-/raw/main/dcw-key-add/dcw-key-add.sh'
 
+Package: AutoSub
+Version:  1.0     ترجمة الى اللغة العربية
+Status: Plg Sub
+AutoSub='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/autosub/autosub.sh'
+
 Package: Azkar
 Version: 1.0     اذكار المسلم م. الصفطي
 Status: Plg Qur

@@ -56,7 +56,12 @@ Ansite='https://gitlab.com/eliesat/extensions/-/raw/main/ansite/ansite.sh'
 Package: ArabicSavior
 Version: 2.5     المنقذ العربي
 Status: Plg Uti
-ArabicSavior='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/arabicsavior/arabicsavior.sh'
+ArabicSavior-1='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/arabicsavior/arabicsavior.sh'
+
+Package: ArabicSavior
+Version: 2.8.mnasr     المنقذ العربي
+Status: Plg Uti
+ArabicSavior-2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/arabicsavior-1/arabicsavior.sh'
 
 Package: Arabic-support
 Version: shabah.net     atv hdf pli egami obh vix تعريب قوائم الصورة

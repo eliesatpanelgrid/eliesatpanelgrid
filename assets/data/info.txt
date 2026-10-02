@@ -1,5 +1,6 @@
 02.10.2026
 ============
+○ ArabicSavior 2.8.mnasr
 ○ AutoSub 1.0
 
 30.09.2026

@@ -54,11 +54,6 @@ Status: Plg Qur
 Ansite='https://gitlab.com/eliesat/extensions/-/raw/main/ansite/ansite.sh'
 
 Package: ArabicSavior
-Version: 2.5     المنقذ العربي
-Status: Plg Uti
-ArabicSavior-1='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/arabicsavior/arabicsavior.sh'
-
-Package: ArabicSavior
 Version: 2.8.mnasr     المنقذ العربي
 Status: Plg Uti
 ArabicSavior-2='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/addons/arabicsavior-1/arabicsavior.sh'
@@ -1377,6 +1372,28 @@ Package: Zouplayer
 Version: 1.1     مشغل اي بي تي في
 Status: Plg Ipt
 Zouplayer='https://gitlab.com/eliesat/extensions/-/raw/main/zouplayer/zouplayer.sh'
+
+Package: test
+Version: 0.0     
+Status: 
+test='https://raw.githubusercontent.com/eliesatpanelgrid/oe2.0/main/skins/xdreamy/xdreamy.sh'eamy/xdreamy.sh'
+
+
+y.sh'
+'
+'
+'
+'
+'
+'
+'
+'
+
+'
+'
+'
+'
+uplayer.sh'
 
 Package: test
 Version: 0.0     
